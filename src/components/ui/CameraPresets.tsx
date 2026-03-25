@@ -26,27 +26,22 @@ export default function CameraPresets() {
     <div className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className={`px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-medium transition-all ${
-          open
-            ? 'bg-white/10 border border-white/20 text-white/90'
-            : 'panel-glass-lighter text-white/60 hover:text-white/90'
-        }`}
+        className={`pill-btn ${open ? 'active' : ''}`}
       >
         <span className="hidden sm:inline">Camera</span>
         <span className="sm:hidden">📷</span>
-        <span className="ml-1 text-white/30">▾</span>
+        <span className="text-white/20 ml-0.5">▾</span>
       </button>
 
       {open && (
         <>
-          {/* Backdrop to close */}
           <div className="fixed inset-0 z-40" onClick={() => setOpen(false)} />
-          <div className="absolute right-0 top-full mt-1 w-48 panel-glass rounded-xl py-1.5 z-50 shadow-2xl">
+          <div className="absolute right-0 top-full mt-2 w-52 panel-glass rounded-2xl py-2 z-50 shadow-2xl animate-slide-up">
             {PRESETS.map((preset) => (
               <button
                 key={preset.id}
                 onClick={() => handleSelect(preset.id)}
-                className="w-full text-left px-4 py-2.5 text-sm text-white/70 hover:text-white hover:bg-white/8 transition-colors"
+                className="w-full text-left px-5 py-3 text-[13px] text-white/50 hover:text-white/85 hover:bg-white/[0.05] transition-colors tracking-wide"
               >
                 {preset.label}
               </button>

@@ -34,34 +34,34 @@ export default function JourneyBreadcrumbs() {
   };
 
   return (
-    <div className="fixed bottom-[72px] sm:bottom-[5.5rem] left-3 right-3 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-auto z-50 pointer-events-auto">
-      <div className="flex items-center gap-1 panel-glass-lighter rounded-xl px-2 py-1.5 overflow-x-auto no-scrollbar">
+    <div className="fixed bottom-[76px] sm:bottom-[6rem] left-4 right-4 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-auto z-50 pointer-events-auto">
+      <div className="flex items-center gap-1.5 panel-glass-lighter rounded-2xl px-3 py-2 overflow-x-auto no-scrollbar">
         {/* Clear */}
         <button
           onClick={clearJourney}
-          className="w-8 h-8 flex items-center justify-center rounded-lg text-white/25 hover:text-white/60 hover:bg-white/8 transition-all shrink-0"
+          className="w-8 h-8 flex items-center justify-center rounded-xl text-white/20 hover:text-white/50 hover:bg-white/[0.06] transition-all shrink-0 text-xs"
           title="Clear journey"
         >
           ✕
         </button>
-        <span className="text-white/10 shrink-0">│</span>
+        <span className="text-white/[0.08] shrink-0">│</span>
 
         {/* Steps */}
         {journey.map((step, i) => (
           <span key={`${step.id}-${i}`} className="flex items-center shrink-0">
             <button
               onClick={() => handleStepClick(step, i)}
-              className="text-sm text-white/40 hover:text-white/80 px-2 py-1.5 rounded-lg hover:bg-white/5 transition-all whitespace-nowrap"
+              className="text-[13px] text-white/35 hover:text-white/70 px-2.5 py-1.5 rounded-xl hover:bg-white/[0.04] transition-all whitespace-nowrap"
             >
               {step.name}
             </button>
-            <span className="text-white/15 text-xs mx-0.5">→</span>
+            <span className="text-white/10 text-[11px] mx-1">→</span>
           </span>
         ))}
 
         {/* Current */}
         {currentName && (
-          <span className="text-sm text-amber-300/80 font-medium px-2.5 py-1 bg-amber-500/10 rounded-lg whitespace-nowrap shrink-0">
+          <span className="text-[13px] text-amber-300/60 font-medium px-3 py-1.5 bg-amber-500/[0.07] rounded-xl whitespace-nowrap shrink-0 border border-amber-400/10">
             {currentName}
           </span>
         )}

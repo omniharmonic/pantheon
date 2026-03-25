@@ -26,70 +26,68 @@ export default function InfoPanel() {
   const children = connections.filter((c) => c.from === t.id);
 
   return (
-    <div className="fixed inset-x-0 bottom-0 h-[70vh] sm:inset-x-auto sm:right-0 sm:top-0 sm:bottom-0 sm:h-full sm:w-[420px] sm:max-w-[90vw] panel-glass rounded-t-2xl sm:rounded-none overflow-y-auto z-[100]">
+    <div className="fixed inset-x-0 bottom-0 h-[70vh] sm:inset-x-auto sm:right-0 sm:top-0 sm:bottom-0 sm:h-full sm:w-[440px] sm:max-w-[90vw] panel-glass rounded-t-3xl sm:rounded-none overflow-y-auto z-[100] animate-slide-in">
       {/* Drag handle (mobile) */}
-      <div className="sm:hidden flex justify-center pt-2 pb-1">
-        <div className="w-10 h-1 rounded-full bg-white/20" />
+      <div className="sm:hidden flex justify-center pt-3 pb-1">
+        <div className="w-10 h-1 rounded-full bg-white/15" />
       </div>
 
       {/* Header */}
-      <div className="sticky top-0 bg-[rgba(5,5,16,0.95)] backdrop-blur-md border-b border-white/8 px-5 py-4 sm:p-5">
-        <div className="flex items-start justify-between">
-          <div>
-            <div className="flex items-center gap-2 mb-1.5">
+      <div className="sticky top-0 bg-[rgba(5,5,16,0.96)] backdrop-blur-xl border-b border-white/[0.06] px-6 py-5 sm:px-7 sm:py-6">
+        <div className="flex items-start justify-between gap-4">
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-2.5 mb-2">
               <div
-                className="w-3.5 h-3.5 rounded-full"
+                className="w-3 h-3 rounded-full shrink-0"
                 style={{ backgroundColor: color }}
               />
-              <span className="text-xs text-white/50 uppercase tracking-wider">
-                {t.theologicalType.join(' · ')}
+              <span className="text-[11px] text-white/40 uppercase tracking-[0.1em]">
+                {(t.theologicalType || []).join(' · ')}
               </span>
             </div>
-            <h2 className="text-xl sm:text-2xl font-bold text-white leading-tight">{t.name}</h2>
+            <h2 className="text-xl sm:text-2xl font-light text-white/90 leading-tight tracking-wide">{t.name}</h2>
           </div>
           <button
             onClick={() => setSelectedTradition(null)}
-            className="w-9 h-9 flex items-center justify-center rounded-xl text-white/40 hover:text-white hover:bg-white/10 transition-all text-xl"
+            className="w-10 h-10 flex items-center justify-center rounded-xl text-white/30 hover:text-white/80 hover:bg-white/[0.06] transition-all text-lg"
           >
-            ×
+            ✕
           </button>
         </div>
 
-        <div className="flex gap-4 mt-3 text-sm text-white/50">
+        <div className="flex gap-4 mt-3 text-sm text-white/40">
           <span>
             {t.originDateLabel || formatDate(t.originDate)}
             {t.endDate ? ` — ${formatDate(t.endDate)}` : ' — present'}
           </span>
         </div>
-        <div className="text-sm text-white/40 mt-1">{t.geographicOrigin}</div>
-        <div className="mt-2.5">
+        <div className="text-sm text-white/30 mt-1">{t.geographicOrigin}</div>
+        <div className="mt-3">
           <span
-            className={`text-xs px-2.5 py-1 rounded-full font-medium ${
+            className={`text-[11px] px-3 py-1.5 rounded-full font-medium tracking-wide ${
               t.status === 'active'
-                ? 'bg-green-500/15 text-green-300'
+                ? 'bg-green-500/10 text-green-300/80'
                 : t.status === 'active_minority'
-                ? 'bg-yellow-500/15 text-yellow-300'
-                : t.status.includes('revived')
-                ? 'bg-purple-500/15 text-purple-300'
-                : 'bg-white/8 text-white/40'
+                ? 'bg-yellow-500/10 text-yellow-300/80'
+                : (t.status || '').includes('revived')
+                ? 'bg-purple-500/10 text-purple-300/80'
+                : 'bg-white/[0.04] text-white/35'
             }`}
           >
-            {t.status.replace(/_/g, ' ')}
+            {(t.status || '').replace(/_/g, ' ')}
           </span>
         </div>
       </div>
 
-      <div className="p-5 space-y-6">
+      <div className="px-6 sm:px-7 py-6 space-y-8">
         {/* Key Concepts */}
         <section>
-          <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2.5">
-            Key Concepts
-          </h3>
-          <div className="flex flex-wrap gap-1.5">
-            {t.keyConcepts.map((concept, i) => (
+          <h3 className="section-label">Key Concepts</h3>
+          <div className="flex flex-wrap gap-2">
+            {(t.keyConcepts || []).map((concept, i) => (
               <span
                 key={i}
-                className="text-xs sm:text-sm bg-white/5 text-white/70 px-2.5 py-1 rounded-lg"
+                className="text-[13px] bg-white/[0.04] text-white/55 px-3 py-1.5 rounded-xl border border-white/[0.04]"
               >
                 {concept}
               </span>
@@ -98,123 +96,125 @@ export default function InfoPanel() {
         </section>
 
         {/* Key Figures */}
-        <section>
-          <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2.5">
-            Key Figures ({t.keyFigures.length})
-          </h3>
-          <div className="grid grid-cols-1 gap-2">
-            {t.keyFigures.map((figure, i) => (
-              <DeityCard key={i} figure={figure} />
-            ))}
-          </div>
-        </section>
+        {(t.keyFigures || []).length > 0 && (
+          <section>
+            <h3 className="section-label">Key Figures ({t.keyFigures.length})</h3>
+            <div className="grid grid-cols-1 gap-2.5">
+              {t.keyFigures.map((figure, i) => (
+                <DeityCard key={i} figure={figure} />
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Branches */}
         {t.majorBranches && t.majorBranches.length > 0 && (
           <section>
-            <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2.5">
-              Major Branches
-            </h3>
-            {t.majorBranches.map((branch, i) => (
-              <div key={i} className="bg-white/[0.04] rounded-xl p-3.5 mb-2 border border-white/[0.06]">
-                <div className="flex justify-between items-center">
-                  <span className="text-sm font-medium text-white">{branch.name}</span>
-                  {branch.originDate && (
-                    <span className="text-xs text-white/40">{formatDate(branch.originDate)}</span>
+            <h3 className="section-label">Major Branches</h3>
+            <div className="space-y-2.5">
+              {t.majorBranches.map((branch, i) => (
+                <div key={i} className="bg-white/[0.03] rounded-xl p-4 border border-white/[0.05]">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm font-medium text-white/80">{branch.name}</span>
+                    {branch.originDate && (
+                      <span className="text-xs text-white/30">{formatDate(branch.originDate)}</span>
+                    )}
+                  </div>
+                  <p className="text-sm text-white/40 mt-1.5 leading-relaxed">{branch.description}</p>
+                  {branch.regions && (
+                    <p className="text-xs text-white/20 mt-1.5">{branch.regions.join(', ')}</p>
                   )}
                 </div>
-                <p className="text-sm text-white/50 mt-1">{branch.description}</p>
-                {branch.regions && (
-                  <p className="text-xs text-white/30 mt-1">{branch.regions.join(', ')}</p>
-                )}
-              </div>
-            ))}
+              ))}
+            </div>
           </section>
         )}
 
         {t.majorSects && t.majorSects.length > 0 && (
           <section>
-            <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2.5">
-              Major Sects
-            </h3>
-            {t.majorSects.map((sect, i) => (
-              <div key={i} className="bg-white/[0.04] rounded-xl p-3.5 mb-2 border border-white/[0.06]">
-                <span className="text-sm font-medium text-white">{sect.name}</span>
-                {(sect.description || sect.focus) && (
-                  <p className="text-sm text-white/50 mt-1">{sect.description || sect.focus}</p>
-                )}
-              </div>
-            ))}
+            <h3 className="section-label">Major Sects</h3>
+            <div className="space-y-2.5">
+              {t.majorSects.map((sect, i) => (
+                <div key={i} className="bg-white/[0.03] rounded-xl p-4 border border-white/[0.05]">
+                  <span className="text-sm font-medium text-white/80">{sect.name}</span>
+                  {(sect.description || sect.focus) && (
+                    <p className="text-sm text-white/40 mt-1.5 leading-relaxed">{sect.description || sect.focus}</p>
+                  )}
+                </div>
+              ))}
+            </div>
           </section>
         )}
 
         {/* Connections */}
         <section>
-          <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2.5">
-            Connections ({connections.length})
-          </h3>
+          <h3 className="section-label">Connections ({connections.length})</h3>
 
           {parents.length > 0 && (
-            <div className="mb-3">
-              <p className="text-xs text-white/30 mb-1.5">Influenced by:</p>
-              {parents.map((c) => {
-                const source = getTraditionById(c.from);
-                return (
-                  <button
-                    key={c.id}
-                    onClick={() => {
-                      if (source) {
-                        pushJourney({ type: 'tradition', id: t.id, name: t.name });
-                        setSelectedTradition(source);
-                      }
-                    }}
-                    className="flex items-center gap-2.5 w-full text-left px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors"
-                  >
-                    <div
-                      className="w-2.5 h-2.5 rounded-full shrink-0"
-                      style={{ backgroundColor: CONNECTION_COLORS[c.type] }}
-                    />
-                    <span className="text-sm text-white/70 flex-1">
-                      {source?.name || c.from}
-                    </span>
-                    <span className="text-xs text-white/25">
-                      {c.type.replace(/_/g, ' ')}
-                    </span>
-                  </button>
-                );
-              })}
+            <div className="mb-4">
+              <p className="text-[11px] text-white/25 mb-2 tracking-wide">Influenced by</p>
+              <div className="space-y-1">
+                {parents.map((c) => {
+                  const source = getTraditionById(c.from);
+                  return (
+                    <button
+                      key={c.id}
+                      onClick={() => {
+                        if (source) {
+                          pushJourney({ type: 'tradition', id: t.id, name: t.name });
+                          setSelectedTradition(source);
+                        }
+                      }}
+                      className="flex items-center gap-3 w-full text-left px-3.5 py-3 rounded-xl hover:bg-white/[0.04] transition-colors group"
+                    >
+                      <div
+                        className="w-2 h-2 rounded-full shrink-0"
+                        style={{ backgroundColor: CONNECTION_COLORS[c.type] }}
+                      />
+                      <span className="text-sm text-white/55 group-hover:text-white/80 flex-1 transition-colors">
+                        {source?.name || c.from}
+                      </span>
+                      <span className="text-[11px] text-white/20">
+                        {c.type.replace(/_/g, ' ')}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
             </div>
           )}
 
           {children.length > 0 && (
             <div>
-              <p className="text-xs text-white/30 mb-1.5">Influenced:</p>
-              {children.map((c) => {
-                const target = getTraditionById(c.to);
-                return (
-                  <button
-                    key={c.id}
-                    onClick={() => {
-                      if (target) {
-                        pushJourney({ type: 'tradition', id: t.id, name: t.name });
-                        setSelectedTradition(target);
-                      }
-                    }}
-                    className="flex items-center gap-2.5 w-full text-left px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors"
-                  >
-                    <div
-                      className="w-2.5 h-2.5 rounded-full shrink-0"
-                      style={{ backgroundColor: CONNECTION_COLORS[c.type] }}
-                    />
-                    <span className="text-sm text-white/70 flex-1">
-                      {target?.name || c.to}
-                    </span>
-                    <span className="text-xs text-white/25">
-                      {c.type.replace(/_/g, ' ')}
-                    </span>
-                  </button>
-                );
-              })}
+              <p className="text-[11px] text-white/25 mb-2 tracking-wide">Influenced</p>
+              <div className="space-y-1">
+                {children.map((c) => {
+                  const target = getTraditionById(c.to);
+                  return (
+                    <button
+                      key={c.id}
+                      onClick={() => {
+                        if (target) {
+                          pushJourney({ type: 'tradition', id: t.id, name: t.name });
+                          setSelectedTradition(target);
+                        }
+                      }}
+                      className="flex items-center gap-3 w-full text-left px-3.5 py-3 rounded-xl hover:bg-white/[0.04] transition-colors group"
+                    >
+                      <div
+                        className="w-2 h-2 rounded-full shrink-0"
+                        style={{ backgroundColor: CONNECTION_COLORS[c.type] }}
+                      />
+                      <span className="text-sm text-white/55 group-hover:text-white/80 flex-1 transition-colors">
+                        {target?.name || c.to}
+                      </span>
+                      <span className="text-[11px] text-white/20">
+                        {c.type.replace(/_/g, ' ')}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
             </div>
           )}
         </section>
@@ -222,15 +222,13 @@ export default function InfoPanel() {
         {/* Evidence */}
         {t.evidence && (
           <section>
-            <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2.5">
-              Historical Evidence
-            </h3>
-            <p className="text-sm text-white/50 leading-relaxed">{t.evidence}</p>
+            <h3 className="section-label">Historical Evidence</h3>
+            <p className="text-sm text-white/40 leading-relaxed">{t.evidence}</p>
           </section>
         )}
 
-        {/* Bottom spacer for mobile safe area */}
-        <div className="h-8 sm:h-0" />
+        {/* Bottom spacer */}
+        <div className="h-10 sm:h-4" />
       </div>
     </div>
   );

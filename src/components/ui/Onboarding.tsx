@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 function Key({ children }: { children: React.ReactNode }) {
   return (
-    <kbd className="inline-flex items-center justify-center min-w-[28px] min-h-[28px] h-7 px-2 rounded-lg bg-white/8 border border-white/15 text-xs font-mono text-white/60 shadow-[0_1px_0_rgba(255,255,255,0.06)]">
+    <kbd className="inline-flex items-center justify-center min-w-[30px] min-h-[30px] h-[30px] px-2.5 rounded-lg bg-white/[0.06] border border-white/[0.1] text-xs font-mono text-white/50">
       {children}
     </kbd>
   );
@@ -20,8 +20,8 @@ export default function Onboarding() {
     if (!showOnboarding) return;
     const timer = setTimeout(() => {
       setDismissed(true);
-      setTimeout(() => setShowOnboarding(false), 500);
-    }, 15000);
+      setTimeout(() => setShowOnboarding(false), 600);
+    }, 18000);
     return () => clearTimeout(timer);
   }, [showOnboarding, setShowOnboarding]);
 
@@ -34,7 +34,7 @@ export default function Onboarding() {
       }
       if (e.key === 'Escape' && showOnboarding) {
         setDismissed(true);
-        setTimeout(() => setShowOnboarding(false), 500);
+        setTimeout(() => setShowOnboarding(false), 600);
       }
     };
     window.addEventListener('keydown', handler);
@@ -45,83 +45,94 @@ export default function Onboarding() {
 
   const dismiss = () => {
     setDismissed(true);
-    setTimeout(() => setShowOnboarding(false), 500);
+    setTimeout(() => setShowOnboarding(false), 600);
   };
 
   return (
     <div
-      className={`fixed inset-0 z-[200] flex items-end sm:items-center justify-center transition-opacity duration-500 ${
+      className={`fixed inset-0 z-[200] flex items-end sm:items-center justify-center transition-opacity duration-600 ${
         dismissed ? 'opacity-0 pointer-events-none' : 'opacity-100'
       }`}
       onClick={dismiss}
     >
-      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+      {/* Backdrop */}
+      <div className="absolute inset-0 bg-black/70 backdrop-blur-md" />
 
+      {/* Card */}
       <div
-        className="relative panel-glass rounded-t-2xl sm:rounded-2xl p-6 sm:p-8 w-full sm:max-w-lg sm:mx-4 shadow-2xl safe-bottom"
+        className="relative panel-glass rounded-t-3xl sm:rounded-3xl w-full sm:max-w-xl sm:mx-6 shadow-2xl safe-bottom animate-slide-up"
         onClick={(e) => e.stopPropagation()}
       >
-        <h2 className="text-2xl sm:text-3xl font-bold text-white mb-1 tracking-tight">
-          PANTHEON
-        </h2>
-        <p className="text-sm sm:text-base text-white/40 mb-6">
-          Navigate the cultural evolution of world religion
-        </p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
-          {/* Navigation — desktop only */}
-          <div className="hidden sm:block space-y-3">
-            <h3 className="text-xs font-semibold text-white/30 uppercase tracking-wider">
-              Navigate
-            </h3>
-            <div className="space-y-2.5">
-              <div className="flex items-center gap-2.5 text-sm text-white/60">
-                <div className="flex gap-1">
-                  <Key>W</Key><Key>A</Key><Key>S</Key><Key>D</Key>
-                </div>
-                <span>Move</span>
-              </div>
-              <div className="flex items-center gap-2.5 text-sm text-white/60">
-                <div className="flex gap-1">
-                  <Key>Q</Key><Key>E</Key>
-                </div>
-                <span>Up / Down</span>
-              </div>
-              <div className="flex items-center gap-2.5 text-sm text-white/60">
-                <Key>⇧</Key>
-                <span>Sprint</span>
-              </div>
-              <div className="flex items-center gap-2.5 text-sm text-white/60">
-                <span className="text-xs text-white/25 min-w-[28px] text-center">⊙</span>
-                <span>Scroll to zoom · Drag to orbit</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Explore */}
-          <div className="space-y-3">
-            <h3 className="text-xs font-semibold text-white/30 uppercase tracking-wider">
-              Explore
-            </h3>
-            <div className="space-y-2.5 text-sm text-white/55">
-              <p>Tap a <span className="text-amber-300/70 font-medium">glowing node</span> to see its tradition</p>
-              <p>Toggle <span className="text-amber-300/70 font-medium">✧ Figures</span> to reveal shared figures across religions</p>
-              <p>Click a figure to see its connections, then <span className="text-blue-300/70 font-medium">fly to →</span> to walk the graph</p>
-              <p>Your path is tracked as <span className="text-amber-300/70 font-medium">breadcrumbs</span> — click any to go back</p>
-            </div>
-          </div>
+        {/* Mobile drag handle */}
+        <div className="sm:hidden flex justify-center pt-3 pb-1">
+          <div className="w-10 h-1 rounded-full bg-white/15" />
         </div>
 
-        <div className="flex items-center justify-between">
-          <p className="text-xs text-white/20 hidden sm:block">
-            Press <Key>?</Key> anytime
+        <div className="px-7 pt-6 sm:pt-8 pb-7 sm:pb-8">
+          {/* Header */}
+          <h2 className="text-2xl sm:text-4xl font-extralight text-white/85 tracking-[0.18em] uppercase mb-2">
+            Pantheon
+          </h2>
+          <p className="text-sm sm:text-base text-white/30 font-light leading-relaxed max-w-md">
+            An interactive map of the cultural evolution of world religion
           </p>
-          <button
-            onClick={dismiss}
-            className="w-full sm:w-auto px-6 py-3 sm:py-2.5 rounded-xl bg-white/10 hover:bg-white/15 border border-white/10 text-sm font-medium text-white/80 hover:text-white transition-all"
-          >
-            Start Exploring
-          </button>
+
+          {/* Divider */}
+          <div className="w-12 h-px bg-white/10 my-6 sm:my-8" />
+
+          {/* Two-column content */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            {/* Navigate — desktop only */}
+            <div className="hidden sm:block space-y-4">
+              <h3 className="section-label">Navigate</h3>
+              <div className="space-y-3.5">
+                <div className="flex items-center gap-3 text-sm text-white/50">
+                  <div className="flex gap-1">
+                    <Key>W</Key><Key>A</Key><Key>S</Key><Key>D</Key>
+                  </div>
+                  <span>Move</span>
+                </div>
+                <div className="flex items-center gap-3 text-sm text-white/50">
+                  <div className="flex gap-1">
+                    <Key>Q</Key><Key>E</Key>
+                  </div>
+                  <span>Up / Down</span>
+                </div>
+                <div className="flex items-center gap-3 text-sm text-white/50">
+                  <Key>⇧</Key>
+                  <span>Sprint</span>
+                </div>
+                <div className="flex items-center gap-3 text-sm text-white/45">
+                  <span className="text-[11px] text-white/20 min-w-[30px] text-center">⊙</span>
+                  <span>Scroll to zoom · Drag to orbit</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Explore */}
+            <div className="space-y-4">
+              <h3 className="section-label">Explore</h3>
+              <div className="space-y-3.5 text-sm text-white/45 leading-relaxed">
+                <p>Tap a <span className="text-amber-300/60">glowing node</span> to see its tradition</p>
+                <p>Toggle <span className="text-amber-300/60">✧ Figures</span> to reveal shared figures across religions</p>
+                <p>Click a figure, then <span className="text-blue-300/60">fly to →</span> to walk the graph</p>
+                <p>Your path is tracked as <span className="text-white/50">breadcrumbs</span> — click any to go back</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Footer */}
+          <div className="flex items-center justify-between mt-8 sm:mt-10">
+            <p className="text-[11px] text-white/15 hidden sm:block tracking-wide">
+              Press <Key>?</Key> anytime
+            </p>
+            <button
+              onClick={dismiss}
+              className="w-full sm:w-auto px-8 py-3.5 sm:py-3 rounded-2xl bg-white/[0.07] hover:bg-white/[0.12] border border-white/[0.08] hover:border-white/[0.15] text-sm font-medium text-white/60 hover:text-white/90 transition-all tracking-wide"
+            >
+              Start Exploring
+            </button>
+          </div>
         </div>
       </div>
     </div>
