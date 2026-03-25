@@ -231,11 +231,19 @@ function FigureEdge({
   );
 }
 
+// Global figure position registry for camera controller
+let _figurePositionRegistry = new Map<string, { x: number; y: number; z: number }>();
+export function getFigurePositionRegistry() {
+  return _figurePositionRegistry;
+}
+
 // Main figure graph layer
 export default function FigureGraph({
   nodeMap,
+  controlsRef,
 }: {
   nodeMap: Map<string, GraphNode>;
+  controlsRef: React.RefObject<any>;
 }) {
   const showFigureLayer = useStore((s) => s.showFigureLayer);
   const selectedFigure = useStore((s) => s.selectedFigure);
@@ -248,7 +256,12 @@ export default function FigureGraph({
 
   const posMap = useMemo(() => {
     const map = new Map<string, FigurePosition>();
-    figurePositions.forEach((p) => map.set(p.figure.id, p));
+    const regMap = new Map<string, { x: number; y: number; z: number }>();
+    figurePositions.forEach((p) => {
+      map.set(p.figure.id, p);
+      regMap.set(p.figure.id, { x: p.x, y: p.y, z: p.z });
+    });
+    _figurePositionRegistry = regMap;
     return map;
   }, [figurePositions]);
 

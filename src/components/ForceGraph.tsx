@@ -8,7 +8,7 @@ import TraditionNode from './TraditionNode';
 import ConnectionEdge from './ConnectionEdge';
 import SyncreticNode from './SyncreticNode';
 import CameraController from './CameraController';
-import FigureGraph from './FigureGraph';
+import FigureGraph, { getFigurePositionRegistry } from './FigureGraph';
 import type { GraphNode } from '@/lib/types';
 
 export default function ForceGraph({
@@ -46,7 +46,11 @@ export default function ForceGraph({
 
   return (
     <>
-      <CameraController nodeMap={nodeMap} controlsRef={controlsRef} />
+      <CameraController
+        nodeMap={nodeMap}
+        figurePositionMap={getFigurePositionRegistry()}
+        controlsRef={controlsRef}
+      />
 
       {/* Connection edges — render first so nodes draw on top */}
       {links.map((link) => (
@@ -74,8 +78,8 @@ export default function ForceGraph({
         <SyncreticNode key={sn.id} syncNode={sn} nodeMap={nodeMap} />
       ))}
 
-      {/* Figure layer (toggleable) */}
-      <FigureGraph nodeMap={nodeMap} />
+      {/* Figure layer (toggleable) — passes positions back up for camera */}
+      <FigureGraph nodeMap={nodeMap} controlsRef={controlsRef} />
     </>
   );
 }

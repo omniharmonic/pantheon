@@ -9,6 +9,7 @@ export default function InfoPanel() {
   const selectedTradition = useStore((s) => s.selectedTradition);
   const showInfoPanel = useStore((s) => s.showInfoPanel);
   const setSelectedTradition = useStore((s) => s.setSelectedTradition);
+  const pushJourney = useStore((s) => s.pushJourney);
 
   if (!showInfoPanel || !selectedTradition) return null;
 
@@ -162,7 +163,12 @@ export default function InfoPanel() {
                 return (
                   <button
                     key={c.id}
-                    onClick={() => source && setSelectedTradition(source)}
+                    onClick={() => {
+                      if (source) {
+                        pushJourney({ type: 'tradition', id: t.id, name: t.name });
+                        setSelectedTradition(source);
+                      }
+                    }}
                     className="flex items-center gap-2 w-full text-left px-2 py-1.5 rounded hover:bg-white/5 transition-colors"
                   >
                     <div
@@ -189,7 +195,12 @@ export default function InfoPanel() {
                 return (
                   <button
                     key={c.id}
-                    onClick={() => target && setSelectedTradition(target)}
+                    onClick={() => {
+                      if (target) {
+                        pushJourney({ type: 'tradition', id: t.id, name: t.name });
+                        setSelectedTradition(target);
+                      }
+                    }}
                     className="flex items-center gap-2 w-full text-left px-2 py-1.5 rounded hover:bg-white/5 transition-colors"
                   >
                     <div

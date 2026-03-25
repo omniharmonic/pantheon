@@ -1,6 +1,12 @@
 import { create } from 'zustand';
 import type { Tradition, Connection, GraphNode, SharedFigure } from './types';
 
+interface JourneyStep {
+  type: 'tradition' | 'figure';
+  id: string;
+  name: string;
+}
+
 interface AppState {
   // Selection
   selectedTradition: Tradition | null;
@@ -27,8 +33,10 @@ interface AppState {
   // UI state
   showInfoPanel: boolean;
   showFilters: boolean;
+  showOnboarding: boolean;
   setShowInfoPanel: (show: boolean) => void;
   setShowFilters: (show: boolean) => void;
+  setShowOnboarding: (show: boolean) => void;
 
   // Figure detail
   selectedFigure: SharedFigure | null;
@@ -40,6 +48,19 @@ interface AppState {
   hoveredFigure: string | null;
   setHoveredFigure: (id: string | null) => void;
 
+  // Graph walker
+  walkerMode: boolean;
+  setWalkerMode: (on: boolean) => void;
+  walkerTarget: string | null;
+  setWalkerTarget: (id: string | null) => void;
+
+  // Journey history (breadcrumb trail)
+  journey: JourneyStep[];
+  pushJourney: (step: JourneyStep) => void;
+  popJourney: () => void;
+  clearJourney: () => void;
+  jumpToJourney: (index: number) => void;
+
   // Camera presets
   cameraPreset: string | null;
   setCameraPreset: (preset: string | null) => void;
@@ -48,7 +69,12 @@ interface AppState {
 export const useStore = create<AppState>((set) => ({
   selectedTradition: null,
   hoveredTradition: null,
-  setSelectedTradition: (t) => set({ selectedTradition: t, showInfoPanel: t !== null }),
+  setSelectedTradition: (t) =>
+    set((state) => ({
+      selectedTradition: t,
+      showInfoPanel: t !== null,
+      selectedFigure: t ? null : state.selectedFigure,
+    })),
   setHoveredTradition: (id) => set({ hoveredTradition: id }),
 
   activeRegions: new Set<string>(),
@@ -79,16 +105,47 @@ export const useStore = create<AppState>((set) => ({
 
   showInfoPanel: false,
   showFilters: false,
+  showOnboarding: true,
   setShowInfoPanel: (show) => set({ showInfoPanel: show }),
   setShowFilters: (show) => set({ showFilters: show }),
+  setShowOnboarding: (show) => set({ showOnboarding: show }),
 
   selectedFigure: null,
-  setSelectedFigure: (f) => set({ selectedFigure: f }),
+  setSelectedFigure: (f) =>
+    set({
+      selectedFigure: f,
+      selectedTradition: null,
+      showInfoPanel: false,
+    }),
 
   showFigureLayer: false,
   setShowFigureLayer: (show) => set({ showFigureLayer: show }),
   hoveredFigure: null,
   setHoveredFigure: (id) => set({ hoveredFigure: id }),
+
+  walkerMode: false,
+  setWalkerMode: (on) => set({ walkerMode: on }),
+  walkerTarget: null,
+  setWalkerTarget: (id) => set({ walkerTarget: id }),
+
+  journey: [],
+  pushJourney: (step) =>
+    set((state) => {
+      // Don't push duplicates
+      if (state.journey.length > 0 && state.journey[state.journey.length - 1].id === step.id) {
+        return {};
+      }
+      return { journey: [...state.journey, step].slice(-20) }; // Keep last 20
+    }),
+  popJourney: () =>
+    set((state) => ({
+      journey: state.journey.slice(0, -1),
+    })),
+  clearJourney: () => set({ journey: [] }),
+  jumpToJourney: (index) =>
+    set((state) => ({
+      journey: state.journey.slice(0, index + 1),
+    })),
 
   cameraPreset: null,
   setCameraPreset: (preset) => set({ cameraPreset: preset }),

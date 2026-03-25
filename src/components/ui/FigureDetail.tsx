@@ -41,12 +41,32 @@ export default function FigureDetail() {
   const selectedFigure = useStore((s) => s.selectedFigure);
   const setSelectedFigure = useStore((s) => s.setSelectedFigure);
   const setSelectedTradition = useStore((s) => s.setSelectedTradition);
+  const pushJourney = useStore((s) => s.pushJourney);
+  const showFigureLayer = useStore((s) => s.showFigureLayer);
+  const setShowFigureLayer = useStore((s) => s.setShowFigureLayer);
 
   if (!selectedFigure) return null;
 
   const f = selectedFigure;
   const figureConnections = getFigureConnections(f.id);
   const typeStyle = TYPE_COLORS[f.type] || 'bg-white/10 text-white/50';
+
+  const navigateToFigure = (target: SharedFigure) => {
+    // Push current figure to journey before navigating
+    pushJourney({ type: 'figure', id: f.id, name: f.name });
+    // Auto-enable figure layer if not on
+    if (!showFigureLayer) setShowFigureLayer(true);
+    setSelectedFigure(target);
+  };
+
+  const navigateToTradition = (tid: string) => {
+    const tradition = getTraditionById(tid);
+    if (tradition) {
+      pushJourney({ type: 'figure', id: f.id, name: f.name });
+      setSelectedFigure(null);
+      setSelectedTradition(tradition);
+    }
+  };
 
   return (
     <div className="fixed right-0 top-0 h-full w-[420px] max-w-[90vw] bg-gray-950/95 backdrop-blur-xl border-l border-white/10 overflow-y-auto z-[110]">
@@ -97,13 +117,8 @@ export default function FigureDetail() {
               return (
                 <button
                   key={tid}
-                  onClick={() => {
-                    if (tradition) {
-                      setSelectedFigure(null);
-                      setSelectedTradition(tradition);
-                    }
-                  }}
-                  className="w-full text-left bg-white/5 hover:bg-white/8 border border-white/10 rounded-lg p-3 transition-colors group"
+                  onClick={() => navigateToTradition(tid)}
+                  className="w-full text-left bg-white/5 hover:bg-white/[0.08] border border-white/10 rounded-lg p-3 transition-colors group"
                 >
                   <div className="flex items-center justify-between">
                     <span className="text-sm font-medium text-white group-hover:text-blue-300 transition-colors">
@@ -122,12 +137,15 @@ export default function FigureDetail() {
           </div>
         </section>
 
-        {/* Connections to other figures */}
+        {/* Connected Figures — now with "fly to" navigation */}
         {figureConnections.length > 0 && (
           <section>
             <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2">
               Connected Figures ({figureConnections.length})
             </h3>
+            <p className="text-[10px] text-white/25 mb-3">
+              Click to navigate — camera will fly to each figure
+            </p>
             <div className="space-y-1.5">
               {figureConnections.map(({ figure: target, connection: conn }) => {
                 const connInfo = CONNECTION_TYPE_LABELS[conn.type] || {
@@ -137,8 +155,8 @@ export default function FigureDetail() {
                 return (
                   <button
                     key={`${target.id}-${conn.type}`}
-                    onClick={() => setSelectedFigure(target)}
-                    className="w-full text-left px-3 py-2 rounded-lg bg-white/[0.03] hover:bg-white/[0.07] border border-white/[0.06] transition-colors group"
+                    onClick={() => navigateToFigure(target)}
+                    className="w-full text-left px-3 py-2.5 rounded-lg bg-white/[0.03] hover:bg-white/[0.07] border border-white/[0.06] hover:border-white/[0.12] transition-all group"
                   >
                     <div className="flex items-center gap-2">
                       <span className={`text-[10px] font-medium uppercase tracking-wider ${connInfo.color}`}>
@@ -153,7 +171,9 @@ export default function FigureDetail() {
                       <span className="text-sm text-white group-hover:text-blue-300 transition-colors font-medium">
                         {target.name}
                       </span>
-                      <span className="text-[10px] text-white/20 group-hover:text-white/40">→</span>
+                      <span className="text-xs text-white/20 group-hover:text-amber-300/60 transition-colors">
+                        fly to →
+                      </span>
                     </div>
                     <p className="text-[11px] text-white/40 mt-0.5 leading-relaxed">
                       {conn.detail}
