@@ -5,17 +5,37 @@
     "type": "patriarch",
     "date": "mythological",
     "dateLabel": "Primordial / mythological",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "First human, created by God from earth, ancestor of all humanity",
       "christianity": "First human, whose fall introduced original sin redeemed by Christ",
       "islam": "Adam (Ādam) — first prophet and first human, God's khalifa (vicegerent) on earth"
     },
-    "aliases": ["Adam (Judaism/Christianity)", "Ādam (Islam)", "Ha-Adam (Hebrew)"],
+    "aliases": [
+      "Adam (Judaism/Christianity)",
+      "Ādam (Islam)",
+      "Ha-Adam (Hebrew)"
+    ],
     "connections": [
-      {"to": "noah", "type": "genealogical_ancestor", "detail": "Noah descends from Adam through Seth"},
-      {"to": "jesus", "type": "typological_parallel", "detail": "Christ as 'Second Adam' in Pauline theology"},
-      {"to": "satan", "type": "narrative_opposition", "detail": "Iblis refused to bow to Adam in Islamic tradition"}
+      {
+        "to": "noah",
+        "type": "genealogical_ancestor",
+        "detail": "Noah descends from Adam through Seth"
+      },
+      {
+        "to": "jesus",
+        "type": "typological_parallel",
+        "detail": "Christ as 'Second Adam' in Pauline theology"
+      },
+      {
+        "to": "satan",
+        "type": "narrative_opposition",
+        "detail": "Iblis refused to bow to Adam in Islamic tradition"
+      }
     ]
   },
   {
@@ -24,19 +44,50 @@
     "type": "patriarch",
     "date": "mythological",
     "dateLabel": "Primordial / mythological",
-    "traditions": ["judaism", "christianity", "islam", "mesopotamian_religion"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam",
+      "sumerian_religion",
+      "babylonian_religion",
+      "akkadian_religion",
+      "assyrian_religion"
+    ],
     "roles": {
       "judaism": "Righteous survivor of the Flood, covenant recipient, ancestor of post-Flood humanity",
       "christianity": "Prefiguration of baptism, righteous man saved by faith",
       "islam": "Nuh — first major rasul (messenger), preached to his people for 950 years",
-      "mesopotamian_religion": "Paralleled by Utnapishtim/Ziusudra as flood survivor in earlier tradition"
+      "sumerian_religion": "Paralleled by Utnapishtim/Ziusudra as flood survivor in earlier tradition",
+      "babylonian_religion": "Paralleled by Utnapishtim/Ziusudra as flood survivor in earlier tradition",
+      "akkadian_religion": "Paralleled by Utnapishtim/Ziusudra as flood survivor in earlier tradition",
+      "assyrian_religion": "Paralleled by Utnapishtim/Ziusudra as flood survivor in earlier tradition"
     },
-    "aliases": ["Noah (Judaism/Christianity)", "Nuh (Islam)", "Noach (Hebrew)"],
+    "aliases": [
+      "Noah (Judaism/Christianity)",
+      "Nuh (Islam)",
+      "Noach (Hebrew)"
+    ],
     "connections": [
-      {"to": "utnapishtim", "type": "literary_parallel", "detail": "Noah narrative likely derives from or shares source with Mesopotamian flood traditions"},
-      {"to": "manu_flood", "type": "cross_cultural_parallel", "detail": "Hindu flood hero Manu parallels Noah as progenitor after deluge"},
-      {"to": "deucalion", "type": "cross_cultural_parallel", "detail": "Greek flood hero Deucalion repopulates earth after Zeus's flood"},
-      {"to": "abraham", "type": "genealogical_ancestor", "detail": "Abraham descends from Noah through Shem"}
+      {
+        "to": "utnapishtim",
+        "type": "literary_parallel",
+        "detail": "Noah narrative likely derives from or shares source with Mesopotamian flood traditions"
+      },
+      {
+        "to": "manu_flood",
+        "type": "cross_cultural_parallel",
+        "detail": "Hindu flood hero Manu parallels Noah as progenitor after deluge"
+      },
+      {
+        "to": "deucalion",
+        "type": "cross_cultural_parallel",
+        "detail": "Greek flood hero Deucalion repopulates earth after Zeus's flood"
+      },
+      {
+        "to": "abraham",
+        "type": "genealogical_ancestor",
+        "detail": "Abraham descends from Noah through Shem"
+      }
     ]
   },
   {
@@ -45,15 +96,39 @@
     "type": "hero",
     "date": "-2600",
     "dateLabel": "c. 3rd millennium BCE (literary tradition)",
-    "traditions": ["mesopotamian_religion"],
+    "traditions": [
+      "sumerian_religion",
+      "babylonian_religion",
+      "akkadian_religion",
+      "assyrian_religion"
+    ],
     "roles": {
-      "mesopotamian_religion": "Immortal flood survivor in the Epic of Gilgamesh, granted eternal life by the gods; also known as Ziusudra (Sumerian) and Atrahasis (Akkadian)"
+      "sumerian_religion": "Immortal flood survivor in the Epic of Gilgamesh, granted eternal life by the gods; also known as Ziusudra (Sumerian) and Atrahasis (Akkadian)",
+      "babylonian_religion": "Immortal flood survivor in the Epic of Gilgamesh, granted eternal life by the gods; also known as Ziusudra (Sumerian) and Atrahasis (Akkadian)",
+      "akkadian_religion": "Immortal flood survivor in the Epic of Gilgamesh, granted eternal life by the gods; also known as Ziusudra (Sumerian) and Atrahasis (Akkadian)",
+      "assyrian_religion": "Immortal flood survivor in the Epic of Gilgamesh, granted eternal life by the gods; also known as Ziusudra (Sumerian) and Atrahasis (Akkadian)"
     },
-    "aliases": ["Utnapishtim (Akkadian/Babylonian)", "Ziusudra (Sumerian)", "Atrahasis (Akkadian)"],
+    "aliases": [
+      "Utnapishtim (Akkadian/Babylonian)",
+      "Ziusudra (Sumerian)",
+      "Atrahasis (Akkadian)"
+    ],
     "connections": [
-      {"to": "noah", "type": "literary_parallel", "detail": "Earliest known flood narrative that influenced the biblical Noah story"},
-      {"to": "deucalion", "type": "cross_cultural_parallel", "detail": "Greek flood hero with parallel narrative structure"},
-      {"to": "manu_flood", "type": "cross_cultural_parallel", "detail": "Hindu flood survivor parallel"}
+      {
+        "to": "noah",
+        "type": "literary_parallel",
+        "detail": "Earliest known flood narrative that influenced the biblical Noah story"
+      },
+      {
+        "to": "deucalion",
+        "type": "cross_cultural_parallel",
+        "detail": "Greek flood hero with parallel narrative structure"
+      },
+      {
+        "to": "manu_flood",
+        "type": "cross_cultural_parallel",
+        "detail": "Hindu flood survivor parallel"
+      }
     ]
   },
   {
@@ -62,15 +137,31 @@
     "type": "hero",
     "date": "mythological",
     "dateLabel": "Mythological (Greek tradition)",
-    "traditions": ["greek_religion"],
+    "traditions": [
+      "greek_religion"
+    ],
     "roles": {
       "greek_religion": "Son of Prometheus, survived Zeus's flood with wife Pyrrha, repopulated earth by casting stones"
     },
-    "aliases": ["Deucalion (Greek)"],
+    "aliases": [
+      "Deucalion (Greek)"
+    ],
     "connections": [
-      {"to": "noah", "type": "cross_cultural_parallel", "detail": "Flood survivor who repopulates earth"},
-      {"to": "utnapishtim", "type": "cross_cultural_parallel", "detail": "Shared flood narrative motif"},
-      {"to": "zeus", "type": "narrative_relationship", "detail": "Zeus sent the flood; Deucalion survived it"}
+      {
+        "to": "noah",
+        "type": "cross_cultural_parallel",
+        "detail": "Flood survivor who repopulates earth"
+      },
+      {
+        "to": "utnapishtim",
+        "type": "cross_cultural_parallel",
+        "detail": "Shared flood narrative motif"
+      },
+      {
+        "to": "zeus",
+        "type": "narrative_relationship",
+        "detail": "Zeus sent the flood; Deucalion survived it"
+      }
     ]
   },
   {
@@ -79,15 +170,32 @@
     "type": "patriarch",
     "date": "mythological",
     "dateLabel": "Mythological (Vedic tradition)",
-    "traditions": ["hinduism"],
+    "traditions": [
+      "hinduism"
+    ],
     "roles": {
       "hinduism": "First man and progenitor of humanity, saved from a great flood by Matsya (fish avatar of Vishnu)"
     },
-    "aliases": ["Manu (Hindu)", "Vaivasvata Manu (Sanskrit)"],
+    "aliases": [
+      "Manu (Hindu)",
+      "Vaivasvata Manu (Sanskrit)"
+    ],
     "connections": [
-      {"to": "noah", "type": "cross_cultural_parallel", "detail": "Flood survivor and ancestor of post-flood humanity"},
-      {"to": "utnapishtim", "type": "cross_cultural_parallel", "detail": "Shared flood narrative motif"},
-      {"to": "yama", "type": "sibling", "detail": "Manu and Yama are both sons of Vivasvat (the Sun) in Vedic tradition"}
+      {
+        "to": "noah",
+        "type": "cross_cultural_parallel",
+        "detail": "Flood survivor and ancestor of post-flood humanity"
+      },
+      {
+        "to": "utnapishtim",
+        "type": "cross_cultural_parallel",
+        "detail": "Shared flood narrative motif"
+      },
+      {
+        "to": "yama",
+        "type": "sibling",
+        "detail": "Manu and Yama are both sons of Vivasvat (the Sun) in Vedic tradition"
+      }
     ]
   },
   {
@@ -96,18 +204,42 @@
     "type": "patriarch",
     "date": "-2000",
     "dateLabel": "c. 2000-1800 BCE (traditional)",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "Father of the Jewish people, recipient of God's covenant, first patriarch",
       "christianity": "Father of faith, model of righteousness through belief, ancestor of Christ",
       "islam": "Ibrahim — builder of the Kaaba with Ismail, father of prophets, hanif (monotheist)"
     },
-    "aliases": ["Abraham (Judaism/Christianity)", "Ibrahim (Islam)", "Avraham (Hebrew)"],
+    "aliases": [
+      "Abraham (Judaism/Christianity)",
+      "Ibrahim (Islam)",
+      "Avraham (Hebrew)"
+    ],
     "connections": [
-      {"to": "moses", "type": "spiritual_lineage", "detail": "Moses continues the covenant of Abraham"},
-      {"to": "jesus", "type": "genealogical_ancestor", "detail": "Jesus traced to Abraham through David in Gospel genealogies"},
-      {"to": "muhammad", "type": "spiritual_lineage", "detail": "Muhammad traced to Abraham through Ishmael/Ismail"},
-      {"to": "melchizedek", "type": "narrative_encounter", "detail": "Abraham paid tithes to Melchizedek, priest-king of Salem"}
+      {
+        "to": "moses",
+        "type": "spiritual_lineage",
+        "detail": "Moses continues the covenant of Abraham"
+      },
+      {
+        "to": "jesus",
+        "type": "genealogical_ancestor",
+        "detail": "Jesus traced to Abraham through David in Gospel genealogies"
+      },
+      {
+        "to": "muhammad",
+        "type": "spiritual_lineage",
+        "detail": "Muhammad traced to Abraham through Ishmael/Ismail"
+      },
+      {
+        "to": "melchizedek",
+        "type": "narrative_encounter",
+        "detail": "Abraham paid tithes to Melchizedek, priest-king of Salem"
+      }
     ]
   },
   {
@@ -116,18 +248,42 @@
     "type": "prophet",
     "date": "-1300",
     "dateLabel": "c. 13th century BCE (traditional)",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "Greatest prophet, lawgiver, led Exodus from Egypt, received Torah at Sinai",
       "christianity": "Prophet, prefiguration of Christ, lawgiver of the Old Covenant",
       "islam": "Musa — one of the greatest prophets (Ulul Azm), spoke directly to God, given the Tawrat"
     },
-    "aliases": ["Moses (Judaism/Christianity)", "Musa (Islam)", "Moshe (Hebrew)"],
+    "aliases": [
+      "Moses (Judaism/Christianity)",
+      "Musa (Islam)",
+      "Moshe (Hebrew)"
+    ],
     "connections": [
-      {"to": "abraham", "type": "spiritual_lineage", "detail": "Descendant of Abraham through Levi"},
-      {"to": "jesus", "type": "typological_prefiguration", "detail": "Moses prefigures Christ in Christian typology as deliverer and lawgiver"},
-      {"to": "muhammad", "type": "prophetic_parallel", "detail": "Both lawgivers who led their people; Muhammad modeled on Moses in Islamic prophetic tradition"},
-      {"to": "elijah", "type": "prophetic_pair", "detail": "Moses and Elijah appear together at the Transfiguration in Christian tradition"}
+      {
+        "to": "abraham",
+        "type": "spiritual_lineage",
+        "detail": "Descendant of Abraham through Levi"
+      },
+      {
+        "to": "jesus",
+        "type": "typological_prefiguration",
+        "detail": "Moses prefigures Christ in Christian typology as deliverer and lawgiver"
+      },
+      {
+        "to": "muhammad",
+        "type": "prophetic_parallel",
+        "detail": "Both lawgivers who led their people; Muhammad modeled on Moses in Islamic prophetic tradition"
+      },
+      {
+        "to": "elijah",
+        "type": "prophetic_pair",
+        "detail": "Moses and Elijah appear together at the Transfiguration in Christian tradition"
+      }
     ]
   },
   {
@@ -136,17 +292,36 @@
     "type": "prophet",
     "date": "-1000",
     "dateLabel": "c. 1000 BCE",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "Greatest king of Israel, psalmist, ancestor of the Messiah",
       "christianity": "Ancestor of Christ, prefiguration of the messianic king",
       "islam": "Dawud — prophet and king, given the Zabur (Psalms)"
     },
-    "aliases": ["David (Judaism/Christianity)", "Dawud (Islam)"],
+    "aliases": [
+      "David (Judaism/Christianity)",
+      "Dawud (Islam)"
+    ],
     "connections": [
-      {"to": "solomon", "type": "father_son", "detail": "Solomon is David's son and successor"},
-      {"to": "jesus", "type": "genealogical_ancestor", "detail": "Jesus called 'Son of David' in messianic lineage"},
-      {"to": "abraham", "type": "spiritual_lineage", "detail": "David continues the Abrahamic covenant through kingship"}
+      {
+        "to": "solomon",
+        "type": "father_son",
+        "detail": "Solomon is David's son and successor"
+      },
+      {
+        "to": "jesus",
+        "type": "genealogical_ancestor",
+        "detail": "Jesus called 'Son of David' in messianic lineage"
+      },
+      {
+        "to": "abraham",
+        "type": "spiritual_lineage",
+        "detail": "David continues the Abrahamic covenant through kingship"
+      }
     ]
   },
   {
@@ -155,16 +330,32 @@
     "type": "sage",
     "date": "-970",
     "dateLabel": "c. 970-931 BCE",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "Wisest king, builder of the First Temple, author of Proverbs and Ecclesiastes",
       "christianity": "Wise king, prefiguration of Christ's wisdom, Temple builder",
       "islam": "Sulayman — prophet-king who commanded jinn, spoke to animals, exemplar of divine wisdom"
     },
-    "aliases": ["Solomon (Judaism/Christianity)", "Sulayman (Islam)", "Shlomo (Hebrew)"],
+    "aliases": [
+      "Solomon (Judaism/Christianity)",
+      "Sulayman (Islam)",
+      "Shlomo (Hebrew)"
+    ],
     "connections": [
-      {"to": "david", "type": "father_son", "detail": "Son and successor of King David"},
-      {"to": "jesus", "type": "typological_prefiguration", "detail": "Jesus said 'one greater than Solomon is here'"}
+      {
+        "to": "david",
+        "type": "father_son",
+        "detail": "Son and successor of King David"
+      },
+      {
+        "to": "jesus",
+        "type": "typological_prefiguration",
+        "detail": "Jesus said 'one greater than Solomon is here'"
+      }
     ]
   },
   {
@@ -173,17 +364,37 @@
     "type": "prophet",
     "date": "-870",
     "dateLabel": "c. 9th century BCE",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "Prophet who ascended to heaven, expected forerunner of the Messiah, invoked at Passover",
       "christianity": "Prophet who prefigures John the Baptist, appeared at the Transfiguration with Moses",
       "islam": "Ilyas — prophet who opposed Baal worship, mentioned in Quran (37:123-132)"
     },
-    "aliases": ["Elijah (Judaism/Christianity)", "Ilyas (Islam)", "Eliyahu (Hebrew)"],
+    "aliases": [
+      "Elijah (Judaism/Christianity)",
+      "Ilyas (Islam)",
+      "Eliyahu (Hebrew)"
+    ],
     "connections": [
-      {"to": "moses", "type": "prophetic_pair", "detail": "Appear together at Transfiguration representing Law and Prophets"},
-      {"to": "jesus", "type": "forerunner", "detail": "Elijah expected to herald the Messiah; Christians identify John the Baptist as Elijah returned"},
-      {"to": "baal", "type": "narrative_opposition", "detail": "Elijah's contest against prophets of Baal on Mount Carmel"}
+      {
+        "to": "moses",
+        "type": "prophetic_pair",
+        "detail": "Appear together at Transfiguration representing Law and Prophets"
+      },
+      {
+        "to": "jesus",
+        "type": "forerunner",
+        "detail": "Elijah expected to herald the Messiah; Christians identify John the Baptist as Elijah returned"
+      },
+      {
+        "to": "baal",
+        "type": "narrative_opposition",
+        "detail": "Elijah's contest against prophets of Baal on Mount Carmel"
+      }
     ]
   },
   {
@@ -192,15 +403,27 @@
     "type": "sage",
     "date": "mythological",
     "dateLabel": "Unknown / mythological (wisdom literature)",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "Righteous sufferer, central figure of theodicy, tested by God at Ha-Satan's suggestion",
       "christianity": "Model of patient faith in suffering, prefiguration of innocent suffering",
       "islam": "Ayyub — prophet who endured terrible affliction with patience (sabr)"
     },
-    "aliases": ["Job (Judaism/Christianity)", "Ayyub (Islam)", "Iyov (Hebrew)"],
+    "aliases": [
+      "Job (Judaism/Christianity)",
+      "Ayyub (Islam)",
+      "Iyov (Hebrew)"
+    ],
     "connections": [
-      {"to": "satan", "type": "narrative_relationship", "detail": "Ha-Satan challenges Job's faithfulness before God"}
+      {
+        "to": "satan",
+        "type": "narrative_relationship",
+        "detail": "Ha-Satan challenges Job's faithfulness before God"
+      }
     ]
   },
   {
@@ -209,15 +432,27 @@
     "type": "prophet",
     "date": "-750",
     "dateLabel": "c. 8th century BCE (traditional)",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "Reluctant prophet sent to Nineveh, swallowed by great fish, read on Yom Kippur",
       "christianity": "Sign of Jonah prefigures Christ's death and resurrection (three days in belly/tomb)",
       "islam": "Yunus — Dhun-Nun (Lord of the Fish), prophet who fled his mission then repented"
     },
-    "aliases": ["Jonah (Judaism/Christianity)", "Yunus (Islam)", "Yonah (Hebrew)"],
+    "aliases": [
+      "Jonah (Judaism/Christianity)",
+      "Yunus (Islam)",
+      "Yonah (Hebrew)"
+    ],
     "connections": [
-      {"to": "jesus", "type": "typological_prefiguration", "detail": "Three days in fish's belly prefigures three days in tomb"}
+      {
+        "to": "jesus",
+        "type": "typological_prefiguration",
+        "detail": "Three days in fish's belly prefigures three days in tomb"
+      }
     ]
   },
   {
@@ -226,16 +461,32 @@
     "type": "patriarch",
     "date": "-1700",
     "dateLabel": "c. 17th century BCE (traditional)",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "Son of Jacob, dream interpreter, rose to power in Egypt, saved his family from famine",
       "christianity": "Type of Christ — betrayed by brothers, exalted after suffering, saves his people",
       "islam": "Yusuf — greatest story in the Quran (Surah 12), paragon of beauty and chastity"
     },
-    "aliases": ["Joseph (Judaism/Christianity)", "Yusuf (Islam)", "Yosef (Hebrew)"],
+    "aliases": [
+      "Joseph (Judaism/Christianity)",
+      "Yusuf (Islam)",
+      "Yosef (Hebrew)"
+    ],
     "connections": [
-      {"to": "abraham", "type": "genealogical_descendant", "detail": "Great-grandson of Abraham through Isaac and Jacob"},
-      {"to": "jesus", "type": "typological_prefiguration", "detail": "Joseph's story of betrayal, descent, and exaltation prefigures Christ in Christian typology"}
+      {
+        "to": "abraham",
+        "type": "genealogical_descendant",
+        "detail": "Great-grandson of Abraham through Isaac and Jacob"
+      },
+      {
+        "to": "jesus",
+        "type": "typological_prefiguration",
+        "detail": "Joseph's story of betrayal, descent, and exaltation prefigures Christ in Christian typology"
+      }
     ]
   },
   {
@@ -244,23 +495,67 @@
     "type": "deity",
     "date": "-4",
     "dateLabel": "c. 4 BCE - 30 CE",
-    "traditions": ["christianity", "islam", "judaism"],
+    "traditions": [
+      "christianity",
+      "islam",
+      "judaism"
+    ],
     "roles": {
       "christianity": "Son of God, second person of the Trinity, Messiah, Savior through death and resurrection",
       "islam": "Isa ibn Maryam — major prophet, born of virgin Mary, Messiah, but not divine, not crucified (according to mainstream interpretation)",
       "judaism": "Rejected as Messiah; regarded as a Jewish teacher/preacher by some historical analysis"
     },
-    "aliases": ["Jesus Christ (Christianity)", "Isa ibn Maryam (Islam)", "Yeshua (Hebrew)"],
+    "aliases": [
+      "Jesus Christ (Christianity)",
+      "Isa ibn Maryam (Islam)",
+      "Yeshua (Hebrew)"
+    ],
     "connections": [
-      {"to": "mary", "type": "mother_son", "detail": "Born of the Virgin Mary in both Christian and Islamic traditions"},
-      {"to": "moses", "type": "typological_fulfillment", "detail": "New Moses who gives new law in Sermon on the Mount"},
-      {"to": "david", "type": "messianic_lineage", "detail": "Messiah descended from David's royal line"},
-      {"to": "abraham", "type": "genealogical_descendant", "detail": "Abraham's seed through whom all nations blessed"},
-      {"to": "muhammad", "type": "prophetic_succession", "detail": "Muslims view Muhammad as final prophet after Jesus"},
-      {"to": "tammuz_adonis", "type": "debated_parallel", "detail": "Dying-and-rising god parallel debated by scholars; mainstream scholarship rejects direct dependence"},
-      {"to": "horus", "type": "debated_parallel", "detail": "Alleged parallels largely discredited by mainstream scholarship"},
-      {"to": "mithras_roman", "type": "debated_parallel", "detail": "Alleged ritual parallels (sacred meal, Dec 25 birth) debated; chronology contested"},
-      {"to": "saoshyant", "type": "possible_influence", "detail": "Zoroastrian savior concept may have influenced Jewish messianic expectations"}
+      {
+        "to": "mary",
+        "type": "mother_son",
+        "detail": "Born of the Virgin Mary in both Christian and Islamic traditions"
+      },
+      {
+        "to": "moses",
+        "type": "typological_fulfillment",
+        "detail": "New Moses who gives new law in Sermon on the Mount"
+      },
+      {
+        "to": "david",
+        "type": "messianic_lineage",
+        "detail": "Messiah descended from David's royal line"
+      },
+      {
+        "to": "abraham",
+        "type": "genealogical_descendant",
+        "detail": "Abraham's seed through whom all nations blessed"
+      },
+      {
+        "to": "muhammad",
+        "type": "prophetic_succession",
+        "detail": "Muslims view Muhammad as final prophet after Jesus"
+      },
+      {
+        "to": "tammuz_adonis",
+        "type": "debated_parallel",
+        "detail": "Dying-and-rising god parallel debated by scholars; mainstream scholarship rejects direct dependence"
+      },
+      {
+        "to": "horus",
+        "type": "debated_parallel",
+        "detail": "Alleged parallels largely discredited by mainstream scholarship"
+      },
+      {
+        "to": "mithras_roman",
+        "type": "debated_parallel",
+        "detail": "Alleged ritual parallels (sacred meal, Dec 25 birth) debated; chronology contested"
+      },
+      {
+        "to": "saoshyant",
+        "type": "possible_influence",
+        "detail": "Zoroastrian savior concept may have influenced Jewish messianic expectations"
+      }
     ]
   },
   {
@@ -269,19 +564,52 @@
     "type": "saint",
     "date": "-20",
     "dateLabel": "c. 20 BCE - mid 1st century CE",
-    "traditions": ["christianity", "islam"],
+    "traditions": [
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "christianity": "Theotokos (Mother of God), Virgin Mother, Queen of Heaven, intercessor",
       "islam": "Maryam — most honored woman in the Quran, virgin mother of Isa, only woman named by name in the Quran"
     },
-    "aliases": ["Mary (Christianity)", "Maryam (Islam)", "Miriam (Hebrew)", "Theotokos (Eastern Christianity)", "Our Lady (Catholicism)"],
+    "aliases": [
+      "Mary (Christianity)",
+      "Maryam (Islam)",
+      "Miriam (Hebrew)",
+      "Theotokos (Eastern Christianity)",
+      "Our Lady (Catholicism)"
+    ],
     "connections": [
-      {"to": "jesus", "type": "mother_son", "detail": "Virgin mother of Jesus/Isa in both traditions"},
-      {"to": "pachamama", "type": "syncretic_identification", "detail": "Virgin Mary syncretized with Pachamama in Andean Catholicism"},
-      {"to": "yemoja", "type": "syncretic_identification", "detail": "Identified with Yemoja/Yemanja as Our Lady of Regla in Santeria/Candomble"},
-      {"to": "isis_egyptian", "type": "iconographic_influence", "detail": "Isis with Horus imagery may have influenced Madonna and Child iconography"},
-      {"to": "oshun", "type": "syncretic_identification", "detail": "Identified with Oshun as Our Lady of Charity in Cuban Santeria"},
-      {"to": "guadalupe_tonantzin", "type": "syncretic_identification", "detail": "Our Lady of Guadalupe synthesized with Aztec mother goddess Tonantzin"}
+      {
+        "to": "jesus",
+        "type": "mother_son",
+        "detail": "Virgin mother of Jesus/Isa in both traditions"
+      },
+      {
+        "to": "pachamama",
+        "type": "syncretic_identification",
+        "detail": "Virgin Mary syncretized with Pachamama in Andean Catholicism"
+      },
+      {
+        "to": "yemoja",
+        "type": "syncretic_identification",
+        "detail": "Identified with Yemoja/Yemanja as Our Lady of Regla in Santeria/Candomble"
+      },
+      {
+        "to": "isis_egyptian",
+        "type": "iconographic_influence",
+        "detail": "Isis with Horus imagery may have influenced Madonna and Child iconography"
+      },
+      {
+        "to": "oshun",
+        "type": "syncretic_identification",
+        "detail": "Identified with Oshun as Our Lady of Charity in Cuban Santeria"
+      },
+      {
+        "to": "guadalupe_tonantzin",
+        "type": "syncretic_identification",
+        "detail": "Our Lady of Guadalupe synthesized with Aztec mother goddess Tonantzin"
+      }
     ]
   },
   {
@@ -290,16 +618,38 @@
     "type": "prophet",
     "date": "570",
     "dateLabel": "570-632 CE",
-    "traditions": ["islam"],
+    "traditions": [
+      "islam"
+    ],
     "roles": {
       "islam": "Seal of the Prophets (Khatam an-Nabiyyin), final messenger, receiver of the Quran"
     },
-    "aliases": ["Muhammad (Islam)", "Ahmad (Quranic name)", "The Prophet (Islam)"],
+    "aliases": [
+      "Muhammad (Islam)",
+      "Ahmad (Quranic name)",
+      "The Prophet (Islam)"
+    ],
     "connections": [
-      {"to": "abraham", "type": "spiritual_lineage", "detail": "Descended from Abraham through Ishmael; restores Abrahamic monotheism"},
-      {"to": "jesus", "type": "prophetic_succession", "detail": "Final prophet in the line that includes Jesus, Moses, Abraham"},
-      {"to": "moses", "type": "prophetic_parallel", "detail": "Both lawgivers and community founders"},
-      {"to": "gabriel", "type": "revelatory_intermediary", "detail": "Angel Jibril revealed the Quran to Muhammad"}
+      {
+        "to": "abraham",
+        "type": "spiritual_lineage",
+        "detail": "Descended from Abraham through Ishmael; restores Abrahamic monotheism"
+      },
+      {
+        "to": "jesus",
+        "type": "prophetic_succession",
+        "detail": "Final prophet in the line that includes Jesus, Moses, Abraham"
+      },
+      {
+        "to": "moses",
+        "type": "prophetic_parallel",
+        "detail": "Both lawgivers and community founders"
+      },
+      {
+        "to": "gabriel",
+        "type": "revelatory_intermediary",
+        "detail": "Angel Jibril revealed the Quran to Muhammad"
+      }
     ]
   },
   {
@@ -308,20 +658,51 @@
     "type": "demon",
     "date": "mythological",
     "dateLabel": "Mythological / theological construct evolving over centuries",
-    "traditions": ["judaism", "christianity", "islam", "zoroastrianism"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam",
+      "zoroastrianism"
+    ],
     "roles": {
       "judaism": "Ha-Satan — the Accuser/Adversary, prosecuting angel in God's court, NOT a rebel; agent of God",
       "christianity": "The Devil, fallen angel Lucifer, supreme evil being opposed to God, tempter of humanity",
       "islam": "Iblis — jinn (not angel) who refused to bow to Adam out of pride, tempter but not God's equal",
       "zoroastrianism": "Paralleled by Angra Mainyu/Ahriman, but as an independent cosmic principle of evil"
     },
-    "aliases": ["Satan (Christianity)", "Ha-Satan (Judaism)", "Iblis/Shaytan (Islam)", "The Devil (Christianity)", "Lucifer (Christianity)"],
+    "aliases": [
+      "Satan (Christianity)",
+      "Ha-Satan (Judaism)",
+      "Iblis/Shaytan (Islam)",
+      "The Devil (Christianity)",
+      "Lucifer (Christianity)"
+    ],
     "connections": [
-      {"to": "angra_mainyu", "type": "possible_influence", "detail": "Zoroastrian cosmic dualism may have influenced development of Satan from prosecuting angel to cosmic adversary"},
-      {"to": "adam", "type": "narrative_opposition", "detail": "Iblis refused to bow to Adam; serpent tempted Adam and Eve"},
-      {"to": "jesus", "type": "narrative_opposition", "detail": "Satan tempts Jesus in the wilderness; defeated by crucifixion/resurrection in Christian theology"},
-      {"to": "baal", "type": "demonization", "detail": "Baal Zebub/Beelzebub — Canaanite deity demonized as a name for Satan"},
-      {"to": "eshu", "type": "misidentification", "detail": "Eshu/Elegba erroneously identified with the Devil by colonial missionaries"}
+      {
+        "to": "angra_mainyu",
+        "type": "possible_influence",
+        "detail": "Zoroastrian cosmic dualism may have influenced development of Satan from prosecuting angel to cosmic adversary"
+      },
+      {
+        "to": "adam",
+        "type": "narrative_opposition",
+        "detail": "Iblis refused to bow to Adam; serpent tempted Adam and Eve"
+      },
+      {
+        "to": "jesus",
+        "type": "narrative_opposition",
+        "detail": "Satan tempts Jesus in the wilderness; defeated by crucifixion/resurrection in Christian theology"
+      },
+      {
+        "to": "baal",
+        "type": "demonization",
+        "detail": "Baal Zebub/Beelzebub — Canaanite deity demonized as a name for Satan"
+      },
+      {
+        "to": "eshu",
+        "type": "misidentification",
+        "detail": "Eshu/Elegba erroneously identified with the Devil by colonial missionaries"
+      }
     ]
   },
   {
@@ -330,18 +711,42 @@
     "type": "angel",
     "date": "mythological",
     "dateLabel": "Mythological / theological",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "Archangel, messenger of God, appeared to Daniel with apocalyptic visions",
       "christianity": "Announced the births of John the Baptist and Jesus to their mothers",
       "islam": "Jibril — greatest angel, brought the Quran to Muhammad, accompanied the Prophet on the Night Journey"
     },
-    "aliases": ["Gabriel (Judaism/Christianity)", "Jibril (Islam)", "Gavriel (Hebrew)"],
+    "aliases": [
+      "Gabriel (Judaism/Christianity)",
+      "Jibril (Islam)",
+      "Gavriel (Hebrew)"
+    ],
     "connections": [
-      {"to": "muhammad", "type": "revelatory_intermediary", "detail": "Transmitted the Quran from God to Muhammad"},
-      {"to": "mary", "type": "annunciation", "detail": "Announced the virgin conception of Jesus to Mary"},
-      {"to": "michael", "type": "archangel_pair", "detail": "Fellow archangels in all three Abrahamic traditions"},
-      {"to": "amesha_spentas", "type": "possible_influence", "detail": "Abrahamic archangel concept may derive from Zoroastrian Amesha Spentas"}
+      {
+        "to": "muhammad",
+        "type": "revelatory_intermediary",
+        "detail": "Transmitted the Quran from God to Muhammad"
+      },
+      {
+        "to": "mary",
+        "type": "annunciation",
+        "detail": "Announced the virgin conception of Jesus to Mary"
+      },
+      {
+        "to": "michael",
+        "type": "archangel_pair",
+        "detail": "Fellow archangels in all three Abrahamic traditions"
+      },
+      {
+        "to": "amesha_spentas",
+        "type": "possible_influence",
+        "detail": "Abrahamic archangel concept may derive from Zoroastrian Amesha Spentas"
+      }
     ]
   },
   {
@@ -350,16 +755,32 @@
     "type": "angel",
     "date": "mythological",
     "dateLabel": "Mythological / theological",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "Guardian angel of Israel, warrior angel, weigher of souls",
       "christianity": "Commander of heavenly armies, defeats Satan in Revelation, patron of soldiers",
       "islam": "Mikail — angel of mercy, provides nourishment and sustenance to creation"
     },
-    "aliases": ["Michael (Judaism/Christianity)", "Mikail (Islam)", "Mikha'el (Hebrew)"],
+    "aliases": [
+      "Michael (Judaism/Christianity)",
+      "Mikail (Islam)",
+      "Mikha'el (Hebrew)"
+    ],
     "connections": [
-      {"to": "gabriel", "type": "archangel_pair", "detail": "Fellow archangels in all Abrahamic traditions"},
-      {"to": "satan", "type": "narrative_opposition", "detail": "Michael battles Satan/dragon in Revelation 12"}
+      {
+        "to": "gabriel",
+        "type": "archangel_pair",
+        "detail": "Fellow archangels in all Abrahamic traditions"
+      },
+      {
+        "to": "satan",
+        "type": "narrative_opposition",
+        "detail": "Michael battles Satan/dragon in Revelation 12"
+      }
     ]
   },
   {
@@ -368,16 +789,32 @@
     "type": "angel",
     "date": "mythological",
     "dateLabel": "Mythological / theological",
-    "traditions": ["judaism", "christianity", "islam"],
+    "traditions": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
     "roles": {
       "judaism": "Angel of healing, guide of Tobias in Book of Tobit",
       "christianity": "Archangel of healing (in Catholic/Orthodox tradition)",
       "islam": "Israfil — angel who will blow the trumpet on the Day of Judgment (distinct from Raphael but occupies parallel role in angelic hierarchy)"
     },
-    "aliases": ["Raphael (Judaism/Christianity)", "Israfil (Islam)", "Rafa'el (Hebrew)"],
+    "aliases": [
+      "Raphael (Judaism/Christianity)",
+      "Israfil (Islam)",
+      "Rafa'el (Hebrew)"
+    ],
     "connections": [
-      {"to": "gabriel", "type": "archangel_pair", "detail": "Fellow archangel in the divine hierarchy"},
-      {"to": "michael", "type": "archangel_pair", "detail": "Fellow archangel in the divine hierarchy"}
+      {
+        "to": "gabriel",
+        "type": "archangel_pair",
+        "detail": "Fellow archangel in the divine hierarchy"
+      },
+      {
+        "to": "michael",
+        "type": "archangel_pair",
+        "detail": "Fellow archangel in the divine hierarchy"
+      }
     ]
   },
   {
@@ -386,16 +823,34 @@
     "type": "sage",
     "date": "-2000",
     "dateLabel": "c. 2000 BCE (traditional) or mythological",
-    "traditions": ["judaism", "christianity"],
+    "traditions": [
+      "judaism",
+      "christianity"
+    ],
     "roles": {
       "judaism": "Mysterious priest-king of Salem, priest of El Elyon (God Most High), received tithes from Abraham",
       "christianity": "Type of Christ as eternal priest-king; Jesus is 'priest forever after the order of Melchizedek' (Hebrews)"
     },
-    "aliases": ["Melchizedek (Hebrew/Christian)", "Malki-Tzedeq (Hebrew)"],
+    "aliases": [
+      "Melchizedek (Hebrew/Christian)",
+      "Malki-Tzedeq (Hebrew)"
+    ],
     "connections": [
-      {"to": "abraham", "type": "narrative_encounter", "detail": "Abraham paid tithes to Melchizedek after battle of the kings"},
-      {"to": "jesus", "type": "typological_prefiguration", "detail": "Hebrews 7 presents Jesus as eternal priest in Melchizedek's order"},
-      {"to": "el_canaanite", "type": "theological_connection", "detail": "Melchizedek served El Elyon, linking Canaanite and Israelite religion"}
+      {
+        "to": "abraham",
+        "type": "narrative_encounter",
+        "detail": "Abraham paid tithes to Melchizedek after battle of the kings"
+      },
+      {
+        "to": "jesus",
+        "type": "typological_prefiguration",
+        "detail": "Hebrews 7 presents Jesus as eternal priest in Melchizedek's order"
+      },
+      {
+        "to": "el_canaanite",
+        "type": "theological_connection",
+        "detail": "Melchizedek served El Elyon, linking Canaanite and Israelite religion"
+      }
     ]
   },
   {
@@ -404,16 +859,36 @@
     "type": "deity",
     "date": "-4000",
     "dateLabel": "c. 4500-3500 BCE (Proto-Indo-European reconstruction)",
-    "traditions": ["proto_indo_european"],
+    "traditions": [
+      "proto_ie_religion"
+    ],
     "roles": {
-      "proto_indo_european": "Reconstructed sky father deity, head of the PIE pantheon, personification of the daylit sky"
+      "proto_ie_religion": "Reconstructed sky father deity, head of the PIE pantheon, personification of the daylit sky"
     },
-    "aliases": ["*Dyeus Ph2ter (reconstructed PIE)"],
+    "aliases": [
+      "*Dyeus Ph2ter (reconstructed PIE)"
+    ],
     "connections": [
-      {"to": "zeus", "type": "linguistic_cognate", "detail": "Zeus Pater directly derives from *Dyeus Ph2ter"},
-      {"to": "jupiter", "type": "linguistic_cognate", "detail": "Jupiter (Iuppiter < *Djous pater) directly derives from *Dyeus Ph2ter"},
-      {"to": "dyaus_pita", "type": "linguistic_cognate", "detail": "Vedic Dyaus Pita is direct cognate"},
-      {"to": "tyr", "type": "related_derivation", "detail": "Tyr derives from related PIE root *deywos (god), not directly from *Dyeus"}
+      {
+        "to": "zeus",
+        "type": "linguistic_cognate",
+        "detail": "Zeus Pater directly derives from *Dyeus Ph2ter"
+      },
+      {
+        "to": "jupiter",
+        "type": "linguistic_cognate",
+        "detail": "Jupiter (Iuppiter < *Djous pater) directly derives from *Dyeus Ph2ter"
+      },
+      {
+        "to": "dyaus_pita",
+        "type": "linguistic_cognate",
+        "detail": "Vedic Dyaus Pita is direct cognate"
+      },
+      {
+        "to": "tyr",
+        "type": "related_derivation",
+        "detail": "Tyr derives from related PIE root *deywos (god), not directly from *Dyeus"
+      }
     ]
   },
   {
@@ -422,16 +897,37 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Attested from Mycenaean period (c. 1500 BCE)",
-    "traditions": ["greek_religion"],
+    "traditions": [
+      "greek_religion"
+    ],
     "roles": {
       "greek_religion": "King of the Olympian gods, god of sky, thunder, and justice"
     },
-    "aliases": ["Zeus (Greek)", "Zeus Pater (Greek)"],
+    "aliases": [
+      "Zeus (Greek)",
+      "Zeus Pater (Greek)"
+    ],
     "connections": [
-      {"to": "dyeus_pater", "type": "linguistic_cognate", "detail": "Name directly derives from PIE *Dyeus"},
-      {"to": "jupiter", "type": "cognate_equivalent", "detail": "Roman equivalent; both derive from PIE sky father"},
-      {"to": "amun", "type": "syncretic_identification", "detail": "Zeus Ammon — Greek identification of Zeus with Egyptian Amun at Siwa"},
-      {"to": "typhon_tiamat", "type": "dragon_slayer_parallel", "detail": "Zeus vs Typhon parallels Marduk vs Tiamat serpent-slayer motif"}
+      {
+        "to": "dyeus_pater",
+        "type": "linguistic_cognate",
+        "detail": "Name directly derives from PIE *Dyeus"
+      },
+      {
+        "to": "jupiter",
+        "type": "cognate_equivalent",
+        "detail": "Roman equivalent; both derive from PIE sky father"
+      },
+      {
+        "to": "amun",
+        "type": "syncretic_identification",
+        "detail": "Zeus Ammon — Greek identification of Zeus with Egyptian Amun at Siwa"
+      },
+      {
+        "to": "typhon_tiamat",
+        "type": "dragon_slayer_parallel",
+        "detail": "Zeus vs Typhon parallels Marduk vs Tiamat serpent-slayer motif"
+      }
     ]
   },
   {
@@ -440,14 +936,28 @@
     "type": "deity",
     "date": "-700",
     "dateLabel": "Roman Kingdom period onward (c. 7th century BCE)",
-    "traditions": ["roman_religion"],
+    "traditions": [
+      "roman_religion"
+    ],
     "roles": {
       "roman_religion": "King of the gods, god of sky, thunder, and the state; patron deity of Rome"
     },
-    "aliases": ["Jupiter (Roman)", "Jove (Latin)", "Iuppiter (Latin)"],
+    "aliases": [
+      "Jupiter (Roman)",
+      "Jove (Latin)",
+      "Iuppiter (Latin)"
+    ],
     "connections": [
-      {"to": "dyeus_pater", "type": "linguistic_cognate", "detail": "Iuppiter derives from *Djous Pater"},
-      {"to": "zeus", "type": "cognate_equivalent", "detail": "Greek equivalent through interpretatio graeca/romana"}
+      {
+        "to": "dyeus_pater",
+        "type": "linguistic_cognate",
+        "detail": "Iuppiter derives from *Djous Pater"
+      },
+      {
+        "to": "zeus",
+        "type": "cognate_equivalent",
+        "detail": "Greek equivalent through interpretatio graeca/romana"
+      }
     ]
   },
   {
@@ -456,14 +966,27 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Vedic period (c. 1500-500 BCE)",
-    "traditions": ["hinduism"],
+    "traditions": [
+      "hinduism"
+    ],
     "roles": {
       "hinduism": "Vedic sky father deity, paired with Prithvi (Earth Mother); diminished in importance in later Hinduism"
     },
-    "aliases": ["Dyaus Pita (Vedic Sanskrit)", "Dyaus (Sanskrit)"],
+    "aliases": [
+      "Dyaus Pita (Vedic Sanskrit)",
+      "Dyaus (Sanskrit)"
+    ],
     "connections": [
-      {"to": "dyeus_pater", "type": "linguistic_cognate", "detail": "Direct Vedic cognate of PIE *Dyeus Ph2ter"},
-      {"to": "zeus", "type": "linguistic_cognate", "detail": "Cognate sky father across Greek and Vedic traditions"}
+      {
+        "to": "dyeus_pater",
+        "type": "linguistic_cognate",
+        "detail": "Direct Vedic cognate of PIE *Dyeus Ph2ter"
+      },
+      {
+        "to": "zeus",
+        "type": "linguistic_cognate",
+        "detail": "Cognate sky father across Greek and Vedic traditions"
+      }
     ]
   },
   {
@@ -472,14 +995,28 @@
     "type": "deity",
     "date": "-500",
     "dateLabel": "Germanic Iron Age onward",
-    "traditions": ["norse_religion"],
+    "traditions": [
+      "norse_germanic"
+    ],
     "roles": {
-      "norse_religion": "God of war, justice, and oaths; sacrificed his hand to bind the wolf Fenrir"
+      "norse_germanic": "God of war, justice, and oaths; sacrificed his hand to bind the wolf Fenrir"
     },
-    "aliases": ["Tyr (Norse)", "Tiwaz (Proto-Germanic)", "*Tiwaz (runic inscriptions)"],
+    "aliases": [
+      "Tyr (Norse)",
+      "Tiwaz (Proto-Germanic)",
+      "*Tiwaz (runic inscriptions)"
+    ],
     "connections": [
-      {"to": "dyeus_pater", "type": "related_derivation", "detail": "Tiwaz derives from PIE *deywos (divine), related to but distinct from *Dyeus"},
-      {"to": "mars", "type": "interpretatio_romana", "detail": "Romans identified Tiwaz/Tyr with Mars (hence Tuesday = dies Martis)"}
+      {
+        "to": "dyeus_pater",
+        "type": "related_derivation",
+        "detail": "Tiwaz derives from PIE *deywos (divine), related to but distinct from *Dyeus"
+      },
+      {
+        "to": "mars",
+        "type": "interpretatio_romana",
+        "detail": "Romans identified Tiwaz/Tyr with Mars (hence Tuesday = dies Martis)"
+      }
     ]
   },
   {
@@ -488,17 +1025,41 @@
     "type": "deity",
     "date": "-4000",
     "dateLabel": "Proto-Indo-European reconstruction",
-    "traditions": ["proto_indo_european"],
+    "traditions": [
+      "proto_ie_religion"
+    ],
     "roles": {
-      "proto_indo_european": "Reconstructed thunder god, 'the Striker' or 'Lord of Oaks', wielder of thunderbolt, serpent-slayer"
+      "proto_ie_religion": "Reconstructed thunder god, 'the Striker' or 'Lord of Oaks', wielder of thunderbolt, serpent-slayer"
     },
-    "aliases": ["*Perkwunos (reconstructed PIE)"],
+    "aliases": [
+      "*Perkwunos (reconstructed PIE)"
+    ],
     "connections": [
-      {"to": "thor", "type": "cognate_descendant", "detail": "Thor descends from PIE thunder god tradition through *Thunraz (different root *(s)tenh2)"},
-      {"to": "perun", "type": "linguistic_cognate", "detail": "Slavic Perun is direct cognate of *Perkwunos"},
-      {"to": "perkunas", "type": "linguistic_cognate", "detail": "Baltic Perkunas is direct cognate"},
-      {"to": "parjanya", "type": "possible_cognate", "detail": "Vedic Parjanya may be cognate, though some linguists dispute this"},
-      {"to": "taranis", "type": "functional_cognate", "detail": "Celtic Taranis fills same thunder god role (name from different root *(s)tenh2)"}
+      {
+        "to": "thor",
+        "type": "cognate_descendant",
+        "detail": "Thor descends from PIE thunder god tradition through *Thunraz (different root *(s)tenh2)"
+      },
+      {
+        "to": "perun",
+        "type": "linguistic_cognate",
+        "detail": "Slavic Perun is direct cognate of *Perkwunos"
+      },
+      {
+        "to": "perkunas",
+        "type": "linguistic_cognate",
+        "detail": "Baltic Perkunas is direct cognate"
+      },
+      {
+        "to": "parjanya",
+        "type": "possible_cognate",
+        "detail": "Vedic Parjanya may be cognate, though some linguists dispute this"
+      },
+      {
+        "to": "taranis",
+        "type": "functional_cognate",
+        "detail": "Celtic Taranis fills same thunder god role (name from different root *(s)tenh2)"
+      }
     ]
   },
   {
@@ -507,16 +1068,39 @@
     "type": "deity",
     "date": "-500",
     "dateLabel": "Germanic Iron Age onward",
-    "traditions": ["norse_religion"],
+    "traditions": [
+      "norse_germanic"
+    ],
     "roles": {
-      "norse_religion": "God of thunder, lightning, storms; protector of humanity; wields Mjolnir; slays the Midgard Serpent"
+      "norse_germanic": "God of thunder, lightning, storms; protector of humanity; wields Mjolnir; slays the Midgard Serpent"
     },
-    "aliases": ["Thor (Norse)", "Donar (Germanic)", "Thunor (Anglo-Saxon)", "Thunaer (Old Saxon)"],
+    "aliases": [
+      "Thor (Norse)",
+      "Donar (Germanic)",
+      "Thunor (Anglo-Saxon)",
+      "Thunaer (Old Saxon)"
+    ],
     "connections": [
-      {"to": "perkwunos", "type": "functional_cognate", "detail": "Fills PIE thunder god role; name from *(s)tenh2 'thunder' rather than *Perkw-"},
-      {"to": "perun", "type": "functional_parallel", "detail": "Both thunder gods who battle cosmic serpents"},
-      {"to": "indra", "type": "functional_parallel", "detail": "Both thunder-wielding serpent-slayers (Thor vs Jormungandr, Indra vs Vritra)"},
-      {"to": "jupiter", "type": "interpretatio_romana", "detail": "Romans identified Thor/Donar with Jupiter (Thursday = Jovis dies)"}
+      {
+        "to": "perkwunos",
+        "type": "functional_cognate",
+        "detail": "Fills PIE thunder god role; name from *(s)tenh2 'thunder' rather than *Perkw-"
+      },
+      {
+        "to": "perun",
+        "type": "functional_parallel",
+        "detail": "Both thunder gods who battle cosmic serpents"
+      },
+      {
+        "to": "indra",
+        "type": "functional_parallel",
+        "detail": "Both thunder-wielding serpent-slayers (Thor vs Jormungandr, Indra vs Vritra)"
+      },
+      {
+        "to": "jupiter",
+        "type": "interpretatio_romana",
+        "detail": "Romans identified Thor/Donar with Jupiter (Thursday = Jovis dies)"
+      }
     ]
   },
   {
@@ -525,16 +1109,37 @@
     "type": "deity",
     "date": "-500",
     "dateLabel": "Proto-Slavic period onward",
-    "traditions": ["slavic_religion"],
+    "traditions": [
+      "slavic_religion"
+    ],
     "roles": {
       "slavic_religion": "Supreme god of thunder and lightning, patron of warriors, strikes oaks to kindle fire"
     },
-    "aliases": ["Perun (Slavic)", "Piorun (Polish, 'thunderbolt')"],
+    "aliases": [
+      "Perun (Slavic)",
+      "Piorun (Polish, 'thunderbolt')"
+    ],
     "connections": [
-      {"to": "perkwunos", "type": "linguistic_cognate", "detail": "Name directly derives from PIE *Perkwunos"},
-      {"to": "perkunas", "type": "linguistic_cognate", "detail": "Baltic cognate, nearly identical name and function"},
-      {"to": "thor", "type": "functional_parallel", "detail": "Both Indo-European thunder gods"},
-      {"to": "veles", "type": "mythological_opposition", "detail": "Perun battles Veles in fundamental Slavic mythological conflict"}
+      {
+        "to": "perkwunos",
+        "type": "linguistic_cognate",
+        "detail": "Name directly derives from PIE *Perkwunos"
+      },
+      {
+        "to": "perkunas",
+        "type": "linguistic_cognate",
+        "detail": "Baltic cognate, nearly identical name and function"
+      },
+      {
+        "to": "thor",
+        "type": "functional_parallel",
+        "detail": "Both Indo-European thunder gods"
+      },
+      {
+        "to": "veles",
+        "type": "mythological_opposition",
+        "detail": "Perun battles Veles in fundamental Slavic mythological conflict"
+      }
     ]
   },
   {
@@ -543,14 +1148,27 @@
     "type": "deity",
     "date": "-1000",
     "dateLabel": "Baltic tradition (attested from medieval period)",
-    "traditions": ["baltic_religion"],
+    "traditions": [
+      "baltic_religion"
+    ],
     "roles": {
       "baltic_religion": "Thunder god, supreme deity in Lithuanian mythology, guardian of law and order"
     },
-    "aliases": ["Perkunas (Lithuanian)", "Perkons (Latvian)"],
+    "aliases": [
+      "Perkunas (Lithuanian)",
+      "Perkons (Latvian)"
+    ],
     "connections": [
-      {"to": "perkwunos", "type": "linguistic_cognate", "detail": "Direct linguistic descendant of PIE *Perkwunos"},
-      {"to": "perun", "type": "linguistic_cognate", "detail": "Slavic cognate thunder god"}
+      {
+        "to": "perkwunos",
+        "type": "linguistic_cognate",
+        "detail": "Direct linguistic descendant of PIE *Perkwunos"
+      },
+      {
+        "to": "perun",
+        "type": "linguistic_cognate",
+        "detail": "Slavic cognate thunder god"
+      }
     ]
   },
   {
@@ -559,14 +1177,26 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Vedic period",
-    "traditions": ["hinduism"],
+    "traditions": [
+      "hinduism"
+    ],
     "roles": {
       "hinduism": "Vedic god of rain and storms, associated with Indra; makes rain clouds thunder"
     },
-    "aliases": ["Parjanya (Vedic Sanskrit)"],
+    "aliases": [
+      "Parjanya (Vedic Sanskrit)"
+    ],
     "connections": [
-      {"to": "perkwunos", "type": "possible_cognate", "detail": "May be cognate with PIE *Perkwunos though some linguists dispute the phonological derivation"},
-      {"to": "indra", "type": "functional_overlap", "detail": "Storm/rain functions overlap with Indra in Vedic mythology"}
+      {
+        "to": "perkwunos",
+        "type": "possible_cognate",
+        "detail": "May be cognate with PIE *Perkwunos though some linguists dispute the phonological derivation"
+      },
+      {
+        "to": "indra",
+        "type": "functional_overlap",
+        "detail": "Storm/rain functions overlap with Indra in Vedic mythology"
+      }
     ]
   },
   {
@@ -575,14 +1205,27 @@
     "type": "deity",
     "date": "-500",
     "dateLabel": "Celtic Iron Age",
-    "traditions": ["celtic_religion"],
+    "traditions": [
+      "celtic_religion"
+    ],
     "roles": {
       "celtic_religion": "Celtic thunder god, associated with the wheel symbol, one of three major Gaulish deities"
     },
-    "aliases": ["Taranis (Gaulish)", "Tanarus (Latin inscription)"],
+    "aliases": [
+      "Taranis (Gaulish)",
+      "Tanarus (Latin inscription)"
+    ],
     "connections": [
-      {"to": "perkwunos", "type": "functional_cognate", "detail": "Celtic thunder god from PIE root *(s)tenh2 (thunder)"},
-      {"to": "jupiter", "type": "interpretatio_romana", "detail": "Romans equated Taranis with Jupiter"}
+      {
+        "to": "perkwunos",
+        "type": "functional_cognate",
+        "detail": "Celtic thunder god from PIE root *(s)tenh2 (thunder)"
+      },
+      {
+        "to": "jupiter",
+        "type": "interpretatio_romana",
+        "detail": "Romans equated Taranis with Jupiter"
+      }
     ]
   },
   {
@@ -591,16 +1234,37 @@
     "type": "deity",
     "date": "-4000",
     "dateLabel": "Proto-Indo-European reconstruction",
-    "traditions": ["proto_indo_european"],
+    "traditions": [
+      "proto_ie_religion"
+    ],
     "roles": {
-      "proto_indo_european": "Reconstructed dawn goddess (*H2ewsos), 'Daughter of the Sky', bringer of light, associated with renewal"
+      "proto_ie_religion": "Reconstructed dawn goddess (*H2ewsos), 'Daughter of the Sky', bringer of light, associated with renewal"
     },
-    "aliases": ["*H2ewsos (reconstructed PIE)", "*Hausos"],
+    "aliases": [
+      "*H2ewsos (reconstructed PIE)",
+      "*Hausos"
+    ],
     "connections": [
-      {"to": "eos", "type": "linguistic_cognate", "detail": "Greek Eos directly derives from *H2ewsos"},
-      {"to": "aurora", "type": "linguistic_cognate", "detail": "Roman Aurora (Old Latin Ausosa) derives from *H2ewsos"},
-      {"to": "ushas", "type": "linguistic_cognate", "detail": "Vedic Ushas is direct cognate"},
-      {"to": "ostara", "type": "linguistic_cognate", "detail": "Germanic *Austro / Eostre derives from same root"}
+      {
+        "to": "eos",
+        "type": "linguistic_cognate",
+        "detail": "Greek Eos directly derives from *H2ewsos"
+      },
+      {
+        "to": "aurora",
+        "type": "linguistic_cognate",
+        "detail": "Roman Aurora (Old Latin Ausosa) derives from *H2ewsos"
+      },
+      {
+        "to": "ushas",
+        "type": "linguistic_cognate",
+        "detail": "Vedic Ushas is direct cognate"
+      },
+      {
+        "to": "ostara",
+        "type": "linguistic_cognate",
+        "detail": "Germanic *Austro / Eostre derives from same root"
+      }
     ]
   },
   {
@@ -609,14 +1273,26 @@
     "type": "deity",
     "date": "-1200",
     "dateLabel": "Greek tradition (Homeric period onward)",
-    "traditions": ["greek_religion"],
+    "traditions": [
+      "greek_religion"
+    ],
     "roles": {
       "greek_religion": "Titan goddess of the dawn, brings morning light, sister of Helios and Selene"
     },
-    "aliases": ["Eos (Greek)"],
+    "aliases": [
+      "Eos (Greek)"
+    ],
     "connections": [
-      {"to": "hewsos", "type": "linguistic_cognate", "detail": "Name derives from PIE *H2ewsos"},
-      {"to": "aurora", "type": "cognate_equivalent", "detail": "Roman equivalent"}
+      {
+        "to": "hewsos",
+        "type": "linguistic_cognate",
+        "detail": "Name derives from PIE *H2ewsos"
+      },
+      {
+        "to": "aurora",
+        "type": "cognate_equivalent",
+        "detail": "Roman equivalent"
+      }
     ]
   },
   {
@@ -625,14 +1301,27 @@
     "type": "deity",
     "date": "-700",
     "dateLabel": "Roman tradition",
-    "traditions": ["roman_religion"],
+    "traditions": [
+      "roman_religion"
+    ],
     "roles": {
       "roman_religion": "Goddess of the dawn, renews herself each morning"
     },
-    "aliases": ["Aurora (Roman)", "Ausosa (Old Latin)"],
+    "aliases": [
+      "Aurora (Roman)",
+      "Ausosa (Old Latin)"
+    ],
     "connections": [
-      {"to": "hewsos", "type": "linguistic_cognate", "detail": "Old Latin Ausosa derives from PIE *H2ewsos"},
-      {"to": "eos", "type": "cognate_equivalent", "detail": "Greek equivalent"}
+      {
+        "to": "hewsos",
+        "type": "linguistic_cognate",
+        "detail": "Old Latin Ausosa derives from PIE *H2ewsos"
+      },
+      {
+        "to": "eos",
+        "type": "cognate_equivalent",
+        "detail": "Greek equivalent"
+      }
     ]
   },
   {
@@ -641,14 +1330,26 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Vedic period",
-    "traditions": ["hinduism"],
+    "traditions": [
+      "hinduism"
+    ],
     "roles": {
       "hinduism": "Vedic goddess of dawn, daughter of Dyaus, praised extensively in the Rigveda"
     },
-    "aliases": ["Ushas (Vedic Sanskrit)"],
+    "aliases": [
+      "Ushas (Vedic Sanskrit)"
+    ],
     "connections": [
-      {"to": "hewsos", "type": "linguistic_cognate", "detail": "Direct Vedic cognate of PIE *H2ewsos"},
-      {"to": "eos", "type": "linguistic_cognate", "detail": "Greek cognate dawn goddess"}
+      {
+        "to": "hewsos",
+        "type": "linguistic_cognate",
+        "detail": "Direct Vedic cognate of PIE *H2ewsos"
+      },
+      {
+        "to": "eos",
+        "type": "linguistic_cognate",
+        "detail": "Greek cognate dawn goddess"
+      }
     ]
   },
   {
@@ -657,14 +1358,27 @@
     "type": "deity",
     "date": "300",
     "dateLabel": "Attested 8th century CE by Bede; possibly earlier",
-    "traditions": ["germanic_religion"],
+    "traditions": [
+      "norse_germanic"
+    ],
     "roles": {
-      "germanic_religion": "Spring/dawn goddess of the Anglo-Saxons; month of Eosturmonath named for her; possibly linked to Easter"
+      "norse_germanic": "Spring/dawn goddess of the Anglo-Saxons; month of Eosturmonath named for her; possibly linked to Easter"
     },
-    "aliases": ["Eostre (Old English)", "Ostara (Old High German)"],
+    "aliases": [
+      "Eostre (Old English)",
+      "Ostara (Old High German)"
+    ],
     "connections": [
-      {"to": "hewsos", "type": "linguistic_cognate", "detail": "Germanic *Austro derives from PIE *H2ewsos dawn root"},
-      {"to": "eos", "type": "linguistic_cognate", "detail": "Distant cognate through shared PIE root"}
+      {
+        "to": "hewsos",
+        "type": "linguistic_cognate",
+        "detail": "Germanic *Austro derives from PIE *H2ewsos dawn root"
+      },
+      {
+        "to": "eos",
+        "type": "linguistic_cognate",
+        "detail": "Distant cognate through shared PIE root"
+      }
     ]
   },
   {
@@ -673,15 +1387,39 @@
     "type": "deity",
     "date": "-3500",
     "dateLabel": "c. 4th millennium BCE (Sumerian period)",
-    "traditions": ["mesopotamian_religion"],
+    "traditions": [
+      "sumerian_religion",
+      "babylonian_religion",
+      "akkadian_religion",
+      "assyrian_religion"
+    ],
     "roles": {
-      "mesopotamian_religion": "Sumerian/Akkadian goddess of love, war, beauty, sex, justice, and political power; Queen of Heaven; descended to the underworld"
+      "sumerian_religion": "Sumerian/Akkadian goddess of love, war, beauty, sex, justice, and political power; Queen of Heaven; descended to the underworld",
+      "babylonian_religion": "Sumerian/Akkadian goddess of love, war, beauty, sex, justice, and political power; Queen of Heaven; descended to the underworld",
+      "akkadian_religion": "Sumerian/Akkadian goddess of love, war, beauty, sex, justice, and political power; Queen of Heaven; descended to the underworld",
+      "assyrian_religion": "Sumerian/Akkadian goddess of love, war, beauty, sex, justice, and political power; Queen of Heaven; descended to the underworld"
     },
-    "aliases": ["Inanna (Sumerian)", "Ishtar (Akkadian/Babylonian)", "Inanna-Ishtar"],
+    "aliases": [
+      "Inanna (Sumerian)",
+      "Ishtar (Akkadian/Babylonian)",
+      "Inanna-Ishtar"
+    ],
     "connections": [
-      {"to": "astarte", "type": "cultural_transmission", "detail": "Northwest Semitic Astarte is the direct equivalent of East Semitic Ishtar"},
-      {"to": "aphrodite", "type": "cultural_transmission", "detail": "Aphrodite's cult largely derived from Inanna-Ishtar through Phoenician Astarte"},
-      {"to": "tammuz_adonis", "type": "consort", "detail": "Dumuzi/Tammuz is Inanna's shepherd-consort who dies and partially returns"}
+      {
+        "to": "astarte",
+        "type": "cultural_transmission",
+        "detail": "Northwest Semitic Astarte is the direct equivalent of East Semitic Ishtar"
+      },
+      {
+        "to": "aphrodite",
+        "type": "cultural_transmission",
+        "detail": "Aphrodite's cult largely derived from Inanna-Ishtar through Phoenician Astarte"
+      },
+      {
+        "to": "tammuz_adonis",
+        "type": "consort",
+        "detail": "Dumuzi/Tammuz is Inanna's shepherd-consort who dies and partially returns"
+      }
     ]
   },
   {
@@ -690,14 +1428,28 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "c. 2nd millennium BCE (Canaanite/Phoenician)",
-    "traditions": ["canaanite_religion"],
+    "traditions": [
+      "canaanite_religion"
+    ],
     "roles": {
       "canaanite_religion": "Northwest Semitic goddess of love, war, and fertility; Phoenician Queen of Heaven"
     },
-    "aliases": ["Astarte (Greek form)", "Ashtoreth (Hebrew Bible)", "Athtart (Ugaritic)"],
+    "aliases": [
+      "Astarte (Greek form)",
+      "Ashtoreth (Hebrew Bible)",
+      "Athtart (Ugaritic)"
+    ],
     "connections": [
-      {"to": "inanna", "type": "cultural_transmission", "detail": "Northwest Semitic equivalent of East Semitic Ishtar"},
-      {"to": "aphrodite", "type": "cultural_transmission", "detail": "Phoenicians introduced Astarte to Cyprus and Greece, giving rise to/influencing Aphrodite"}
+      {
+        "to": "inanna",
+        "type": "cultural_transmission",
+        "detail": "Northwest Semitic equivalent of East Semitic Ishtar"
+      },
+      {
+        "to": "aphrodite",
+        "type": "cultural_transmission",
+        "detail": "Phoenicians introduced Astarte to Cyprus and Greece, giving rise to/influencing Aphrodite"
+      }
     ]
   },
   {
@@ -706,14 +1458,28 @@
     "type": "deity",
     "date": "-1200",
     "dateLabel": "Greek tradition (attested from 8th century BCE texts)",
-    "traditions": ["greek_religion"],
+    "traditions": [
+      "greek_religion"
+    ],
     "roles": {
       "greek_religion": "Olympian goddess of love, beauty, pleasure, and procreation; known as Ourania (Heavenly)"
     },
-    "aliases": ["Aphrodite (Greek)", "Aphrodite Ourania (Greek)", "Venus (Roman equivalent)"],
+    "aliases": [
+      "Aphrodite (Greek)",
+      "Aphrodite Ourania (Greek)",
+      "Venus (Roman equivalent)"
+    ],
     "connections": [
-      {"to": "inanna", "type": "cultural_transmission", "detail": "Cult derived from Near Eastern love goddess tradition through Astarte"},
-      {"to": "astarte", "type": "cultural_transmission", "detail": "Aphrodite's worship derived heavily from Phoenician Astarte cult, especially via Cyprus"}
+      {
+        "to": "inanna",
+        "type": "cultural_transmission",
+        "detail": "Cult derived from Near Eastern love goddess tradition through Astarte"
+      },
+      {
+        "to": "astarte",
+        "type": "cultural_transmission",
+        "detail": "Aphrodite's worship derived heavily from Phoenician Astarte cult, especially via Cyprus"
+      }
     ]
   },
   {
@@ -722,19 +1488,53 @@
     "type": "deity",
     "date": "-3000",
     "dateLabel": "c. 3rd millennium BCE (Sumerian tradition)",
-    "traditions": ["mesopotamian_religion", "greek_religion", "canaanite_religion"],
+    "traditions": [
+      "sumerian_religion",
+      "babylonian_religion",
+      "akkadian_religion",
+      "assyrian_religion",
+      "greek_religion",
+      "canaanite_religion"
+    ],
     "roles": {
-      "mesopotamian_religion": "Dumuzi — shepherd-god, consort of Inanna, dies and spends half the year in underworld",
+      "sumerian_religion": "Dumuzi — shepherd-god, consort of Inanna, dies and spends half the year in underworld",
+      "babylonian_religion": "Dumuzi — shepherd-god, consort of Inanna, dies and spends half the year in underworld",
+      "akkadian_religion": "Dumuzi — shepherd-god, consort of Inanna, dies and spends half the year in underworld",
+      "assyrian_religion": "Dumuzi — shepherd-god, consort of Inanna, dies and spends half the year in underworld",
       "greek_religion": "Adonis — beautiful youth loved by Aphrodite, killed by a boar, mourned annually",
       "canaanite_religion": "Tammuz — dying vegetation god mourned in seasonal rituals (Ezekiel 8:14)"
     },
-    "aliases": ["Dumuzi (Sumerian)", "Tammuz (Akkadian/Hebrew)", "Adonis (Greek, from Semitic adon 'lord')"],
+    "aliases": [
+      "Dumuzi (Sumerian)",
+      "Tammuz (Akkadian/Hebrew)",
+      "Adonis (Greek, from Semitic adon 'lord')"
+    ],
     "connections": [
-      {"to": "inanna", "type": "consort", "detail": "Dumuzi is the consort of Inanna/Ishtar"},
-      {"to": "aphrodite", "type": "consort_parallel", "detail": "Adonis is beloved of Aphrodite, paralleling Dumuzi-Inanna"},
-      {"to": "osiris", "type": "dying_god_parallel", "detail": "Both are dying-and-rising gods associated with vegetation and seasonal cycles"},
-      {"to": "attis", "type": "dying_god_parallel", "detail": "Attis of Phrygia/Rome is another dying vegetation deity in same tradition"},
-      {"to": "jesus", "type": "debated_parallel", "detail": "Dying-and-rising god parallels debated; mainstream scholarship rejects direct dependence"}
+      {
+        "to": "inanna",
+        "type": "consort",
+        "detail": "Dumuzi is the consort of Inanna/Ishtar"
+      },
+      {
+        "to": "aphrodite",
+        "type": "consort_parallel",
+        "detail": "Adonis is beloved of Aphrodite, paralleling Dumuzi-Inanna"
+      },
+      {
+        "to": "osiris",
+        "type": "dying_god_parallel",
+        "detail": "Both are dying-and-rising gods associated with vegetation and seasonal cycles"
+      },
+      {
+        "to": "attis",
+        "type": "dying_god_parallel",
+        "detail": "Attis of Phrygia/Rome is another dying vegetation deity in same tradition"
+      },
+      {
+        "to": "jesus",
+        "type": "debated_parallel",
+        "detail": "Dying-and-rising god parallels debated; mainstream scholarship rejects direct dependence"
+      }
     ]
   },
   {
@@ -743,16 +1543,35 @@
     "type": "deity",
     "date": "-2000",
     "dateLabel": "c. 2nd millennium BCE (Ugaritic texts)",
-    "traditions": ["canaanite_religion", "judaism"],
+    "traditions": [
+      "canaanite_religion",
+      "judaism"
+    ],
     "roles": {
       "canaanite_religion": "Father of the gods, creator deity, head of the Canaanite pantheon at Ugarit",
       "judaism": "El/El Elyon merged with Yahweh in early Israelite religion; name preserved in 'Israel', 'Elohim', 'El Shaddai'"
     },
-    "aliases": ["El (Canaanite)", "El Elyon (Most High God)", "Elohim (Hebrew, plural form)"],
+    "aliases": [
+      "El (Canaanite)",
+      "El Elyon (Most High God)",
+      "Elohim (Hebrew, plural form)"
+    ],
     "connections": [
-      {"to": "baal", "type": "father_figure", "detail": "El is father/head of the pantheon; Baal is the active storm god"},
-      {"to": "melchizedek", "type": "theological_connection", "detail": "Melchizedek is priest of El Elyon in Genesis 14"},
-      {"to": "zeus", "type": "interpretatio_graeca", "detail": "Greeks occasionally identified El/Baal with Zeus"}
+      {
+        "to": "baal",
+        "type": "father_figure",
+        "detail": "El is father/head of the pantheon; Baal is the active storm god"
+      },
+      {
+        "to": "melchizedek",
+        "type": "theological_connection",
+        "detail": "Melchizedek is priest of El Elyon in Genesis 14"
+      },
+      {
+        "to": "zeus",
+        "type": "interpretatio_graeca",
+        "detail": "Greeks occasionally identified El/Baal with Zeus"
+      }
     ]
   },
   {
@@ -761,18 +1580,45 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "c. 2nd millennium BCE (Ugaritic texts)",
-    "traditions": ["canaanite_religion", "judaism"],
+    "traditions": [
+      "canaanite_religion",
+      "judaism"
+    ],
     "roles": {
       "canaanite_religion": "Storm god, fertility deity, champion who defeats sea-god Yam and death-god Mot",
       "judaism": "Demonized rival deity; 'Baal worship' became symbol of apostasy; Baal Zebub → Beelzebub"
     },
-    "aliases": ["Baal Hadad (Canaanite)", "Baal Zebub/Beelzebub (demonized form)", "Bel (Babylonian cognate)"],
+    "aliases": [
+      "Baal Hadad (Canaanite)",
+      "Baal Zebub/Beelzebub (demonized form)",
+      "Bel (Babylonian cognate)"
+    ],
     "connections": [
-      {"to": "el_canaanite", "type": "pantheon_member", "detail": "Active storm god under father El in Canaanite pantheon"},
-      {"to": "satan", "type": "demonization", "detail": "Beelzebub ('Lord of the Flies') became a name for Satan"},
-      {"to": "elijah", "type": "narrative_opposition", "detail": "Elijah's contest on Mount Carmel against Baal's prophets"},
-      {"to": "marduk", "type": "functional_parallel", "detail": "Both storm/champion gods who defeat sea monsters (Yam/Tiamat)"},
-      {"to": "typhon_tiamat", "type": "dragon_slayer_parallel", "detail": "Baal vs Yam parallels other Indo-European and Near Eastern dragon-slayer myths"}
+      {
+        "to": "el_canaanite",
+        "type": "pantheon_member",
+        "detail": "Active storm god under father El in Canaanite pantheon"
+      },
+      {
+        "to": "satan",
+        "type": "demonization",
+        "detail": "Beelzebub ('Lord of the Flies') became a name for Satan"
+      },
+      {
+        "to": "elijah",
+        "type": "narrative_opposition",
+        "detail": "Elijah's contest on Mount Carmel against Baal's prophets"
+      },
+      {
+        "to": "marduk",
+        "type": "functional_parallel",
+        "detail": "Both storm/champion gods who defeat sea monsters (Yam/Tiamat)"
+      },
+      {
+        "to": "typhon_tiamat",
+        "type": "dragon_slayer_parallel",
+        "detail": "Baal vs Yam parallels other Indo-European and Near Eastern dragon-slayer myths"
+      }
     ]
   },
   {
@@ -781,15 +1627,38 @@
     "type": "deity",
     "date": "-3000",
     "dateLabel": "c. 3rd millennium BCE (Sumerian period)",
-    "traditions": ["mesopotamian_religion"],
+    "traditions": [
+      "sumerian_religion",
+      "babylonian_religion",
+      "akkadian_religion",
+      "assyrian_religion"
+    ],
     "roles": {
-      "mesopotamian_religion": "God of wisdom, water, magic, and crafts; created humanity; warned Utnapishtim of the flood"
+      "sumerian_religion": "God of wisdom, water, magic, and crafts; created humanity; warned Utnapishtim of the flood",
+      "babylonian_religion": "God of wisdom, water, magic, and crafts; created humanity; warned Utnapishtim of the flood",
+      "akkadian_religion": "God of wisdom, water, magic, and crafts; created humanity; warned Utnapishtim of the flood",
+      "assyrian_religion": "God of wisdom, water, magic, and crafts; created humanity; warned Utnapishtim of the flood"
     },
-    "aliases": ["Enki (Sumerian)", "Ea (Akkadian/Babylonian)"],
+    "aliases": [
+      "Enki (Sumerian)",
+      "Ea (Akkadian/Babylonian)"
+    ],
     "connections": [
-      {"to": "utnapishtim", "type": "narrative_savior", "detail": "Enki/Ea warned Utnapishtim of the flood, enabling his survival"},
-      {"to": "thoth", "type": "functional_parallel", "detail": "Both wisdom/magic gods in their respective traditions"},
-      {"to": "marduk", "type": "father_son", "detail": "Marduk is the son of Ea/Enki in Babylonian mythology"}
+      {
+        "to": "utnapishtim",
+        "type": "narrative_savior",
+        "detail": "Enki/Ea warned Utnapishtim of the flood, enabling his survival"
+      },
+      {
+        "to": "thoth",
+        "type": "functional_parallel",
+        "detail": "Both wisdom/magic gods in their respective traditions"
+      },
+      {
+        "to": "marduk",
+        "type": "father_son",
+        "detail": "Marduk is the son of Ea/Enki in Babylonian mythology"
+      }
     ]
   },
   {
@@ -798,15 +1667,38 @@
     "type": "deity",
     "date": "-1800",
     "dateLabel": "c. 18th century BCE (Babylonian period)",
-    "traditions": ["mesopotamian_religion"],
+    "traditions": [
+      "sumerian_religion",
+      "babylonian_religion",
+      "akkadian_religion",
+      "assyrian_religion"
+    ],
     "roles": {
-      "mesopotamian_religion": "Chief god of Babylon, slew Tiamat to create the world, elevated to king of gods in Enuma Elish"
+      "sumerian_religion": "Chief god of Babylon, slew Tiamat to create the world, elevated to king of gods in Enuma Elish",
+      "babylonian_religion": "Chief god of Babylon, slew Tiamat to create the world, elevated to king of gods in Enuma Elish",
+      "akkadian_religion": "Chief god of Babylon, slew Tiamat to create the world, elevated to king of gods in Enuma Elish",
+      "assyrian_religion": "Chief god of Babylon, slew Tiamat to create the world, elevated to king of gods in Enuma Elish"
     },
-    "aliases": ["Marduk (Babylonian)", "Bel (Babylonian title, 'Lord')"],
+    "aliases": [
+      "Marduk (Babylonian)",
+      "Bel (Babylonian title, 'Lord')"
+    ],
     "connections": [
-      {"to": "enki", "type": "father_son", "detail": "Son of Ea/Enki in Babylonian cosmogony"},
-      {"to": "baal", "type": "functional_parallel", "detail": "Both storm/champion gods who defeat primordial sea monsters"},
-      {"to": "typhon_tiamat", "type": "dragon_slayer", "detail": "Marduk slays Tiamat, the primordial sea dragon"}
+      {
+        "to": "enki",
+        "type": "father_son",
+        "detail": "Son of Ea/Enki in Babylonian cosmogony"
+      },
+      {
+        "to": "baal",
+        "type": "functional_parallel",
+        "detail": "Both storm/champion gods who defeat primordial sea monsters"
+      },
+      {
+        "to": "typhon_tiamat",
+        "type": "dragon_slayer",
+        "detail": "Marduk slays Tiamat, the primordial sea dragon"
+      }
     ]
   },
   {
@@ -815,15 +1707,33 @@
     "type": "deity",
     "date": "-3000",
     "dateLabel": "c. 3rd millennium BCE (Old Kingdom Egypt)",
-    "traditions": ["egyptian_religion"],
+    "traditions": [
+      "egyptian_religion"
+    ],
     "roles": {
       "egyptian_religion": "God of wisdom, writing, magic, the moon, and judgment of the dead; inventor of hieroglyphics"
     },
-    "aliases": ["Thoth (Greek form)", "Djehuty (Egyptian)", "Tehuti (Egyptian)"],
+    "aliases": [
+      "Thoth (Greek form)",
+      "Djehuty (Egyptian)",
+      "Tehuti (Egyptian)"
+    ],
     "connections": [
-      {"to": "hermes", "type": "interpretatio_graeca", "detail": "Greeks identified Thoth with Hermes through interpretatio graeca as gods of writing and magic"},
-      {"to": "hermes_trismegistus", "type": "syncretic_fusion", "detail": "Thoth + Hermes merged into Hermes Trismegistus in Ptolemaic Egypt"},
-      {"to": "enki", "type": "functional_parallel", "detail": "Both wisdom/knowledge gods in their Near Eastern traditions"}
+      {
+        "to": "hermes",
+        "type": "interpretatio_graeca",
+        "detail": "Greeks identified Thoth with Hermes through interpretatio graeca as gods of writing and magic"
+      },
+      {
+        "to": "hermes_trismegistus",
+        "type": "syncretic_fusion",
+        "detail": "Thoth + Hermes merged into Hermes Trismegistus in Ptolemaic Egypt"
+      },
+      {
+        "to": "enki",
+        "type": "functional_parallel",
+        "detail": "Both wisdom/knowledge gods in their Near Eastern traditions"
+      }
     ]
   },
   {
@@ -832,16 +1742,37 @@
     "type": "deity",
     "date": "-1200",
     "dateLabel": "Greek tradition (Mycenaean period onward)",
-    "traditions": ["greek_religion"],
+    "traditions": [
+      "greek_religion"
+    ],
     "roles": {
       "greek_religion": "Messenger of the gods, god of commerce, thieves, travelers, boundaries; psychopomp guiding souls to Hades"
     },
-    "aliases": ["Hermes (Greek)", "Mercury (Roman equivalent)"],
+    "aliases": [
+      "Hermes (Greek)",
+      "Mercury (Roman equivalent)"
+    ],
     "connections": [
-      {"to": "thoth", "type": "interpretatio_graeca", "detail": "Identified with Thoth as fellow gods of writing and knowledge"},
-      {"to": "hermes_trismegistus", "type": "syncretic_fusion", "detail": "Merged with Thoth to create Hermes Trismegistus"},
-      {"to": "eshu", "type": "functional_parallel", "detail": "Both messenger/trickster gods at crossroads"},
-      {"to": "loki", "type": "functional_parallel", "detail": "Both trickster figures in their respective mythologies"}
+      {
+        "to": "thoth",
+        "type": "interpretatio_graeca",
+        "detail": "Identified with Thoth as fellow gods of writing and knowledge"
+      },
+      {
+        "to": "hermes_trismegistus",
+        "type": "syncretic_fusion",
+        "detail": "Merged with Thoth to create Hermes Trismegistus"
+      },
+      {
+        "to": "eshu",
+        "type": "functional_parallel",
+        "detail": "Both messenger/trickster gods at crossroads"
+      },
+      {
+        "to": "loki",
+        "type": "functional_parallel",
+        "detail": "Both trickster figures in their respective mythologies"
+      }
     ]
   },
   {
@@ -850,16 +1781,31 @@
     "type": "sage",
     "date": "-200",
     "dateLabel": "c. 3rd century BCE - 3rd century CE (Hellenistic-Roman Egypt)",
-    "traditions": ["hermeticism", "egyptian_religion", "greek_religion"],
+    "traditions": [
+      "hermeticism",
+      "egyptian_religion",
+      "greek_religion"
+    ],
     "roles": {
       "hermeticism": "Thrice-Great master, legendary author of the Hermetic Corpus, patron of alchemy and astrology",
       "egyptian_religion": "Late syncretic form of Thoth",
       "greek_religion": "Late syncretic form of Hermes combined with Thoth"
     },
-    "aliases": ["Hermes Trismegistus (Greco-Egyptian)", "Thrice-Great Hermes"],
+    "aliases": [
+      "Hermes Trismegistus (Greco-Egyptian)",
+      "Thrice-Great Hermes"
+    ],
     "connections": [
-      {"to": "thoth", "type": "syncretic_fusion", "detail": "Egyptian component of the syncretic figure"},
-      {"to": "hermes", "type": "syncretic_fusion", "detail": "Greek component of the syncretic figure"}
+      {
+        "to": "thoth",
+        "type": "syncretic_fusion",
+        "detail": "Egyptian component of the syncretic figure"
+      },
+      {
+        "to": "hermes",
+        "type": "syncretic_fusion",
+        "detail": "Greek component of the syncretic figure"
+      }
     ]
   },
   {
@@ -868,18 +1814,42 @@
     "type": "deity",
     "date": "-2500",
     "dateLabel": "c. Old Kingdom Egypt onward",
-    "traditions": ["egyptian_religion", "greek_religion", "roman_religion"],
+    "traditions": [
+      "egyptian_religion",
+      "greek_religion",
+      "roman_religion"
+    ],
     "roles": {
       "egyptian_religion": "Goddess of magic, motherhood, and healing; wife of Osiris, mother of Horus; reassembled Osiris after his murder",
       "greek_religion": "Adopted into Hellenistic mystery cults as universal goddess",
       "roman_religion": "Widely worshipped in Roman Empire; Isis mystery cult spread across Mediterranean"
     },
-    "aliases": ["Isis (Greek/Roman form)", "Aset (Egyptian)", "Isis Myrionimos (many-named)"],
+    "aliases": [
+      "Isis (Greek/Roman form)",
+      "Aset (Egyptian)",
+      "Isis Myrionimos (many-named)"
+    ],
     "connections": [
-      {"to": "osiris", "type": "consort", "detail": "Wife who resurrects Osiris; mother of Horus"},
-      {"to": "horus", "type": "mother_son", "detail": "Mother of Horus, whom she raised in hiding"},
-      {"to": "serapis", "type": "cult_association", "detail": "Isis and Serapis worshipped as divine pair in Ptolemaic and Roman religion"},
-      {"to": "mary", "type": "iconographic_influence", "detail": "Isis nursing Horus may have influenced Christian Madonna and Child imagery"}
+      {
+        "to": "osiris",
+        "type": "consort",
+        "detail": "Wife who resurrects Osiris; mother of Horus"
+      },
+      {
+        "to": "horus",
+        "type": "mother_son",
+        "detail": "Mother of Horus, whom she raised in hiding"
+      },
+      {
+        "to": "serapis",
+        "type": "cult_association",
+        "detail": "Isis and Serapis worshipped as divine pair in Ptolemaic and Roman religion"
+      },
+      {
+        "to": "mary",
+        "type": "iconographic_influence",
+        "detail": "Isis nursing Horus may have influenced Christian Madonna and Child imagery"
+      }
     ]
   },
   {
@@ -888,16 +1858,37 @@
     "type": "deity",
     "date": "-2500",
     "dateLabel": "c. Old Kingdom Egypt onward",
-    "traditions": ["egyptian_religion"],
+    "traditions": [
+      "egyptian_religion"
+    ],
     "roles": {
       "egyptian_religion": "God of the dead, afterlife, and resurrection; murdered by Set, resurrected by Isis; judge of the dead"
     },
-    "aliases": ["Osiris (Greek form)", "Wsir/Usir (Egyptian)"],
+    "aliases": [
+      "Osiris (Greek form)",
+      "Wsir/Usir (Egyptian)"
+    ],
     "connections": [
-      {"to": "isis_egyptian", "type": "consort", "detail": "Isis is his wife who resurrects him"},
-      {"to": "serapis", "type": "syncretic_component", "detail": "Osiris + Apis bull merged to create Serapis under Ptolemy I"},
-      {"to": "tammuz_adonis", "type": "dying_god_parallel", "detail": "Both dying-and-rising gods; Osiris killed by Set, Tammuz descends to underworld"},
-      {"to": "horus", "type": "father_son", "detail": "Horus is the posthumous son who avenges Osiris"}
+      {
+        "to": "isis_egyptian",
+        "type": "consort",
+        "detail": "Isis is his wife who resurrects him"
+      },
+      {
+        "to": "serapis",
+        "type": "syncretic_component",
+        "detail": "Osiris + Apis bull merged to create Serapis under Ptolemy I"
+      },
+      {
+        "to": "tammuz_adonis",
+        "type": "dying_god_parallel",
+        "detail": "Both dying-and-rising gods; Osiris killed by Set, Tammuz descends to underworld"
+      },
+      {
+        "to": "horus",
+        "type": "father_son",
+        "detail": "Horus is the posthumous son who avenges Osiris"
+      }
     ]
   },
   {
@@ -906,17 +1897,37 @@
     "type": "deity",
     "date": "-305",
     "dateLabel": "c. 305 BCE (created under Ptolemy I Soter)",
-    "traditions": ["egyptian_religion", "greek_religion", "roman_religion"],
+    "traditions": [
+      "egyptian_religion",
+      "greek_religion",
+      "roman_religion"
+    ],
     "roles": {
       "egyptian_religion": "Syncretic god combining Osiris-Apis with Greek attributes",
       "greek_religion": "Ptolemaic deity uniting Greek and Egyptian subjects; incorporated Zeus, Hades, Dionysus aspects",
       "roman_religion": "Widely worshipped across Roman Empire alongside Isis"
     },
-    "aliases": ["Serapis (Greco-Roman)", "Sarapis (Greek)", "Osiris-Apis (Egyptian origin)"],
+    "aliases": [
+      "Serapis (Greco-Roman)",
+      "Sarapis (Greek)",
+      "Osiris-Apis (Egyptian origin)"
+    ],
     "connections": [
-      {"to": "osiris", "type": "syncretic_component", "detail": "Created by merging Osiris with Apis bull cult"},
-      {"to": "zeus", "type": "syncretic_component", "detail": "Given attributes of Zeus as ruler of gods"},
-      {"to": "isis_egyptian", "type": "cult_association", "detail": "Worshipped as divine pair with Isis in Ptolemaic religion"}
+      {
+        "to": "osiris",
+        "type": "syncretic_component",
+        "detail": "Created by merging Osiris with Apis bull cult"
+      },
+      {
+        "to": "zeus",
+        "type": "syncretic_component",
+        "detail": "Given attributes of Zeus as ruler of gods"
+      },
+      {
+        "to": "isis_egyptian",
+        "type": "cult_association",
+        "detail": "Worshipped as divine pair with Isis in Ptolemaic religion"
+      }
     ]
   },
   {
@@ -925,16 +1936,37 @@
     "type": "deity",
     "date": "-3000",
     "dateLabel": "c. Early Dynastic Egypt onward",
-    "traditions": ["egyptian_religion"],
+    "traditions": [
+      "egyptian_religion"
+    ],
     "roles": {
       "egyptian_religion": "Sky god, falcon-headed, son of Isis and Osiris; avenged his father; pharaoh as living Horus"
     },
-    "aliases": ["Horus (Greek form)", "Heru/Hor (Egyptian)"],
+    "aliases": [
+      "Horus (Greek form)",
+      "Heru/Hor (Egyptian)"
+    ],
     "connections": [
-      {"to": "osiris", "type": "father_son", "detail": "Posthumous son of Osiris, conceived by Isis using magic"},
-      {"to": "isis_egyptian", "type": "mother_son", "detail": "Raised in secret by Isis in the marshes"},
-      {"to": "jesus", "type": "debated_parallel", "detail": "Alleged Horus-Christ parallels widely circulated but largely rejected by mainstream Egyptologists and biblical scholars"},
-      {"to": "amun", "type": "syncretic_fusion", "detail": "Amun-Ra and Horus both associated with solar kingship"}
+      {
+        "to": "osiris",
+        "type": "father_son",
+        "detail": "Posthumous son of Osiris, conceived by Isis using magic"
+      },
+      {
+        "to": "isis_egyptian",
+        "type": "mother_son",
+        "detail": "Raised in secret by Isis in the marshes"
+      },
+      {
+        "to": "jesus",
+        "type": "debated_parallel",
+        "detail": "Alleged Horus-Christ parallels widely circulated but largely rejected by mainstream Egyptologists and biblical scholars"
+      },
+      {
+        "to": "amun",
+        "type": "syncretic_fusion",
+        "detail": "Amun-Ra and Horus both associated with solar kingship"
+      }
     ]
   },
   {
@@ -943,14 +1975,25 @@
     "type": "deity",
     "date": "-2000",
     "dateLabel": "c. Middle Kingdom Egypt onward",
-    "traditions": ["egyptian_religion", "greek_religion"],
+    "traditions": [
+      "egyptian_religion",
+      "greek_religion"
+    ],
     "roles": {
       "egyptian_religion": "King of the gods, the Hidden One; merged with Ra as Amun-Ra, supreme solar deity",
       "greek_religion": "Identified as Zeus Ammon, worshipped at oracle of Siwa; Alexander the Great visited"
     },
-    "aliases": ["Amun (Egyptian)", "Amun-Ra (syncretic Egyptian)", "Zeus Ammon (Greco-Egyptian)"],
+    "aliases": [
+      "Amun (Egyptian)",
+      "Amun-Ra (syncretic Egyptian)",
+      "Zeus Ammon (Greco-Egyptian)"
+    ],
     "connections": [
-      {"to": "zeus", "type": "interpretatio_graeca", "detail": "Identified as Zeus Ammon at the oracle of Siwa oasis"}
+      {
+        "to": "zeus",
+        "type": "interpretatio_graeca",
+        "detail": "Identified as Zeus Ammon at the oracle of Siwa oasis"
+      }
     ]
   },
   {
@@ -959,14 +2002,26 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Vedic period (attested c. 1400 BCE in Mitanni treaty)",
-    "traditions": ["hinduism"],
+    "traditions": [
+      "hinduism"
+    ],
     "roles": {
       "hinduism": "Vedic god of oaths, friendship, contracts, and the morning light; paired with Varuna"
     },
-    "aliases": ["Mitra (Vedic Sanskrit)"],
+    "aliases": [
+      "Mitra (Vedic Sanskrit)"
+    ],
     "connections": [
-      {"to": "mithra_zoroastrian", "type": "indo_iranian_cognate", "detail": "Both derive from Proto-Indo-Iranian *mitra- meaning 'covenant/contract'"},
-      {"to": "mithras_roman", "type": "distant_cognate", "detail": "Roman Mithras ultimately derives from same Indo-Iranian root"}
+      {
+        "to": "mithra_zoroastrian",
+        "type": "indo_iranian_cognate",
+        "detail": "Both derive from Proto-Indo-Iranian *mitra- meaning 'covenant/contract'"
+      },
+      {
+        "to": "mithras_roman",
+        "type": "distant_cognate",
+        "detail": "Roman Mithras ultimately derives from same Indo-Iranian root"
+      }
     ]
   },
   {
@@ -975,14 +2030,27 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "c. 2nd millennium BCE (Indo-Iranian period)",
-    "traditions": ["zoroastrianism"],
+    "traditions": [
+      "zoroastrianism"
+    ],
     "roles": {
       "zoroastrianism": "Yazata (divine being) of covenant, light, and oath; judge of souls at Chinvat Bridge; equal to Ahura Mazda in some texts"
     },
-    "aliases": ["Mithra (Avestan)", "Mehr (Persian)"],
+    "aliases": [
+      "Mithra (Avestan)",
+      "Mehr (Persian)"
+    ],
     "connections": [
-      {"to": "mitra_vedic", "type": "indo_iranian_cognate", "detail": "Same Proto-Indo-Iranian deity *Mitra split between Vedic and Iranian branches"},
-      {"to": "mithras_roman", "type": "cultural_transmission", "detail": "Roman Mithras inspired by Zoroastrian Mithra, though extent of continuity is debated"}
+      {
+        "to": "mitra_vedic",
+        "type": "indo_iranian_cognate",
+        "detail": "Same Proto-Indo-Iranian deity *Mitra split between Vedic and Iranian branches"
+      },
+      {
+        "to": "mithras_roman",
+        "type": "cultural_transmission",
+        "detail": "Roman Mithras inspired by Zoroastrian Mithra, though extent of continuity is debated"
+      }
     ]
   },
   {
@@ -991,15 +2059,32 @@
     "type": "deity",
     "date": "100",
     "dateLabel": "c. 1st-4th century CE (Roman mystery cult)",
-    "traditions": ["roman_religion"],
+    "traditions": [
+      "roman_religion"
+    ],
     "roles": {
       "roman_religion": "Central deity of the Roman Mysteries of Mithras; bull-slayer (tauroctony); popular among soldiers; seven grades of initiation"
     },
-    "aliases": ["Mithras (Roman)", "Sol Invictus Mithras"],
+    "aliases": [
+      "Mithras (Roman)",
+      "Sol Invictus Mithras"
+    ],
     "connections": [
-      {"to": "mithra_zoroastrian", "type": "cultural_transmission", "detail": "Inspired by Zoroastrian Mithra but with distinctive Roman imagery; degree of continuity debated since 1970s"},
-      {"to": "mitra_vedic", "type": "distant_cognate", "detail": "Shares Proto-Indo-Iranian origin"},
-      {"to": "jesus", "type": "debated_parallel", "detail": "Alleged parallels (sacred meal, Dec 25 birth date) debated; most scholars see limited direct influence"}
+      {
+        "to": "mithra_zoroastrian",
+        "type": "cultural_transmission",
+        "detail": "Inspired by Zoroastrian Mithra but with distinctive Roman imagery; degree of continuity debated since 1970s"
+      },
+      {
+        "to": "mitra_vedic",
+        "type": "distant_cognate",
+        "detail": "Shares Proto-Indo-Iranian origin"
+      },
+      {
+        "to": "jesus",
+        "type": "debated_parallel",
+        "detail": "Alleged parallels (sacred meal, Dec 25 birth date) debated; most scholars see limited direct influence"
+      }
     ]
   },
   {
@@ -1008,16 +2093,35 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Vedic period",
-    "traditions": ["hinduism", "buddhism"],
+    "traditions": [
+      "hinduism",
+      "buddhism"
+    ],
     "roles": {
       "hinduism": "King of the devas, god of thunder and war; slew the serpent Vritra to release waters; most invoked deity in the Rigveda",
       "buddhism": "Sakka/Shakra — lord of the Tavatimsa heaven, protector of the Dharma, subordinate to the Buddha"
     },
-    "aliases": ["Indra (Hindu)", "Sakka/Shakra (Buddhist Pali/Sanskrit)", "Taishakuten (Japanese Buddhism)"],
+    "aliases": [
+      "Indra (Hindu)",
+      "Sakka/Shakra (Buddhist Pali/Sanskrit)",
+      "Taishakuten (Japanese Buddhism)"
+    ],
     "connections": [
-      {"to": "thor", "type": "functional_parallel", "detail": "Both thunder-wielding gods who slay cosmic serpents (Vritra/Jormungandr)"},
-      {"to": "perkwunos", "type": "functional_parallel", "detail": "Fills the PIE thunder-god dragon-slayer role in Vedic tradition"},
-      {"to": "asura_deva_reversal", "type": "theological_key", "detail": "Indra is king of the devas (gods) in Hinduism; devas are demons in Zoroastrianism"}
+      {
+        "to": "thor",
+        "type": "functional_parallel",
+        "detail": "Both thunder-wielding gods who slay cosmic serpents (Vritra/Jormungandr)"
+      },
+      {
+        "to": "perkwunos",
+        "type": "functional_parallel",
+        "detail": "Fills the PIE thunder-god dragon-slayer role in Vedic tradition"
+      },
+      {
+        "to": "asura_deva_reversal",
+        "type": "theological_key",
+        "detail": "Indra is king of the devas (gods) in Hinduism; devas are demons in Zoroastrianism"
+      }
     ]
   },
   {
@@ -1026,16 +2130,34 @@
     "type": "deity",
     "date": "-2000",
     "dateLabel": "Proto-Indo-Iranian split (c. 2nd millennium BCE)",
-    "traditions": ["hinduism", "zoroastrianism"],
+    "traditions": [
+      "hinduism",
+      "zoroastrianism"
+    ],
     "roles": {
       "hinduism": "Devas are gods (good), Asuras are demons (evil) — deva from PIE *deywos",
       "zoroastrianism": "Ahura (= Asura) is the supreme God (Ahura Mazda); daevas are demons — complete inversion"
     },
-    "aliases": ["Deva/Daeva reversal", "Ahura/Asura reversal"],
+    "aliases": [
+      "Deva/Daeva reversal",
+      "Ahura/Asura reversal"
+    ],
     "connections": [
-      {"to": "indra", "type": "theological_key", "detail": "Indra (king of devas) becomes a daeva in some Zoroastrian texts"},
-      {"to": "angra_mainyu", "type": "theological_context", "detail": "The daeva-rejection is central to Zoroastrian theology"},
-      {"to": "mitra_vedic", "type": "theological_context", "detail": "Mitra/Mithra survived the reversal on the positive side in both traditions"}
+      {
+        "to": "indra",
+        "type": "theological_key",
+        "detail": "Indra (king of devas) becomes a daeva in some Zoroastrian texts"
+      },
+      {
+        "to": "angra_mainyu",
+        "type": "theological_context",
+        "detail": "The daeva-rejection is central to Zoroastrian theology"
+      },
+      {
+        "to": "mitra_vedic",
+        "type": "theological_context",
+        "detail": "Mitra/Mithra survived the reversal on the positive side in both traditions"
+      }
     ]
   },
   {
@@ -1044,15 +2166,29 @@
     "type": "deity",
     "date": "-2000",
     "dateLabel": "Proto-Indo-Iranian period",
-    "traditions": ["hinduism", "zoroastrianism"],
+    "traditions": [
+      "hinduism",
+      "zoroastrianism"
+    ],
     "roles": {
       "hinduism": "Soma — sacred ritual drink and its deified personification in the Rigveda; associated with the moon",
       "zoroastrianism": "Haoma — sacred plant/drink used in yasna ritual; personified as a yazata"
     },
-    "aliases": ["Soma (Vedic Sanskrit)", "Haoma (Avestan)"],
+    "aliases": [
+      "Soma (Vedic Sanskrit)",
+      "Haoma (Avestan)"
+    ],
     "connections": [
-      {"to": "mitra_vedic", "type": "ritual_association", "detail": "Soma rituals central to the same Vedic tradition"},
-      {"to": "indra", "type": "ritual_association", "detail": "Indra is the greatest consumer of Soma in Vedic mythology"}
+      {
+        "to": "mitra_vedic",
+        "type": "ritual_association",
+        "detail": "Soma rituals central to the same Vedic tradition"
+      },
+      {
+        "to": "indra",
+        "type": "ritual_association",
+        "detail": "Indra is the greatest consumer of Soma in Vedic mythology"
+      }
     ]
   },
   {
@@ -1061,16 +2197,32 @@
     "type": "deity",
     "date": "-2000",
     "dateLabel": "Proto-Indo-Iranian period",
-    "traditions": ["hinduism", "zoroastrianism", "buddhism"],
+    "traditions": [
+      "hinduism",
+      "zoroastrianism",
+      "buddhism"
+    ],
     "roles": {
       "hinduism": "Yama — first mortal to die, lord and judge of the dead, son of Vivasvat (the Sun)",
       "zoroastrianism": "Yima (Jamshid) — first king, ruled a golden age, builder of the Vara (enclosure) against catastrophic winter",
       "buddhism": "Yama — lord of the underworld, judge of the dead, incorporated into Buddhist cosmology"
     },
-    "aliases": ["Yama (Hindu/Buddhist)", "Yima/Jamshid (Zoroastrian)", "Enma (Japanese Buddhism)"],
+    "aliases": [
+      "Yama (Hindu/Buddhist)",
+      "Yima/Jamshid (Zoroastrian)",
+      "Enma (Japanese Buddhism)"
+    ],
     "connections": [
-      {"to": "manu_flood", "type": "sibling", "detail": "Both sons of Vivasvat; Yama was first to die, Manu survived the flood"},
-      {"to": "osiris", "type": "functional_parallel", "detail": "Both rulers/judges of the dead in their respective traditions"}
+      {
+        "to": "manu_flood",
+        "type": "sibling",
+        "detail": "Both sons of Vivasvat; Yama was first to die, Manu survived the flood"
+      },
+      {
+        "to": "osiris",
+        "type": "functional_parallel",
+        "detail": "Both rulers/judges of the dead in their respective traditions"
+      }
     ]
   },
   {
@@ -1079,15 +2231,32 @@
     "type": "demon",
     "date": "-1500",
     "dateLabel": "Zoroastrian tradition (Gathas onward)",
-    "traditions": ["zoroastrianism"],
+    "traditions": [
+      "zoroastrianism"
+    ],
     "roles": {
       "zoroastrianism": "The Destructive Spirit, cosmic adversary of Ahura Mazda and Spenta Mainyu; source of all evil, disease, and death"
     },
-    "aliases": ["Angra Mainyu (Avestan)", "Ahriman (Middle Persian)"],
+    "aliases": [
+      "Angra Mainyu (Avestan)",
+      "Ahriman (Middle Persian)"
+    ],
     "connections": [
-      {"to": "satan", "type": "possible_influence", "detail": "Zoroastrian cosmic dualism likely influenced development of Jewish/Christian Satan as cosmic adversary"},
-      {"to": "amesha_spentas", "type": "mythological_opposition", "detail": "Each Amesha Spenta opposed by a corresponding arch-demon created by Angra Mainyu"},
-      {"to": "saoshyant", "type": "eschatological_opposition", "detail": "Angra Mainyu will be ultimately defeated at the Frashokereti (renovation)"}
+      {
+        "to": "satan",
+        "type": "possible_influence",
+        "detail": "Zoroastrian cosmic dualism likely influenced development of Jewish/Christian Satan as cosmic adversary"
+      },
+      {
+        "to": "amesha_spentas",
+        "type": "mythological_opposition",
+        "detail": "Each Amesha Spenta opposed by a corresponding arch-demon created by Angra Mainyu"
+      },
+      {
+        "to": "saoshyant",
+        "type": "eschatological_opposition",
+        "detail": "Angra Mainyu will be ultimately defeated at the Frashokereti (renovation)"
+      }
     ]
   },
   {
@@ -1096,15 +2265,32 @@
     "type": "angel",
     "date": "-1500",
     "dateLabel": "Zoroastrian tradition (Gathas onward)",
-    "traditions": ["zoroastrianism"],
+    "traditions": [
+      "zoroastrianism"
+    ],
     "roles": {
       "zoroastrianism": "The six (or seven with Ahura Mazda) Beneficent Immortals; highest divine beings below Ahura Mazda; each protects an element of creation"
     },
-    "aliases": ["Amesha Spentas (Avestan)", "Amshaspands (Middle Persian)"],
+    "aliases": [
+      "Amesha Spentas (Avestan)",
+      "Amshaspands (Middle Persian)"
+    ],
     "connections": [
-      {"to": "gabriel", "type": "possible_influence", "detail": "Zoroastrian archangel-like beings may have influenced Jewish/Christian archangel concept during Persian period"},
-      {"to": "michael", "type": "possible_influence", "detail": "Abrahamic archangel hierarchy may reflect Amesha Spenta model"},
-      {"to": "angra_mainyu", "type": "mythological_opposition", "detail": "Each opposed by an arch-demon"}
+      {
+        "to": "gabriel",
+        "type": "possible_influence",
+        "detail": "Zoroastrian archangel-like beings may have influenced Jewish/Christian archangel concept during Persian period"
+      },
+      {
+        "to": "michael",
+        "type": "possible_influence",
+        "detail": "Abrahamic archangel hierarchy may reflect Amesha Spenta model"
+      },
+      {
+        "to": "angra_mainyu",
+        "type": "mythological_opposition",
+        "detail": "Each opposed by an arch-demon"
+      }
     ]
   },
   {
@@ -1113,15 +2299,32 @@
     "type": "prophet",
     "date": "mythological",
     "dateLabel": "Eschatological / mythological",
-    "traditions": ["zoroastrianism"],
+    "traditions": [
+      "zoroastrianism"
+    ],
     "roles": {
       "zoroastrianism": "The future savior born of a virgin from Zoroaster's preserved seed; will raise the dead, defeat evil, and bring Frashokereti (final renovation of the world)"
     },
-    "aliases": ["Saoshyant (Avestan)", "Soshyans (Middle Persian)"],
+    "aliases": [
+      "Saoshyant (Avestan)",
+      "Soshyans (Middle Persian)"
+    ],
     "connections": [
-      {"to": "jesus", "type": "possible_influence", "detail": "Savior/messiah concept, virgin birth, resurrection of the dead may have influenced Jewish messianic expectations"},
-      {"to": "angra_mainyu", "type": "eschatological_opposition", "detail": "Saoshyant will defeat Angra Mainyu at end of time"},
-      {"to": "mahdi", "type": "conceptual_parallel", "detail": "Islamic Mahdi concept may reflect Saoshyant influence"}
+      {
+        "to": "jesus",
+        "type": "possible_influence",
+        "detail": "Savior/messiah concept, virgin birth, resurrection of the dead may have influenced Jewish messianic expectations"
+      },
+      {
+        "to": "angra_mainyu",
+        "type": "eschatological_opposition",
+        "detail": "Saoshyant will defeat Angra Mainyu at end of time"
+      },
+      {
+        "to": "mahdi",
+        "type": "conceptual_parallel",
+        "detail": "Islamic Mahdi concept may reflect Saoshyant influence"
+      }
     ]
   },
   {
@@ -1130,15 +2333,36 @@
     "type": "deity",
     "date": "-200",
     "dateLabel": "c. 1st century BCE (Mahayana Buddhist texts)",
-    "traditions": ["buddhism"],
+    "traditions": [
+      "buddhism"
+    ],
     "roles": {
       "buddhism": "Bodhisattva of infinite compassion; delays own buddhahood to save all sentient beings; most popular bodhisattva in Mahayana Buddhism"
     },
-    "aliases": ["Avalokiteshvara (Sanskrit)", "Chenrezig (Tibetan)", "Guanyin (Chinese)", "Kannon/Kanzeon (Japanese)", "Gwaneum (Korean)", "Quan Am (Vietnamese)"],
+    "aliases": [
+      "Avalokiteshvara (Sanskrit)",
+      "Chenrezig (Tibetan)",
+      "Guanyin (Chinese)",
+      "Kannon/Kanzeon (Japanese)",
+      "Gwaneum (Korean)",
+      "Quan Am (Vietnamese)"
+    ],
     "connections": [
-      {"to": "guanyin", "type": "same_figure_different_culture", "detail": "Avalokiteshvara transformed into female Guanyin in Chinese Buddhism by 12th century"},
-      {"to": "kannon", "type": "same_figure_different_culture", "detail": "Japanese form Kannon, goddess of mercy"},
-      {"to": "vajrapani", "type": "bodhisattva_pair", "detail": "Major bodhisattvas who often appear together flanking the Buddha"}
+      {
+        "to": "guanyin",
+        "type": "same_figure_different_culture",
+        "detail": "Avalokiteshvara transformed into female Guanyin in Chinese Buddhism by 12th century"
+      },
+      {
+        "to": "kannon",
+        "type": "same_figure_different_culture",
+        "detail": "Japanese form Kannon, goddess of mercy"
+      },
+      {
+        "to": "vajrapani",
+        "type": "bodhisattva_pair",
+        "detail": "Major bodhisattvas who often appear together flanking the Buddha"
+      }
     ]
   },
   {
@@ -1147,17 +2371,37 @@
     "type": "deity",
     "date": "400",
     "dateLabel": "c. 5th century CE onward (gender transformation by 12th century)",
-    "traditions": ["buddhism", "chinese_folk_religion", "taoism"],
+    "traditions": [
+      "buddhism",
+      "chinese_folk_religion",
+      "taoism"
+    ],
     "roles": {
       "buddhism": "Chinese female form of Avalokiteshvara; Goddess of Mercy and Compassion",
       "chinese_folk_religion": "Universal mother figure, protector of women and children, giver of children",
       "taoism": "Incorporated as immortal/deity in some Taoist traditions"
     },
-    "aliases": ["Guanyin (Mandarin)", "Gwoon Yaam (Cantonese)", "Kuan Yin"],
+    "aliases": [
+      "Guanyin (Mandarin)",
+      "Gwoon Yaam (Cantonese)",
+      "Kuan Yin"
+    ],
     "connections": [
-      {"to": "avalokiteshvara", "type": "same_figure_different_culture", "detail": "Chinese transformation of Indian Avalokiteshvara; gender shift from male to female by Song dynasty"},
-      {"to": "kannon", "type": "cultural_transmission", "detail": "Guanyin transmitted to Japan as Kannon"},
-      {"to": "mary", "type": "perceived_parallel", "detail": "Christian missionaries noted similarities; some scholars see mutual influence in China"}
+      {
+        "to": "avalokiteshvara",
+        "type": "same_figure_different_culture",
+        "detail": "Chinese transformation of Indian Avalokiteshvara; gender shift from male to female by Song dynasty"
+      },
+      {
+        "to": "kannon",
+        "type": "cultural_transmission",
+        "detail": "Guanyin transmitted to Japan as Kannon"
+      },
+      {
+        "to": "mary",
+        "type": "perceived_parallel",
+        "detail": "Christian missionaries noted similarities; some scholars see mutual influence in China"
+      }
     ]
   },
   {
@@ -1166,15 +2410,30 @@
     "type": "deity",
     "date": "600",
     "dateLabel": "c. 6th century CE onward (Japan)",
-    "traditions": ["buddhism", "shinto"],
+    "traditions": [
+      "buddhism",
+      "shinto"
+    ],
     "roles": {
       "buddhism": "Japanese form of Avalokiteshvara/Guanyin; bodhisattva of compassion, takes 33 forms",
       "shinto": "Through honji suijaku, identified with various kami"
     },
-    "aliases": ["Kannon (Japanese)", "Kanzeon (Japanese)", "Kannon Bosatsu"],
+    "aliases": [
+      "Kannon (Japanese)",
+      "Kanzeon (Japanese)",
+      "Kannon Bosatsu"
+    ],
     "connections": [
-      {"to": "avalokiteshvara", "type": "same_figure_different_culture", "detail": "Japanese form of Avalokiteshvara"},
-      {"to": "guanyin", "type": "same_figure_different_culture", "detail": "Transmitted to Japan via Chinese Guanyin"}
+      {
+        "to": "avalokiteshvara",
+        "type": "same_figure_different_culture",
+        "detail": "Japanese form of Avalokiteshvara"
+      },
+      {
+        "to": "guanyin",
+        "type": "same_figure_different_culture",
+        "detail": "Transmitted to Japan via Chinese Guanyin"
+      }
     ]
   },
   {
@@ -1183,14 +2442,30 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Eschatological / future Buddha",
-    "traditions": ["buddhism"],
+    "traditions": [
+      "buddhism"
+    ],
     "roles": {
       "buddhism": "The future Buddha who will appear when the Dharma has been forgotten; currently resides in Tushita heaven"
     },
-    "aliases": ["Maitreya (Sanskrit)", "Metteyya (Pali)", "Mile Fo (Chinese)", "Miroku (Japanese)", "Jampa (Tibetan)"],
+    "aliases": [
+      "Maitreya (Sanskrit)",
+      "Metteyya (Pali)",
+      "Mile Fo (Chinese)",
+      "Miroku (Japanese)",
+      "Jampa (Tibetan)"
+    ],
     "connections": [
-      {"to": "saoshyant", "type": "possible_influence", "detail": "Some scholars suggest Zoroastrian future-savior concept influenced Maitreya doctrine"},
-      {"to": "avalokiteshvara", "type": "bodhisattva_pair", "detail": "Both awaited cosmic bodhisattvas in Mahayana Buddhism"}
+      {
+        "to": "saoshyant",
+        "type": "possible_influence",
+        "detail": "Some scholars suggest Zoroastrian future-savior concept influenced Maitreya doctrine"
+      },
+      {
+        "to": "avalokiteshvara",
+        "type": "bodhisattva_pair",
+        "detail": "Both awaited cosmic bodhisattvas in Mahayana Buddhism"
+      }
     ]
   },
   {
@@ -1199,15 +2474,33 @@
     "type": "deity",
     "date": "-200",
     "dateLabel": "c. 2nd century BCE (Gandhara art onward)",
-    "traditions": ["buddhism"],
+    "traditions": [
+      "buddhism"
+    ],
     "roles": {
       "buddhism": "Bodhisattva of power; protector of the Buddha; wields vajra (thunderbolt/diamond scepter); one of the three protective bodhisattvas"
     },
-    "aliases": ["Vajrapani (Sanskrit)", "Kongoshu (Japanese)", "Chana Dorje (Tibetan)"],
+    "aliases": [
+      "Vajrapani (Sanskrit)",
+      "Kongoshu (Japanese)",
+      "Chana Dorje (Tibetan)"
+    ],
     "connections": [
-      {"to": "heracles", "type": "iconographic_borrowing", "detail": "In Gandhara art, Vajrapani depicted as Herakles with club and lion skin — Greek iconography adopted for Buddhist protector"},
-      {"to": "indra", "type": "attribute_borrowing", "detail": "Vajra weapon inherited from Indra's thunderbolt"},
-      {"to": "avalokiteshvara", "type": "bodhisattva_pair", "detail": "Major bodhisattvas appearing together flanking the Buddha"}
+      {
+        "to": "heracles",
+        "type": "iconographic_borrowing",
+        "detail": "In Gandhara art, Vajrapani depicted as Herakles with club and lion skin — Greek iconography adopted for Buddhist protector"
+      },
+      {
+        "to": "indra",
+        "type": "attribute_borrowing",
+        "detail": "Vajra weapon inherited from Indra's thunderbolt"
+      },
+      {
+        "to": "avalokiteshvara",
+        "type": "bodhisattva_pair",
+        "detail": "Major bodhisattvas appearing together flanking the Buddha"
+      }
     ]
   },
   {
@@ -1216,15 +2509,29 @@
     "type": "hero",
     "date": "mythological",
     "dateLabel": "Mythological (Greek tradition)",
-    "traditions": ["greek_religion", "roman_religion"],
+    "traditions": [
+      "greek_religion",
+      "roman_religion"
+    ],
     "roles": {
       "greek_religion": "Greatest Greek hero, son of Zeus, performed twelve labors, achieved apotheosis",
       "roman_religion": "Hercules — adopted as patron of strength and heroic virtue"
     },
-    "aliases": ["Heracles (Greek)", "Hercules (Roman)"],
+    "aliases": [
+      "Heracles (Greek)",
+      "Hercules (Roman)"
+    ],
     "connections": [
-      {"to": "vajrapani", "type": "iconographic_borrowing", "detail": "Herakles's image used to depict Vajrapani in Gandhara Buddhist art"},
-      {"to": "zeus", "type": "father_son", "detail": "Son of Zeus in Greek mythology"}
+      {
+        "to": "vajrapani",
+        "type": "iconographic_borrowing",
+        "detail": "Herakles's image used to depict Vajrapani in Gandhara Buddhist art"
+      },
+      {
+        "to": "zeus",
+        "type": "father_son",
+        "detail": "Son of Zeus in Greek mythology"
+      }
     ]
   },
   {
@@ -1233,15 +2540,30 @@
     "type": "deity",
     "date": "-500",
     "dateLabel": "c. 5th century BCE (early Buddhist texts)",
-    "traditions": ["buddhism", "hinduism"],
+    "traditions": [
+      "buddhism",
+      "hinduism"
+    ],
     "roles": {
       "hinduism": "Brahma — creator god in the Trimurti (Brahma, Vishnu, Shiva)",
       "buddhism": "Brahma Sahampati — powerful deva who requested the Buddha to teach the Dharma; not a creator or supreme being, subject to impermanence"
     },
-    "aliases": ["Brahma (Hindu)", "Brahma Sahampati (Buddhist)", "Bonten (Japanese Buddhism)"],
+    "aliases": [
+      "Brahma (Hindu)",
+      "Brahma Sahampati (Buddhist)",
+      "Bonten (Japanese Buddhism)"
+    ],
     "connections": [
-      {"to": "indra", "type": "adopted_pair", "detail": "Brahma and Indra both adopted into Buddhist cosmology as powerful but non-ultimate deities"},
-      {"to": "avalokiteshvara", "type": "cosmological_hierarchy", "detail": "Brahma occupies high heaven realm but bodhisattvas surpass him in Buddhist soteriology"}
+      {
+        "to": "indra",
+        "type": "adopted_pair",
+        "detail": "Brahma and Indra both adopted into Buddhist cosmology as powerful but non-ultimate deities"
+      },
+      {
+        "to": "avalokiteshvara",
+        "type": "cosmological_hierarchy",
+        "detail": "Brahma occupies high heaven realm but bodhisattvas surpass him in Buddhist soteriology"
+      }
     ]
   },
   {
@@ -1250,14 +2572,25 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Vedic period onward",
-    "traditions": ["hinduism", "buddhism"],
+    "traditions": [
+      "hinduism",
+      "buddhism"
+    ],
     "roles": {
       "hinduism": "Goddess of knowledge, music, art, speech, wisdom, and learning; consort of Brahma",
       "buddhism": "Adopted as protectress of learning and eloquence in Buddhist tradition"
     },
-    "aliases": ["Saraswati (Hindu)", "Benzaiten (Japanese Buddhism)", "Myoongcheonnyeo (Korean Buddhism)"],
+    "aliases": [
+      "Saraswati (Hindu)",
+      "Benzaiten (Japanese Buddhism)",
+      "Myoongcheonnyeo (Korean Buddhism)"
+    ],
     "connections": [
-      {"to": "brahma_buddhist", "type": "consort_parallel", "detail": "Consort of Brahma in Hindu tradition; independently adopted into Buddhism"}
+      {
+        "to": "brahma_buddhist",
+        "type": "consort_parallel",
+        "detail": "Consort of Brahma in Hindu tradition; independently adopted into Buddhism"
+      }
     ]
   },
   {
@@ -1266,15 +2599,30 @@
     "type": "demon",
     "date": "-200",
     "dateLabel": "c. 2nd century BCE (Gandhara tradition)",
-    "traditions": ["buddhism", "zoroastrianism"],
+    "traditions": [
+      "buddhism",
+      "zoroastrianism"
+    ],
     "roles": {
       "buddhism": "Former child-eating demoness converted by the Buddha; became protectress of children, fertility, and easy childbirth",
       "zoroastrianism": "Originally an Iranian/Bactrian demon (daeva) before Buddhist transformation"
     },
-    "aliases": ["Hariti (Sanskrit)", "Kishimojin (Japanese Buddhism)", "Guizimu (Chinese Buddhism)"],
+    "aliases": [
+      "Hariti (Sanskrit)",
+      "Kishimojin (Japanese Buddhism)",
+      "Guizimu (Chinese Buddhism)"
+    ],
     "connections": [
-      {"to": "avalokiteshvara", "type": "thematic_parallel", "detail": "Both represent compassionate transformation in Buddhist tradition"},
-      {"to": "mary", "type": "functional_parallel", "detail": "Both protectresses of mothers and children in their respective traditions"}
+      {
+        "to": "avalokiteshvara",
+        "type": "thematic_parallel",
+        "detail": "Both represent compassionate transformation in Buddhist tradition"
+      },
+      {
+        "to": "mary",
+        "type": "functional_parallel",
+        "detail": "Both protectresses of mothers and children in their respective traditions"
+      }
     ]
   },
   {
@@ -1283,13 +2631,21 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Mythological (recorded in Kojiki, 712 CE)",
-    "traditions": ["shinto"],
+    "traditions": [
+      "shinto"
+    ],
     "roles": {
       "shinto": "Sun goddess, ruler of Takamagahara (High Celestial Plain), ancestress of the Japanese imperial line"
     },
-    "aliases": ["Amaterasu Omikami (Shinto)"],
+    "aliases": [
+      "Amaterasu Omikami (Shinto)"
+    ],
     "connections": [
-      {"to": "vairocana", "type": "honji_suijaku", "detail": "Under honji suijaku theory, Amaterasu identified as manifestation of Dainichi Nyorai (Vairocana Buddha)"}
+      {
+        "to": "vairocana",
+        "type": "honji_suijaku",
+        "detail": "Under honji suijaku theory, Amaterasu identified as manifestation of Dainichi Nyorai (Vairocana Buddha)"
+      }
     ]
   },
   {
@@ -1298,13 +2654,23 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Mahayana/Esoteric Buddhist tradition",
-    "traditions": ["buddhism"],
+    "traditions": [
+      "buddhism"
+    ],
     "roles": {
       "buddhism": "Dainichi Nyorai — the Great Sun Buddha, cosmic/universal Buddha of esoteric (Shingon/Vajrayana) Buddhism"
     },
-    "aliases": ["Vairocana (Sanskrit)", "Dainichi Nyorai (Japanese)", "Mahavairocana"],
+    "aliases": [
+      "Vairocana (Sanskrit)",
+      "Dainichi Nyorai (Japanese)",
+      "Mahavairocana"
+    ],
     "connections": [
-      {"to": "amaterasu", "type": "honji_suijaku", "detail": "Under honji suijaku, Amaterasu is the suijaku (trace) of Vairocana as honji (original ground)"}
+      {
+        "to": "amaterasu",
+        "type": "honji_suijaku",
+        "detail": "Under honji suijaku, Amaterasu is the suijaku (trace) of Vairocana as honji (original ground)"
+      }
     ]
   },
   {
@@ -1313,15 +2679,29 @@
     "type": "deity",
     "date": "571",
     "dateLabel": "c. 6th century CE onward (Japan)",
-    "traditions": ["shinto", "buddhism"],
+    "traditions": [
+      "shinto",
+      "buddhism"
+    ],
     "roles": {
       "shinto": "God of war, divine protector of Japan and the Japanese people",
       "buddhism": "Hachiman Daibosatsu — Great Bodhisattva Hachiman; identified with Amitabha Buddha under honji suijaku"
     },
-    "aliases": ["Hachiman (Shinto)", "Hachiman Daibosatsu (Buddhist syncretism)"],
+    "aliases": [
+      "Hachiman (Shinto)",
+      "Hachiman Daibosatsu (Buddhist syncretism)"
+    ],
     "connections": [
-      {"to": "amaterasu", "type": "shinto_pantheon", "detail": "Major kami alongside Amaterasu in Shinto"},
-      {"to": "vairocana", "type": "honji_suijaku", "detail": "Hachiman identified with Amitabha (not Vairocana) under honji suijaku"}
+      {
+        "to": "amaterasu",
+        "type": "shinto_pantheon",
+        "detail": "Major kami alongside Amaterasu in Shinto"
+      },
+      {
+        "to": "vairocana",
+        "type": "honji_suijaku",
+        "detail": "Hachiman identified with Amitabha (not Vairocana) under honji suijaku"
+      }
     ]
   },
   {
@@ -1330,16 +2710,30 @@
     "type": "hero",
     "date": "160",
     "dateLabel": "160-220 CE (historical figure)",
-    "traditions": ["chinese_folk_religion", "taoism", "buddhism", "confucianism"],
+    "traditions": [
+      "chinese_folk_religion",
+      "taoism",
+      "buddhism",
+      "confucianism"
+    ],
     "roles": {
       "chinese_folk_religion": "God of war, wealth, and righteousness; patron of police, soldiers, merchants, and triads alike",
       "taoism": "Holy Ruler Deity Guan; Immortal of Chongning; formally inducted into Taoist pantheon",
       "buddhism": "Sangharama Bodhisattva — guardian of temples and the dharma after conversion by Chan master Zhiyi",
       "confucianism": "Exemplar of loyalty (yi) and righteousness"
     },
-    "aliases": ["Guan Yu (historical name)", "Guan Di/Emperor Guan (deified title)", "Lord Guan", "Sangharama Bodhisattva (Buddhist)"],
+    "aliases": [
+      "Guan Yu (historical name)",
+      "Guan Di/Emperor Guan (deified title)",
+      "Lord Guan",
+      "Sangharama Bodhisattva (Buddhist)"
+    ],
     "connections": [
-      {"to": "jade_emperor", "type": "folk_pantheon", "detail": "Serves under the Jade Emperor in Chinese folk religion hierarchy"}
+      {
+        "to": "jade_emperor",
+        "type": "folk_pantheon",
+        "detail": "Serves under the Jade Emperor in Chinese folk religion hierarchy"
+      }
     ]
   },
   {
@@ -1348,14 +2742,25 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Formalized in Taoism c. 9th century CE",
-    "traditions": ["taoism", "chinese_folk_religion"],
+    "traditions": [
+      "taoism",
+      "chinese_folk_religion"
+    ],
     "roles": {
       "taoism": "Ruler of Heaven and all realms of existence; sovereign of the celestial bureaucracy",
       "chinese_folk_religion": "Supreme deity in folk religious practice; governs the heavenly court"
     },
-    "aliases": ["Yu Huang/Yu Di (Chinese)", "Jade Emperor", "Heavenly Grandfather (folk)"],
+    "aliases": [
+      "Yu Huang/Yu Di (Chinese)",
+      "Jade Emperor",
+      "Heavenly Grandfather (folk)"
+    ],
     "connections": [
-      {"to": "guan_yu", "type": "folk_pantheon", "detail": "Guan Yu serves in the Jade Emperor's celestial hierarchy"}
+      {
+        "to": "guan_yu",
+        "type": "folk_pantheon",
+        "detail": "Guan Yu serves in the Jade Emperor's celestial hierarchy"
+      }
     ]
   },
   {
@@ -1364,16 +2769,33 @@
     "type": "deity",
     "date": "960",
     "dateLabel": "960 CE (traditional birth date of Lin Moniang)",
-    "traditions": ["chinese_folk_religion", "taoism", "buddhism"],
+    "traditions": [
+      "chinese_folk_religion",
+      "taoism",
+      "buddhism"
+    ],
     "roles": {
       "chinese_folk_religion": "Goddess of the sea, patroness and protector of fishermen and sailors",
       "taoism": "Integrated into Taoist pantheon as Empress of Heaven",
       "buddhism": "Worshipped alongside Buddhist deities in syncretic temples"
     },
-    "aliases": ["Mazu (Mandarin)", "Tin Hau (Cantonese)", "A-Ma (Macanese)", "Tianhou/Empress of Heaven"],
+    "aliases": [
+      "Mazu (Mandarin)",
+      "Tin Hau (Cantonese)",
+      "A-Ma (Macanese)",
+      "Tianhou/Empress of Heaven"
+    ],
     "connections": [
-      {"to": "guanyin", "type": "functional_parallel", "detail": "Both compassionate female protectors in Chinese religion; sometimes conflated"},
-      {"to": "jade_emperor", "type": "folk_pantheon", "detail": "Granted divine titles by the celestial hierarchy in folk tradition"}
+      {
+        "to": "guanyin",
+        "type": "functional_parallel",
+        "detail": "Both compassionate female protectors in Chinese religion; sometimes conflated"
+      },
+      {
+        "to": "jade_emperor",
+        "type": "folk_pantheon",
+        "detail": "Granted divine titles by the celestial hierarchy in folk tradition"
+      }
     ]
   },
   {
@@ -1382,17 +2804,35 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Mythological (Yoruba tradition)",
-    "traditions": ["yoruba_religion", "santeria", "candomble", "vodou"],
+    "traditions": [
+      "yoruba_religion",
+      "santeria",
+      "candomble",
+      "vodou"
+    ],
     "roles": {
       "yoruba_religion": "Orisha of iron, war, hunting, and technology; blacksmith deity; clears paths",
       "santeria": "Syncretized with Saint Peter (holds keys/iron) or Saint George (warrior)",
       "candomble": "Syncretized with Saint George or Saint Anthony",
       "vodou": "Ogou — lwa of war, iron, and politics"
     },
-    "aliases": ["Ogun (Yoruba)", "Oggun (Santeria)", "Ogum (Candomble)", "Ogou (Vodou)"],
+    "aliases": [
+      "Ogun (Yoruba)",
+      "Oggun (Santeria)",
+      "Ogum (Candomble)",
+      "Ogou (Vodou)"
+    ],
     "connections": [
-      {"to": "shango", "type": "orisha_pantheon", "detail": "Fellow orisha; sometimes mythological rivals"},
-      {"to": "eshu", "type": "orisha_pantheon", "detail": "Eshu opens the way, Ogun clears the path with his machete"}
+      {
+        "to": "shango",
+        "type": "orisha_pantheon",
+        "detail": "Fellow orisha; sometimes mythological rivals"
+      },
+      {
+        "to": "eshu",
+        "type": "orisha_pantheon",
+        "detail": "Eshu opens the way, Ogun clears the path with his machete"
+      }
     ]
   },
   {
@@ -1401,16 +2841,32 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Mythological (Yoruba tradition)",
-    "traditions": ["yoruba_religion", "santeria", "candomble"],
+    "traditions": [
+      "yoruba_religion",
+      "santeria",
+      "candomble"
+    ],
     "roles": {
       "yoruba_religion": "Mother orisha of rivers and the ocean; mother of many orishas; protector of women and children",
       "santeria": "Syncretized with Our Lady of Regla (Virgin Mary)",
       "candomble": "Yemanja — syncretized with Our Lady of the Immaculate Conception or Stella Maris"
     },
-    "aliases": ["Yemoja (Yoruba)", "Yemaya (Santeria)", "Yemanja/Iemanja (Candomble)"],
+    "aliases": [
+      "Yemoja (Yoruba)",
+      "Yemaya (Santeria)",
+      "Yemanja/Iemanja (Candomble)"
+    ],
     "connections": [
-      {"to": "mary", "type": "syncretic_identification", "detail": "Identified with Virgin Mary as Our Lady of Regla in Afro-Caribbean traditions"},
-      {"to": "oshun", "type": "orisha_pantheon", "detail": "Both river/water goddesses; Oshun associated with sweet water, Yemoja with the sea"}
+      {
+        "to": "mary",
+        "type": "syncretic_identification",
+        "detail": "Identified with Virgin Mary as Our Lady of Regla in Afro-Caribbean traditions"
+      },
+      {
+        "to": "oshun",
+        "type": "orisha_pantheon",
+        "detail": "Both river/water goddesses; Oshun associated with sweet water, Yemoja with the sea"
+      }
     ]
   },
   {
@@ -1419,16 +2875,32 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Mythological (possibly based on historical 4th Alaafin of Oyo)",
-    "traditions": ["yoruba_religion", "santeria", "candomble"],
+    "traditions": [
+      "yoruba_religion",
+      "santeria",
+      "candomble"
+    ],
     "roles": {
       "yoruba_religion": "Orisha of thunder, lightning, fire, and justice; fourth Alaafin (king) of Oyo deified",
       "santeria": "Chango — syncretized with Saint Barbara (shared imagery of lightning, red/white colors)",
       "candomble": "Xango — syncretized with Saint Jerome or Saint Barbara"
     },
-    "aliases": ["Shango (Yoruba)", "Chango (Santeria)", "Xango (Candomble)"],
+    "aliases": [
+      "Shango (Yoruba)",
+      "Chango (Santeria)",
+      "Xango (Candomble)"
+    ],
     "connections": [
-      {"to": "thor", "type": "functional_parallel", "detail": "Both thunder and lightning deities; warrior gods"},
-      {"to": "ogun", "type": "orisha_pantheon", "detail": "Fellow orisha; sometimes depicted as rivals or brothers"}
+      {
+        "to": "thor",
+        "type": "functional_parallel",
+        "detail": "Both thunder and lightning deities; warrior gods"
+      },
+      {
+        "to": "ogun",
+        "type": "orisha_pantheon",
+        "detail": "Fellow orisha; sometimes depicted as rivals or brothers"
+      }
     ]
   },
   {
@@ -1437,17 +2909,37 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Mythological (Yoruba tradition)",
-    "traditions": ["yoruba_religion", "santeria", "candomble"],
+    "traditions": [
+      "yoruba_religion",
+      "santeria",
+      "candomble"
+    ],
     "roles": {
       "yoruba_religion": "Orisha of sweet water, love, fertility, beauty, and diplomacy",
       "santeria": "Syncretized with Our Lady of Charity (La Caridad del Cobre), patroness of Cuba",
       "candomble": "Syncretized with Our Lady of Candles"
     },
-    "aliases": ["Oshun (Yoruba)", "Ochun (Santeria)", "Oxum (Candomble)"],
+    "aliases": [
+      "Oshun (Yoruba)",
+      "Ochun (Santeria)",
+      "Oxum (Candomble)"
+    ],
     "connections": [
-      {"to": "mary", "type": "syncretic_identification", "detail": "Identified with Our Lady of Charity in Cuban Santeria"},
-      {"to": "yemoja", "type": "orisha_pantheon", "detail": "Both water orishas; Oshun is fresh/sweet water, Yemoja is salt water/ocean"},
-      {"to": "aphrodite", "type": "functional_parallel", "detail": "Both goddesses of love, beauty, and fertility"}
+      {
+        "to": "mary",
+        "type": "syncretic_identification",
+        "detail": "Identified with Our Lady of Charity in Cuban Santeria"
+      },
+      {
+        "to": "yemoja",
+        "type": "orisha_pantheon",
+        "detail": "Both water orishas; Oshun is fresh/sweet water, Yemoja is salt water/ocean"
+      },
+      {
+        "to": "aphrodite",
+        "type": "functional_parallel",
+        "detail": "Both goddesses of love, beauty, and fertility"
+      }
     ]
   },
   {
@@ -1456,18 +2948,43 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Mythological (Yoruba tradition)",
-    "traditions": ["yoruba_religion", "santeria", "candomble"],
+    "traditions": [
+      "yoruba_religion",
+      "santeria",
+      "candomble"
+    ],
     "roles": {
       "yoruba_religion": "Orisha of crossroads, communication, and trickery; divine messenger between humans and orishas",
       "santeria": "Eleggua — syncretized with Holy Child of Atocha, Saint Anthony of Padua, or Saint Michael",
       "candomble": "Exu — syncretized with Saint Anthony or Saint Gabriel; erroneously identified with the Devil by missionaries"
     },
-    "aliases": ["Eshu (Yoruba)", "Elegba/Elegbara (Yoruba)", "Eleggua (Santeria)", "Exu (Candomble)"],
+    "aliases": [
+      "Eshu (Yoruba)",
+      "Elegba/Elegbara (Yoruba)",
+      "Eleggua (Santeria)",
+      "Exu (Candomble)"
+    ],
     "connections": [
-      {"to": "papa_legba", "type": "cultural_cognate", "detail": "Haitian Vodou Papa Legba derives from Eshu/Elegba tradition but is a distinct entity — aged sage vs youthful trickster"},
-      {"to": "satan", "type": "misidentification", "detail": "Colonial missionaries erroneously identified Eshu with the Devil due to trickster attributes"},
-      {"to": "hermes", "type": "functional_parallel", "detail": "Both messenger/trickster gods associated with crossroads, communication, and mediation"},
-      {"to": "loki", "type": "functional_parallel", "detail": "Both trickster figures, though with very different theological roles"}
+      {
+        "to": "papa_legba",
+        "type": "cultural_cognate",
+        "detail": "Haitian Vodou Papa Legba derives from Eshu/Elegba tradition but is a distinct entity — aged sage vs youthful trickster"
+      },
+      {
+        "to": "satan",
+        "type": "misidentification",
+        "detail": "Colonial missionaries erroneously identified Eshu with the Devil due to trickster attributes"
+      },
+      {
+        "to": "hermes",
+        "type": "functional_parallel",
+        "detail": "Both messenger/trickster gods associated with crossroads, communication, and mediation"
+      },
+      {
+        "to": "loki",
+        "type": "functional_parallel",
+        "detail": "Both trickster figures, though with very different theological roles"
+      }
     ]
   },
   {
@@ -1476,14 +2993,28 @@
     "type": "deity",
     "date": "1700",
     "dateLabel": "c. 18th century CE (Haitian Vodou development)",
-    "traditions": ["vodou"],
+    "traditions": [
+      "vodou"
+    ],
     "roles": {
       "vodou": "Lwa of the crossroads, gatekeeper between human and spirit worlds; must be invoked first in any ceremony; depicted as old man with cane"
     },
-    "aliases": ["Papa Legba (Haitian Vodou)", "Legba (Fon/Dahomey)", "Papa Legba"],
+    "aliases": [
+      "Papa Legba (Haitian Vodou)",
+      "Legba (Fon/Dahomey)",
+      "Papa Legba"
+    ],
     "connections": [
-      {"to": "eshu", "type": "cultural_cognate", "detail": "Derives from West African Eshu/Elegba tradition via Fon Legba; distinct in form (aged sage vs youth)"},
-      {"to": "hermes", "type": "functional_parallel", "detail": "Both intermediaries between worlds at crossroads"}
+      {
+        "to": "eshu",
+        "type": "cultural_cognate",
+        "detail": "Derives from West African Eshu/Elegba tradition via Fon Legba; distinct in form (aged sage vs youth)"
+      },
+      {
+        "to": "hermes",
+        "type": "functional_parallel",
+        "detail": "Both intermediaries between worlds at crossroads"
+      }
     ]
   },
   {
@@ -1492,16 +3023,37 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Mythological (Norse tradition, attested from 13th century CE texts)",
-    "traditions": ["norse_religion"],
+    "traditions": [
+      "norse_germanic"
+    ],
     "roles": {
-      "norse_religion": "Trickster god, shape-shifter, blood-brother of Odin; father of Fenrir, Jormungandr, and Hel; instigator of Ragnarok"
+      "norse_germanic": "Trickster god, shape-shifter, blood-brother of Odin; father of Fenrir, Jormungandr, and Hel; instigator of Ragnarok"
     },
-    "aliases": ["Loki (Norse)", "Lopt (Norse)"],
+    "aliases": [
+      "Loki (Norse)",
+      "Lopt (Norse)"
+    ],
     "connections": [
-      {"to": "eshu", "type": "functional_parallel", "detail": "Both trickster figures who disrupt and mediate"},
-      {"to": "hermes", "type": "functional_parallel", "detail": "Both clever trickster figures"},
-      {"to": "sun_wukong", "type": "functional_parallel", "detail": "Both trickster figures who challenge divine authority"},
-      {"to": "thor", "type": "narrative_relationship", "detail": "Often paired as companions and foils in Norse mythology"}
+      {
+        "to": "eshu",
+        "type": "functional_parallel",
+        "detail": "Both trickster figures who disrupt and mediate"
+      },
+      {
+        "to": "hermes",
+        "type": "functional_parallel",
+        "detail": "Both clever trickster figures"
+      },
+      {
+        "to": "sun_wukong",
+        "type": "functional_parallel",
+        "detail": "Both trickster figures who challenge divine authority"
+      },
+      {
+        "to": "thor",
+        "type": "narrative_relationship",
+        "detail": "Often paired as companions and foils in Norse mythology"
+      }
     ]
   },
   {
@@ -1510,17 +3062,38 @@
     "type": "hero",
     "date": "mythological",
     "dateLabel": "Literary tradition (Journey to the West, 1592 CE; earlier legends)",
-    "traditions": ["buddhism", "taoism", "chinese_folk_religion"],
+    "traditions": [
+      "buddhism",
+      "taoism",
+      "chinese_folk_religion"
+    ],
     "roles": {
       "buddhism": "Victorious Fighting Buddha after pilgrimage with Xuanzang; tamed by Buddhism",
       "taoism": "Great Sage Equal to Heaven who rebelled against the celestial hierarchy",
       "chinese_folk_religion": "Monkey King, trickster hero, symbol of rebellion and redemption"
     },
-    "aliases": ["Sun Wukong (Chinese)", "Monkey King", "Great Sage Equal to Heaven", "Son Goku (Japanese)"],
+    "aliases": [
+      "Sun Wukong (Chinese)",
+      "Monkey King",
+      "Great Sage Equal to Heaven",
+      "Son Goku (Japanese)"
+    ],
     "connections": [
-      {"to": "loki", "type": "functional_parallel", "detail": "Both trickster figures who challenge the gods"},
-      {"to": "guanyin", "type": "narrative_relationship", "detail": "Guanyin oversees Sun Wukong's reformation in Journey to the West"},
-      {"to": "jade_emperor", "type": "narrative_opposition", "detail": "Rebelled against the Jade Emperor's authority"}
+      {
+        "to": "loki",
+        "type": "functional_parallel",
+        "detail": "Both trickster figures who challenge the gods"
+      },
+      {
+        "to": "guanyin",
+        "type": "narrative_relationship",
+        "detail": "Guanyin oversees Sun Wukong's reformation in Journey to the West"
+      },
+      {
+        "to": "jade_emperor",
+        "type": "narrative_opposition",
+        "detail": "Rebelled against the Jade Emperor's authority"
+      }
     ]
   },
   {
@@ -1529,16 +3102,37 @@
     "type": "hero",
     "date": "mythological",
     "dateLabel": "Mythological (Akan/Ashanti tradition)",
-    "traditions": ["akan_religion", "caribbean_folk_religion"],
+    "traditions": [
+      "akan_religion",
+      "vodou",
+      "santeria"
+    ],
     "roles": {
       "akan_religion": "Spider trickster, keeper of all stories; outwits more powerful beings through cunning",
-      "caribbean_folk_religion": "Carried to Caribbean via enslaved Africans; folk hero in Jamaican and other diaspora traditions"
+      "vodou": "Carried to Caribbean via enslaved Africans; folk hero in Jamaican and other diaspora traditions",
+      "santeria": "Carried to Caribbean via enslaved Africans; folk hero in Jamaican and other diaspora traditions"
     },
-    "aliases": ["Anansi (Akan)", "Ananse", "Aunt Nancy (diaspora corruption)"],
+    "aliases": [
+      "Anansi (Akan)",
+      "Ananse",
+      "Aunt Nancy (diaspora corruption)"
+    ],
     "connections": [
-      {"to": "eshu", "type": "functional_parallel", "detail": "Both West African trickster figures"},
-      {"to": "loki", "type": "functional_parallel", "detail": "Both trickster figures who use cunning rather than strength"},
-      {"to": "hermes", "type": "functional_parallel", "detail": "Both tricksters associated with storytelling and cleverness"}
+      {
+        "to": "eshu",
+        "type": "functional_parallel",
+        "detail": "Both West African trickster figures"
+      },
+      {
+        "to": "loki",
+        "type": "functional_parallel",
+        "detail": "Both trickster figures who use cunning rather than strength"
+      },
+      {
+        "to": "hermes",
+        "type": "functional_parallel",
+        "detail": "Both tricksters associated with storytelling and cleverness"
+      }
     ]
   },
   {
@@ -1547,14 +3141,27 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Pre-Columbian Andean tradition",
-    "traditions": ["andean_religion"],
+    "traditions": [
+      "inca_religion"
+    ],
     "roles": {
-      "andean_religion": "Earth Mother, goddess of fertility, agriculture, and the space-time continuum; central deity of Andean cosmology"
+      "inca_religion": "Earth Mother, goddess of fertility, agriculture, and the space-time continuum; central deity of Andean cosmology"
     },
-    "aliases": ["Pachamama (Quechua)", "Mother Earth (Andean)"],
+    "aliases": [
+      "Pachamama (Quechua)",
+      "Mother Earth (Andean)"
+    ],
     "connections": [
-      {"to": "mary", "type": "syncretic_identification", "detail": "Syncretized with the Virgin Mary in colonial Andean Catholicism; Mary's dress depicted as mountain in colonial art"},
-      {"to": "inti", "type": "andean_pair", "detail": "Pachamama (earth) and Inti (sun) are the primary divine pair in Andean cosmology"}
+      {
+        "to": "mary",
+        "type": "syncretic_identification",
+        "detail": "Syncretized with the Virgin Mary in colonial Andean Catholicism; Mary's dress depicted as mountain in colonial art"
+      },
+      {
+        "to": "inti",
+        "type": "andean_pair",
+        "detail": "Pachamama (earth) and Inti (sun) are the primary divine pair in Andean cosmology"
+      }
     ]
   },
   {
@@ -1563,14 +3170,26 @@
     "type": "deity",
     "date": "mythological",
     "dateLabel": "Inca tradition (c. 13th century CE onward)",
-    "traditions": ["andean_religion"],
+    "traditions": [
+      "inca_religion"
+    ],
     "roles": {
-      "andean_religion": "Sun god, supreme deity of the Inca Empire, ancestor of the Inca dynasty"
+      "inca_religion": "Sun god, supreme deity of the Inca Empire, ancestor of the Inca dynasty"
     },
-    "aliases": ["Inti (Quechua)"],
+    "aliases": [
+      "Inti (Quechua)"
+    ],
     "connections": [
-      {"to": "pachamama", "type": "andean_pair", "detail": "Sun and Earth as complementary divine pair"},
-      {"to": "jesus", "type": "colonial_identification", "detail": "Spanish colonizers encouraged identification of Christ with solar symbolism to facilitate conversion"}
+      {
+        "to": "pachamama",
+        "type": "andean_pair",
+        "detail": "Sun and Earth as complementary divine pair"
+      },
+      {
+        "to": "jesus",
+        "type": "colonial_identification",
+        "detail": "Spanish colonizers encouraged identification of Christ with solar symbolism to facilitate conversion"
+      }
     ]
   },
   {
@@ -1579,14 +3198,30 @@
     "type": "deity",
     "date": "-200",
     "dateLabel": "c. 1st century BCE (Mesoamerican tradition)",
-    "traditions": ["mesoamerican_religion"],
+    "traditions": [
+      "aztec_religion",
+      "maya_religion"
+    ],
     "roles": {
-      "mesoamerican_religion": "Feathered Serpent god of wind, learning, agriculture, and the morning star; associated with priesthood and knowledge"
+      "aztec_religion": "Feathered Serpent god of wind, learning, agriculture, and the morning star; associated with priesthood and knowledge",
+      "maya_religion": "Feathered Serpent god of wind, learning, agriculture, and the morning star; associated with priesthood and knowledge"
     },
-    "aliases": ["Quetzalcoatl (Nahuatl)", "Kukulkan (Maya)", "Q'uq'umatz (K'iche Maya)"],
+    "aliases": [
+      "Quetzalcoatl (Nahuatl)",
+      "Kukulkan (Maya)",
+      "Q'uq'umatz (K'iche Maya)"
+    ],
     "connections": [
-      {"to": "jesus", "type": "colonial_identification", "detail": "Colonial missionaries and creole writers identified Quetzalcoatl with St. Thomas the Apostle to claim pre-Columbian Christian presence"},
-      {"to": "huitzilopochtli", "type": "mesoamerican_pantheon", "detail": "Fellow major Aztec deity; Quetzalcoatl associated with peace/learning vs Huitzilopochtli with war/sun"}
+      {
+        "to": "jesus",
+        "type": "colonial_identification",
+        "detail": "Colonial missionaries and creole writers identified Quetzalcoatl with St. Thomas the Apostle to claim pre-Columbian Christian presence"
+      },
+      {
+        "to": "huitzilopochtli",
+        "type": "mesoamerican_pantheon",
+        "detail": "Fellow major Aztec deity; Quetzalcoatl associated with peace/learning vs Huitzilopochtli with war/sun"
+      }
     ]
   },
   {
@@ -1595,15 +3230,32 @@
     "type": "deity",
     "date": "1531",
     "dateLabel": "1531 CE (apparition tradition)",
-    "traditions": ["christianity", "mesoamerican_religion"],
+    "traditions": [
+      "christianity",
+      "aztec_religion",
+      "maya_religion"
+    ],
     "roles": {
       "christianity": "Marian apparition on Tepeyac hill; patroness of Mexico and the Americas",
-      "mesoamerican_religion": "Tepeyac was sacred to Tonantzin ('Our Revered Mother'), Aztec earth/mother goddess; syncretism occurred at this site"
+      "aztec_religion": "Tepeyac was sacred to Tonantzin ('Our Revered Mother'), Aztec earth/mother goddess; syncretism occurred at this site",
+      "maya_religion": "Tepeyac was sacred to Tonantzin ('Our Revered Mother'), Aztec earth/mother goddess; syncretism occurred at this site"
     },
-    "aliases": ["Our Lady of Guadalupe (Catholic)", "Tonantzin-Guadalupe (syncretic)", "La Virgen Morena"],
+    "aliases": [
+      "Our Lady of Guadalupe (Catholic)",
+      "Tonantzin-Guadalupe (syncretic)",
+      "La Virgen Morena"
+    ],
     "connections": [
-      {"to": "mary", "type": "marian_apparition", "detail": "Catholic Marian apparition syncretized with pre-existing Tonantzin worship at Tepeyac"},
-      {"to": "pachamama", "type": "functional_parallel", "detail": "Both represent syncretic fusion of indigenous mother goddess with Virgin Mary"}
+      {
+        "to": "mary",
+        "type": "marian_apparition",
+        "detail": "Catholic Marian apparition syncretized with pre-existing Tonantzin worship at Tepeyac"
+      },
+      {
+        "to": "pachamama",
+        "type": "functional_parallel",
+        "detail": "Both represent syncretic fusion of indigenous mother goddess with Virgin Mary"
+      }
     ]
   },
   {
@@ -1612,14 +3264,29 @@
     "type": "deity",
     "date": "-1200",
     "dateLabel": "c. 13th century CE (Aztec tradition)",
-    "traditions": ["mesoamerican_religion"],
+    "traditions": [
+      "aztec_religion",
+      "maya_religion"
+    ],
     "roles": {
-      "mesoamerican_religion": "Aztec god of war and the sun; patron deity of Tenochtitlan; fed by human sacrifice to sustain the sun"
+      "aztec_religion": "Aztec god of war and the sun; patron deity of Tenochtitlan; fed by human sacrifice to sustain the sun",
+      "maya_religion": "Aztec god of war and the sun; patron deity of Tenochtitlan; fed by human sacrifice to sustain the sun"
     },
-    "aliases": ["Huitzilopochtli (Nahuatl)", "Huitzil"],
+    "aliases": [
+      "Huitzilopochtli (Nahuatl)",
+      "Huitzil"
+    ],
     "connections": [
-      {"to": "quetzalcoatl", "type": "mesoamerican_pantheon", "detail": "Fellow Aztec deity; war god vs knowledge/wind god"},
-      {"to": "inti", "type": "functional_parallel", "detail": "Both solar deities and patron gods of their respective empires"}
+      {
+        "to": "quetzalcoatl",
+        "type": "mesoamerican_pantheon",
+        "detail": "Fellow Aztec deity; war god vs knowledge/wind god"
+      },
+      {
+        "to": "inti",
+        "type": "functional_parallel",
+        "detail": "Both solar deities and patron gods of their respective empires"
+      }
     ]
   },
   {
@@ -1628,18 +3295,53 @@
     "type": "demon",
     "date": "-2000",
     "dateLabel": "Mythological (attested from 2nd millennium BCE onward)",
-    "traditions": ["mesopotamian_religion", "greek_religion"],
+    "traditions": [
+      "sumerian_religion",
+      "babylonian_religion",
+      "akkadian_religion",
+      "assyrian_religion",
+      "greek_religion"
+    ],
     "roles": {
-      "mesopotamian_religion": "Tiamat — primordial sea dragon of chaos, slain by Marduk to create the world",
+      "sumerian_religion": "Tiamat — primordial sea dragon of chaos, slain by Marduk to create the world",
+      "babylonian_religion": "Tiamat — primordial sea dragon of chaos, slain by Marduk to create the world",
+      "akkadian_religion": "Tiamat — primordial sea dragon of chaos, slain by Marduk to create the world",
+      "assyrian_religion": "Tiamat — primordial sea dragon of chaos, slain by Marduk to create the world",
       "greek_religion": "Typhon — monstrous serpentine giant, last challenge to Zeus's rule of Olympus"
     },
-    "aliases": ["Tiamat (Babylonian)", "Typhon (Greek)", "Vritra (Vedic)", "Jormungandr (Norse)", "Yam (Canaanite)"],
+    "aliases": [
+      "Tiamat (Babylonian)",
+      "Typhon (Greek)",
+      "Vritra (Vedic)",
+      "Jormungandr (Norse)",
+      "Yam (Canaanite)"
+    ],
     "connections": [
-      {"to": "marduk", "type": "dragon_slayer", "detail": "Marduk slays Tiamat in the Enuma Elish"},
-      {"to": "zeus", "type": "dragon_slayer_parallel", "detail": "Zeus defeats Typhon to secure cosmic rule"},
-      {"to": "indra", "type": "dragon_slayer_parallel", "detail": "Indra slays Vritra to release waters — cognate serpent-slayer myth"},
-      {"to": "thor", "type": "dragon_slayer_parallel", "detail": "Thor battles Jormungandr, the Midgard Serpent"},
-      {"to": "baal", "type": "dragon_slayer_parallel", "detail": "Baal defeats Yam (Sea) in Ugaritic mythology"}
+      {
+        "to": "marduk",
+        "type": "dragon_slayer",
+        "detail": "Marduk slays Tiamat in the Enuma Elish"
+      },
+      {
+        "to": "zeus",
+        "type": "dragon_slayer_parallel",
+        "detail": "Zeus defeats Typhon to secure cosmic rule"
+      },
+      {
+        "to": "indra",
+        "type": "dragon_slayer_parallel",
+        "detail": "Indra slays Vritra to release waters — cognate serpent-slayer myth"
+      },
+      {
+        "to": "thor",
+        "type": "dragon_slayer_parallel",
+        "detail": "Thor battles Jormungandr, the Midgard Serpent"
+      },
+      {
+        "to": "baal",
+        "type": "dragon_slayer_parallel",
+        "detail": "Baal defeats Yam (Sea) in Ugaritic mythology"
+      }
     ]
   },
   {
@@ -1648,15 +3350,28 @@
     "type": "deity",
     "date": "-1200",
     "dateLabel": "c. Phrygian tradition (2nd millennium BCE onward)",
-    "traditions": ["phrygian_religion", "roman_religion"],
+    "traditions": [
+      "greek_religion",
+      "roman_religion"
+    ],
     "roles": {
-      "phrygian_religion": "Consort of Cybele, self-castrating vegetation god who dies and is reborn",
+      "greek_religion": "Consort of Cybele, self-castrating vegetation god who dies and is reborn",
       "roman_religion": "Mystery cult figure; death and rebirth celebrated at spring festival (March 22-25)"
     },
-    "aliases": ["Attis (Phrygian/Greek/Roman)"],
+    "aliases": [
+      "Attis (Phrygian/Greek/Roman)"
+    ],
     "connections": [
-      {"to": "tammuz_adonis", "type": "dying_god_parallel", "detail": "Fellow dying-and-rising vegetation deity"},
-      {"to": "osiris", "type": "dying_god_parallel", "detail": "Both undergo death and symbolic resurrection"}
+      {
+        "to": "tammuz_adonis",
+        "type": "dying_god_parallel",
+        "detail": "Fellow dying-and-rising vegetation deity"
+      },
+      {
+        "to": "osiris",
+        "type": "dying_god_parallel",
+        "detail": "Both undergo death and symbolic resurrection"
+      }
     ]
   },
   {
@@ -1665,16 +3380,35 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Attested from Mycenaean period (Linear B tablets)",
-    "traditions": ["greek_religion", "roman_religion"],
+    "traditions": [
+      "greek_religion",
+      "roman_religion"
+    ],
     "roles": {
       "greek_religion": "God of wine, ecstasy, fertility, and theater; born twice (from Semele's womb and Zeus's thigh); mystery cult deity",
       "roman_religion": "Bacchus — wine god, Bacchic mysteries"
     },
-    "aliases": ["Dionysus (Greek)", "Bacchus (Roman)", "Zagreus (Orphic tradition)"],
+    "aliases": [
+      "Dionysus (Greek)",
+      "Bacchus (Roman)",
+      "Zagreus (Orphic tradition)"
+    ],
     "connections": [
-      {"to": "tammuz_adonis", "type": "dying_god_parallel", "detail": "Zagreus/Dionysus torn apart and reborn parallels dying-god tradition"},
-      {"to": "osiris", "type": "syncretic_identification", "detail": "Greeks identified Dionysus with Osiris; Plutarch wrote extensively on this identification"},
-      {"to": "serapis", "type": "syncretic_component", "detail": "Serapis incorporated Dionysian attributes"}
+      {
+        "to": "tammuz_adonis",
+        "type": "dying_god_parallel",
+        "detail": "Zagreus/Dionysus torn apart and reborn parallels dying-god tradition"
+      },
+      {
+        "to": "osiris",
+        "type": "syncretic_identification",
+        "detail": "Greeks identified Dionysus with Osiris; Plutarch wrote extensively on this identification"
+      },
+      {
+        "to": "serapis",
+        "type": "syncretic_component",
+        "detail": "Serapis incorporated Dionysian attributes"
+      }
     ]
   },
   {
@@ -1683,14 +3417,28 @@
     "type": "deity",
     "date": "-500",
     "dateLabel": "Proto-Slavic tradition",
-    "traditions": ["slavic_religion"],
+    "traditions": [
+      "slavic_religion"
+    ],
     "roles": {
       "slavic_religion": "God of the underworld, cattle, earth, waters, magic, and trickery; cosmic opponent of Perun"
     },
-    "aliases": ["Veles (Slavic)", "Volos (Russian)", "Velnias (Lithuanian cognate)"],
+    "aliases": [
+      "Veles (Slavic)",
+      "Volos (Russian)",
+      "Velnias (Lithuanian cognate)"
+    ],
     "connections": [
-      {"to": "perun", "type": "mythological_opposition", "detail": "Fundamental Slavic mythological conflict: sky god Perun vs chthonic Veles"},
-      {"to": "loki", "type": "functional_parallel", "detail": "Both trickster/underworld figures opposed to the thunder god"}
+      {
+        "to": "perun",
+        "type": "mythological_opposition",
+        "detail": "Fundamental Slavic mythological conflict: sky god Perun vs chthonic Veles"
+      },
+      {
+        "to": "loki",
+        "type": "functional_parallel",
+        "detail": "Both trickster/underworld figures opposed to the thunder god"
+      }
     ]
   },
   {
@@ -1699,14 +3447,27 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Vedic period",
-    "traditions": ["hinduism"],
+    "traditions": [
+      "hinduism"
+    ],
     "roles": {
       "hinduism": "Divine twin horsemen, gods of medicine and healing; ride a golden chariot at dawn"
     },
-    "aliases": ["Ashvins/Ashvinau (Vedic)", "Nasatya and Dasra"],
+    "aliases": [
+      "Ashvins/Ashvinau (Vedic)",
+      "Nasatya and Dasra"
+    ],
     "connections": [
-      {"to": "dioscuri", "type": "indo_european_cognate", "detail": "Greek Dioscuri (Castor and Pollux) are the Indo-European divine twin cognates"},
-      {"to": "hewsos", "type": "mythological_association", "detail": "Divine Twins associated with the Dawn in PIE reconstruction"}
+      {
+        "to": "dioscuri",
+        "type": "indo_european_cognate",
+        "detail": "Greek Dioscuri (Castor and Pollux) are the Indo-European divine twin cognates"
+      },
+      {
+        "to": "hewsos",
+        "type": "mythological_association",
+        "detail": "Divine Twins associated with the Dawn in PIE reconstruction"
+      }
     ]
   },
   {
@@ -1715,14 +3476,24 @@
     "type": "deity",
     "date": "-1200",
     "dateLabel": "Greek tradition (Mycenaean period onward)",
-    "traditions": ["greek_religion", "roman_religion"],
+    "traditions": [
+      "greek_religion",
+      "roman_religion"
+    ],
     "roles": {
       "greek_religion": "Divine twins Castor and Pollux — sons of Zeus, patrons of sailors; one mortal, one divine",
       "roman_religion": "Patron gods of Rome, equestrians, and the Roman cavalry"
     },
-    "aliases": ["Dioscuri (Greek/Roman)", "Castor and Pollux"],
+    "aliases": [
+      "Dioscuri (Greek/Roman)",
+      "Castor and Pollux"
+    ],
     "connections": [
-      {"to": "ashvins", "type": "indo_european_cognate", "detail": "PIE Divine Twins cognate; both horsemen, healers, associated with dawn"}
+      {
+        "to": "ashvins",
+        "type": "indo_european_cognate",
+        "detail": "PIE Divine Twins cognate; both horsemen, healers, associated with dawn"
+      }
     ]
   },
   {
@@ -1731,34 +3502,36 @@
     "type": "deity",
     "date": "-2000",
     "dateLabel": "Proto-Indo-European tradition onward",
-    "traditions": ["hinduism", "greek_religion", "roman_religion", "norse_religion"],
+    "traditions": [
+      "hinduism",
+      "greek_religion",
+      "roman_religion",
+      "norse_germanic"
+    ],
     "roles": {
       "hinduism": "Surya — Vedic sun god, driver of the solar chariot, eye of the gods",
       "greek_religion": "Helios — Titan god of the sun, drives solar chariot across sky",
       "roman_religion": "Sol — sun god, later Sol Invictus (Unconquered Sun)",
-      "norse_religion": "Sol — goddess who drives the sun chariot, pursued by wolf Skoll"
+      "norse_germanic": "Sol — goddess who drives the sun chariot, pursued by wolf Skoll"
     },
-    "aliases": ["Surya (Hindu)", "Helios (Greek)", "Sol (Roman/Norse)", "Sol Invictus (Late Roman)", "Saule (Baltic)"],
+    "aliases": [
+      "Surya (Hindu)",
+      "Helios (Greek)",
+      "Sol (Roman/Norse)",
+      "Sol Invictus (Late Roman)",
+      "Saule (Baltic)"
+    ],
     "connections": [
-      {"to": "mithras_roman", "type": "cult_association", "detail": "Mithras closely associated with Sol Invictus in Roman religion"},
-      {"to": "amaterasu", "type": "functional_parallel", "detail": "Both solar deities of supreme importance in their traditions"}
-    ]
-  },
-  {
-    "id": "coyote",
-    "name": "Coyote",
-    "type": "hero",
-    "date": "mythological",
-    "dateLabel": "Mythological (Native American traditions)",
-    "traditions": ["native_american_religion"],
-    "roles": {
-      "native_american_religion": "Trickster figure across many Native American traditions (esp. Plains, Southwest, Plateau); culture hero, creator, fool, and transformer"
-    },
-    "aliases": ["Coyote (various Native American traditions)", "Old Man Coyote (Crow)"],
-    "connections": [
-      {"to": "loki", "type": "functional_parallel", "detail": "Both trickster figures who create through mischief and disruption"},
-      {"to": "anansi", "type": "functional_parallel", "detail": "Both animal trickster figures in their respective traditions"},
-      {"to": "eshu", "type": "functional_parallel", "detail": "Both tricksters who mediate between worlds"}
+      {
+        "to": "mithras_roman",
+        "type": "cult_association",
+        "detail": "Mithras closely associated with Sol Invictus in Roman religion"
+      },
+      {
+        "to": "amaterasu",
+        "type": "functional_parallel",
+        "detail": "Both solar deities of supreme importance in their traditions"
+      }
     ]
   },
   {
@@ -1767,15 +3540,33 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Zoroastrian tradition (Gathas, c. 1500-1000 BCE)",
-    "traditions": ["zoroastrianism"],
+    "traditions": [
+      "zoroastrianism"
+    ],
     "roles": {
       "zoroastrianism": "The Wise Lord, supreme deity, creator of all good things, lord of truth (Asha); in eternal cosmic struggle against Angra Mainyu"
     },
-    "aliases": ["Ahura Mazda (Avestan)", "Ohrmazd (Middle Persian)", "Hormozd"],
+    "aliases": [
+      "Ahura Mazda (Avestan)",
+      "Ohrmazd (Middle Persian)",
+      "Hormozd"
+    ],
     "connections": [
-      {"to": "angra_mainyu", "type": "cosmic_opposition", "detail": "Eternal adversary in Zoroastrian cosmic dualism"},
-      {"to": "amesha_spentas", "type": "creator", "detail": "Created the Amesha Spentas as agents of his divine will"},
-      {"to": "asura_deva_reversal", "type": "theological_key", "detail": "Ahura (= Asura) is God in Zoroastrianism, whereas Asuras are demons in later Hinduism"}
+      {
+        "to": "angra_mainyu",
+        "type": "cosmic_opposition",
+        "detail": "Eternal adversary in Zoroastrian cosmic dualism"
+      },
+      {
+        "to": "amesha_spentas",
+        "type": "creator",
+        "detail": "Created the Amesha Spentas as agents of his divine will"
+      },
+      {
+        "to": "asura_deva_reversal",
+        "type": "theological_key",
+        "detail": "Ahura (= Asura) is God in Zoroastrianism, whereas Asuras are demons in later Hinduism"
+      }
     ]
   },
   {
@@ -1784,15 +3575,33 @@
     "type": "prophet",
     "date": "-1500",
     "dateLabel": "c. 1500-1000 BCE (debated; some scholars say c. 600 BCE)",
-    "traditions": ["zoroastrianism"],
+    "traditions": [
+      "zoroastrianism"
+    ],
     "roles": {
       "zoroastrianism": "Prophet who received divine revelation from Ahura Mazda; founder of Zoroastrianism; composed the Gathas"
     },
-    "aliases": ["Zoroaster (Greek form)", "Zarathustra (Avestan)", "Zartosht (Persian)"],
+    "aliases": [
+      "Zoroaster (Greek form)",
+      "Zarathustra (Avestan)",
+      "Zartosht (Persian)"
+    ],
     "connections": [
-      {"to": "ahura_mazda", "type": "prophetic_revelation", "detail": "Received revelation directly from Ahura Mazda"},
-      {"to": "saoshyant", "type": "eschatological_connection", "detail": "Saoshyant will be born from Zoroaster's preserved seed"},
-      {"to": "moses", "type": "prophetic_parallel", "detail": "Both founder-prophets who established monotheistic/dualistic religious systems"}
+      {
+        "to": "ahura_mazda",
+        "type": "prophetic_revelation",
+        "detail": "Received revelation directly from Ahura Mazda"
+      },
+      {
+        "to": "saoshyant",
+        "type": "eschatological_connection",
+        "detail": "Saoshyant will be born from Zoroaster's preserved seed"
+      },
+      {
+        "to": "moses",
+        "type": "prophetic_parallel",
+        "detail": "Both founder-prophets who established monotheistic/dualistic religious systems"
+      }
     ]
   },
   {
@@ -1801,15 +3610,33 @@
     "type": "prophet",
     "date": "mythological",
     "dateLabel": "Eschatological / future figure",
-    "traditions": ["islam"],
+    "traditions": [
+      "islam"
+    ],
     "roles": {
       "islam": "Guided one who will appear before the Day of Judgment to restore justice; in Shia Islam, the Twelfth Imam in occultation"
     },
-    "aliases": ["Al-Mahdi (Arabic)", "Imam Mahdi (Shia Islam)", "The Guided One"],
+    "aliases": [
+      "Al-Mahdi (Arabic)",
+      "Imam Mahdi (Shia Islam)",
+      "The Guided One"
+    ],
     "connections": [
-      {"to": "saoshyant", "type": "possible_influence", "detail": "Zoroastrian eschatological savior concept may have influenced Mahdi tradition"},
-      {"to": "jesus", "type": "eschatological_pair", "detail": "In Islamic eschatology, Isa (Jesus) returns alongside the Mahdi"},
-      {"to": "maitreya", "type": "cross_cultural_parallel", "detail": "Both future savior/renewer figures expected to restore truth"}
+      {
+        "to": "saoshyant",
+        "type": "possible_influence",
+        "detail": "Zoroastrian eschatological savior concept may have influenced Mahdi tradition"
+      },
+      {
+        "to": "jesus",
+        "type": "eschatological_pair",
+        "detail": "In Islamic eschatology, Isa (Jesus) returns alongside the Mahdi"
+      },
+      {
+        "to": "maitreya",
+        "type": "cross_cultural_parallel",
+        "detail": "Both future savior/renewer figures expected to restore truth"
+      }
     ]
   },
   {
@@ -1818,14 +3645,28 @@
     "type": "deity",
     "date": "-3000",
     "dateLabel": "Mythological (possibly historical figure c. 3000 BCE or later)",
-    "traditions": ["hinduism"],
+    "traditions": [
+      "hinduism"
+    ],
     "roles": {
       "hinduism": "Eighth avatar of Vishnu, speaker of the Bhagavad Gita, divine lover, supreme personality of Godhead in Vaishnavism"
     },
-    "aliases": ["Krishna (Sanskrit)", "Govinda", "Vasudeva"],
+    "aliases": [
+      "Krishna (Sanskrit)",
+      "Govinda",
+      "Vasudeva"
+    ],
     "connections": [
-      {"to": "jesus", "type": "perceived_parallel", "detail": "19th century scholars noted parallels (divine birth, miracles, teachings); most modern scholars see these as superficial"},
-      {"to": "buddha_gautama", "type": "avatar_tradition", "detail": "Buddha considered 9th avatar of Vishnu in some Hindu lists, alongside Krishna as 8th"}
+      {
+        "to": "jesus",
+        "type": "perceived_parallel",
+        "detail": "19th century scholars noted parallels (divine birth, miracles, teachings); most modern scholars see these as superficial"
+      },
+      {
+        "to": "buddha_gautama",
+        "type": "avatar_tradition",
+        "detail": "Buddha considered 9th avatar of Vishnu in some Hindu lists, alongside Krishna as 8th"
+      }
     ]
   },
   {
@@ -1834,17 +3675,39 @@
     "type": "sage",
     "date": "-563",
     "dateLabel": "c. 563-483 BCE (or c. 480-400 BCE by revised chronology)",
-    "traditions": ["buddhism", "hinduism", "jainism"],
+    "traditions": [
+      "buddhism",
+      "hinduism",
+      "jainism"
+    ],
     "roles": {
       "buddhism": "The Awakened One, founder of Buddhism, achieved nirvana, taught the Four Noble Truths and Eightfold Path",
       "hinduism": "Sometimes regarded as the ninth avatar of Vishnu (to lead astray the unrighteous, or to teach compassion)",
       "jainism": "Recognized as a contemporary of Mahavira; respected but not central"
     },
-    "aliases": ["Siddhartha Gautama (birth name)", "Shakyamuni (Sage of the Shakyas)", "The Buddha", "Fo (Chinese)", "Butsu (Japanese)"],
+    "aliases": [
+      "Siddhartha Gautama (birth name)",
+      "Shakyamuni (Sage of the Shakyas)",
+      "The Buddha",
+      "Fo (Chinese)",
+      "Butsu (Japanese)"
+    ],
     "connections": [
-      {"to": "krishna", "type": "avatar_tradition", "detail": "Some Hindu traditions list Buddha as avatar of Vishnu"},
-      {"to": "maitreya", "type": "prophetic_succession", "detail": "Maitreya will be the next Buddha after Shakyamuni"},
-      {"to": "jesus", "type": "perceived_parallel", "detail": "Similarities in ethical teaching noted; some scholars theorize historical contact routes"}
+      {
+        "to": "krishna",
+        "type": "avatar_tradition",
+        "detail": "Some Hindu traditions list Buddha as avatar of Vishnu"
+      },
+      {
+        "to": "maitreya",
+        "type": "prophetic_succession",
+        "detail": "Maitreya will be the next Buddha after Shakyamuni"
+      },
+      {
+        "to": "jesus",
+        "type": "perceived_parallel",
+        "detail": "Similarities in ethical teaching noted; some scholars theorize historical contact routes"
+      }
     ]
   },
   {
@@ -1853,14 +3716,26 @@
     "type": "deity",
     "date": "-4000",
     "dateLabel": "Proto-Indo-European reconstruction",
-    "traditions": ["proto_indo_european"],
+    "traditions": [
+      "proto_ie_religion"
+    ],
     "roles": {
-      "proto_indo_european": "Reconstructed twin horse-riding gods associated with dawn, healing, and rescue at sea"
+      "proto_ie_religion": "Reconstructed twin horse-riding gods associated with dawn, healing, and rescue at sea"
     },
-    "aliases": ["*Diwo-s (reconstructed PIE)"],
+    "aliases": [
+      "*Diwo-s (reconstructed PIE)"
+    ],
     "connections": [
-      {"to": "ashvins", "type": "linguistic_cognate", "detail": "Vedic Ashvins are the direct PIE Divine Twins cognate"},
-      {"to": "dioscuri", "type": "linguistic_cognate", "detail": "Greek Dioscuri derive from the PIE Divine Twins tradition"}
+      {
+        "to": "ashvins",
+        "type": "linguistic_cognate",
+        "detail": "Vedic Ashvins are the direct PIE Divine Twins cognate"
+      },
+      {
+        "to": "dioscuri",
+        "type": "linguistic_cognate",
+        "detail": "Greek Dioscuri derive from the PIE Divine Twins tradition"
+      }
     ]
   },
   {
@@ -1869,13 +3744,21 @@
     "type": "deity",
     "date": "-4000",
     "dateLabel": "Proto-Indo-European reconstruction",
-    "traditions": ["proto_indo_european"],
+    "traditions": [
+      "proto_ie_religion"
+    ],
     "roles": {
-      "proto_indo_european": "Reconstructed solar deity, personification of the sun"
+      "proto_ie_religion": "Reconstructed solar deity, personification of the sun"
     },
-    "aliases": ["*Seh2ul/*Swel (reconstructed PIE)"],
+    "aliases": [
+      "*Seh2ul/*Swel (reconstructed PIE)"
+    ],
     "connections": [
-      {"to": "surya_sol", "type": "linguistic_cognate", "detail": "All attested solar deity names (Surya, Helios, Sol, Saule) derive from this PIE root"}
+      {
+        "to": "surya_sol",
+        "type": "linguistic_cognate",
+        "detail": "All attested solar deity names (Surya, Helios, Sol, Saule) derive from this PIE root"
+      }
     ]
   },
   {
@@ -1884,14 +3767,28 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Vedic period onward (prominence from Gupta period c. 4th century CE)",
-    "traditions": ["hinduism"],
+    "traditions": [
+      "hinduism"
+    ],
     "roles": {
       "hinduism": "Preserver/sustainer of the cosmos in the Trimurti; takes avatars (Rama, Krishna, Buddha) to restore dharma"
     },
-    "aliases": ["Vishnu (Sanskrit)", "Narayana", "Hari"],
+    "aliases": [
+      "Vishnu (Sanskrit)",
+      "Narayana",
+      "Hari"
+    ],
     "connections": [
-      {"to": "krishna", "type": "avatar", "detail": "Krishna is the 8th avatar of Vishnu"},
-      {"to": "buddha_gautama", "type": "avatar", "detail": "Buddha listed as 9th avatar of Vishnu in some traditions"}
+      {
+        "to": "krishna",
+        "type": "avatar",
+        "detail": "Krishna is the 8th avatar of Vishnu"
+      },
+      {
+        "to": "buddha_gautama",
+        "type": "avatar",
+        "detail": "Buddha listed as 9th avatar of Vishnu in some traditions"
+      }
     ]
   },
   {
@@ -1900,13 +3797,24 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Possible Indus Valley origins; Vedic Rudra from c. 1500 BCE",
-    "traditions": ["hinduism"],
+    "traditions": [
+      "hinduism"
+    ],
     "roles": {
       "hinduism": "Destroyer/transformer in the Trimurti; lord of yoga, asceticism, and dance (Nataraja); supreme being in Shaivism"
     },
-    "aliases": ["Shiva (Sanskrit)", "Mahadeva", "Rudra (Vedic antecedent)", "Nataraja"],
+    "aliases": [
+      "Shiva (Sanskrit)",
+      "Mahadeva",
+      "Rudra (Vedic antecedent)",
+      "Nataraja"
+    ],
     "connections": [
-      {"to": "dionysus", "type": "perceived_parallel", "detail": "Some scholars note parallels: ecstatic worship, association with mountains, phallic symbolism"}
+      {
+        "to": "dionysus",
+        "type": "perceived_parallel",
+        "detail": "Some scholars note parallels: ecstatic worship, association with mountains, phallic symbolism"
+      }
     ]
   },
   {
@@ -1915,13 +3823,22 @@
     "type": "deity",
     "date": "-1500",
     "dateLabel": "Baltic tradition (attested from medieval period)",
-    "traditions": ["baltic_religion"],
+    "traditions": [
+      "baltic_religion"
+    ],
     "roles": {
       "baltic_religion": "Supreme sky god in Baltic/Lithuanian mythology; cognate with PIE *Deywos"
     },
-    "aliases": ["Dievas (Lithuanian)", "Dievs (Latvian)"],
+    "aliases": [
+      "Dievas (Lithuanian)",
+      "Dievs (Latvian)"
+    ],
     "connections": [
-      {"to": "dyeus_pater", "type": "linguistic_cognate", "detail": "Name derives from PIE *Deywos, related to *Dyeus"}
+      {
+        "to": "dyeus_pater",
+        "type": "linguistic_cognate",
+        "detail": "Name derives from PIE *Deywos, related to *Dyeus"
+      }
     ]
   },
   {
@@ -1930,15 +3847,29 @@
     "type": "deity",
     "date": "-800",
     "dateLabel": "Roman/Greek tradition",
-    "traditions": ["roman_religion", "greek_religion"],
+    "traditions": [
+      "roman_religion",
+      "greek_religion"
+    ],
     "roles": {
       "roman_religion": "Mars — god of war, agriculture, and guardian of Rome; father of Romulus and Remus",
       "greek_religion": "Ares — god of war, violence, and bloodlust"
     },
-    "aliases": ["Mars (Roman)", "Ares (Greek)"],
+    "aliases": [
+      "Mars (Roman)",
+      "Ares (Greek)"
+    ],
     "connections": [
-      {"to": "tyr", "type": "interpretatio_romana", "detail": "Tiwaz/Tyr identified with Mars; Tuesday = dies Martis"},
-      {"to": "ogun", "type": "functional_parallel", "detail": "Both war/metal deities"}
+      {
+        "to": "tyr",
+        "type": "interpretatio_romana",
+        "detail": "Tiwaz/Tyr identified with Mars; Tuesday = dies Martis"
+      },
+      {
+        "to": "ogun",
+        "type": "functional_parallel",
+        "detail": "Both war/metal deities"
+      }
     ]
   }
 ]

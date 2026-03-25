@@ -19,6 +19,7 @@ export default function ForceGraph({
   const { nodes, links } = useForceGraph();
   const syncreticNodes = getSyncreticNodes();
   const selectedTradition = useStore((s) => s.selectedTradition);
+  const hoveredTradition = useStore((s) => s.hoveredTradition);
 
   const nodeMap = useMemo(() => {
     const map = new Map<string, GraphNode>();
@@ -26,23 +27,26 @@ export default function ForceGraph({
     return map;
   }, [nodes]);
 
-  // Build a set of connected node IDs when something is selected
+  // Build connected sets for BOTH selected AND hovered traditions
   const { connectedIds, connectedLinkIds } = useMemo(() => {
-    if (!selectedTradition) return { connectedIds: new Set<string>(), connectedLinkIds: new Set<string>() };
+    // The "active" node is whichever is selected, or hovered if nothing is selected
+    const activeId = selectedTradition?.id || hoveredTradition;
+    if (!activeId) return { connectedIds: new Set<string>(), connectedLinkIds: new Set<string>() };
+
     const cIds = new Set<string>();
     const lIds = new Set<string>();
-    cIds.add(selectedTradition.id);
+    cIds.add(activeId);
     links.forEach((link) => {
-      if (link.source === selectedTradition.id || link.target === selectedTradition.id) {
+      if (link.source === activeId || link.target === activeId) {
         cIds.add(link.source);
         cIds.add(link.target);
         lIds.add(link.connection.id);
       }
     });
     return { connectedIds: cIds, connectedLinkIds: lIds };
-  }, [selectedTradition, links]);
+  }, [selectedTradition, hoveredTradition, links]);
 
-  const hasSelection = selectedTradition !== null;
+  const hasActive = selectedTradition !== null || hoveredTradition !== null;
 
   return (
     <>
@@ -58,7 +62,7 @@ export default function ForceGraph({
           link={link}
           nodeMap={nodeMap}
           highlighted={connectedLinkIds.has(link.connection.id)}
-          dimmed={hasSelection && !connectedLinkIds.has(link.connection.id)}
+          dimmed={hasActive && !connectedLinkIds.has(link.connection.id)}
         />
       ))}
 
@@ -68,7 +72,7 @@ export default function ForceGraph({
           key={node.id}
           node={node}
           highlighted={connectedIds.has(node.id)}
-          dimmed={hasSelection && !connectedIds.has(node.id)}
+          dimmed={hasActive && !connectedIds.has(node.id)}
         />
       ))}
 
@@ -77,7 +81,7 @@ export default function ForceGraph({
         <SyncreticNode key={sn.id} syncNode={sn} nodeMap={nodeMap} />
       ))}
 
-      {/* Figure layer (toggleable) — passes positions back up for camera */}
+      {/* Figure layer */}
       <FigureGraph nodeMap={nodeMap} controlsRef={controlsRef} />
     </>
   );

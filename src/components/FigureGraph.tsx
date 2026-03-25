@@ -249,10 +249,12 @@ export default function FigureGraph({
   const selectedFigure = useStore((s) => s.selectedFigure);
   const hoveredFigure = useStore((s) => s.hoveredFigure);
 
+  // ALWAYS compute positions so the camera registry is populated even when
+  // the figure layer is visually hidden. The showFigureLayer flag only
+  // controls whether meshes/edges render, not whether positions exist.
   const figurePositions = useMemo(() => {
-    if (!showFigureLayer) return [];
     return computeFigurePositions(nodeMap);
-  }, [showFigureLayer, nodeMap]);
+  }, [nodeMap]);
 
   const posMap = useMemo(() => {
     const map = new Map<string, FigurePosition>();
@@ -325,6 +327,8 @@ export default function FigureGraph({
     return result;
   }, [figurePositions, posMap]);
 
+  // Positions are always computed (for camera registry), but only render
+  // the visual nodes/edges when the figure layer toggle is on
   if (!showFigureLayer || figurePositions.length === 0) return null;
 
   return (
