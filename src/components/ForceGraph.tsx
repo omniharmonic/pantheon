@@ -8,7 +8,7 @@ import TraditionNode from './TraditionNode';
 import ConnectionEdge from './ConnectionEdge';
 import SyncreticNode from './SyncreticNode';
 import CameraController from './CameraController';
-import FigureGraph, { getFigurePositionRegistry } from './FigureGraph';
+import FigureGraph from './FigureGraph';
 import type { GraphNode } from '@/lib/types';
 
 export default function ForceGraph({
@@ -48,7 +48,6 @@ export default function ForceGraph({
     <>
       <CameraController
         nodeMap={nodeMap}
-        figurePositionMap={getFigurePositionRegistry()}
         controlsRef={controlsRef}
       />
 

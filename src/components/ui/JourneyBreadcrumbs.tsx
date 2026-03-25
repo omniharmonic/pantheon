@@ -34,7 +34,7 @@ export default function JourneyBreadcrumbs() {
   };
 
   return (
-    <div className="fixed bottom-16 sm:bottom-[4.5rem] left-3 right-3 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-auto z-40 pointer-events-auto">
+    <div className="fixed bottom-[72px] sm:bottom-[5.5rem] left-3 right-3 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-auto z-50 pointer-events-auto">
       <div className="flex items-center gap-1 panel-glass-lighter rounded-xl px-2 py-1.5 overflow-x-auto no-scrollbar">
         {/* Clear */}
         <button

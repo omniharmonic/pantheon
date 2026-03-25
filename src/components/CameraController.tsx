@@ -4,6 +4,7 @@ import { useEffect, useRef, useCallback } from 'react';
 import { useThree, useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 import { useStore } from '@/lib/store';
+import { getFigurePositionRegistry } from './FigureGraph';
 
 const MOVE_SPEED = 0.4;
 const LERP_SPEED = 0.06;
@@ -11,11 +12,9 @@ const SPRINT_MULTIPLIER = 2.5;
 
 export default function CameraController({
   nodeMap,
-  figurePositionMap,
   controlsRef,
 }: {
   nodeMap: Map<string, { x: number; y: number; z: number }>;
-  figurePositionMap?: Map<string, { x: number; y: number; z: number }>;
   controlsRef: React.RefObject<any>;
 }) {
   const { camera } = useThree();
@@ -31,10 +30,14 @@ export default function CameraController({
   const isAnimating = useRef(false);
   const keysPressed = useRef(new Set<string>());
 
+  // Pending fly-to: figure ID we want to fly to but positions aren't ready yet.
+  // useFrame will retry each frame until it finds the position.
+  const pendingFigureFlyTo = useRef<string | null>(null);
+  const pendingRetryFrames = useRef(0);
+
   // Track keyboard state
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
-      // Don't capture if user is typing in an input
       if (
         e.target instanceof HTMLInputElement ||
         e.target instanceof HTMLTextAreaElement
@@ -54,7 +57,20 @@ export default function CameraController({
     };
   }, []);
 
-  // Fly to selected tradition
+  const flyToPoint = useCallback(
+    (x: number, y: number, z: number, dist: number) => {
+      const nodePos = new THREE.Vector3(x, y, z);
+      const dirFromNode = new THREE.Vector3()
+        .subVectors(camera.position, nodePos)
+        .normalize();
+      targetPos.current.copy(nodePos).addScaledVector(dirFromNode, dist);
+      targetLookAt.current.copy(nodePos);
+      isAnimating.current = true;
+    },
+    [camera]
+  );
+
+  // Fly to selected tradition (positions always available in nodeMap)
   useEffect(() => {
     if (selectedTradition) {
       const node = nodeMap.get(selectedTradition.id);
@@ -62,35 +78,17 @@ export default function CameraController({
         flyToPoint(node.x, node.y, node.z, 15);
       }
     }
-  }, [selectedTradition, nodeMap]);
+  }, [selectedTradition, nodeMap, flyToPoint]);
 
-  // Fly to selected figure
+  // When a figure is selected, queue a pending fly-to.
+  // The actual lookup happens in useFrame since positions may not exist yet
+  // (e.g. figure layer was just toggled on in the same event).
   useEffect(() => {
-    if (selectedFigure && figurePositionMap) {
-      const pos = figurePositionMap.get(selectedFigure.id);
-      if (pos) {
-        flyToPoint(pos.x, pos.y, pos.z, 8);
-      }
+    if (selectedFigure) {
+      pendingFigureFlyTo.current = selectedFigure.id;
+      pendingRetryFrames.current = 0;
     }
-  }, [selectedFigure, figurePositionMap]);
-
-  // Graph walker target
-  useEffect(() => {
-    if (walkerTarget) {
-      // Check figure positions first, then tradition nodes
-      let pos: { x: number; y: number; z: number } | undefined;
-      if (figurePositionMap) {
-        pos = figurePositionMap.get(walkerTarget);
-      }
-      if (!pos) {
-        pos = nodeMap.get(walkerTarget);
-      }
-      if (pos) {
-        flyToPoint(pos.x, pos.y, pos.z, 6);
-      }
-      setWalkerTarget(null);
-    }
-  }, [walkerTarget, figurePositionMap, nodeMap, setWalkerTarget]);
+  }, [selectedFigure]);
 
   // Camera presets
   useEffect(() => {
@@ -128,22 +126,44 @@ export default function CameraController({
     setCameraPreset(null);
   }, [cameraPreset, setCameraPreset]);
 
-  const flyToPoint = useCallback(
-    (x: number, y: number, z: number, dist: number) => {
-      const nodePos = new THREE.Vector3(x, y, z);
-      const dirFromNode = new THREE.Vector3()
-        .subVectors(camera.position, nodePos)
-        .normalize();
-      targetPos.current.copy(nodePos).addScaledVector(dirFromNode, dist);
-      targetLookAt.current.copy(nodePos);
-      isAnimating.current = true;
-    },
-    [camera]
-  );
+  // Walker target — also queue as pending
+  useEffect(() => {
+    if (walkerTarget) {
+      // Try tradition nodes first (always available)
+      const tradPos = nodeMap.get(walkerTarget);
+      if (tradPos) {
+        flyToPoint(tradPos.x, tradPos.y, tradPos.z, 6);
+      } else {
+        // Queue for figure position retry
+        pendingFigureFlyTo.current = walkerTarget;
+        pendingRetryFrames.current = 0;
+      }
+      setWalkerTarget(null);
+    }
+  }, [walkerTarget, nodeMap, setWalkerTarget, flyToPoint]);
 
   useFrame(() => {
     const controls = controlsRef.current;
     if (!controls) return;
+
+    // --- Retry pending figure fly-to ---
+    // Check every frame until position registry has the figure (up to 120 frames / 2 sec)
+    if (pendingFigureFlyTo.current) {
+      const registry = getFigurePositionRegistry();
+      const pos = registry.get(pendingFigureFlyTo.current);
+      if (pos) {
+        flyToPoint(pos.x, pos.y, pos.z, 8);
+        pendingFigureFlyTo.current = null;
+        pendingRetryFrames.current = 0;
+      } else {
+        pendingRetryFrames.current++;
+        if (pendingRetryFrames.current > 120) {
+          // Give up after ~2 seconds
+          pendingFigureFlyTo.current = null;
+          pendingRetryFrames.current = 0;
+        }
+      }
+    }
 
     // --- WASD Movement ---
     const keys = keysPressed.current;
@@ -156,21 +176,17 @@ export default function CameraController({
       keys.has('e');
 
     if (hasMovement) {
-      // Cancel any fly-to animation when user takes manual control
       isAnimating.current = false;
 
       const sprint = keys.has('shift') ? SPRINT_MULTIPLIER : 1;
       const speed = MOVE_SPEED * sprint;
 
-      // Forward vector (camera look direction, projected to XZ plane for W/S)
       const forward = new THREE.Vector3();
       camera.getWorldDirection(forward);
 
-      // Right vector
       const right = new THREE.Vector3();
       right.crossVectors(forward, camera.up).normalize();
 
-      // Up vector (world up)
       const up = new THREE.Vector3(0, 1, 0);
 
       const moveVec = new THREE.Vector3();
@@ -182,7 +198,6 @@ export default function CameraController({
       if (keys.has('q')) moveVec.addScaledVector(up, -speed);
       if (keys.has('e')) moveVec.addScaledVector(up, speed);
 
-      // Move both camera and orbit target together (translates the whole rig)
       camera.position.add(moveVec);
       controls.target.add(moveVec);
       controls.update();
