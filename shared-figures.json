@@ -3871,5 +3871,2714 @@
         "detail": "Both war/metal deities"
       }
     ]
+  },
+  {
+    "id": "quetzalcoatl_feathered_serpent",
+    "name": "Feathered Serpent / Quetzalcoatl",
+    "type": "deity",
+    "date": "-1500",
+    "dateLabel": "c. 1500 BCE (Olmec origins) through 1521 CE (Spanish conquest)",
+    "traditions": [
+      "olmec_religion",
+      "maya_religion",
+      "aztec_religion"
+    ],
+    "roles": {
+      "olmec_religion": "Proto-feathered serpent; earliest representations of the plumed serpent motif in Mesoamerican iconography",
+      "maya_religion": "Kukulkan/Q'uq'umatz — feathered serpent deity of wind, sky, and creation; patron of Chichen Itza",
+      "aztec_religion": "Quetzalcoatl — god of wind, learning, creation, and the morning star; culture hero and priest-king"
+    },
+    "aliases": [
+      "Feathered Serpent (Olmec)",
+      "Kukulkan (Maya)",
+      "Q'uq'umatz (K'iche Maya)",
+      "Quetzalcoatl (Aztec)",
+      "Ehecatl (Aztec wind aspect)"
+    ],
+    "connections": [
+      {
+        "to": "tlaloc_rain_god",
+        "type": "mythological_parallel",
+        "detail": "Both Quetzalcoatl and Tlaloc trace to Olmec prototypes and are pan-Mesoamerican deities found across cultures"
+      }
+    ]
+  },
+  {
+    "id": "tlaloc_rain_god",
+    "name": "Mesoamerican Rain Deity",
+    "type": "deity",
+    "date": "-1500",
+    "dateLabel": "c. 1500 BCE (Olmec God IV) through 1521 CE",
+    "traditions": [
+      "olmec_religion",
+      "maya_religion",
+      "aztec_religion"
+    ],
+    "roles": {
+      "olmec_religion": "God IV — rain spirit with goggle eyes; earliest Mesoamerican rain deity",
+      "maya_religion": "Chaac — rain god with long nose and axes who strikes clouds to produce rain and lightning",
+      "aztec_religion": "Tlaloc — rain god dwelling atop mountains; one of the two deities honored at the Templo Mayor in Tenochtitlan"
+    },
+    "aliases": [
+      "God IV (Olmec)",
+      "Chaac (Maya)",
+      "Tlaloc (Aztec)",
+      "Cocijo (Zapotec)"
+    ],
+    "connections": [
+      {
+        "to": "quetzalcoatl_feathered_serpent",
+        "type": "mythological_parallel",
+        "detail": "Both derive from Olmec prototypes and share pan-Mesoamerican distribution; both honored at Aztec Templo Mayor"
+      }
+    ]
+  },
+  {
+    "id": "maize_deity",
+    "name": "Mesoamerican Maize God",
+    "type": "deity",
+    "date": "-1500",
+    "dateLabel": "c. 1500 BCE (Olmec God II) onward",
+    "traditions": [
+      "olmec_religion",
+      "maya_religion",
+      "aztec_religion"
+    ],
+    "roles": {
+      "olmec_religion": "God II — maize deity with corn sprouting from cleft head; central agricultural deity",
+      "maya_religion": "Hun Hunahpu / Yum Kaax — Maize God who dies, descends to Xibalba, and is reborn, mirroring the agricultural cycle",
+      "aztec_religion": "Centeotl/Chicomecoatl — maize deity pair governing the corn harvest and agricultural fertility"
+    },
+    "aliases": [
+      "God II (Olmec)",
+      "Hun Hunahpu (Maya)",
+      "Yum Kaax (Maya)",
+      "Centeotl (Aztec)",
+      "Chicomecoatl (Aztec)"
+    ],
+    "connections": [
+      {
+        "to": "quetzalcoatl_feathered_serpent",
+        "type": "mythological_parallel",
+        "detail": "In Aztec mythology, Quetzalcoatl brought maize to humanity; the maize god and feathered serpent are intertwined in Mesoamerican cosmology"
+      },
+      {
+        "to": "corn_mother_mississippian",
+        "type": "mythological_parallel",
+        "detail": "Both represent maize as a sacred, divine gift; structural parallel between Mesoamerican and Mississippian corn ceremonialism"
+      }
+    ]
+  },
+  {
+    "id": "thunderbird_north_america",
+    "name": "Thunderbird",
+    "type": "deity",
+    "date": "-3000",
+    "dateLabel": "Deep antiquity; documented in Mississippian art c. 1000 CE and Pacific NW traditions",
+    "traditions": [
+      "mississippian_religion",
+      "pacific_nw_religion",
+      "lakota_religion"
+    ],
+    "roles": {
+      "mississippian_religion": "Upper World power; creates thunder and lightning; eternal opponent of the Underwater Serpent; associated with the falcon warrior/Birdman figure",
+      "pacific_nw_religion": "Enormous supernatural bird that creates thunder with its wingbeats and lightning from its eyes; powerful sky being in Haida and Tlingit tradition",
+      "lakota_religion": "Wakinyan — Thunder Being(s); one of the most powerful Wakan; associated with storms, purification, and the sacred heyoka (contrary) tradition"
+    },
+    "aliases": [
+      "Birdman/Falcon Warrior (Mississippian)",
+      "Thunderbird (Pacific NW)",
+      "Wakinyan (Lakota)"
+    ],
+    "connections": [
+      {
+        "to": "morning_star_birdman",
+        "type": "syncretized_with",
+        "detail": "In Mississippian religion, the Thunderbird/falcon warrior and Morning Star (Birdman) iconography overlap significantly; the falcon is the primary avian form of the sky-world power"
+      }
+    ]
+  },
+  {
+    "id": "morning_star_birdman",
+    "name": "Morning Star / Birdman",
+    "type": "deity",
+    "date": "1050",
+    "dateLabel": "c. 1050 CE (Cahokia peak period)",
+    "traditions": [
+      "mississippian_religion"
+    ],
+    "roles": {
+      "mississippian_religion": "Central deity figure of the Mississippian falcon warrior cult; associated with the pre-dawn Venus, warfare, high-stakes gaming (chunkey), and dynastic succession; depicted on the Birdman tablet at Cahokia"
+    },
+    "aliases": [
+      "Birdman (Cahokia)",
+      "Red Horn (Siouan)",
+      "He Who Wears Human Heads as Earrings"
+    ],
+    "connections": [
+      {
+        "to": "thunderbird_north_america",
+        "type": "syncretized_with",
+        "detail": "Falcon/Birdman imagery shares attributes with broader Thunderbird tradition; both represent sky-world power in opposition to underworld forces"
+      },
+      {
+        "to": "quetzalcoatl_feathered_serpent",
+        "type": "mythological_parallel",
+        "detail": "Both are associated with the Morning Star (Venus) and represent sky/celestial power. Structural parallel between Mesoamerican and Mississippian Morning Star cults, though direct transmission is debated"
+      }
+    ]
+  },
+  {
+    "id": "raven_trickster",
+    "name": "Raven",
+    "type": "deity",
+    "date": "-3000",
+    "dateLabel": "Deep antiquity; central to Pacific NW oral traditions",
+    "traditions": [
+      "pacific_nw_religion"
+    ],
+    "roles": {
+      "pacific_nw_religion": "Supreme trickster-creator who stole the sun, moon, and stars from a chief who kept them hidden, releasing light into the world; simultaneously a greedy deceiver and humanity's greatest benefactor"
+    },
+    "aliases": [
+      "Yeil (Tlingit)",
+      "Ne-kilst-lass/Nang Kilsdlaas (Haida)",
+      "Txamsm (Tsimshian)",
+      "Raven",
+      "Big Raven"
+    ],
+    "connections": [
+      {
+        "to": "iktomi_trickster",
+        "type": "mythological_parallel",
+        "detail": "Both are trickster figures central to their respective traditions; both combine creative/beneficial acts with selfish/destructive behavior, serving as cultural mediators"
+      },
+      {
+        "to": "sedna_sea_goddess",
+        "type": "mythological_parallel",
+        "detail": "Raven as transformative creator and Sedna as ruler of sea animals both represent foundational relationships between humans and the natural world in indigenous North American cosmology"
+      }
+    ]
+  },
+  {
+    "id": "iktomi_trickster",
+    "name": "Iktomi (Spider Trickster)",
+    "type": "deity",
+    "date": "800",
+    "dateLabel": "Siouan oral tradition; deep antiquity",
+    "traditions": [
+      "lakota_religion"
+    ],
+    "roles": {
+      "lakota_religion": "Trickster spider figure; culture hero who brought language to humanity but also deceives and creates chaos; demonstrates the consequences of foolishness and arrogance"
+    },
+    "aliases": [
+      "Iktomi (Lakota)",
+      "Unktomi (Dakota)",
+      "Spider Man"
+    ],
+    "connections": [
+      {
+        "to": "raven_trickster",
+        "type": "mythological_parallel",
+        "detail": "Both are trickster figures in indigenous North American traditions; share structural role of boundary-crosser and teacher-through-folly"
+      }
+    ]
+  },
+  {
+    "id": "sedna_sea_goddess",
+    "name": "Sedna",
+    "type": "deity",
+    "date": "-2500",
+    "dateLabel": "Deep antiquity; ancestral to Arctic traditions",
+    "traditions": [
+      "inuit_religion"
+    ],
+    "roles": {
+      "inuit_religion": "Sea goddess and mistress of all marine animals; a young woman cast into the ocean whose severed fingers became seals, walruses, and whales; rules the undersea realm Adlivun; angry when taboos are broken, requiring angakkuq to travel to her realm and comb her tangled hair"
+    },
+    "aliases": [
+      "Sedna",
+      "Nuliajuk",
+      "Nerrivik",
+      "Arnapkapfaaluk",
+      "Arnakuagsak",
+      "Taluliyuk",
+      "Taleelayuk"
+    ],
+    "connections": [
+      {
+        "to": "atabey_taino",
+        "type": "mythological_parallel",
+        "detail": "Both are feminine water/sea deities who control marine resources and fertility; structural parallel between Arctic and Caribbean sea goddess traditions"
+      },
+      {
+        "to": "raven_trickster",
+        "type": "mythological_parallel",
+        "detail": "Both represent foundational human-nature relationships in indigenous cosmology; Sedna governs the sea as Raven governs the sky"
+      }
+    ]
+  },
+  {
+    "id": "changing_woman_navajo",
+    "name": "Changing Woman (Asdzaa Nadleehe)",
+    "type": "deity",
+    "date": "1400",
+    "dateLabel": "Navajo tradition; post-migration to Southwest",
+    "traditions": [
+      "navajo_religion"
+    ],
+    "roles": {
+      "navajo_religion": "Principal Holy Person; embodies the earth and its seasons; central figure of the Blessingway ceremony; mother of the Hero Twins (Monster Slayer and Born for Water); associated with fertility, renewal, and the Kinaalda puberty ceremony"
+    },
+    "aliases": [
+      "Changing Woman",
+      "Asdzaa Nadleehe",
+      "White Shell Woman (sometimes identified as her twin or aspect)"
+    ],
+    "connections": [
+      {
+        "to": "spider_grandmother_hopi",
+        "type": "mythological_parallel",
+        "detail": "Both are powerful female creator/nurturer figures in Southwestern indigenous traditions; Changing Woman and Spider Grandmother both guide humanity. Navajo Spider Woman (Na'ashjéii Asdzáá) parallels Hopi Spider Grandmother."
+      },
+      {
+        "to": "white_buffalo_calf_woman",
+        "type": "mythological_parallel",
+        "detail": "Both are sacred feminine figures who bring essential ceremonies to their respective peoples; Changing Woman brought Blessingway, White Buffalo Calf Woman brought the Sacred Pipe and Seven Rites"
+      }
+    ]
+  },
+  {
+    "id": "white_buffalo_calf_woman",
+    "name": "White Buffalo Calf Woman (Ptesan Wi)",
+    "type": "deity",
+    "date": "1400",
+    "dateLabel": "Traditional dating: 'nineteen generations ago' per Lakota oral tradition",
+    "traditions": [
+      "lakota_religion"
+    ],
+    "roles": {
+      "lakota_religion": "Sacred woman who appeared to two Lakota scouts and brought the chanunpa (sacred pipe) and the seven sacred rites; taught the people to pray and live in balance; transformed into a white buffalo calf upon departing"
+    },
+    "aliases": [
+      "White Buffalo Calf Woman",
+      "Ptesan Wi",
+      "Ptehincala Ska Win"
+    ],
+    "connections": [
+      {
+        "to": "changing_woman_navajo",
+        "type": "mythological_parallel",
+        "detail": "Both are sacred feminine figures who deliver foundational ceremonies and spiritual teachings to their peoples; both embody the ideal relationship between the divine feminine and human community"
+      }
+    ]
+  },
+  {
+    "id": "spider_grandmother_hopi",
+    "name": "Spider Grandmother (Kokyangwuti)",
+    "type": "deity",
+    "date": "500",
+    "dateLabel": "Hopi oral tradition; deep antiquity",
+    "traditions": [
+      "hopi_religion",
+      "navajo_religion"
+    ],
+    "roles": {
+      "hopi_religion": "Spider Grandmother (Kokyangwuti) — creator figure who helped bring humanity through the Emergence from the underworlds; wise advisor and guide",
+      "navajo_religion": "Spider Woman (Na'ashjéii Asdzáá) — wise counselor who advised the Hero Twins on how to reach their father the Sun; taught the Navajo the art of weaving"
+    },
+    "aliases": [
+      "Kokyangwuti (Hopi)",
+      "Spider Grandmother (Hopi)",
+      "Na'ashjéii Asdzáá (Navajo)",
+      "Spider Woman (Navajo)"
+    ],
+    "connections": [
+      {
+        "to": "changing_woman_navajo",
+        "type": "mythological_parallel",
+        "detail": "Both are powerful feminine spiritual figures in Southwestern traditions; Spider Woman serves as advisor while Changing Woman is the principal deity"
+      },
+      {
+        "to": "atabey_taino",
+        "type": "mythological_parallel",
+        "detail": "Both are feminine creator/nurturer figures associated with fertility and the origins of humanity in their respective traditions"
+      }
+    ]
+  },
+  {
+    "id": "atabey_taino",
+    "name": "Atabey",
+    "type": "deity",
+    "date": "-400",
+    "dateLabel": "Taino tradition; c. 400 BCE onward",
+    "traditions": [
+      "taino_religion"
+    ],
+    "roles": {
+      "taino_religion": "Supreme feminine deity; mother of Yucahu; zemi of the moon, fresh waters, and fertility; first goddess of the Taino pantheon"
+    },
+    "aliases": [
+      "Atabey",
+      "Attabeira",
+      "Atabex",
+      "Guimazoa",
+      "Iella"
+    ],
+    "connections": [
+      {
+        "to": "sedna_sea_goddess",
+        "type": "mythological_parallel",
+        "detail": "Both are feminine water deities controlling marine/aquatic resources; represent the sacred feminine in their respective cosmologies"
+      },
+      {
+        "to": "spider_grandmother_hopi",
+        "type": "mythological_parallel",
+        "detail": "Both are supreme feminine creator/mother figures in indigenous American traditions"
+      }
+    ]
+  },
+  {
+    "id": "corn_mother_mississippian",
+    "name": "Corn Mother",
+    "type": "deity",
+    "date": "800",
+    "dateLabel": "Mississippian period c. 800 CE; likely much older agricultural tradition",
+    "traditions": [
+      "mississippian_religion",
+      "hopi_religion"
+    ],
+    "roles": {
+      "mississippian_religion": "Earth Mother/Corn Mother — agricultural deity central to maize ceremonialism; associated with fertility, the earth, and sustenance",
+      "hopi_religion": "Corn Mother — corn ears accompany Hopi from birth; each clan has a Corn Mother; maize is the physical and spiritual center of Hopi life"
+    },
+    "aliases": [
+      "Corn Mother",
+      "Earth Mother",
+      "Old Woman Who Never Dies (Mandan/related Siouan)"
+    ],
+    "connections": [
+      {
+        "to": "maize_deity",
+        "type": "mythological_parallel",
+        "detail": "North American Corn Mother traditions parallel Mesoamerican Maize God, reflecting the continent-wide sacred status of corn/maize as a divine gift. Both represent maize as a living, sacred being rather than mere crop."
+      },
+      {
+        "to": "changing_woman_navajo",
+        "type": "mythological_parallel",
+        "detail": "Both are earth/fertility figures associated with agricultural abundance and the renewal of life; Changing Woman's association with corn pollen connects her to the broader Corn Mother complex"
+      }
+    ]
+  },
+  {
+    "id": "tupa_guarani",
+    "name": "Tupa",
+    "type": "deity",
+    "date": "-500",
+    "dateLabel": "Pre-contact Tupi-Guarani tradition; elevated by Jesuits 17th c. CE",
+    "traditions": [
+      "guarani_religion",
+      "umbanda"
+    ],
+    "roles": {
+      "guarani_religion": "Originally a spirit of thunder and lightning; elevated to supreme creator deity status by Jesuit missionaries (17th c.); created humanity from clay. In uncontacted Guarani groups, subordinate to Namandu",
+      "umbanda": "Referenced as part of indigenous spiritual heritage; Tupi-Guarani thunder/sky spirit contributing to Umbanda's indigenous spiritual strand"
+    },
+    "aliases": [
+      "Tupa",
+      "Tupan",
+      "Tupã"
+    ],
+    "connections": [
+      {
+        "to": "ngenechen_mapuche",
+        "type": "mythological_parallel",
+        "detail": "Both are supreme deities of South American indigenous traditions; both affected by Christian colonial reinterpretation. Guarani Tupa and Mapuche Ngenechen were both equated with the Christian God by missionaries."
+      }
+    ]
+  },
+  {
+    "id": "ngenechen_mapuche",
+    "name": "Ngenechen",
+    "type": "deity",
+    "date": "-500",
+    "dateLabel": "Mapuche tradition; deep antiquity",
+    "traditions": [
+      "mapuche_religion"
+    ],
+    "roles": {
+      "mapuche_religion": "Supreme creator deity embodied in four aspects (old man, old woman, young man, young woman); governs the cosmos and receives prayers during the Ngillatun ceremony"
+    },
+    "aliases": [
+      "Ngenechen",
+      "Ngunechen",
+      "Ngenechén",
+      "Chau Dios (syncretized name)"
+    ],
+    "connections": [
+      {
+        "to": "tupa_guarani",
+        "type": "mythological_parallel",
+        "detail": "Both are supreme deities of major South American indigenous traditions; both were equated with the Christian God during colonial missionization; both preside over agricultural and communal ceremonies"
+      },
+      {
+        "to": "wakan_tanka_lakota",
+        "type": "mythological_parallel",
+        "detail": "Both represent the supreme sacred reality in their traditions; Ngenechen's four aspects and Wakan Tanka's sixteen aspects both express the divine as a complex unity rather than a single personage"
+      }
+    ]
+  },
+  {
+    "id": "wakan_tanka_lakota",
+    "name": "Wakan Tanka",
+    "type": "deity",
+    "date": "800",
+    "dateLabel": "Siouan tradition; deep antiquity",
+    "traditions": [
+      "lakota_religion"
+    ],
+    "roles": {
+      "lakota_religion": "The Great Mystery — the supreme sacred totality comprising sixteen Wakan beings organized in four groups of four; not a single god but the interconnected whole of the sacred; the life-giving force sustaining all being"
+    },
+    "aliases": [
+      "Wakan Tanka",
+      "Wakhan Thanka",
+      "Great Spirit",
+      "Great Mystery"
+    ],
+    "connections": [
+      {
+        "to": "ngenechen_mapuche",
+        "type": "mythological_parallel",
+        "detail": "Both express the supreme divine as a complex unity of multiple aspects rather than a single personage; Wakan Tanka's 16 aspects and Ngenechen's 4 aspects both represent multifaceted divinity"
+      }
+    ]
+  },
+  {
+    "id": "tangaroa",
+    "name": "Tangaroa/Tagaloa",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological, pan-Polynesian",
+    "traditions": [
+      "polynesian_religion",
+      "maori_religion",
+      "hawaiian_religion"
+    ],
+    "roles": {
+      "polynesian_religion": "Supreme creator god in western Polynesia (Samoa, Tonga); god of the sea throughout Pacific",
+      "maori_religion": "Tangaroa, god of the sea and fish, one of the children of Rangi and Papa",
+      "hawaiian_religion": "Kanaloa, god of the ocean and deep sea, associated with squid/octopus"
+    },
+    "aliases": [
+      "Tangaroa (Maori)",
+      "Tangaloa (Samoan/Tongan)",
+      "Kanaloa (Hawaiian)",
+      "Ta'aroa (Tahitian)",
+      "Tagaloa (pan-Polynesian)"
+    ],
+    "connections": [
+      {
+        "to": "tane_mahuta",
+        "type": "mythological_parallel",
+        "detail": "Brother deities, children of Rangi and Papa in eastern Polynesian traditions"
+      },
+      {
+        "to": "maui_demigod",
+        "type": "mythological_parallel",
+        "detail": "Maui often acts within the domain Tangaroa controls (sea, fishing)"
+      }
+    ]
+  },
+  {
+    "id": "tane_mahuta",
+    "name": "Tane/Kane",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological, pan-Polynesian",
+    "traditions": [
+      "polynesian_religion",
+      "maori_religion",
+      "hawaiian_religion"
+    ],
+    "roles": {
+      "polynesian_religion": "God of forests, birds, and light; separated sky and earth in many traditions",
+      "maori_religion": "Tane Mahuta, god of forests and birds, separated Ranginui and Papatuanuku, created first woman Hineahuone",
+      "hawaiian_religion": "Kane, highest of the four great gods, god of creation, sky, sunlight, and fresh water"
+    },
+    "aliases": [
+      "Tane Mahuta (Maori)",
+      "Kane (Hawaiian)",
+      "Tane (pan-Polynesian)"
+    ],
+    "connections": [
+      {
+        "to": "tangaroa",
+        "type": "mythological_parallel",
+        "detail": "Brother deities, children of sky and earth in Polynesian cosmogony"
+      },
+      {
+        "to": "rainbow_serpent",
+        "type": "mythological_parallel",
+        "detail": "Both are primordial creator beings who shaped the landscape and brought life into being"
+      }
+    ]
+  },
+  {
+    "id": "maui_demigod",
+    "name": "Maui",
+    "type": "hero",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological, pan-Polynesian trickster demigod",
+    "traditions": [
+      "polynesian_religion",
+      "maori_religion",
+      "hawaiian_religion"
+    ],
+    "roles": {
+      "polynesian_religion": "Pan-Polynesian demigod trickster who fished up islands, slowed the sun, and stole fire for humanity",
+      "maori_religion": "Maui-tikitiki-a-Taranga, demigod who fished up the North Island (Te Ika a Maui) and slowed the sun",
+      "hawaiian_religion": "Maui, demigod trickster who lassoed the sun at Haleakala to make days longer"
+    },
+    "aliases": [
+      "Maui (pan-Polynesian)",
+      "Maui-tikitiki-a-Taranga (Maori)",
+      "Maui (Hawaiian)"
+    ],
+    "connections": [
+      {
+        "to": "kaggen",
+        "type": "mythological_parallel",
+        "detail": "Both are trickster figures who use cunning to reshape the world for humanity's benefit"
+      },
+      {
+        "to": "anansi",
+        "type": "mythological_parallel",
+        "detail": "Cross-cultural parallel as culture hero tricksters who obtain gifts (fire, stories) for humanity"
+      }
+    ]
+  },
+  {
+    "id": "rainbow_serpent",
+    "name": "Rainbow Serpent",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological, pan-Australian (rock art evidence 6,000+ years)",
+    "traditions": [
+      "aboriginal_australian"
+    ],
+    "roles": {
+      "aboriginal_australian": "Pan-Australian creator deity who shaped waterways and landscape, associated with water, fertility, and both creation and destruction"
+    },
+    "aliases": [
+      "Ngalyod (Gunwinggu/Kunwinjku)",
+      "Borlung (Miali)",
+      "Dhakhan (Kabi Kabi)",
+      "Galeru (several groups)",
+      "Ungud (Kimberley)",
+      "Wollunqua (Warumungu)",
+      "Yurlungur (Yolngu)"
+    ],
+    "connections": [
+      {
+        "to": "simbi_spirit",
+        "type": "mythological_parallel",
+        "detail": "Both are serpentine water spirits associated with creation, rivers, and spiritual power"
+      },
+      {
+        "to": "nommo",
+        "type": "mythological_parallel",
+        "detail": "Both are primordial water-associated beings central to creation mythology"
+      }
+    ]
+  },
+  {
+    "id": "kaggen",
+    "name": "/Kaggen (Mantis Trickster)",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological, oldest documented trickster figure",
+    "traditions": [
+      "san_religion"
+    ],
+    "roles": {
+      "san_religion": "Supreme trickster deity who manifests as praying mantis and many other forms; can create, transform, and deceive; both wise and foolish"
+    },
+    "aliases": [
+      "/Kaggen (|Xam San)",
+      "Cagn (colonial-era spelling)",
+      "Mantis (English translation, but not literally a mantis)"
+    ],
+    "connections": [
+      {
+        "to": "maui_demigod",
+        "type": "mythological_parallel",
+        "detail": "Both are trickster figures who use cunning to shape the world"
+      },
+      {
+        "to": "eshu_elegba",
+        "type": "mythological_parallel",
+        "detail": "Cross-cultural parallel as divine trickster figures who mediate between realms"
+      }
+    ]
+  },
+  {
+    "id": "apedemak",
+    "name": "Apedemak",
+    "type": "deity",
+    "date": "-300",
+    "dateLabel": "c. 300 BCE (first attestations in Meroitic period)",
+    "traditions": [
+      "kushite_religion"
+    ],
+    "roles": {
+      "kushite_religion": "Lion-headed war god, protector of royalty, fertility deity, supreme national god of Meroitic Kush"
+    },
+    "aliases": [
+      "Apedemak (Meroitic)",
+      "The Lion God"
+    ],
+    "connections": [
+      {
+        "to": "amun_ra",
+        "type": "equivalent",
+        "detail": "Apedemak replaced or paralleled Amun in Meroitic state religion, sharing roles as creator, fertility, and royal patron deity"
+      },
+      {
+        "to": "sekhmet",
+        "type": "mythological_parallel",
+        "detail": "Both are lion-associated deities of war and power in Nile Valley civilizations"
+      }
+    ]
+  },
+  {
+    "id": "nommo",
+    "name": "Nommo",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological (Dogon creation)",
+    "traditions": [
+      "dogon_religion"
+    ],
+    "roles": {
+      "dogon_religion": "First living beings created by Amma, amphibious ancestral water spirits who taught humanity language, agriculture, and weaving"
+    },
+    "aliases": [
+      "Nommo (Dogon)",
+      "Masters of the Water",
+      "The Monitors",
+      "The Teachers"
+    ],
+    "connections": [
+      {
+        "to": "rainbow_serpent",
+        "type": "mythological_parallel",
+        "detail": "Both are primordial water-associated creator beings"
+      },
+      {
+        "to": "simbi_spirit",
+        "type": "mythological_parallel",
+        "detail": "Both are water spirits central to their respective African cosmologies"
+      }
+    ]
+  },
+  {
+    "id": "simbi_spirit",
+    "name": "Simbi (Kongo water spirits)",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Ancient / mythological (Kongo tradition)",
+    "traditions": [
+      "kongo_religion",
+      "vodou"
+    ],
+    "roles": {
+      "kongo_religion": "Water spirits of rivers and streams, associated with healing, divination, and hidden knowledge",
+      "vodou": "Simbi lwa, water spirits derived from Kongo Simbi, associated with magic and crossroads"
+    },
+    "aliases": [
+      "Simbi (Kongo)",
+      "Simbi (Vodou/Haitian)",
+      "Simbi Andezo",
+      "Simbi Makaya"
+    ],
+    "connections": [
+      {
+        "to": "nommo",
+        "type": "mythological_parallel",
+        "detail": "Both are water spirits central to their respective cosmologies"
+      },
+      {
+        "to": "papa_legba",
+        "type": "mythological_parallel",
+        "detail": "Both serve as spiritual intermediaries in diaspora traditions derived from different African sources"
+      }
+    ]
+  },
+  {
+    "id": "eshu_elegba",
+    "name": "Eshu/Elegba",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Ancient / mythological",
+    "traditions": [
+      "yoruba_religion",
+      "santeria",
+      "vodou"
+    ],
+    "roles": {
+      "yoruba_religion": "Orisha of crossroads, messenger between humans and orishas, divine trickster",
+      "santeria": "Elegua, opener of roads, gatekeeper, syncreted with Holy Child of Atocha or St. Anthony",
+      "vodou": "Papa Legba, gatekeeper between worlds, derived from Yoruba Eshu via Fon Legba"
+    },
+    "aliases": [
+      "Eshu (Yoruba)",
+      "Elegba/Elegbara (Yoruba)",
+      "Elegua (Santeria)",
+      "Papa Legba (Vodou)",
+      "Legba (Fon/Dahomey)"
+    ],
+    "connections": [
+      {
+        "to": "kaggen",
+        "type": "mythological_parallel",
+        "detail": "Both are divine trickster figures who mediate between realms and use cunning"
+      },
+      {
+        "to": "maui_demigod",
+        "type": "mythological_parallel",
+        "detail": "Cross-cultural trickster archetype who mediates between divine and human realms"
+      }
+    ]
+  },
+  {
+    "id": "unkulunkulu",
+    "name": "Unkulunkulu",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological (Zulu creation)",
+    "traditions": [
+      "zulu_religion"
+    ],
+    "roles": {
+      "zulu_religion": "Supreme creator who emerged from a bed of reeds and created all things: animals, cattle, water, mountains, sun, and moon"
+    },
+    "aliases": [
+      "Unkulunkulu (Zulu)",
+      "uMvelinqangi (Zulu, sometimes distinct sky god)"
+    ],
+    "connections": [
+      {
+        "to": "nzambi_mpungu",
+        "type": "mythological_parallel",
+        "detail": "Both are Bantu supreme creator gods; Bantu linguistic and cultural substrate connects them"
+      },
+      {
+        "to": "chukwu",
+        "type": "mythological_parallel",
+        "detail": "Both are African supreme creator gods who withdraw after creation, leaving intermediary spirits"
+      }
+    ]
+  },
+  {
+    "id": "nzambi_mpungu",
+    "name": "Nzambi Mpungu",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological (Kongo creation)",
+    "traditions": [
+      "kongo_religion"
+    ],
+    "roles": {
+      "kongo_religion": "Supreme creator god, sky father, omnipresent sovereign master who gave life to all things"
+    },
+    "aliases": [
+      "Nzambi Mpungu (Kongo)",
+      "Nzambi a Mpungu",
+      "Nzambi (shortened form)"
+    ],
+    "connections": [
+      {
+        "to": "unkulunkulu",
+        "type": "mythological_parallel",
+        "detail": "Fellow Bantu supreme creator deity; shared linguistic root and theological concept"
+      },
+      {
+        "to": "chukwu",
+        "type": "mythological_parallel",
+        "detail": "Both are African supreme creators with similar remote/transcendent qualities"
+      }
+    ]
+  },
+  {
+    "id": "chukwu",
+    "name": "Chukwu/Chineke",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological (Igbo creation)",
+    "traditions": [
+      "igbo_religion"
+    ],
+    "roles": {
+      "igbo_religion": "Supreme creator god (Chi-na-eke: God who creates), source of all things, head of the Igbo pantheon"
+    },
+    "aliases": [
+      "Chukwu (Igbo)",
+      "Chineke (Igbo, 'God who creates')",
+      "Chi Ukwu ('Great Chi')"
+    ],
+    "connections": [
+      {
+        "to": "olodumare",
+        "type": "mythological_parallel",
+        "detail": "Both are West African supreme creators who are remote and work through intermediary spirits (alusi/orishas)"
+      },
+      {
+        "to": "nzambi_mpungu",
+        "type": "mythological_parallel",
+        "detail": "Both are African supreme creator gods with similar transcendent withdrawal patterns"
+      },
+      {
+        "to": "unkulunkulu",
+        "type": "mythological_parallel",
+        "detail": "Both are African supreme creators, though Chukwu is more actively worshipped"
+      }
+    ]
+  },
+  {
+    "id": "ala_igbo",
+    "name": "Ala/Ana (Igbo Earth Goddess)",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological",
+    "traditions": [
+      "igbo_religion"
+    ],
+    "roles": {
+      "igbo_religion": "Earth goddess, enforcer of moral law, mother of all crops, most prominent deity in daily Igbo worship"
+    },
+    "aliases": [
+      "Ala (Igbo)",
+      "Ana (Igbo variant)",
+      "Ani (Igbo variant)"
+    ],
+    "connections": [
+      {
+        "to": "asase_yaa",
+        "type": "cognate",
+        "detail": "Both are West African earth goddesses central to daily worship and agricultural life"
+      },
+      {
+        "to": "papatuanuku",
+        "type": "mythological_parallel",
+        "detail": "Cross-cultural parallel as earth mother deities foundational to their traditions"
+      }
+    ]
+  },
+  {
+    "id": "asase_yaa",
+    "name": "Asase Yaa",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological",
+    "traditions": [
+      "akan_religion"
+    ],
+    "roles": {
+      "akan_religion": "Earth goddess, mother of the dead, associated with truth, harvest, and barrenness"
+    },
+    "aliases": [
+      "Asase Yaa (Akan)",
+      "Aberewa (Old Woman)"
+    ],
+    "connections": [
+      {
+        "to": "ala_igbo",
+        "type": "cognate",
+        "detail": "Both are West African earth goddesses with parallel roles in agricultural and moral spheres"
+      }
+    ]
+  },
+  {
+    "id": "makemake",
+    "name": "Makemake",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "c. 1400-1600 CE (birdman cult era on Rapa Nui)",
+    "traditions": [
+      "rapa_nui_religion"
+    ],
+    "roles": {
+      "rapa_nui_religion": "Chief god of the birdman cult, creator deity, embodiment of fertilizing force of nature"
+    },
+    "aliases": [
+      "Make-make (Rapa Nui)"
+    ],
+    "connections": [
+      {
+        "to": "tangaroa",
+        "type": "mythological_parallel",
+        "detail": "Both are Polynesian-derived creator gods; Makemake evolved from the broader Polynesian pantheon in Rapa Nui isolation"
+      }
+    ]
+  },
+  {
+    "id": "pele_goddess",
+    "name": "Pele",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Mythological, Hawaiian tradition",
+    "traditions": [
+      "hawaiian_religion"
+    ],
+    "roles": {
+      "hawaiian_religion": "Goddess of volcanoes, fire, and lightning; resides in Kilauea crater; powerful and temperamental deity"
+    },
+    "aliases": [
+      "Pele (Hawaiian)",
+      "Pelehonuamea (full name)"
+    ],
+    "connections": [
+      {
+        "to": "tane_mahuta",
+        "type": "mythological_parallel",
+        "detail": "Pele is a departmental deity within the broader Hawaiian pantheon descended from Polynesian tradition"
+      }
+    ]
+  },
+  {
+    "id": "enkai",
+    "name": "Enkai/Engai",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological (Maasai tradition)",
+    "traditions": [
+      "maasai_religion"
+    ],
+    "roles": {
+      "maasai_religion": "Supreme creator god, androgynous, manifests as Enkai Narok (Black/benevolent) and Enkai Nanyokie (Red/wrathful); gave all cattle to the Maasai"
+    },
+    "aliases": [
+      "Enkai (Maasai)",
+      "Engai (Maasai)",
+      "Ngai (Maasai variant)"
+    ],
+    "connections": [
+      {
+        "to": "waaqa",
+        "type": "mythological_parallel",
+        "detail": "Both are East African monotheistic sky gods from pastoral peoples in the Horn/East Africa region"
+      }
+    ]
+  },
+  {
+    "id": "waaqa",
+    "name": "Waaqa",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological (Oromo tradition)",
+    "traditions": [
+      "waaqeffannaa"
+    ],
+    "roles": {
+      "waaqeffannaa": "Supreme being, omniscient and omnipotent sky god, the one God of the Oromo, associated with rain and cosmic order (saffu)"
+    },
+    "aliases": [
+      "Waaqa (Oromo)",
+      "Waaqa Tokkicha (the one God)",
+      "Waaq"
+    ],
+    "connections": [
+      {
+        "to": "enkai",
+        "type": "mythological_parallel",
+        "detail": "Both are East African monotheistic sky gods from Cushitic/Nilotic peoples"
+      }
+    ]
+  },
+  {
+    "id": "amma_dogon",
+    "name": "Amma",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological (Dogon creation)",
+    "traditions": [
+      "dogon_religion"
+    ],
+    "roles": {
+      "dogon_religion": "Supreme genderless creator god who created the universe from the cosmic egg; source of all creation through vibration and speech"
+    },
+    "aliases": [
+      "Amma (Dogon)",
+      "Ama (Dogon variant)"
+    ],
+    "connections": [
+      {
+        "to": "olodumare",
+        "type": "mythological_parallel",
+        "detail": "Both are West African supreme creator gods; Amma is genderless while Olodumare is also conceived as beyond gender"
+      },
+      {
+        "to": "chukwu",
+        "type": "mythological_parallel",
+        "detail": "Both are West African supreme creators who set creation in motion and then relate to the world through intermediaries"
+      }
+    ]
+  },
+  {
+    "id": "olodumare",
+    "name": "Olodumare/Olorun",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological",
+    "traditions": [
+      "yoruba_religion",
+      "santeria"
+    ],
+    "roles": {
+      "yoruba_religion": "Supreme creator god, source of all ashe (divine energy), delegates to orishas",
+      "santeria": "Supreme God, too remote for direct worship, works through orishas"
+    },
+    "aliases": [
+      "Olodumare (Yoruba)",
+      "Olorun (Yoruba, 'Owner of Heaven')",
+      "Olofi (Santeria)"
+    ],
+    "connections": [
+      {
+        "to": "amma_dogon",
+        "type": "mythological_parallel",
+        "detail": "Both are West African supreme creators beyond gender who work through intermediary spiritual beings"
+      },
+      {
+        "to": "chukwu",
+        "type": "mythological_parallel",
+        "detail": "Both are West African supreme creators who delegate to spirit intermediaries (orishas/alusi)"
+      },
+      {
+        "to": "nzambi_mpungu",
+        "type": "mythological_parallel",
+        "detail": "Both are African supreme creators with transcendent, withdrawn qualities"
+      }
+    ]
+  },
+  {
+    "id": "papatuanuku",
+    "name": "Papatuanuku (Earth Mother)",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Primordial / mythological",
+    "traditions": [
+      "maori_religion",
+      "polynesian_religion"
+    ],
+    "roles": {
+      "maori_religion": "Earth mother, source of all life, locked in embrace with sky father Ranginui until separated by their children",
+      "polynesian_religion": "Papa, earth mother in eastern Polynesian creation accounts, partner of Rangi/Wakea"
+    },
+    "aliases": [
+      "Papatuanuku (Maori)",
+      "Papa (pan-Polynesian)",
+      "Papahaumoku (Hawaiian)"
+    ],
+    "connections": [
+      {
+        "to": "ala_igbo",
+        "type": "mythological_parallel",
+        "detail": "Both are earth mother deities foundational to their traditions, associated with fertility and life"
+      },
+      {
+        "to": "asase_yaa",
+        "type": "mythological_parallel",
+        "detail": "Cross-cultural parallel as earth goddess figures"
+      }
+    ]
+  },
+  {
+    "id": "tengri",
+    "name": "Tengri",
+    "type": "deity",
+    "date": "-3000",
+    "dateLabel": "Prehistoric (attested from Xiongnu period, c. 3rd century BCE)",
+    "traditions": [
+      "tengrism",
+      "mongolian_shamanism",
+      "siberian_shamanism"
+    ],
+    "roles": {
+      "tengrism": "Supreme sky god, Eternal Blue Sky, ruler of all existence and bestower of divine mandate (kut) to khans",
+      "mongolian_shamanism": "Chief of the 99 Tengers (Qormusta Tengri), supreme heavenly father",
+      "siberian_shamanism": "Sky deity (Tangara among Yakuts), ruler of the Upper World"
+    },
+    "aliases": [
+      "Tengri (Turkic)",
+      "Tenger (Mongolian)",
+      "Tangara (Yakut/Sakha)",
+      "Tanrı (modern Turkish)",
+      "Tengeri (Buryat)"
+    ],
+    "connections": [
+      {
+        "to": "dyeus_pater",
+        "type": "mythological_parallel",
+        "detail": "Both are supreme sky-father deities. Some scholars propose deep etymological connections between Tengri and PIE *Dyeus, though this is debated."
+      }
+    ]
+  },
+  {
+    "id": "genghis_khan_figure",
+    "name": "Genghis Khan (Chinggis Khaan)",
+    "type": "hero",
+    "date": "1162",
+    "dateLabel": "c. 1162-1227 CE",
+    "traditions": [
+      "tengrism",
+      "mongolian_shamanism"
+    ],
+    "roles": {
+      "tengrism": "Chosen of Tengri, united the Mongol peoples under Tengrism as state religion, instituted religious tolerance",
+      "mongolian_shamanism": "Deified ancestor spirit (sulde), supreme national figure whose spirit protects Mongolia"
+    },
+    "aliases": [
+      "Chinggis Khaan (Mongolian)",
+      "Temujin (birth name)",
+      "Genghis Khan (Persian/Western)"
+    ],
+    "connections": [
+      {
+        "to": "tengri",
+        "type": "devotee",
+        "detail": "Genghis Khan attributed all his conquests to the grace and mandate of Tengri, as recorded in the Secret History of the Mongols"
+      }
+    ]
+  },
+  {
+    "id": "tonpa_shenrab",
+    "name": "Tonpa Shenrab Miwoche",
+    "type": "sage",
+    "date": "-1800",
+    "dateLabel": "c. 1800 BCE (traditional dating; historicity debated)",
+    "traditions": [
+      "bon"
+    ],
+    "roles": {
+      "bon": "Supreme Teacher and enlightened founder of Bon, equivalent of a Buddha, born in Olmo Lungring to teach liberation from samsara"
+    },
+    "aliases": [
+      "Tonpa Shenrab (Tibetan)",
+      "Lord Shenrab",
+      "Supreme Holy Man"
+    ],
+    "connections": [
+      {
+        "to": "buddha",
+        "type": "mythological_parallel",
+        "detail": "Tonpa Shenrab is the Bon equivalent of Shakyamuni Buddha; Bon tradition claims he attained enlightenment several hundred years before Siddhartha Gautama"
+      }
+    ]
+  },
+  {
+    "id": "tabiti",
+    "name": "Tabiti",
+    "type": "deity",
+    "date": "-800",
+    "dateLabel": "c. 800-300 BCE (attested in Scythian period)",
+    "traditions": [
+      "scythian_religion"
+    ],
+    "roles": {
+      "scythian_religion": "Supreme goddess of fire and the hearth, most venerated Scythian deity, the 'Burning One' from whom all creation emerged"
+    },
+    "aliases": [
+      "Tabiti (Scythian)",
+      "Hestia (Greek equation by Herodotus)",
+      "Vesta (Roman equation)"
+    ],
+    "connections": [
+      {
+        "to": "atar_fire",
+        "type": "cognate",
+        "detail": "Tabiti's role as sacred fire deity parallels the Zoroastrian fire concept Atar; both derive from Indo-Iranian fire worship traditions"
+      }
+    ]
+  },
+  {
+    "id": "papaeus",
+    "name": "Papaeus",
+    "type": "deity",
+    "date": "-800",
+    "dateLabel": "c. 800-300 BCE (attested in Scythian period)",
+    "traditions": [
+      "scythian_religion"
+    ],
+    "roles": {
+      "scythian_religion": "Sky father god, personification of Heaven, consort of Api (Earth), equated with Zeus by Herodotus"
+    },
+    "aliases": [
+      "Papaeus (Scythian/Greek rendering)",
+      "Zeus Papaeus (Herodotus)"
+    ],
+    "connections": [
+      {
+        "to": "ahura_mazda",
+        "type": "cognate",
+        "detail": "Papaeus parallels Ahura Mazda as supreme Indo-Iranian sky-father deity. Both derive from Proto-Indo-Iranian divine father concept."
+      }
+    ]
+  },
+  {
+    "id": "dangun",
+    "name": "Dangun Wanggeom",
+    "type": "hero",
+    "date": "-2333",
+    "dateLabel": "2333 BCE (traditional founding date of Gojoseon)",
+    "traditions": [
+      "muism",
+      "korean_shamanism"
+    ],
+    "roles": {
+      "muism": "Legendary divine founder of Gojoseon, first Korean nation; son of heavenly prince Hwanung and bear-woman Ungnyeo; later became Sanshin (Mountain God)",
+      "korean_shamanism": "Founding ancestor of the Korean people, divine origin myth connecting heaven and earth"
+    },
+    "aliases": [
+      "Dangun (Korean)",
+      "Dangun Wanggeom (full title)",
+      "Sanshin (as Mountain God after abdication)"
+    ],
+    "connections": [
+      {
+        "to": "sanshin",
+        "type": "identity",
+        "detail": "According to Korean mythology, Dangun became the Sanshin (Mountain God) after ruling for over 1,000 years, connecting political founding to shamanic mountain worship"
+      }
+    ]
+  },
+  {
+    "id": "sanshin",
+    "name": "Sanshin (Mountain God)",
+    "type": "deity",
+    "date": "-2333",
+    "dateLabel": "Mythological (associated with Dangun, 2333 BCE traditional date)",
+    "traditions": [
+      "muism",
+      "korean_shamanism"
+    ],
+    "roles": {
+      "muism": "Mountain God, protector of Korean land, depicted as white-bearded elder with tiger companion; each Korean mountain hosts a unique Sanshin",
+      "korean_shamanism": "Guardian spirit of mountains, central deity of Korean shamanic landscape, worshipped at shrines (sansindang) throughout Korean mountains"
+    },
+    "aliases": [
+      "Sanshin (Korean: Mountain God)",
+      "Sansin",
+      "Mountain Spirit"
+    ],
+    "connections": [
+      {
+        "to": "dangun",
+        "type": "identity",
+        "detail": "Dangun became the archetypal Sanshin after abdicating the throne, making mountain god worship inseparable from Korean national origin mythology"
+      }
+    ]
+  },
+  {
+    "id": "bathala",
+    "name": "Bathala",
+    "type": "deity",
+    "date": "-1000",
+    "dateLabel": "Pre-colonial (ancient Tagalog belief, predates Spanish contact 1521)",
+    "traditions": [
+      "philippine_indigenous_religion"
+    ],
+    "roles": {
+      "philippine_indigenous_religion": "Supreme creator god (Maykapal/Lumikha) of the Tagalog people, all-powerful creator of the universe and humanity"
+    },
+    "aliases": [
+      "Bathala (Tagalog)",
+      "Maykapal (The All-Powerful)",
+      "Lumikha (The Creator)",
+      "Abba (possible older form)"
+    ],
+    "connections": [
+      {
+        "to": "shiva",
+        "type": "influence",
+        "detail": "The name Bathala may derive from Sanskrit Bhattara (noble lord), reflecting Hindu-Buddhist cultural influence on pre-colonial Philippine religion through maritime trade networks"
+      }
+    ]
+  },
+  {
+    "id": "dewi_sri",
+    "name": "Dewi Sri",
+    "type": "deity",
+    "date": "-500",
+    "dateLabel": "Ancient Javanese (pre-Hindu period, possibly Bronze Age origins)",
+    "traditions": [
+      "kejawen",
+      "balinese_hinduism"
+    ],
+    "roles": {
+      "kejawen": "Rice goddess of fertility and prosperity, central to Javanese agricultural ritual and slametan ceremonies",
+      "balinese_hinduism": "Goddess of rice and fertility, honored with elaborate offerings during planting and harvest cycles"
+    },
+    "aliases": [
+      "Dewi Sri (Javanese/Balinese)",
+      "Sri Devi (Sanskrit origin)",
+      "Nyai Pohaci (Sundanese)"
+    ],
+    "connections": [
+      {
+        "to": "lakshmi",
+        "type": "syncretized_with",
+        "detail": "Dewi Sri is often identified with the Hindu goddess Sri Lakshmi, reflecting the Hindu-Javanese syncretism where an indigenous rice spirit was merged with the Indian goddess of abundance"
+      }
+    ]
+  },
+  {
+    "id": "lieu_hanh",
+    "name": "Lieu Hanh (Mau Lieu Hanh)",
+    "type": "deity",
+    "date": "1557",
+    "dateLabel": "16th century CE (traditional incarnation date)",
+    "traditions": [
+      "vietnamese_folk_religion"
+    ],
+    "roles": {
+      "vietnamese_folk_religion": "Mother Goddess of the Earthly Realm, one of Vietnam's Four Immortals (Tu Bat Tu), chief deity of Dao Mau, celestial princess incarnated on earth"
+    },
+    "aliases": [
+      "Mau Lieu Hanh (Mother Lieu Hanh)",
+      "Thanh Mau (Holy Mother)",
+      "Princess Lieu Hanh",
+      "Ba Chua Lieu (Lady of the Willow)"
+    ],
+    "connections": []
+  },
+  {
+    "id": "ngo_van_chieu",
+    "name": "Ngo Van Chieu",
+    "type": "prophet",
+    "date": "1878",
+    "dateLabel": "1878-1932 CE",
+    "traditions": [
+      "caodaism"
+    ],
+    "roles": {
+      "caodaism": "Founding prophet and first medium to receive divine revelations from Cao Dai (Supreme Being) during seances in the 1920s; French colonial official turned religious leader"
+    },
+    "aliases": [
+      "Ngo Van Chieu (Vietnamese)",
+      "Ngo Minh Chieu (alternate romanization)"
+    ],
+    "connections": []
+  },
+  {
+    "id": "ayya_vaikundar",
+    "name": "Ayya Vaikundar",
+    "type": "prophet",
+    "date": "1833",
+    "dateLabel": "1833-1851 CE (traditional dates)",
+    "traditions": [
+      "ayyavazhi"
+    ],
+    "roles": {
+      "ayyavazhi": "Purna avatar (full incarnation) of Narayana, sent to destroy the evil Kaliyan/Kroni and inaugurate the age of righteousness (Dharma Yukam); social reformer who preached caste equality"
+    },
+    "aliases": [
+      "Ayya Vaikundar (Tamil)",
+      "Mudisoodum Perumal",
+      "Vaikuntacami"
+    ],
+    "connections": [
+      {
+        "to": "vishnu",
+        "type": "equivalent",
+        "detail": "Ayyavazhi theology identifies Vaikundar as the final and complete avatar of Narayana/Vishnu, superseding the traditional Dashavatara list"
+      }
+    ]
+  },
+  {
+    "id": "basavanna",
+    "name": "Basavanna (Basaveshwara)",
+    "type": "sage",
+    "date": "1105",
+    "dateLabel": "c. 1105-1167 CE",
+    "traditions": [
+      "lingayat",
+      "hinduism"
+    ],
+    "roles": {
+      "lingayat": "Founder of Lingayatism, philosopher-poet-statesman who established the Anubhava Mantapa and promoted radical social equality through the vachana literary movement",
+      "hinduism": "12th-century Shaivite bhakti saint and social reformer from Karnataka; prime minister under King Bijjala II of Kalachuri dynasty"
+    },
+    "aliases": [
+      "Basavanna (Kannada)",
+      "Basaveshwara",
+      "Basava",
+      "Bhaktibhandari"
+    ],
+    "connections": [
+      {
+        "to": "shiva",
+        "type": "devotee",
+        "detail": "Basavanna's entire philosophy centers on direct, personal devotion to Shiva through the ishtalinga, without priestly intermediaries or temple rituals"
+      }
+    ]
+  },
+  {
+    "id": "akka_mahadevi",
+    "name": "Akka Mahadevi",
+    "type": "sage",
+    "date": "1130",
+    "dateLabel": "c. 1130-1160 CE",
+    "traditions": [
+      "lingayat"
+    ],
+    "roles": {
+      "lingayat": "Prominent female mystic poet and radical renunciant; composed vachanas addressed to 'Lord White as Jasmine' (Chennamallikarjuna); icon of spiritual gender equality"
+    },
+    "aliases": [
+      "Akka Mahadevi (Kannada)",
+      "Mahadevi",
+      "Akka (Elder Sister)"
+    ],
+    "connections": [
+      {
+        "to": "basavanna",
+        "type": "contemporary",
+        "detail": "Akka Mahadevi was a contemporary and fellow member of Basavanna's Anubhava Mantapa spiritual assembly; one of the most prominent female voices in the vachana movement"
+      }
+    ]
+  },
+  {
+    "id": "umay",
+    "name": "Umay",
+    "type": "deity",
+    "date": "-2000",
+    "dateLabel": "Prehistoric Turkic (attested in Orkhon inscriptions, 8th century CE)",
+    "traditions": [
+      "tengrism"
+    ],
+    "roles": {
+      "tengrism": "Mother goddess of fertility, virginity, children, and the hearth; protectress of women and newborns; consort or feminine complement of Tengri"
+    },
+    "aliases": [
+      "Umay (Turkic)",
+      "Umai (alternate)",
+      "Ymai (Altai)"
+    ],
+    "connections": [
+      {
+        "to": "tabiti",
+        "type": "mythological_parallel",
+        "detail": "Both Umay and Tabiti serve as hearth/fire-related mother goddesses in Inner Asian traditions, reflecting Indo-Iranian and Turkic parallel developments of hearth deity concepts"
+      }
+    ]
+  },
+  {
+    "id": "erlik",
+    "name": "Erlik Khan",
+    "type": "deity",
+    "date": "-2000",
+    "dateLabel": "Prehistoric (ancient Turkic-Mongolic underworld deity)",
+    "traditions": [
+      "tengrism",
+      "siberian_shamanism",
+      "mongolian_shamanism"
+    ],
+    "roles": {
+      "tengrism": "God of death and the underworld (Lower World), first human who was cast down after rebelling against Tengri",
+      "siberian_shamanism": "Lord of the dead and ruler of the Lower World among Altai and Turkic Siberian peoples",
+      "mongolian_shamanism": "Underworld lord opposed to the 99 Tengers, ruler of dark spirits"
+    },
+    "aliases": [
+      "Erlik Khan (Turkic)",
+      "Erlik (Altai)",
+      "Erklig Khan (Mongolian)"
+    ],
+    "connections": [
+      {
+        "to": "yama",
+        "type": "cognate",
+        "detail": "Erlik parallels the Vedic/Buddhist death god Yama. Some scholars trace both to a common Indo-European or Inner Asian death-deity archetype connected to the first mortal who became lord of the dead."
+      }
+    ]
+  },
+  {
+    "id": "ratu_kidul",
+    "name": "Ratu Kidul (Nyai Roro Kidul)",
+    "type": "deity",
+    "date": "-500",
+    "dateLabel": "Ancient Javanese (pre-Hindu period; formalized in Mataram era, 16th-17th century)",
+    "traditions": [
+      "kejawen"
+    ],
+    "roles": {
+      "kejawen": "Queen of the South Sea (Indian Ocean), powerful spirit consort of Javanese kings; commander of the spirit armies; patron of Javanese royalty from Mataram dynasty onward"
+    },
+    "aliases": [
+      "Nyai Roro Kidul (Javanese)",
+      "Ratu Kidul (Queen of the South)",
+      "Kanjeng Ratu Kidul"
+    ],
+    "connections": []
+  },
+  {
+    "id": "princess_bari",
+    "name": "Princess Bari (Baridegi)",
+    "type": "deity",
+    "date": "mythological",
+    "dateLabel": "Mythological (ancient Korean origin)",
+    "traditions": [
+      "muism"
+    ],
+    "roles": {
+      "muism": "Abandoned seventh princess who journeyed to the underworld to obtain the water of life for her parents; patron saint of mudang shamans and guide of souls to the afterlife"
+    },
+    "aliases": [
+      "Baridegi (Korean)",
+      "Princess Bari",
+      "Bari Gongju"
+    ],
+    "connections": [
+      {
+        "to": "dangun",
+        "type": "mythological_parallel",
+        "detail": "Both Dangun and Princess Bari serve as foundational mythological figures of Muism: Dangun connects heaven and earth through descent, while Bari connects the living and dead through her underworld journey"
+      }
+    ]
+  },
+  {
+    "id": "tinia",
+    "name": "Tinia",
+    "type": "deity",
+    "date": "-900",
+    "dateLabel": "c. 900 BCE (Etruscan civilization)",
+    "traditions": [
+      "etruscan_religion"
+    ],
+    "roles": {
+      "etruscan_religion": "Supreme sky god, wielder of three thunderbolts, head of the Etruscan divine triad"
+    },
+    "aliases": [
+      "Tin",
+      "Tina"
+    ],
+    "connections": [
+      {
+        "to": "zeus",
+        "type": "equivalent",
+        "detail": "Greek equivalent as supreme sky god; Etruscan art frequently depicts Tinia in Zeus-like iconography"
+      },
+      {
+        "to": "jupiter",
+        "type": "equivalent",
+        "detail": "Roman Jupiter directly influenced by Etruscan Tinia through Capitoline Triad derivation (Tinia-Uni-Menrva became Jupiter-Juno-Minerva)"
+      }
+    ]
+  },
+  {
+    "id": "menrva",
+    "name": "Menrva",
+    "type": "deity",
+    "date": "-900",
+    "dateLabel": "c. 900 BCE",
+    "traditions": [
+      "etruscan_religion"
+    ],
+    "roles": {
+      "etruscan_religion": "Goddess of wisdom, arts, medicine, and warfare; member of divine triad"
+    },
+    "aliases": [
+      "Mnerva",
+      "Menarva"
+    ],
+    "connections": [
+      {
+        "to": "athena",
+        "type": "equivalent",
+        "detail": "Greek equivalent as wisdom/war goddess; however Etruscan Menrva had greater role in healing"
+      },
+      {
+        "to": "minerva",
+        "type": "evolved_from",
+        "detail": "Roman Minerva derives directly from Etruscan Menrva, name and cult transmitted through Etruscan influence on Rome"
+      }
+    ]
+  },
+  {
+    "id": "sabazios",
+    "name": "Sabazios",
+    "type": "deity",
+    "date": "-1000",
+    "dateLabel": "c. 1000 BCE (Bronze-Iron Age Thrace)",
+    "traditions": [
+      "thracian_religion"
+    ],
+    "roles": {
+      "thracian_religion": "Supreme sky/horseman god, ecstatic deity of vegetation and beer/wine"
+    },
+    "aliases": [
+      "Sabazius",
+      "Jupiter Sabazius (Roman syncretism)"
+    ],
+    "connections": [
+      {
+        "to": "dionysus",
+        "type": "syncretized_with",
+        "detail": "Identification of Sabazios with Dionysus occurs regularly in Hellenistic sources; both associated with ecstatic rites and vegetation"
+      },
+      {
+        "to": "zeus",
+        "type": "syncretized_with",
+        "detail": "In Roman period, worshipped as Jupiter Sabazius; Phrygian-Thracian sky god merged with Zeus/Jupiter"
+      }
+    ]
+  },
+  {
+    "id": "zalmoxis",
+    "name": "Zalmoxis",
+    "type": "deity",
+    "date": "-500",
+    "dateLabel": "c. 500 BCE (reported by Herodotus)",
+    "traditions": [
+      "thracian_religion"
+    ],
+    "roles": {
+      "thracian_religion": "Deified prophet-god of the Getae; taught immortality of the soul and afterlife reunion with the divine"
+    },
+    "aliases": [
+      "Zamolxis",
+      "Salmoxis"
+    ],
+    "connections": [
+      {
+        "to": "pythagoras",
+        "type": "mythological_parallel",
+        "detail": "Herodotus reports tradition that Zalmoxis was a former slave of Pythagoras who learned philosophy in Greece; scholars debate whether this is Greek rationalization of a Thracian deity"
+      },
+      {
+        "to": "orpheus",
+        "type": "mythological_parallel",
+        "detail": "Both Thracian figures associated with soul immortality doctrines; Orpheus represents ascetic path while Zalmoxis represents divine promise of afterlife"
+      }
+    ]
+  },
+  {
+    "id": "orpheus",
+    "name": "Orpheus",
+    "type": "hero",
+    "date": "-1200",
+    "dateLabel": "Mythological (attributed to pre-Trojan War era)",
+    "traditions": [
+      "thracian_religion",
+      "orphic_religion",
+      "greek_religion"
+    ],
+    "roles": {
+      "thracian_religion": "Legendary Thracian poet-shaman who could charm all living things with music",
+      "orphic_religion": "Founder and revelator of Orphic mysteries, author of sacred hymns and cosmogony",
+      "greek_religion": "Mythical musician who descended to Hades to retrieve Eurydice"
+    },
+    "aliases": [
+      "Orpheos"
+    ],
+    "connections": [
+      {
+        "to": "dionysus",
+        "type": "mythological_parallel",
+        "detail": "Orpheus torn apart by Maenads (followers of Dionysus); Orphic religion centered on Dionysus-Zagreus myth; complex tension between Orphic asceticism and Dionysiac ecstasy"
+      },
+      {
+        "to": "zalmoxis",
+        "type": "mythological_parallel",
+        "detail": "Both Thracian figures who taught soul immortality; represent two spiritual paths — Orphic ascent vs. Zalmoxian promise"
+      }
+    ]
+  },
+  {
+    "id": "endovelicus",
+    "name": "Endovelicus",
+    "type": "deity",
+    "date": "-500",
+    "dateLabel": "c. 500 BCE (Iron Age Lusitania)",
+    "traditions": [
+      "iberian_celtiberian_religion"
+    ],
+    "roles": {
+      "iberian_celtiberian_religion": "Supreme healing and oracular god of the Lusitanians; 94 known dedications, most important indigenous Iberian deity"
+    },
+    "aliases": [
+      "Endovellicus",
+      "Endovelecus"
+    ],
+    "connections": [
+      {
+        "to": "apollo",
+        "type": "equivalent",
+        "detail": "Both healing and oracular deities; Roman interpretatio sometimes equated Endovelicus with Apollo or Aesculapius"
+      },
+      {
+        "to": "asclepius",
+        "type": "mythological_parallel",
+        "detail": "Shared functions as healing deity with temple-based incubation and dream oracles"
+      }
+    ]
+  },
+  {
+    "id": "ataecina",
+    "name": "Ataecina",
+    "type": "deity",
+    "date": "-500",
+    "dateLabel": "c. 500 BCE (Iron Age Iberia)",
+    "traditions": [
+      "iberian_celtiberian_religion"
+    ],
+    "roles": {
+      "iberian_celtiberian_religion": "Underworld and regeneration goddess; guide of the dead and guarantor of rebirth; nearly 40 inscriptions"
+    },
+    "aliases": [
+      "Ataegina",
+      "Ataecina Turobrigensis"
+    ],
+    "connections": [
+      {
+        "to": "persephone",
+        "type": "equivalent",
+        "detail": "Roman inscriptions equate Ataecina with Proserpina/Persephone; both underworld goddesses associated with death and regeneration"
+      }
+    ]
+  },
+  {
+    "id": "snake_goddess_minoan",
+    "name": "Snake Goddess",
+    "type": "deity",
+    "date": "-1700",
+    "dateLabel": "c. 1700 BCE (Middle Minoan period — figurines from Knossos)",
+    "traditions": [
+      "minoan_religion"
+    ],
+    "roles": {
+      "minoan_religion": "Household protectress, chthonic deity, symbol of earth/fertility power; faience figurines from Temple Repositories"
+    },
+    "aliases": [
+      "Minoan Snake Goddess",
+      "Lady of the Snakes"
+    ],
+    "connections": [
+      {
+        "to": "athena",
+        "type": "evolved_from",
+        "detail": "Martin Nilsson proposed that Athena was originally the Minoan snake goddess; both associated with snakes, household protection, and wisdom"
+      }
+    ]
+  },
+  {
+    "id": "mari_basque",
+    "name": "Mari",
+    "type": "deity",
+    "date": "-3000",
+    "dateLabel": "Pre-Indo-European (deep antiquity)",
+    "traditions": [
+      "basque_mythology"
+    ],
+    "roles": {
+      "basque_mythology": "Supreme earth goddess; personification of Mother Earth, controls weather, dwells in caves and mountaintops, manifests as fireball"
+    },
+    "aliases": [
+      "Anbotoko Mari",
+      "Murumendiko Mari",
+      "Maya"
+    ],
+    "connections": []
+  },
+  {
+    "id": "ukko",
+    "name": "Ukko",
+    "type": "deity",
+    "date": "-1000",
+    "dateLabel": "c. 1000 BCE (Finno-Ugric tradition)",
+    "traditions": [
+      "finnish_sami_religion"
+    ],
+    "roles": {
+      "finnish_sami_religion": "Supreme sky and thunder god; wielder of hammer/axe, god of weather and crops"
+    },
+    "aliases": [
+      "Äijä (Grandfather)",
+      "Ylijumala (Supreme God)"
+    ],
+    "connections": [
+      {
+        "to": "thor",
+        "type": "mythological_parallel",
+        "detail": "Both thunder gods with hammer/axe weapons; possible Norse-Finnish cultural exchange, though Ukko derives from Finno-Ugric rather than IE tradition"
+      },
+      {
+        "to": "perkunas",
+        "type": "mythological_parallel",
+        "detail": "Both thunder gods in geographically adjacent cultures; Ukko's axe and storm associations parallel Baltic Perkunas"
+      }
+    ]
+  },
+  {
+    "id": "vainamoinen",
+    "name": "Väinämöinen",
+    "type": "hero",
+    "date": "-1000",
+    "dateLabel": "Mythological (deep antiquity)",
+    "traditions": [
+      "finnish_sami_religion"
+    ],
+    "roles": {
+      "finnish_sami_religion": "Primordial shaman-hero and greatest singer; born of Ilmatar (air goddess), central figure of the Kalevala"
+    },
+    "aliases": [
+      "Väinö"
+    ],
+    "connections": [
+      {
+        "to": "orpheus",
+        "type": "mythological_parallel",
+        "detail": "Both supreme musicians whose singing has cosmic power; both associated with shamanic traditions; both journey to the underworld"
+      }
+    ]
+  },
+  {
+    "id": "demeter_eleusinian",
+    "name": "Demeter (Eleusinian)",
+    "type": "deity",
+    "date": "-1500",
+    "dateLabel": "c. 1500 BCE (Mycenaean origins)",
+    "traditions": [
+      "eleusinian_mysteries",
+      "greek_religion"
+    ],
+    "roles": {
+      "eleusinian_mysteries": "Central deity; the mourning mother whose search for Persephone is the mythological foundation of the Mysteries",
+      "greek_religion": "Goddess of grain, harvest, and the seasons"
+    },
+    "aliases": [
+      "Da-ma-te (possible Linear B form)",
+      "Deo"
+    ],
+    "connections": [
+      {
+        "to": "isis",
+        "type": "syncretized_with",
+        "detail": "Isis identified with Demeter in Hellenistic period; both mourning mother goddesses who search for lost loved one; both associated with mysteries offering blessed afterlife"
+      },
+      {
+        "to": "persephone",
+        "type": "mythological_parallel",
+        "detail": "Mother-daughter pair at core of Eleusinian Mysteries; their reunion symbolizes death-rebirth cycle"
+      }
+    ]
+  },
+  {
+    "id": "zagreus",
+    "name": "Zagreus",
+    "type": "deity",
+    "date": "-600",
+    "dateLabel": "c. 6th century BCE (Orphic theology)",
+    "traditions": [
+      "orphic_religion"
+    ],
+    "roles": {
+      "orphic_religion": "First Dionysus; divine child of Zeus and Persephone, dismembered and devoured by Titans, whose remnant divine spark lives in all humans"
+    },
+    "aliases": [
+      "Dionysus Zagreus",
+      "the First-born Dionysus"
+    ],
+    "connections": [
+      {
+        "to": "dionysus",
+        "type": "evolved_from",
+        "detail": "Zagreus is the Orphic 'previous incarnation' of Dionysus; Zeus reconstituted Zagreus' heart into the second Dionysus born of Semele"
+      },
+      {
+        "to": "osiris",
+        "type": "mythological_parallel",
+        "detail": "Both dismembered gods whose death and reconstitution is central to their cult's soteriology; Plutarch explicitly compared Dionysus-Zagreus to Osiris"
+      }
+    ]
+  },
+  {
+    "id": "mithras",
+    "name": "Mithras",
+    "type": "deity",
+    "date": "80",
+    "dateLabel": "c. 80 CE (earliest Roman evidence)",
+    "traditions": [
+      "mithraic_mysteries"
+    ],
+    "roles": {
+      "mithraic_mysteries": "Central savior deity; cosmic bull-slayer, rock-born, sun companion, granter of salvation through initiation"
+    },
+    "aliases": [
+      "Deus Sol Invictus Mithras",
+      "Mithras Tauroctonos"
+    ],
+    "connections": [
+      {
+        "to": "mithra",
+        "type": "cognate",
+        "detail": "Name derives from Zoroastrian/Indo-Iranian Mithra, deity of contracts and cosmic order; however Roman Mithras mythology is largely distinct from Iranian Mithra"
+      },
+      {
+        "to": "sol_invictus",
+        "type": "syncretized_with",
+        "detail": "Mithras identified with Sol Invictus (Unconquered Sun) from 2nd century CE; shared solar iconography; Mithras and Sol depicted feasting together"
+      }
+    ]
+  },
+  {
+    "id": "isis_hellenistic",
+    "name": "Isis (Hellenistic)",
+    "type": "deity",
+    "date": "-300",
+    "dateLabel": "c. 300 BCE (Ptolemaic period)",
+    "traditions": [
+      "isis_mysteries",
+      "egyptian_religion"
+    ],
+    "roles": {
+      "isis_mysteries": "Universal mother goddess; myrionyme (ten thousand names), mistress of sea and magic, savior of souls",
+      "egyptian_religion": "Great goddess of magic, motherhood, and cosmic order"
+    },
+    "aliases": [
+      "Isis Pelagia",
+      "Isis Myrionymos",
+      "Isis-Fortuna",
+      "Isis-Demeter"
+    ],
+    "connections": [
+      {
+        "to": "demeter_eleusinian",
+        "type": "syncretized_with",
+        "detail": "Isis extensively identified with Demeter; both mourning mother figures; Isis aretalogies claim identity with Demeter"
+      },
+      {
+        "to": "aphrodite",
+        "type": "syncretized_with",
+        "detail": "Isis identified with Aphrodite in her aspect as goddess of love and beauty"
+      },
+      {
+        "to": "athena",
+        "type": "syncretized_with",
+        "detail": "Isis aretalogies claim she gave laws and writing — functions of Athena/Minerva"
+      }
+    ]
+  },
+  {
+    "id": "plotinus",
+    "name": "Plotinus",
+    "type": "sage",
+    "date": "204",
+    "dateLabel": "204-270 CE",
+    "traditions": [
+      "neoplatonism"
+    ],
+    "roles": {
+      "neoplatonism": "Founder of Neoplatonism; philosopher-mystic who taught henosis (union with the One) through intellectual contemplation"
+    },
+    "aliases": [],
+    "connections": [
+      {
+        "to": "plato",
+        "type": "evolved_from",
+        "detail": "Plotinus claimed to be interpreting Plato's philosophy, especially the Republic, Parmenides, and Timaeus; transformed Platonism into mystical system"
+      },
+      {
+        "to": "augustine",
+        "type": "influence",
+        "detail": "Augustine of Hippo deeply influenced by Plotinus' Enneads; Neoplatonic metaphysics became foundation of much Christian theology"
+      }
+    ]
+  },
+  {
+    "id": "iamblichus",
+    "name": "Iamblichus",
+    "type": "sage",
+    "date": "245",
+    "dateLabel": "c. 245-325 CE",
+    "traditions": [
+      "neoplatonism"
+    ],
+    "roles": {
+      "neoplatonism": "Systematizer of theurgy; shifted Neoplatonism from pure contemplation to ritual practice; added elaborate hierarchies of divine beings"
+    },
+    "aliases": [
+      "Iamblichus of Chalcis"
+    ],
+    "connections": [
+      {
+        "to": "plotinus",
+        "type": "evolved_from",
+        "detail": "Built on Plotinus' metaphysics but fundamentally changed the method — embodied soul needs theurgy (ritual), not just contemplation, to achieve union"
+      },
+      {
+        "to": "hermes_trismegistus",
+        "type": "influence",
+        "detail": "Iamblichus' De Mysteriis discusses Egyptian priestly wisdom attributed to Hermes Trismegistus alongside Neoplatonic theology"
+      }
+    ]
+  },
+  {
+    "id": "isaac_luria",
+    "name": "Isaac Luria (Ha-Ari)",
+    "type": "sage",
+    "date": "1534",
+    "dateLabel": "1534-1572 CE",
+    "traditions": [
+      "kabbalah"
+    ],
+    "roles": {
+      "kabbalah": "Father of modern Kabbalah; developed revolutionary doctrines of tzimtzum, shevirat ha-kelim, and tikkun olam in Safed"
+    },
+    "aliases": [
+      "Ha-Ari (The Lion)",
+      "Arizal"
+    ],
+    "connections": [
+      {
+        "to": "moses_de_leon",
+        "type": "evolved_from",
+        "detail": "Luria built on Zoharic Kabbalah but radically transformed it with new cosmogonic mythology of divine contraction, vessel-shattering, and cosmic repair"
+      }
+    ]
+  },
+  {
+    "id": "moses_de_leon",
+    "name": "Moses de Leon",
+    "type": "sage",
+    "date": "1240",
+    "dateLabel": "c. 1240-1305 CE",
+    "traditions": [
+      "kabbalah"
+    ],
+    "roles": {
+      "kabbalah": "Likely author/compiler of the Zohar, foundational text of Kabbalah; attributed it to 2nd-century Rabbi Shimon bar Yochai"
+    },
+    "aliases": [
+      "Moshe de Leon"
+    ],
+    "connections": []
+  },
+  {
+    "id": "al_hakim",
+    "name": "Al-Hakim bi-Amr Allah",
+    "type": "deity",
+    "date": "985",
+    "dateLabel": "985-1021 CE",
+    "traditions": [
+      "druze_faith"
+    ],
+    "roles": {
+      "druze_faith": "Fatimid Caliph believed by Druze to be the incarnation of God in human form; will return at end times"
+    },
+    "aliases": [
+      "al-Hakim",
+      "The One"
+    ],
+    "connections": []
+  },
+  {
+    "id": "hamza_ibn_ali",
+    "name": "Hamza ibn Ali",
+    "type": "sage",
+    "date": "985",
+    "dateLabel": "c. 985-1021 CE",
+    "traditions": [
+      "druze_faith"
+    ],
+    "roles": {
+      "druze_faith": "Founder and primary theologian; proclaimed al-Hakim's divinity in 1017 CE, considered reincarnation of Christ and the Universal Mind (al-Aql)"
+    },
+    "aliases": [],
+    "connections": []
+  },
+  {
+    "id": "melek_taus",
+    "name": "Melek Taus",
+    "type": "deity",
+    "date": "-1000",
+    "dateLabel": "Pre-Islamic (deep antiquity, reformed c. 1150 CE)",
+    "traditions": [
+      "yazidism"
+    ],
+    "roles": {
+      "yazidism": "The Peacock Angel; chief of seven divine emanations, leader of archangels, lord of this world, emanation of God himself"
+    },
+    "aliases": [
+      "Tawusi Melek",
+      "The Peacock Angel"
+    ],
+    "connections": [
+      {
+        "to": "azazel",
+        "type": "mythological_parallel",
+        "detail": "Outsiders wrongly identified Melek Taus with the Islamic Iblis/Satan due to his refusal to bow to Adam; Yazidis emphatically reject this equation — Melek Taus is not fallen but the greatest angel"
+      }
+    ]
+  },
+  {
+    "id": "sheikh_adi",
+    "name": "Sheikh Adi ibn Musafir",
+    "type": "sage",
+    "date": "1073",
+    "dateLabel": "c. 1073-1162 CE",
+    "traditions": [
+      "yazidism"
+    ],
+    "roles": {
+      "yazidism": "Historical founder/reformer of Yazidism; believed to be incarnation of Melek Taus; tomb at Lalish is holiest Yazidi shrine"
+    },
+    "aliases": [
+      "Sheikh Adi"
+    ],
+    "connections": []
+  },
+  {
+    "id": "yahya_yuhana",
+    "name": "Yahya Yuhana (John the Baptist)",
+    "type": "sage",
+    "date": "-5",
+    "dateLabel": "c. 5 BCE - 30 CE",
+    "traditions": [
+      "mandaeism",
+      "christianity"
+    ],
+    "roles": {
+      "mandaeism": "Greatest and final prophet; Mandaeans consider themselves his original Nasoraean disciples from the Jordan Valley",
+      "christianity": "Prophet and baptizer who prepared the way for Jesus Christ"
+    },
+    "aliases": [
+      "Yahya",
+      "Yuhana Masbana (John the Baptizer)"
+    ],
+    "connections": [
+      {
+        "to": "jesus",
+        "type": "mythological_parallel",
+        "detail": "In Christianity, John baptized Jesus and was his precursor; in Mandaeism, John is the supreme prophet while Jesus is considered a false messiah — complete reversal of roles"
+      }
+    ]
+  },
+  {
+    "id": "manda_d_hayyi",
+    "name": "Manda d-Hayyi",
+    "type": "deity",
+    "date": "-100",
+    "dateLabel": "Mythological (primordial)",
+    "traditions": [
+      "mandaeism"
+    ],
+    "roles": {
+      "mandaeism": "Knowledge of Life — chief utra (light being), savior figure who descends to the material world to liberate trapped souls and guide them to the World of Light"
+    },
+    "aliases": [
+      "Manda d-Hiia"
+    ],
+    "connections": [
+      {
+        "to": "jesus",
+        "type": "mythological_parallel",
+        "detail": "Both descending savior figures; some scholars have compared Manda d-Hayyi to the Gnostic Christ, though Mandaeans reject any identification with Jesus"
+      }
+    ]
+  },
+  {
+    "id": "joseph_smith",
+    "name": "Joseph Smith Jr.",
+    "type": "prophet",
+    "date": "1805-1844",
+    "dateLabel": "1805-1844 CE",
+    "traditions": [
+      "mormonism"
+    ],
+    "roles": {
+      "mormonism": "Founding prophet, seer, and revelator; translator of the Book of Mormon; first president of the Church"
+    },
+    "aliases": [
+      "Brother Joseph",
+      "The Prophet Joseph",
+      "Joseph Smith"
+    ],
+    "connections": [
+      {
+        "to": "jesus",
+        "type": "spiritual_lineage",
+        "detail": "Claimed to restore Christ's original church through angelic visitation and priesthood restoration"
+      },
+      {
+        "to": "abraham",
+        "type": "prophetic_parallel",
+        "detail": "Claimed to translate the Book of Abraham from Egyptian papyri, linking to Abrahamic covenant"
+      }
+    ]
+  },
+  {
+    "id": "brigham_young",
+    "name": "Brigham Young",
+    "type": "prophet",
+    "date": "1801-1877",
+    "dateLabel": "1801-1877 CE",
+    "traditions": [
+      "mormonism"
+    ],
+    "roles": {
+      "mormonism": "Second president and prophet; led the Great Migration to Utah; colonizer and territorial governor"
+    },
+    "aliases": [
+      "The Lion of the Lord",
+      "American Moses"
+    ],
+    "connections": [
+      {
+        "to": "joseph_smith",
+        "type": "spiritual_lineage",
+        "detail": "Succeeded Joseph Smith as leader of the largest LDS faction after Smith's assassination"
+      },
+      {
+        "to": "moses",
+        "type": "prophetic_parallel",
+        "detail": "Led his people through wilderness to a new promised land (Utah), earning 'American Moses' comparison"
+      }
+    ]
+  },
+  {
+    "id": "charles_taze_russell",
+    "name": "Charles Taze Russell",
+    "type": "prophet",
+    "date": "1852-1916",
+    "dateLabel": "1852-1916 CE",
+    "traditions": [
+      "jehovahs_witnesses"
+    ],
+    "roles": {
+      "jehovahs_witnesses": "Founder of the Bible Student movement and first president of the Watch Tower Society"
+    },
+    "aliases": [
+      "Pastor Russell"
+    ],
+    "connections": [
+      {
+        "to": "jesus",
+        "type": "spiritual_lineage",
+        "detail": "Taught that Christ's invisible return occurred in 1874, later revised to 1914 by successors"
+      }
+    ]
+  },
+  {
+    "id": "mirza_ghulam_ahmad",
+    "name": "Mirza Ghulam Ahmad",
+    "type": "prophet",
+    "date": "1835-1908",
+    "dateLabel": "1835-1908 CE",
+    "traditions": [
+      "ahmadiyya"
+    ],
+    "roles": {
+      "ahmadiyya": "Founder, claimed to be the promised Mahdi, Messiah, and subordinate prophet within Islam"
+    },
+    "aliases": [
+      "Hazrat Masih Maud",
+      "Promised Messiah",
+      "Imam Mahdi"
+    ],
+    "connections": [
+      {
+        "to": "muhammad",
+        "type": "spiritual_lineage",
+        "detail": "Claimed prophetic status subordinate to Muhammad, fulfilling Islamic eschatological promises"
+      },
+      {
+        "to": "jesus",
+        "type": "prophetic_parallel",
+        "detail": "Claimed to be the metaphorical second coming of Jesus; taught Jesus survived crucifixion and died in Kashmir"
+      }
+    ]
+  },
+  {
+    "id": "nakayama_miki",
+    "name": "Nakayama Miki",
+    "type": "prophet",
+    "date": "1798-1887",
+    "dateLabel": "1798-1887 CE",
+    "traditions": [
+      "tenrikyo"
+    ],
+    "roles": {
+      "tenrikyo": "Foundress (Oyasama), became the Shrine of God the Parent (Tenri-O-no-Mikoto)"
+    },
+    "aliases": [
+      "Oyasama",
+      "Miki-sama"
+    ],
+    "connections": []
+  },
+  {
+    "id": "deguchi_nao",
+    "name": "Deguchi Nao",
+    "type": "prophet",
+    "date": "1836-1918",
+    "dateLabel": "1836-1918 CE",
+    "traditions": [
+      "oomoto"
+    ],
+    "roles": {
+      "oomoto": "Foundress, received possession-revelations from Ushitora no Konjin; authored sacred texts in automatic writing"
+    },
+    "aliases": [
+      "Nao-sama",
+      "Kaiso (Foundress)"
+    ],
+    "connections": [
+      {
+        "to": "deguchi_onisaburo",
+        "type": "spiritual_lineage",
+        "detail": "Mother-in-law to Onisaburo, who married her daughter and systematized her revelations into organized religion"
+      }
+    ]
+  },
+  {
+    "id": "deguchi_onisaburo",
+    "name": "Deguchi Onisaburo",
+    "type": "prophet",
+    "date": "1871-1948",
+    "dateLabel": "1871-1948 CE",
+    "traditions": [
+      "oomoto"
+    ],
+    "roles": {
+      "oomoto": "Co-founder and spiritual leader; systematized theology, expanded movement to over 2 million followers"
+    },
+    "aliases": [
+      "Onisaburo-sama",
+      "Ueda Kisaburo (birth name)",
+      "Seinisaburo"
+    ],
+    "connections": [
+      {
+        "to": "deguchi_nao",
+        "type": "spiritual_lineage",
+        "detail": "Married Nao's daughter and transformed her small rural following into a massive religious movement"
+      }
+    ]
+  },
+  {
+    "id": "haile_selassie",
+    "name": "Haile Selassie I",
+    "type": "prophet",
+    "date": "1892-1975",
+    "dateLabel": "1892-1975 CE",
+    "traditions": [
+      "rastafari"
+    ],
+    "roles": {
+      "rastafari": "Central divine/messianic figure, regarded as Jah (God) incarnate or chosen king; Emperor of Ethiopia 1930-1974"
+    },
+    "aliases": [
+      "Jah Rastafari",
+      "King of Kings",
+      "Lord of Lords",
+      "Conquering Lion of the Tribe of Judah",
+      "Ras Tafari Makonnen"
+    ],
+    "connections": [
+      {
+        "to": "jesus",
+        "type": "prophetic_parallel",
+        "detail": "Regarded by Rastafari as the returned Christ, fulfilling biblical prophecy of the Lion of Judah"
+      },
+      {
+        "to": "solomon",
+        "type": "genealogical_ancestor",
+        "detail": "Ethiopian Solomonic dynasty claims descent from King Solomon and the Queen of Sheba"
+      }
+    ]
+  },
+  {
+    "id": "marcus_garvey",
+    "name": "Marcus Garvey",
+    "type": "prophet",
+    "date": "1887-1940",
+    "dateLabel": "1887-1940 CE",
+    "traditions": [
+      "rastafari"
+    ],
+    "roles": {
+      "rastafari": "Prophetic forerunner, Pan-Africanist whose teachings inspired the Rastafari movement"
+    },
+    "aliases": [
+      "The Black Moses"
+    ],
+    "connections": [
+      {
+        "to": "haile_selassie",
+        "type": "prophetic_parallel",
+        "detail": "Garvey's words about looking to Africa for a crowned king were interpreted as prophecy of Selassie's coronation"
+      }
+    ]
+  },
+  {
+    "id": "gerald_gardner",
+    "name": "Gerald Gardner",
+    "type": "sage",
+    "date": "1884-1964",
+    "dateLabel": "1884-1964 CE",
+    "traditions": [
+      "wicca"
+    ],
+    "roles": {
+      "wicca": "Founder of Gardnerian Wicca, published Witchcraft Today (1954) revealing the modern craft to the public"
+    },
+    "aliases": [
+      "The Father of Wicca",
+      "Scire (craft name)"
+    ],
+    "connections": [
+      {
+        "to": "doreen_valiente",
+        "type": "spiritual_lineage",
+        "detail": "Initiated Valiente as High Priestess; she rewrote much of his ritual material into its lasting liturgical form"
+      }
+    ]
+  },
+  {
+    "id": "doreen_valiente",
+    "name": "Doreen Valiente",
+    "type": "sage",
+    "date": "1922-1999",
+    "dateLabel": "1922-1999 CE",
+    "traditions": [
+      "wicca"
+    ],
+    "roles": {
+      "wicca": "High Priestess, poet, and principal liturgist; rewrote the Charge of the Goddess and many core Wiccan texts"
+    },
+    "aliases": [
+      "The Mother of Wicca"
+    ],
+    "connections": [
+      {
+        "to": "gerald_gardner",
+        "type": "spiritual_lineage",
+        "detail": "Initiated by Gardner, then refined and elevated the literary quality of Wiccan ritual texts"
+      }
+    ]
+  },
+  {
+    "id": "sun_myung_moon",
+    "name": "Sun Myung Moon",
+    "type": "prophet",
+    "date": "1920-2012",
+    "dateLabel": "1920-2012 CE",
+    "traditions": [
+      "unification_church"
+    ],
+    "roles": {
+      "unification_church": "Founder and True Father; regarded as the Lord of the Second Advent completing Jesus's unfinished mission"
+    },
+    "aliases": [
+      "True Father",
+      "Reverend Moon"
+    ],
+    "connections": [
+      {
+        "to": "jesus",
+        "type": "prophetic_parallel",
+        "detail": "Claimed divine mission to complete what Christ could not accomplish due to crucifixion — establishing the true family"
+      }
+    ]
+  },
+  {
+    "id": "elijah_muhammad",
+    "name": "Elijah Muhammad",
+    "type": "prophet",
+    "date": "1897-1975",
+    "dateLabel": "1897-1975 CE",
+    "traditions": [
+      "nation_of_islam"
+    ],
+    "roles": {
+      "nation_of_islam": "Messenger of Allah (Wallace Fard Muhammad); leader 1934-1975, established NOI theology and institutions"
+    },
+    "aliases": [
+      "The Honorable Elijah Muhammad",
+      "Elijah Poole (birth name)"
+    ],
+    "connections": [
+      {
+        "to": "muhammad",
+        "type": "prophetic_parallel",
+        "detail": "Claimed messenger status comparable to Prophet Muhammad, conveying the teachings of Wallace Fard Muhammad"
+      },
+      {
+        "to": "malcolm_x",
+        "type": "spiritual_lineage",
+        "detail": "Mentored Malcolm X who became the most prominent NOI spokesman before their break"
+      }
+    ]
+  },
+  {
+    "id": "malcolm_x",
+    "name": "Malcolm X",
+    "type": "sage",
+    "date": "1925-1965",
+    "dateLabel": "1925-1965 CE",
+    "traditions": [
+      "nation_of_islam",
+      "islam"
+    ],
+    "roles": {
+      "nation_of_islam": "Minister and national spokesman; dramatically expanded membership through charismatic preaching",
+      "islam": "After Hajj pilgrimage, embraced orthodox Sunni Islam and rejected NOI racial theology"
+    },
+    "aliases": [
+      "El-Hajj Malik El-Shabazz",
+      "Malcolm Little (birth name)"
+    ],
+    "connections": [
+      {
+        "to": "elijah_muhammad",
+        "type": "spiritual_lineage",
+        "detail": "Mentored by Elijah Muhammad within NOI, later broke with him over theological and personal disagreements"
+      },
+      {
+        "to": "muhammad",
+        "type": "influenced",
+        "detail": "After Hajj, embraced Prophet Muhammad's universal message, rejected NOI racial theology"
+      }
+    ]
+  },
+  {
+    "id": "li_hongzhi",
+    "name": "Li Hongzhi",
+    "type": "sage",
+    "date": "1951-present",
+    "dateLabel": "Born 1951 CE (or 1952 per official records)",
+    "traditions": [
+      "falun_gong"
+    ],
+    "roles": {
+      "falun_gong": "Founder and sole Master of Falun Dafa; author of Zhuan Falun and all Falun Gong teachings"
+    },
+    "aliases": [
+      "Master Li",
+      "Teacher Li"
+    ],
+    "connections": [
+      {
+        "to": "buddha",
+        "type": "prophetic_parallel",
+        "detail": "Some practitioners regard Li as a Buddha-level being; Falun Gong uses the Dharma wheel symbolism"
+      }
+    ]
+  },
+  {
+    "id": "daisaku_ikeda",
+    "name": "Daisaku Ikeda",
+    "type": "sage",
+    "date": "1928-2023",
+    "dateLabel": "1928-2023 CE",
+    "traditions": [
+      "soka_gakkai"
+    ],
+    "roles": {
+      "soka_gakkai": "Third president, transformed SGI into a global Buddhist movement; prolific author, peace activist, and educator"
+    },
+    "aliases": [
+      "Sensei",
+      "President Ikeda"
+    ],
+    "connections": [
+      {
+        "to": "nichiren_figure",
+        "type": "spiritual_lineage",
+        "detail": "Soka Gakkai traces its doctrinal lineage to Nichiren through the Nichiren Shoshu priestly tradition"
+      },
+      {
+        "to": "buddha",
+        "type": "spiritual_lineage",
+        "detail": "Nichiren Buddhism traces its ultimate lineage to Shakyamuni Buddha via the Lotus Sutra"
+      }
+    ]
+  },
+  {
+    "id": "sveinbjorn_beinteinsson",
+    "name": "Sveinbjorn Beinteinsson",
+    "type": "sage",
+    "date": "1924-1993",
+    "dateLabel": "1924-1993 CE",
+    "traditions": [
+      "heathenry_asatru"
+    ],
+    "roles": {
+      "heathenry_asatru": "First Allsherjargodi (high priest) of Asatrúarfelagid; farmer-poet who led successful effort for official recognition in Iceland"
+    },
+    "aliases": [
+      "Allsherjargodi"
+    ],
+    "connections": []
+  },
+  {
+    "id": "ross_nichols",
+    "name": "Ross Nichols",
+    "type": "sage",
+    "date": "1902-1975",
+    "dateLabel": "1902-1975 CE",
+    "traditions": [
+      "druidry"
+    ],
+    "roles": {
+      "druidry": "Founded OBOD in 1964, introduced the eightfold wheel of the year and three-grade initiatory system to modern Druidry"
+    },
+    "aliases": [
+      "Nuinn (Druid name)"
+    ],
+    "connections": [
+      {
+        "to": "gerald_gardner",
+        "type": "influenced",
+        "detail": "Close friend of Gerald Gardner; both influenced each other's development of seasonal ritual calendars"
+      }
+    ]
+  },
+  {
+    "id": "claude_vorilhon",
+    "name": "Claude Vorilhon (Rael)",
+    "type": "prophet",
+    "date": "1946-present",
+    "dateLabel": "Born 1946 CE",
+    "traditions": [
+      "raelism"
+    ],
+    "roles": {
+      "raelism": "Founder and spiritual leader; claims to be the 40th and final prophet sent by the Elohim extraterrestrials"
+    },
+    "aliases": [
+      "Rael",
+      "His Holiness Rael"
+    ],
+    "connections": [
+      {
+        "to": "jesus",
+        "type": "prophetic_parallel",
+        "detail": "Raelian theology considers Jesus one of 40 Elohim-sent prophets; Rael claims to be the last in this line"
+      },
+      {
+        "to": "muhammad",
+        "type": "prophetic_parallel",
+        "detail": "Raelian theology considers Muhammad one of the prophets sent by the Elohim"
+      },
+      {
+        "to": "buddha",
+        "type": "prophetic_parallel",
+        "detail": "Raelian theology considers the Buddha one of the prophets sent by the Elohim"
+      }
+    ]
   }
 ]

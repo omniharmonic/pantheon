@@ -1,0 +1,1185 @@
+{
+  "=== TRADITIONS ===": "Array of 14 new religious traditions for Central/North Asia, Southeast Asia, and South Asia",
+  "traditions": [
+    {
+      "id": "tengrism",
+      "name": "Tengrism",
+      "originDate": -3000,
+      "originDateLabel": "c. 3000 BCE or earlier (prehistoric steppe origins, attested by Xiongnu period c. 3rd century BCE)",
+      "endDate": null,
+      "status": "revived",
+      "geographicOrigin": "Central Asian steppe (modern Mongolia, southern Siberia, Kazakhstan)",
+      "region": "Central Asia",
+      "theologicalType": ["sky_worship", "shamanism", "animism", "monotheism"],
+      "keyFigures": [
+        { "name": "Tengri", "role": "Supreme sky god, Eternal Blue Sky, ruler of all existence" },
+        { "name": "Umay", "role": "Mother goddess of fertility, virginity, and children" },
+        { "name": "Erlik", "role": "God of death and the underworld, ruler of the Lower World" },
+        { "name": "Genghis Khan", "role": "Proclaimed chosen of Tengri; made Tengrism state religion of the Mongol Empire" },
+        { "name": "Bilge Khagan", "role": "Gokturk ruler who proclaimed Tengri as supreme deity in Orkhon inscriptions (8th century CE)" }
+      ],
+      "keyConcepts": [
+        "Tengri (Eternal Blue Sky as supreme deity)",
+        "Three-layered cosmos (Upper World, Middle World, Lower World)",
+        "Kut (divine mandate/grace from Tengri to rulers)",
+        "Harmony with nature as life's purpose",
+        "Ancestor worship and veneration",
+        "Kumys (fermented mare's milk) ritual offerings",
+        "Religious tolerance rooted in universal spiritual power",
+        "Shamanic mediation between cosmic realms"
+      ],
+      "parentTraditions": ["proto_ie_religion"],
+      "childTraditions": ["mongolian_shamanism"],
+      "syncreticConnections": ["buddhism", "zoroastrianism"],
+      "evidence": "Orkhon inscriptions (8th c. CE), Herodotus accounts of Scythian sky worship, Secret History of the Mongols (13th c.), archaeological kurgans across Central Asian steppe. Modern revival movements in Tuva, Buryatia, Kazakhstan, Kyrgyzstan."
+    },
+    {
+      "id": "bon",
+      "name": "Bon (Yungdrung Bon)",
+      "originDate": -1800,
+      "originDateLabel": "c. 1800 BCE (traditional dating; Zhang Zhung kingdom origins, pre-Buddhist Tibet)",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Zhang Zhung kingdom (western Tibet), Olmo Lungring",
+      "region": "Central Asia",
+      "theologicalType": ["shamanism", "animism", "monasticism"],
+      "keyFigures": [
+        { "name": "Tonpa Shenrab Miwoche", "role": "Founder and supreme teacher (Buddha of Bon), born in Olmo Lungring" },
+        { "name": "Shenlha Okar", "role": "Transcendent deity of white light who transmitted teachings to Tonpa Shenrab" },
+        { "name": "Sidpa Gyalmo", "role": "Queen of the World, chief protectress of Bon tradition" },
+        { "name": "Drenpa Namkha", "role": "8th-century Bon master who preserved teachings during Buddhist persecution" }
+      ],
+      "keyConcepts": [
+        "Yungdrung (eternal/indestructible swastika symbol, counterclockwise)",
+        "Five elements (earth, water, fire, air, space)",
+        "Karma and cyclic rebirth (samsara)",
+        "Zhang Zhung (ancient kingdom and sacred geography)",
+        "Dzogchen (Great Perfection meditation, shared with Nyingma Buddhism)",
+        "Three jewels: body, speech, and mind",
+        "Olmo Lungring (sacred semi-mythical homeland)",
+        "Soul retrieval and exorcism rituals"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": ["buddhism"],
+      "evidence": "Zhang Zhung manuscripts, Bon canonical texts (Kanjur and Tenjur), Dunhuang documents, archaeological sites in western Tibet. Menri Monastery in Dolanji (India) serves as the tradition's main exile center. Recognized as fifth spiritual tradition of Tibet by Dalai Lama."
+    },
+    {
+      "id": "siberian_shamanism",
+      "name": "Siberian Shamanism",
+      "originDate": -8000,
+      "originDateLabel": "c. 8000 BCE or earlier (prehistoric hunter-gatherer origins across Northern Eurasia)",
+      "endDate": null,
+      "status": "revived",
+      "geographicOrigin": "Siberia (Evenki, Yakut/Sakha, Buryat, Tuvan, Khanty, Nenets territories)",
+      "region": "North Asia",
+      "theologicalType": ["shamanism", "animism", "polytheism"],
+      "keyFigures": [
+        { "name": "Ulgen/Ulgan", "role": "Creator sky deity of the Upper World (Altai and Buryat traditions)" },
+        { "name": "Erlik Khan", "role": "Lord of the dead and ruler of the Lower World" },
+        { "name": "Abaasy", "role": "Spirits of the Yakut Lower World, source of disease and misfortune" },
+        { "name": "Ai-Toyon", "role": "Yakut supreme deity, lord of light who created the first shaman" }
+      ],
+      "keyConcepts": [
+        "World Tree (axis mundi connecting three cosmic realms)",
+        "Three-world cosmology (Upper, Middle, Lower worlds)",
+        "Shamanic ecstatic trance via drumming and chanting",
+        "Spirit journey (soul flight to other realms)",
+        "Drum as shamanic horse or boat for spirit travel",
+        "Animal spirit helpers and totemic ancestry",
+        "Reindeer and bear cult veneration",
+        "Soul retrieval and healing ceremonies"
+      ],
+      "parentTraditions": [],
+      "childTraditions": ["tengrism", "mongolian_shamanism", "korean_shamanism"],
+      "syncreticConnections": ["buddhism", "bon"],
+      "evidence": "Ethnographic records by Shirokogoroff (1935) on Evenki shamanism, Yakut olonkho epics (UNESCO Intangible Heritage), Buryat ritual texts, Pazyryk frozen tombs with shamanic artifacts (5th-3rd c. BCE), rock art across Siberia dating to Neolithic period."
+    },
+    {
+      "id": "mongolian_shamanism",
+      "name": "Mongolian Shamanism (Boo Morgol)",
+      "originDate": -400,
+      "originDateLabel": "c. 400-300 BCE (earliest attested Mongolic shamanic practices)",
+      "endDate": null,
+      "status": "revived",
+      "geographicOrigin": "Mongolia, Buryatia, Inner Mongolia",
+      "region": "North Asia",
+      "theologicalType": ["shamanism", "animism", "polytheism"],
+      "keyFigures": [
+        { "name": "Qormusta Tengri", "role": "Chief deity of the 99 Tengers, supreme heavenly lord" },
+        { "name": "Zayagachi", "role": "Goddess of fate who determines each person's destiny" },
+        { "name": "Dayan Deerh", "role": "Powerful ancestral shaman spirit and legendary warrior" },
+        { "name": "Genghis Khan", "role": "Elevated to divine ancestor spirit (sulde) after death, national shamanic figure" }
+      ],
+      "keyConcepts": [
+        "99 Tengers (heavenly deities: 55 western benevolent, 44 eastern malevolent)",
+        "Ongon (spirit helpers: ancestral, animal, and nature spirits)",
+        "Ovoo (sacred stone cairns as spirit dwelling places)",
+        "Hengereg (shamanic drum as vehicle for spirit travel)",
+        "Sulde (soul/spirit force, especially of warriors and khans)",
+        "Libation offerings of airag (fermented mare's milk)",
+        "Secret History of the Mongols cosmological framework",
+        "Eternal Blue Sky and Mother Earth duality"
+      ],
+      "parentTraditions": ["tengrism", "siberian_shamanism"],
+      "childTraditions": [],
+      "syncreticConnections": ["buddhism", "bon"],
+      "evidence": "Secret History of the Mongols (1228 CE), archaeological ovoo sites, Mongolian shamanic drum collections (National Museum of Mongolia), ethnographic fieldwork by Heissig (1980) and Pegg (2001). Post-Soviet revival since 1990s with thousands of practicing shamans."
+    },
+    {
+      "id": "scythian_religion",
+      "name": "Scythian Religion",
+      "originDate": -900,
+      "originDateLabel": "c. 900-700 BCE (emergence of Scythian culture in Pontic steppe)",
+      "endDate": 200,
+      "status": "extinct",
+      "geographicOrigin": "Pontic-Caspian steppe (modern Ukraine, southern Russia, Kazakhstan)",
+      "region": "Central Eurasia",
+      "theologicalType": ["polytheism", "shamanism", "animism"],
+      "keyFigures": [
+        { "name": "Tabiti", "role": "Supreme goddess of fire and the hearth, most venerated deity (equated with Greek Hestia)" },
+        { "name": "Papaeus", "role": "Sky father god, personification of Heaven (equated with Zeus)" },
+        { "name": "Api", "role": "Earth mother goddess, consort of Papaeus" },
+        { "name": "Goetosyrus/Oetosyrus", "role": "Sun god (equated with Apollo)" },
+        { "name": "Argimpasa/Artimpasa", "role": "Goddess of love and fertility (equated with Aphrodite Urania)" },
+        { "name": "Thagimasadas", "role": "Sea/water god, worshipped by Royal Scythians (equated with Poseidon)" }
+      ],
+      "keyConcepts": [
+        "Seven-deity pantheon (as recorded by Herodotus)",
+        "Aniconic worship (no statues except for Ares/war-god sword altar)",
+        "Hemp-smoke purification and ecstatic rituals",
+        "Animal-style art as religious symbolism",
+        "Sword-altar cult for war-god worship",
+        "Royal funerary rites with human and horse sacrifice",
+        "Oath-swearing by the royal hearth (Tabiti)",
+        "Enarei (androgynous shamanic seers blessed by Argimpasa)"
+      ],
+      "parentTraditions": ["proto_ie_religion"],
+      "childTraditions": [],
+      "syncreticConnections": ["zoroastrianism", "greek_religion"],
+      "evidence": "Herodotus Histories Book IV (c. 440 BCE), Pazyryk frozen tombs with hemp-burning apparatus, gold pectoral from Tovsta Mohyla, Tillia Tepe treasure (Afghanistan), Chertomlyk vase depicting rituals. Iranian linguistic substrate confirms Indo-Iranian religious heritage."
+    },
+    {
+      "id": "tai_folk_religion",
+      "name": "Tai Folk Religion (Satsana Phi)",
+      "originDate": -500,
+      "originDateLabel": "c. 500 BCE or earlier (prehistoric Tai animist beliefs, pre-Buddhist period)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Southeast Asian mainland (present-day Thailand, Laos, Shan State of Myanmar)",
+      "region": "Southeast Asia",
+      "theologicalType": ["animism", "polytheism", "ancestor_worship"],
+      "keyFigures": [
+        { "name": "Phi Fa", "role": "Sky spirit, supreme celestial deity" },
+        { "name": "Phi Muang", "role": "Guardian spirit of the city/kingdom" },
+        { "name": "Phi Ban", "role": "Village guardian spirits who protect communities" },
+        { "name": "Nang Kwak", "role": "Spirit of prosperity and good fortune, popular household deity" },
+        { "name": "Phi Pha (or Thaen)", "role": "Heavenly deities of the Lao-Isan tradition" }
+      ],
+      "keyConcepts": [
+        "Phi (spirits inhabiting natural features, ancestors, places)",
+        "Khwan (32 body spirits/souls that can wander from the body)",
+        "Baci/Su Khwan ceremony (ritual to recall wandering khwan)",
+        "Spirit houses (san phra phum) for guardian spirits",
+        "Maw phi (spirit doctors/mediums who communicate with phi)",
+        "Ancestral veneration and offerings at household shrines",
+        "Syncretism with Theravada Buddhism and Hindu Brahmanism",
+        "Taboos related to angering local phi spirits"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": ["buddhism", "hinduism"],
+      "evidence": "Ban Chiang archaeological site (3600 BCE) with spirit-related burial practices, Lao Isan ethnographic records, Thai spirit house tradition documented since Sukhothai period (13th c. CE). Baci ceremony remains widespread across Laos and northeast Thailand."
+    },
+    {
+      "id": "balinese_hinduism",
+      "name": "Balinese Hinduism (Agama Hindu Dharma)",
+      "originDate": 100,
+      "originDateLabel": "c. 1st century CE (Indian Hindu-Buddhist influence arrives in Indonesian archipelago; Bali's unique form solidified by 11th century)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Bali, Indonesia",
+      "region": "Southeast Asia",
+      "theologicalType": ["polytheism", "animism", "syncretic"],
+      "keyFigures": [
+        { "name": "Sang Hyang Widhi Wasa", "role": "Supreme God, the one all-pervading divine being (Acintya)" },
+        { "name": "Dang Hyang Nirartha", "role": "16th-century Javanese Brahmin priest who reformed Balinese Hinduism" },
+        { "name": "Mpu Kuturan", "role": "11th-century sage who established the tri murti temple system in Bali" },
+        { "name": "Ida Pedanda", "role": "High priest (Brahmin) lineage that maintains Vedic liturgy in Bali" }
+      ],
+      "keyConcepts": [
+        "Tri Hita Karana (three causes of well-being: harmony with divine, humans, nature)",
+        "Canang sari (daily flower and incense offerings to spirits and gods)",
+        "Kaja-kelod (sacred directional orientation: mountain = holy, sea = impure)",
+        "Nyepi (Day of Silence, Balinese New Year)",
+        "Subak (sacred irrigation system, UNESCO World Heritage)",
+        "Sekala and Niskala (visible and invisible worlds)",
+        "Yadnya (five categories of ritual sacrifice)",
+        "Tri Murti (Brahma, Vishnu, Shiva as cosmic functions)"
+      ],
+      "parentTraditions": ["hinduism"],
+      "childTraditions": [],
+      "syncreticConnections": ["buddhism", "chinese_folk_religion"],
+      "influencedBy": ["buddhism"],
+      "evidence": "Prasasti (copper inscriptions) dating from 9th century CE in Bali, Besakih temple complex (at least 13th century), Majapahit-era literary texts (Kakawin), UNESCO inscription of subak system (2012) as embodiment of Tri Hita Karana philosophy."
+    },
+    {
+      "id": "vietnamese_folk_religion",
+      "name": "Vietnamese Folk Religion (Dao Mau / Tu Phu)",
+      "originDate": -500,
+      "originDateLabel": "c. 500 BCE or earlier (ancient Lac Viet animist origins; Dao Mau formalized by 16th century CE)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Northern Vietnam (Red River Delta region)",
+      "region": "Southeast Asia",
+      "theologicalType": ["animism", "polytheism", "ancestor_worship", "syncretic"],
+      "keyFigures": [
+        { "name": "Lieu Hanh (Mau Lieu Hanh)", "role": "Mother Goddess of Earth, one of Vietnam's Four Immortals, chief deity of Dao Mau" },
+        { "name": "Mau Thuong Thien", "role": "Mother Goddess of Heaven, ruler of the Heaven Palace (Thien Phu)" },
+        { "name": "Mau Thoai", "role": "Mother Goddess of Water, ruler of the Water Palace" },
+        { "name": "Mau Thuong Ngan", "role": "Mother Goddess of Mountains and Forests" },
+        { "name": "Tran Hung Dao", "role": "13th-century Vietnamese national hero, deified as powerful spirit in the Four Palaces pantheon" }
+      ],
+      "keyConcepts": [
+        "Tu Phu (Four Palaces: Heaven, Earth, Water, Mountains/Forests)",
+        "Hau Dong/Len Dong (spirit mediumship ritual with trance possession)",
+        "Mau (Mother Goddess worship as central devotion)",
+        "Color symbolism (red=heaven, yellow=earth, white=water, green=mountains)",
+        "Ancestor veneration and household altars",
+        "Deification of historical heroes as spirits",
+        "Tam Phu (Three Palaces, earlier form of Four Palaces)",
+        "UNESCO Intangible Cultural Heritage (2016)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": ["caodaism"],
+      "syncreticConnections": ["buddhism", "taoism", "confucianism"],
+      "evidence": "UNESCO inscription of practices related to Mother Goddess worship (2016), temple complexes in Northern Vietnam (Phu Day temple), 16th-century literary references to Lieu Hanh, ethnographic studies by Ngo Duc Thinh and others."
+    },
+    {
+      "id": "philippine_indigenous_religion",
+      "name": "Philippine Indigenous Religion (Anitism)",
+      "originDate": -3000,
+      "originDateLabel": "c. 3000 BCE or earlier (Austronesian animist traditions predating colonial contact)",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Philippine archipelago (Tagalog, Visayan, Cordilleran, Lumad, and other regions)",
+      "region": "Southeast Asia",
+      "theologicalType": ["animism", "polytheism", "ancestor_worship"],
+      "keyFigures": [
+        { "name": "Bathala", "role": "Supreme creator god (Maykapal/Lumikha) of the Tagalog people" },
+        { "name": "Laon", "role": "Supreme creator deity of the Visayan peoples, the Ancient One" },
+        { "name": "Kabunyan", "role": "Creator and supreme teacher of the Cordilleran peoples (Igorot)" },
+        { "name": "Babaylan", "role": "Predominantly female shamanic priestesses, spiritual leaders and healers" },
+        { "name": "Manama", "role": "Highest god of the Manuvu (Bagobo) peoples of Mindanao" }
+      ],
+      "keyConcepts": [
+        "Anito (ancestor spirits and general spirit entities)",
+        "Diwata (nature spirits and deities inhabiting trees, rivers, mountains)",
+        "Babaylan (female shamanic priestesses as spiritual intermediaries)",
+        "Pag-anito (seance ritual for communicating with ancestor spirits)",
+        "Dambana/Latangan (temporary bamboo altars for offerings)",
+        "Asog/Bayok (gender-crossing male spiritual practitioners)",
+        "Bathala and regional supreme creator deities",
+        "Sacred groves and natural sites as spirit dwellings"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": ["hinduism", "islam", "christianity"],
+      "evidence": "Spanish colonial accounts (Boxer Codex 1590, Plasencia's Customs 1589), pre-colonial gold artifacts with deity imagery (Agusan gold image), Ifugao hudhud chants (UNESCO), living Lumad and Cordilleran traditions. Archaeological evidence from Tabon Cave (c. 47,000 BP) and Manunggul Jar (890-710 BCE)."
+    },
+    {
+      "id": "kejawen",
+      "name": "Kejawen (Javanese Mysticism)",
+      "originDate": -500,
+      "originDateLabel": "c. 500 BCE (ancient Javanese animist roots; syncretic form developed through Hindu-Buddhist period 5th-15th c. CE and Islamic period from 15th c.)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Java, Indonesia (especially Central and East Java)",
+      "region": "Southeast Asia",
+      "theologicalType": ["syncretic", "mysticism", "animism"],
+      "keyFigures": [
+        { "name": "Dewi Sri", "role": "Rice goddess of fertility and prosperity, central to agricultural ritual" },
+        { "name": "Sunan Kalijaga", "role": "One of the Wali Songo (Nine Saints) who synthesized Islam with Javanese mysticism" },
+        { "name": "Sultan Agung", "role": "17th-century Mataram sultan who unified Islamic and Javanese mystical calendars" },
+        { "name": "Ratu Kidul", "role": "Queen of the South Sea (Indian Ocean), powerful spirit consort of Javanese kings" }
+      ],
+      "keyConcepts": [
+        "Kebatinan (inner spiritual science, pursuit of inner harmony)",
+        "Batin (inner self/spiritual purity as highest value)",
+        "Rasa (inner feeling/intuition as path to divine union)",
+        "Slametan (communal ritual feast for spiritual harmony and life transitions)",
+        "Semedi (meditation and ascetic practice for spiritual power)",
+        "Wahyu (divine revelation/spiritual mandate for rulers)",
+        "Abangan (nominal Muslims practicing Javanese mysticism)",
+        "Harmony with ancestral spirits and nature spirits"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": ["hinduism", "buddhism", "islam"],
+      "evidence": "Serat Centhini (19th-century Javanese encyclopedia of mysticism), Babad Tanah Jawi (chronicle of Javanese kingdoms), Clifford Geertz's Religion of Java (1960) ethnographic classification (abangan/santri/priyayi), living slametan tradition in rural Java."
+    },
+    {
+      "id": "caodaism",
+      "name": "Caodaism (Dao Cao Dai)",
+      "originDate": 1926,
+      "originDateLabel": "1926 CE (officially established in Tay Ninh, southern Vietnam)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Tay Ninh, southern Vietnam",
+      "region": "Southeast Asia",
+      "theologicalType": ["monotheism", "syncretic"],
+      "keyFigures": [
+        { "name": "Ngo Van Chieu", "role": "Founding medium, colonial official who first received Cao Dai revelations in seances (1920s)" },
+        { "name": "Le Van Trung", "role": "First Giao Tong (Pope) of Caodaism" },
+        { "name": "Pham Cong Tac", "role": "Ho Phap (spiritual protector/medium), key organizer of the Cao Dai church" },
+        { "name": "Victor Hugo", "role": "Deified as a spirit saint; serves as Chief Spirit of Foreign Missions" },
+        { "name": "Ly Thai Bach (Li Bai)", "role": "Deified Tang dynasty poet, serves as head spirit of Caodai spiritual hierarchy" }
+      ],
+      "keyConcepts": [
+        "Cao Dai (Supreme Being, ultimate creator, 'High Tower')",
+        "Divine Eye (All-Seeing Eye symbol representing God's omniscience)",
+        "Third Amnesty (belief that Caodaism is God's third and final revelation to humanity)",
+        "Universal religion (all faiths share a common divine origin)",
+        "Spiritism/seance communication with divine spirits",
+        "Vegetarianism and moral precepts",
+        "Hierarchical priesthood modeled on Catholic structure",
+        "Synthesis of Five Branches: Buddhism, Taoism, Confucianism, Christianity, Islam"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": ["buddhism", "taoism", "confucianism", "christianity", "islam", "vietnamese_folk_religion"],
+      "evidence": "Tay Ninh Holy See (constructed 1933-1955), approximately 4-6 million adherents in Vietnam (government census), Canon Codifier texts from seance sessions, recognition by Vietnamese government. Holy See is a major tourist site."
+    },
+    {
+      "id": "muism",
+      "name": "Muism (Korean Shamanism / Sinism)",
+      "originDate": -3000,
+      "originDateLabel": "c. 3000 BCE or earlier (prehistoric Korean peninsular origins, Dangun mythology dated to 2333 BCE)",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Korean peninsula",
+      "region": "East Asia",
+      "theologicalType": ["shamanism", "polytheism", "animism", "ancestor_worship"],
+      "keyFigures": [
+        { "name": "Dangun", "role": "Legendary divine founder of Gojoseon (2333 BCE), son of Hwanung and bear-woman, later became Mountain God" },
+        { "name": "Hwanin", "role": "Supreme celestial deity, lord of heaven, grandfather of Dangun" },
+        { "name": "Hwanung", "role": "Divine prince who descended from heaven to establish sacred civilization on earth" },
+        { "name": "Sanshin", "role": "Mountain God, protector of Korean land, depicted as white-bearded elder with tiger" },
+        { "name": "Princess Bari", "role": "Mythological abandoned princess who journeyed to the underworld; patron saint of mudang shamans" }
+      ],
+      "keyConcepts": [
+        "Mudang (shamanic practitioners, predominantly female, who perform gut rituals)",
+        "Gut/Kut (elaborate shamanic rituals with drumming, dance, costume changes, and spirit possession)",
+        "Sanshin (Mountain God worship at dedicated shrines on every major mountain)",
+        "Dangun mythology (divine origin of Korean nation from heavenly descent)",
+        "Sesseumu and Kangshinmu (two types of mudang: hereditary vs. spirit-called)",
+        "Samsin Halmoni (grandmother goddess of childbirth and fate)",
+        "Jeoseung Saja (psychopomp spirit who guides dead to afterlife)",
+        "Han (deep collective sorrow/unrequited grief, resolved through shamanic ritual)"
+      ],
+      "parentTraditions": ["siberian_shamanism"],
+      "childTraditions": [],
+      "syncreticConnections": ["buddhism", "taoism", "confucianism"],
+      "evidence": "Samguk Yusa (1281 CE) records Dangun myth, Yi dynasty-era mudang paintings, modern gut rituals recognized as Korean Intangible Cultural Heritage, active shrines to Sanshin throughout South Korea. Estimated 40,000-50,000 practicing mudang in contemporary South Korea."
+    },
+    {
+      "id": "ayyavazhi",
+      "name": "Ayyavazhi",
+      "originDate": 1833,
+      "originDateLabel": "c. 1833 CE (incarnation of Ayya Vaikundar in Swamithope, Tamil Nadu)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Kanyakumari and Tirunelveli districts, Tamil Nadu, South India",
+      "region": "South Asia",
+      "theologicalType": ["monotheism", "avatar_theology"],
+      "keyFigures": [
+        { "name": "Ayya Vaikundar", "role": "Purna avatar (full incarnation) of Narayana, founder and central figure" },
+        { "name": "Narayana", "role": "Supreme God who sends Vaikundar as incarnation to destroy evil age" },
+        { "name": "Kroni/Kaliyan", "role": "Primordial evil being, source of all suffering, antagonist destroyed by Vaikundar" },
+        { "name": "Hari Gopalan", "role": "First disciple and key propagator of Ayyavazhi teachings" }
+      ],
+      "keyConcepts": [
+        "Akilam (Akilathirattu Ammanai: primary scripture narrating cosmic history and Vaikundar's mission)",
+        "Arul Nool (secondary scripture with prayers, hymns, and rituals)",
+        "Ekam (divine oneness/unity of God)",
+        "Dharma Yukam (age of righteousness that Vaikundar inaugurates)",
+        "Vinchai (evil force of Kali age that Vaikundar destroys)",
+        "Thuvayal Thavisu (sacred throne worship without idol images)",
+        "Thirunamam (flame-shaped symbol atop lotus, ideological emblem)",
+        "Social equality and rejection of caste discrimination"
+      ],
+      "parentTraditions": ["hinduism"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Akilathirattu Ammanai manuscript (dictated 1841), Swamithope pathi (headquarters temple), network of over 8,000 worship centers across Tamil Nadu, declared state holiday in Kanyakumari district (1994). Estimated several million adherents in southern Tamil Nadu."
+    },
+    {
+      "id": "lingayat",
+      "name": "Lingayatism (Basava Movement)",
+      "originDate": 1150,
+      "originDateLabel": "c. 1150 CE (Basavanna's reform movement in Kalyana, Karnataka)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Kalyana, Karnataka, South India",
+      "region": "South Asia",
+      "theologicalType": ["monotheism", "bhakti"],
+      "keyFigures": [
+        { "name": "Basavanna (Basaveshwara)", "role": "Founder, 12th-century philosopher, poet, prime minister under King Bijjala II" },
+        { "name": "Akka Mahadevi", "role": "Prominent female mystic poet, radical renunciant and spiritual teacher" },
+        { "name": "Allama Prabhu", "role": "Chief mystic and president of the Anubhava Mantapa spiritual assembly" },
+        { "name": "Channabasavanna", "role": "Basavanna's nephew, systematizer of Lingayat theology and practice" },
+        { "name": "Siddarama", "role": "Prolific vachana poet and humanitarian who emphasized service to the poor" }
+      ],
+      "keyConcepts": [
+        "Ishtalinga (personal Shiva linga worn on the body, symbol of formless God)",
+        "Kayaka (work is worship, dignity of all labor)",
+        "Vachana (devotional prose-poems in Kannada as scripture and spiritual practice)",
+        "Anubhava Mantapa (experiential assembly where people of all castes shared spiritual insights)",
+        "Ashtavarana (eight spiritual aids/protections for devotees)",
+        "Rejection of caste system, Vedic authority, and temple idol worship",
+        "Gender equality in spiritual practice",
+        "Dasoha (sharing of one's labor and wealth with the community)"
+      ],
+      "parentTraditions": ["hinduism"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Thousands of extant vachana poems in medieval Kannada, Basava Purana (13th c. hagiography), Sunya Sampadane (compilation of sharana dialogues), living Lingayat community of approximately 20 million in Karnataka. UNESCO recognized Basavanna's contributions to democratic thought."
+    }
+  ],
+
+  "=== CONNECTIONS ===": "Array of connections between new and existing traditions",
+  "connections": [
+    {
+      "id": "conn_pie_to_scythian",
+      "from": "proto_ie_religion",
+      "to": "scythian_religion",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "migration",
+      "date": -1500,
+      "evidence": "Scythians were Iranian-speaking Indo-Europeans; their deities (Tabiti, Papaeus) derive from Proto-Indo-Iranian divine concepts. Linguistic analysis confirms Iranian etymologies for Scythian divine names."
+    },
+    {
+      "id": "conn_pie_to_tengrism",
+      "from": "proto_ie_religion",
+      "to": "tengrism",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "cultural_contact",
+      "date": -2000,
+      "evidence": "Sky-father worship and tripartite cosmos in Tengrism show possible Indo-European substrate influence. Tengri concept may share deep roots with PIE *Dyeus, though Turkic-Mongolic origins are primary."
+    },
+    {
+      "id": "conn_scythian_to_zoroastrianism",
+      "from": "scythian_religion",
+      "to": "zoroastrianism",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "shared_heritage",
+      "date": -800,
+      "evidence": "Both traditions share Indo-Iranian roots. Papaeus parallels Ahura Mazda, Tabiti parallels fire worship (Atar). Herodotus noted similarities. Scythians interacted with Persians extensively."
+    },
+    {
+      "id": "conn_siberian_to_tengrism",
+      "from": "siberian_shamanism",
+      "to": "tengrism",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "oral_tradition",
+      "date": -3000,
+      "evidence": "Tengrism developed from prehistoric Siberian shamanic substrate. World-tree cosmology, shamanic ecstasy, spirit-helper concepts, and sky-worship all derive from broader Siberian shamanic traditions."
+    },
+    {
+      "id": "conn_siberian_to_mongolian",
+      "from": "siberian_shamanism",
+      "to": "mongolian_shamanism",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "oral_tradition",
+      "date": -1000,
+      "evidence": "Mongolian shamanism shares world-tree cosmology, drum-journeying, and spirit-helper traditions with broader Siberian shamanism. Buryat shamanism bridges the two traditions geographically."
+    },
+    {
+      "id": "conn_tengrism_to_mongolian",
+      "from": "tengrism",
+      "to": "mongolian_shamanism",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "oral_tradition",
+      "date": -400,
+      "evidence": "Mongolian shamanism (Boo Morgol) incorporated Tengri as chief deity with 99 Tengers. Secret History of the Mongols records Tengri worship as central. The two traditions are deeply intertwined."
+    },
+    {
+      "id": "conn_buddhism_to_bon",
+      "from": "buddhism",
+      "to": "bon",
+      "type": "syncretism",
+      "strength": "strong",
+      "mechanism": "cultural_contact",
+      "date": 700,
+      "evidence": "Bon and Tibetan Buddhism heavily influenced each other from 7th century CE onward. Dzogchen tradition is shared. Bon adopted Buddhist monastic structures; Buddhism absorbed Bon protective deities and rituals."
+    },
+    {
+      "id": "conn_buddhism_to_mongolian",
+      "from": "buddhism",
+      "to": "mongolian_shamanism",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "missionary",
+      "date": 1250,
+      "evidence": "Tibetan Buddhism was adopted by Mongol khans from 13th century; by 16th century under Altan Khan, Buddhism became dominant while absorbing shamanic elements. Many shamanic spirits were reinterpreted as Buddhist protectors."
+    },
+    {
+      "id": "conn_siberian_to_korean",
+      "from": "siberian_shamanism",
+      "to": "korean_shamanism",
+      "type": "parent_child",
+      "strength": "moderate",
+      "mechanism": "migration",
+      "date": -3000,
+      "evidence": "Korean shamanism shares Siberian shamanic features: ecstatic trance, spirit possession, world-tree cosmology, drum usage, bear mythology. Dangun bear-woman myth parallels Siberian bear cults. Migration routes via Manchuria."
+    },
+    {
+      "id": "conn_siberian_to_muism",
+      "from": "siberian_shamanism",
+      "to": "muism",
+      "type": "parent_child",
+      "strength": "moderate",
+      "mechanism": "migration",
+      "date": -3000,
+      "evidence": "Muism shares core Siberian shamanic elements: ecstatic spirit possession, bear mythology (Dangun myth), mountain god veneration, cosmological three-world structure. Korean peninsula was a southern terminus of Siberian shamanic diffusion."
+    },
+    {
+      "id": "conn_buddhism_to_tai",
+      "from": "buddhism",
+      "to": "tai_folk_religion",
+      "type": "syncretism",
+      "strength": "strong",
+      "mechanism": "missionary",
+      "date": 1200,
+      "evidence": "Theravada Buddhism integrated with Tai animism from 13th century Sukhothai period onward. Buddhist temples coexist with spirit houses. Monks perform merit-making rituals alongside phi spirit ceremonies."
+    },
+    {
+      "id": "conn_hinduism_to_tai",
+      "from": "hinduism",
+      "to": "tai_folk_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "trade",
+      "date": 500,
+      "evidence": "Hindu Brahmanical elements entered Tai religion through Khmer and Mon intermediaries. Royal court rituals, Brahmin priests at Thai court, spirit house design, and deity concepts show Hindu influence."
+    },
+    {
+      "id": "conn_hinduism_to_balinese",
+      "from": "hinduism",
+      "to": "balinese_hinduism",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "trade",
+      "date": 100,
+      "evidence": "Indian Hindu traders and priests brought Shaiva and Vaishnava traditions to Bali from 1st century CE. Prasasti inscriptions from 9th century confirm established Hindu kingdoms. Majapahit refugees (1478) reinforced Hindu culture."
+    },
+    {
+      "id": "conn_buddhism_to_balinese",
+      "from": "buddhism",
+      "to": "balinese_hinduism",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "trade",
+      "date": 400,
+      "evidence": "Balinese Hinduism absorbed Buddhist elements through centuries of Hindu-Buddhist coexistence in Javanese kingdoms (Majapahit, Sailendra). Buddhist Padmasana shrines found alongside Hindu temples throughout Bali."
+    },
+    {
+      "id": "conn_taoism_to_vietnamese",
+      "from": "taoism",
+      "to": "vietnamese_folk_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "cultural_contact",
+      "date": -200,
+      "evidence": "Over a millennium of Chinese rule introduced Taoist concepts to Vietnamese folk religion. Mother Goddess hierarchy, palace cosmology, and spirit medium practices show Taoist structural influence."
+    },
+    {
+      "id": "conn_confucianism_to_vietnamese",
+      "from": "confucianism",
+      "to": "vietnamese_folk_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "cultural_contact",
+      "date": -200,
+      "evidence": "Confucian ethics of filial piety reinforced existing Vietnamese ancestor worship. Confucian scholarly culture shaped the literary and ritual dimensions of Dao Mau practice."
+    },
+    {
+      "id": "conn_buddhism_to_vietnamese",
+      "from": "buddhism",
+      "to": "vietnamese_folk_religion",
+      "type": "syncretism",
+      "strength": "moderate",
+      "mechanism": "missionary",
+      "date": 200,
+      "evidence": "Buddhist concepts of compassion and karma integrated with Vietnamese folk beliefs. Dao Mau temples often include Buddhist altars. Many practitioners simultaneously follow Buddhism and Mother Goddess worship."
+    },
+    {
+      "id": "conn_vietnamese_to_caodaism",
+      "from": "vietnamese_folk_religion",
+      "to": "caodaism",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "synthesis",
+      "date": 1926,
+      "evidence": "Caodaism emerged from Vietnamese spiritual culture, incorporating spiritism from Dao Mau medium traditions. Founder Ngo Van Chieu drew on Vietnamese folk religion's spirit communication practices alongside Buddhist, Taoist, and Christian elements."
+    },
+    {
+      "id": "conn_buddhism_to_caodaism",
+      "from": "buddhism",
+      "to": "caodaism",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "synthesis",
+      "date": 1926,
+      "evidence": "Caodaism explicitly incorporates Buddhist karma, rebirth, and vegetarian ethics. Sakyamuni Buddha is honored as a spiritual figure within the Cao Dai pantheon."
+    },
+    {
+      "id": "conn_taoism_to_caodaism",
+      "from": "taoism",
+      "to": "caodaism",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "synthesis",
+      "date": 1926,
+      "evidence": "Caodaism adopts Taoist cosmology, spiritual cultivation practices, and deified figures including Li Bai (Ly Thai Bach). Taoist occult practices informed the seance methods central to Caodai revelation."
+    },
+    {
+      "id": "conn_confucianism_to_caodaism",
+      "from": "confucianism",
+      "to": "caodaism",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "synthesis",
+      "date": 1926,
+      "evidence": "Caodaism incorporates Confucian ethical precepts, filial piety, and social hierarchy. Confucius is honored as a spiritual figure in the Cao Dai pantheon."
+    },
+    {
+      "id": "conn_christianity_to_caodaism",
+      "from": "christianity",
+      "to": "caodaism",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "colonialism",
+      "date": 1926,
+      "evidence": "Caodaism borrowed Catholic hierarchical organization (Pope, Cardinals, Bishops), the All-Seeing Eye symbol, and concept of divine revelation. French colonial Catholicism was a major influence on the founders."
+    },
+    {
+      "id": "conn_hinduism_to_kejawen",
+      "from": "hinduism",
+      "to": "kejawen",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "trade",
+      "date": 400,
+      "evidence": "Hindu-Buddhist kingdoms (Mataram, Majapahit) provided the theological layer of Kejawen. Sanskrit terminology, deity concepts (Dewi Sri, Batara Guru/Shiva), and meditation practices entered Javanese mysticism through Indian influence."
+    },
+    {
+      "id": "conn_buddhism_to_kejawen",
+      "from": "buddhism",
+      "to": "kejawen",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "trade",
+      "date": 400,
+      "evidence": "Buddhist meditation techniques and concepts of enlightenment entered Javanese culture through Sailendra dynasty (8th-9th century). Borobudur temple reflects Buddhist-Javanese synthesis that influenced Kejawen."
+    },
+    {
+      "id": "conn_islam_to_kejawen",
+      "from": "islam",
+      "to": "kejawen",
+      "type": "syncretism",
+      "strength": "strong",
+      "mechanism": "trade",
+      "date": 1400,
+      "evidence": "Sufi Islam arrived via traders in 15th century and blended with Javanese mysticism through the Wali Songo (Nine Saints). Sufi emphasis on inner spiritual journey (batin) matched Javanese kebatinan perfectly."
+    },
+    {
+      "id": "conn_hinduism_to_philippine",
+      "from": "hinduism",
+      "to": "philippine_indigenous_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "trade",
+      "date": 200,
+      "evidence": "Hindu-Buddhist cultural influence reached Philippines through Sri Vijaya and Majapahit trade networks. Bathala may derive from Sanskrit Bhattara (noble lord). Agusan gold image shows Hindu deity style. Philippine scripts derived from Indic scripts."
+    },
+    {
+      "id": "conn_hinduism_to_ayyavazhi",
+      "from": "hinduism",
+      "to": "ayyavazhi",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "reform",
+      "date": 1833,
+      "evidence": "Ayyavazhi emerged from Hindu theological matrix, using Vaishnavite avatar concept (Vaikundar as incarnation of Narayana). The Akilam scripture references Hindu puranic cosmology extensively while reinterpreting it."
+    },
+    {
+      "id": "conn_hinduism_to_lingayat",
+      "from": "hinduism",
+      "to": "lingayat",
+      "type": "parent_reaction",
+      "strength": "strong",
+      "mechanism": "reform",
+      "date": 1150,
+      "evidence": "Lingayatism arose as a radical reform of Hindu Shaivism, retaining devotion to Shiva while rejecting Vedic authority, caste system, and temple worship. Basavanna's vachanas explicitly critique orthodox Hindu practices."
+    },
+    {
+      "id": "conn_muism_to_korean_shamanism",
+      "from": "muism",
+      "to": "korean_shamanism",
+      "type": "syncretism",
+      "strength": "strong",
+      "mechanism": "cultural_contact",
+      "date": -1000,
+      "note": "Muism and the existing korean_shamanism entry represent the same tradition at different depths. Muism is the expanded scholarly treatment with deeper coverage of Dangun mythology, Sanshin, and mudang practices."
+    },
+    {
+      "id": "conn_buddhism_to_muism",
+      "from": "buddhism",
+      "to": "muism",
+      "type": "syncretism",
+      "strength": "moderate",
+      "mechanism": "missionary",
+      "date": 300,
+      "evidence": "Buddhism arrived in Korea in 372 CE and absorbed many shamanic deities as dharma protectors. Sanshin shrines appear in Buddhist temple compounds. Buddhist Seonangdang and shamanic practices coexist at many sacred sites."
+    },
+    {
+      "id": "conn_confucianism_to_muism",
+      "from": "confucianism",
+      "to": "muism",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "cultural_contact",
+      "date": -200,
+      "evidence": "Confucian ancestor veneration reinforced existing Korean ancestral practices in Muism. However, Joseon-era Neo-Confucian orthodoxy actively suppressed mudang shamanism as superstition."
+    },
+    {
+      "id": "conn_zoroastrian_to_scythian",
+      "from": "zoroastrianism",
+      "to": "scythian_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "cultural_contact",
+      "date": -700,
+      "evidence": "Scythian and Zoroastrian traditions share Indo-Iranian fire worship (Tabiti/Atar), sky-god concepts, and ritual practices. Achaemenid-Scythian cultural exchange documented by Herodotus. Some scholars view Scythian religion as a parallel Iranian development."
+    }
+  ],
+
+  "=== FIGURES ===": "Array of shared/notable figures across traditions",
+  "figures": [
+    {
+      "id": "tengri",
+      "name": "Tengri",
+      "type": "deity",
+      "date": "-3000",
+      "dateLabel": "Prehistoric (attested from Xiongnu period, c. 3rd century BCE)",
+      "traditions": ["tengrism", "mongolian_shamanism", "siberian_shamanism"],
+      "roles": {
+        "tengrism": "Supreme sky god, Eternal Blue Sky, ruler of all existence and bestower of divine mandate (kut) to khans",
+        "mongolian_shamanism": "Chief of the 99 Tengers (Qormusta Tengri), supreme heavenly father",
+        "siberian_shamanism": "Sky deity (Tangara among Yakuts), ruler of the Upper World"
+      },
+      "aliases": [
+        "Tengri (Turkic)",
+        "Tenger (Mongolian)",
+        "Tangara (Yakut/Sakha)",
+        "Tanrı (modern Turkish)",
+        "Tengeri (Buryat)"
+      ],
+      "connections": [
+        {
+          "to": "dyeus_pater",
+          "type": "mythological_parallel",
+          "detail": "Both are supreme sky-father deities. Some scholars propose deep etymological connections between Tengri and PIE *Dyeus, though this is debated."
+        }
+      ]
+    },
+    {
+      "id": "genghis_khan_figure",
+      "name": "Genghis Khan (Chinggis Khaan)",
+      "type": "hero",
+      "date": "1162",
+      "dateLabel": "c. 1162-1227 CE",
+      "traditions": ["tengrism", "mongolian_shamanism"],
+      "roles": {
+        "tengrism": "Chosen of Tengri, united the Mongol peoples under Tengrism as state religion, instituted religious tolerance",
+        "mongolian_shamanism": "Deified ancestor spirit (sulde), supreme national figure whose spirit protects Mongolia"
+      },
+      "aliases": [
+        "Chinggis Khaan (Mongolian)",
+        "Temujin (birth name)",
+        "Genghis Khan (Persian/Western)"
+      ],
+      "connections": [
+        {
+          "to": "tengri",
+          "type": "devotee",
+          "detail": "Genghis Khan attributed all his conquests to the grace and mandate of Tengri, as recorded in the Secret History of the Mongols"
+        }
+      ]
+    },
+    {
+      "id": "tonpa_shenrab",
+      "name": "Tonpa Shenrab Miwoche",
+      "type": "sage",
+      "date": "-1800",
+      "dateLabel": "c. 1800 BCE (traditional dating; historicity debated)",
+      "traditions": ["bon"],
+      "roles": {
+        "bon": "Supreme Teacher and enlightened founder of Bon, equivalent of a Buddha, born in Olmo Lungring to teach liberation from samsara"
+      },
+      "aliases": [
+        "Tonpa Shenrab (Tibetan)",
+        "Lord Shenrab",
+        "Supreme Holy Man"
+      ],
+      "connections": [
+        {
+          "to": "buddha",
+          "type": "mythological_parallel",
+          "detail": "Tonpa Shenrab is the Bon equivalent of Shakyamuni Buddha; Bon tradition claims he attained enlightenment several hundred years before Siddhartha Gautama"
+        }
+      ]
+    },
+    {
+      "id": "tabiti",
+      "name": "Tabiti",
+      "type": "deity",
+      "date": "-800",
+      "dateLabel": "c. 800-300 BCE (attested in Scythian period)",
+      "traditions": ["scythian_religion"],
+      "roles": {
+        "scythian_religion": "Supreme goddess of fire and the hearth, most venerated Scythian deity, the 'Burning One' from whom all creation emerged"
+      },
+      "aliases": [
+        "Tabiti (Scythian)",
+        "Hestia (Greek equation by Herodotus)",
+        "Vesta (Roman equation)"
+      ],
+      "connections": [
+        {
+          "to": "atar_fire",
+          "type": "cognate",
+          "detail": "Tabiti's role as sacred fire deity parallels the Zoroastrian fire concept Atar; both derive from Indo-Iranian fire worship traditions"
+        }
+      ]
+    },
+    {
+      "id": "papaeus",
+      "name": "Papaeus",
+      "type": "deity",
+      "date": "-800",
+      "dateLabel": "c. 800-300 BCE (attested in Scythian period)",
+      "traditions": ["scythian_religion"],
+      "roles": {
+        "scythian_religion": "Sky father god, personification of Heaven, consort of Api (Earth), equated with Zeus by Herodotus"
+      },
+      "aliases": [
+        "Papaeus (Scythian/Greek rendering)",
+        "Zeus Papaeus (Herodotus)"
+      ],
+      "connections": [
+        {
+          "to": "ahura_mazda",
+          "type": "cognate",
+          "detail": "Papaeus parallels Ahura Mazda as supreme Indo-Iranian sky-father deity. Both derive from Proto-Indo-Iranian divine father concept."
+        }
+      ]
+    },
+    {
+      "id": "dangun",
+      "name": "Dangun Wanggeom",
+      "type": "hero",
+      "date": "-2333",
+      "dateLabel": "2333 BCE (traditional founding date of Gojoseon)",
+      "traditions": ["muism", "korean_shamanism"],
+      "roles": {
+        "muism": "Legendary divine founder of Gojoseon, first Korean nation; son of heavenly prince Hwanung and bear-woman Ungnyeo; later became Sanshin (Mountain God)",
+        "korean_shamanism": "Founding ancestor of the Korean people, divine origin myth connecting heaven and earth"
+      },
+      "aliases": [
+        "Dangun (Korean)",
+        "Dangun Wanggeom (full title)",
+        "Sanshin (as Mountain God after abdication)"
+      ],
+      "connections": [
+        {
+          "to": "sanshin",
+          "type": "identity",
+          "detail": "According to Korean mythology, Dangun became the Sanshin (Mountain God) after ruling for over 1,000 years, connecting political founding to shamanic mountain worship"
+        }
+      ]
+    },
+    {
+      "id": "sanshin",
+      "name": "Sanshin (Mountain God)",
+      "type": "deity",
+      "date": "-2333",
+      "dateLabel": "Mythological (associated with Dangun, 2333 BCE traditional date)",
+      "traditions": ["muism", "korean_shamanism"],
+      "roles": {
+        "muism": "Mountain God, protector of Korean land, depicted as white-bearded elder with tiger companion; each Korean mountain hosts a unique Sanshin",
+        "korean_shamanism": "Guardian spirit of mountains, central deity of Korean shamanic landscape, worshipped at shrines (sansindang) throughout Korean mountains"
+      },
+      "aliases": [
+        "Sanshin (Korean: Mountain God)",
+        "Sansin",
+        "Mountain Spirit"
+      ],
+      "connections": [
+        {
+          "to": "dangun",
+          "type": "identity",
+          "detail": "Dangun became the archetypal Sanshin after abdicating the throne, making mountain god worship inseparable from Korean national origin mythology"
+        }
+      ]
+    },
+    {
+      "id": "bathala",
+      "name": "Bathala",
+      "type": "deity",
+      "date": "-1000",
+      "dateLabel": "Pre-colonial (ancient Tagalog belief, predates Spanish contact 1521)",
+      "traditions": ["philippine_indigenous_religion"],
+      "roles": {
+        "philippine_indigenous_religion": "Supreme creator god (Maykapal/Lumikha) of the Tagalog people, all-powerful creator of the universe and humanity"
+      },
+      "aliases": [
+        "Bathala (Tagalog)",
+        "Maykapal (The All-Powerful)",
+        "Lumikha (The Creator)",
+        "Abba (possible older form)"
+      ],
+      "connections": [
+        {
+          "to": "shiva",
+          "type": "influence",
+          "detail": "The name Bathala may derive from Sanskrit Bhattara (noble lord), reflecting Hindu-Buddhist cultural influence on pre-colonial Philippine religion through maritime trade networks"
+        }
+      ]
+    },
+    {
+      "id": "dewi_sri",
+      "name": "Dewi Sri",
+      "type": "deity",
+      "date": "-500",
+      "dateLabel": "Ancient Javanese (pre-Hindu period, possibly Bronze Age origins)",
+      "traditions": ["kejawen", "balinese_hinduism"],
+      "roles": {
+        "kejawen": "Rice goddess of fertility and prosperity, central to Javanese agricultural ritual and slametan ceremonies",
+        "balinese_hinduism": "Goddess of rice and fertility, honored with elaborate offerings during planting and harvest cycles"
+      },
+      "aliases": [
+        "Dewi Sri (Javanese/Balinese)",
+        "Sri Devi (Sanskrit origin)",
+        "Nyai Pohaci (Sundanese)"
+      ],
+      "connections": [
+        {
+          "to": "lakshmi",
+          "type": "syncretized_with",
+          "detail": "Dewi Sri is often identified with the Hindu goddess Sri Lakshmi, reflecting the Hindu-Javanese syncretism where an indigenous rice spirit was merged with the Indian goddess of abundance"
+        }
+      ]
+    },
+    {
+      "id": "lieu_hanh",
+      "name": "Lieu Hanh (Mau Lieu Hanh)",
+      "type": "deity",
+      "date": "1557",
+      "dateLabel": "16th century CE (traditional incarnation date)",
+      "traditions": ["vietnamese_folk_religion"],
+      "roles": {
+        "vietnamese_folk_religion": "Mother Goddess of the Earthly Realm, one of Vietnam's Four Immortals (Tu Bat Tu), chief deity of Dao Mau, celestial princess incarnated on earth"
+      },
+      "aliases": [
+        "Mau Lieu Hanh (Mother Lieu Hanh)",
+        "Thanh Mau (Holy Mother)",
+        "Princess Lieu Hanh",
+        "Ba Chua Lieu (Lady of the Willow)"
+      ],
+      "connections": []
+    },
+    {
+      "id": "ngo_van_chieu",
+      "name": "Ngo Van Chieu",
+      "type": "prophet",
+      "date": "1878",
+      "dateLabel": "1878-1932 CE",
+      "traditions": ["caodaism"],
+      "roles": {
+        "caodaism": "Founding prophet and first medium to receive divine revelations from Cao Dai (Supreme Being) during seances in the 1920s; French colonial official turned religious leader"
+      },
+      "aliases": [
+        "Ngo Van Chieu (Vietnamese)",
+        "Ngo Minh Chieu (alternate romanization)"
+      ],
+      "connections": []
+    },
+    {
+      "id": "ayya_vaikundar",
+      "name": "Ayya Vaikundar",
+      "type": "prophet",
+      "date": "1833",
+      "dateLabel": "1833-1851 CE (traditional dates)",
+      "traditions": ["ayyavazhi"],
+      "roles": {
+        "ayyavazhi": "Purna avatar (full incarnation) of Narayana, sent to destroy the evil Kaliyan/Kroni and inaugurate the age of righteousness (Dharma Yukam); social reformer who preached caste equality"
+      },
+      "aliases": [
+        "Ayya Vaikundar (Tamil)",
+        "Mudisoodum Perumal",
+        "Vaikuntacami"
+      ],
+      "connections": [
+        {
+          "to": "vishnu",
+          "type": "equivalent",
+          "detail": "Ayyavazhi theology identifies Vaikundar as the final and complete avatar of Narayana/Vishnu, superseding the traditional Dashavatara list"
+        }
+      ]
+    },
+    {
+      "id": "basavanna",
+      "name": "Basavanna (Basaveshwara)",
+      "type": "sage",
+      "date": "1105",
+      "dateLabel": "c. 1105-1167 CE",
+      "traditions": ["lingayat", "hinduism"],
+      "roles": {
+        "lingayat": "Founder of Lingayatism, philosopher-poet-statesman who established the Anubhava Mantapa and promoted radical social equality through the vachana literary movement",
+        "hinduism": "12th-century Shaivite bhakti saint and social reformer from Karnataka; prime minister under King Bijjala II of Kalachuri dynasty"
+      },
+      "aliases": [
+        "Basavanna (Kannada)",
+        "Basaveshwara",
+        "Basava",
+        "Bhaktibhandari"
+      ],
+      "connections": [
+        {
+          "to": "shiva",
+          "type": "devotee",
+          "detail": "Basavanna's entire philosophy centers on direct, personal devotion to Shiva through the ishtalinga, without priestly intermediaries or temple rituals"
+        }
+      ]
+    },
+    {
+      "id": "akka_mahadevi",
+      "name": "Akka Mahadevi",
+      "type": "sage",
+      "date": "1130",
+      "dateLabel": "c. 1130-1160 CE",
+      "traditions": ["lingayat"],
+      "roles": {
+        "lingayat": "Prominent female mystic poet and radical renunciant; composed vachanas addressed to 'Lord White as Jasmine' (Chennamallikarjuna); icon of spiritual gender equality"
+      },
+      "aliases": [
+        "Akka Mahadevi (Kannada)",
+        "Mahadevi",
+        "Akka (Elder Sister)"
+      ],
+      "connections": [
+        {
+          "to": "basavanna",
+          "type": "contemporary",
+          "detail": "Akka Mahadevi was a contemporary and fellow member of Basavanna's Anubhava Mantapa spiritual assembly; one of the most prominent female voices in the vachana movement"
+        }
+      ]
+    },
+    {
+      "id": "umay",
+      "name": "Umay",
+      "type": "deity",
+      "date": "-2000",
+      "dateLabel": "Prehistoric Turkic (attested in Orkhon inscriptions, 8th century CE)",
+      "traditions": ["tengrism"],
+      "roles": {
+        "tengrism": "Mother goddess of fertility, virginity, children, and the hearth; protectress of women and newborns; consort or feminine complement of Tengri"
+      },
+      "aliases": [
+        "Umay (Turkic)",
+        "Umai (alternate)",
+        "Ymai (Altai)"
+      ],
+      "connections": [
+        {
+          "to": "tabiti",
+          "type": "mythological_parallel",
+          "detail": "Both Umay and Tabiti serve as hearth/fire-related mother goddesses in Inner Asian traditions, reflecting Indo-Iranian and Turkic parallel developments of hearth deity concepts"
+        }
+      ]
+    },
+    {
+      "id": "erlik",
+      "name": "Erlik Khan",
+      "type": "deity",
+      "date": "-2000",
+      "dateLabel": "Prehistoric (ancient Turkic-Mongolic underworld deity)",
+      "traditions": ["tengrism", "siberian_shamanism", "mongolian_shamanism"],
+      "roles": {
+        "tengrism": "God of death and the underworld (Lower World), first human who was cast down after rebelling against Tengri",
+        "siberian_shamanism": "Lord of the dead and ruler of the Lower World among Altai and Turkic Siberian peoples",
+        "mongolian_shamanism": "Underworld lord opposed to the 99 Tengers, ruler of dark spirits"
+      },
+      "aliases": [
+        "Erlik Khan (Turkic)",
+        "Erlik (Altai)",
+        "Erklig Khan (Mongolian)"
+      ],
+      "connections": [
+        {
+          "to": "yama",
+          "type": "cognate",
+          "detail": "Erlik parallels the Vedic/Buddhist death god Yama. Some scholars trace both to a common Indo-European or Inner Asian death-deity archetype connected to the first mortal who became lord of the dead."
+        }
+      ]
+    },
+    {
+      "id": "ratu_kidul",
+      "name": "Ratu Kidul (Nyai Roro Kidul)",
+      "type": "deity",
+      "date": "-500",
+      "dateLabel": "Ancient Javanese (pre-Hindu period; formalized in Mataram era, 16th-17th century)",
+      "traditions": ["kejawen"],
+      "roles": {
+        "kejawen": "Queen of the South Sea (Indian Ocean), powerful spirit consort of Javanese kings; commander of the spirit armies; patron of Javanese royalty from Mataram dynasty onward"
+      },
+      "aliases": [
+        "Nyai Roro Kidul (Javanese)",
+        "Ratu Kidul (Queen of the South)",
+        "Kanjeng Ratu Kidul"
+      ],
+      "connections": []
+    },
+    {
+      "id": "princess_bari",
+      "name": "Princess Bari (Baridegi)",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Mythological (ancient Korean origin)",
+      "traditions": ["muism"],
+      "roles": {
+        "muism": "Abandoned seventh princess who journeyed to the underworld to obtain the water of life for her parents; patron saint of mudang shamans and guide of souls to the afterlife"
+      },
+      "aliases": [
+        "Baridegi (Korean)",
+        "Princess Bari",
+        "Bari Gongju"
+      ],
+      "connections": [
+        {
+          "to": "dangun",
+          "type": "mythological_parallel",
+          "detail": "Both Dangun and Princess Bari serve as foundational mythological figures of Muism: Dangun connects heaven and earth through descent, while Bari connects the living and dead through her underworld journey"
+        }
+      ]
+    }
+  ]
+}

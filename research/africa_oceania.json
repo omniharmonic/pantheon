@@ -1,0 +1,1641 @@
+{
+  "traditions": [
+    {
+      "id": "dogon_religion",
+      "name": "Dogon Religion",
+      "originDate": -500,
+      "originDateLabel": "c. 500 BCE or earlier (oral tradition, Bandiagara settlement)",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Bandiagara Escarpment, Mali",
+      "region": "West Africa",
+      "theologicalType": [
+        "animism",
+        "polytheism",
+        "ancestor_worship",
+        "cosmogony"
+      ],
+      "keyFigures": [
+        {
+          "name": "Amma",
+          "role": "Supreme creator god, genderless/dual-gendered, created universe from cosmic egg"
+        },
+        {
+          "name": "Nommo",
+          "role": "First living beings created by Amma, amphibious ancestral spirits, masters of water"
+        },
+        {
+          "name": "Ogo/Yurugu",
+          "role": "Rebellious twin Nommo, trickster figure who introduced disorder into creation"
+        },
+        {
+          "name": "Lebe",
+          "role": "First ancestor to die and be resurrected, connected to agricultural renewal"
+        },
+        {
+          "name": "Hogon",
+          "role": "Spiritual leader of Dogon villages, eldest male of lineage"
+        }
+      ],
+      "keyConcepts": [
+        "Amma's cosmic egg (primordial creation)",
+        "Nommo ancestral water spirits",
+        "Sirius star system knowledge (Sigu ceremony)",
+        "dama funeral ceremonies",
+        "binu totemic shrines",
+        "twinness and duality in creation",
+        "Sigui ceremony (60-year cycle)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [
+        "islam"
+      ],
+      "evidence": "Documented by Marcel Griaule (1930s-1950s); Bandiagara Escarpment UNESCO site; extensive ethnographic record; oral traditions maintained by Hogon priests"
+    },
+    {
+      "id": "zulu_religion",
+      "name": "Zulu Traditional Religion",
+      "originDate": -500,
+      "originDateLabel": "c. 500 BCE or earlier (Bantu migration oral traditions)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "KwaZulu-Natal, Southern Africa",
+      "region": "Southern Africa",
+      "theologicalType": [
+        "ancestor_worship",
+        "monotheism_with_intermediaries",
+        "animism",
+        "divination"
+      ],
+      "keyFigures": [
+        {
+          "name": "Unkulunkulu",
+          "role": "Supreme creator god who emerged from a bed of reeds, created all things"
+        },
+        {
+          "name": "uMvelinqangi",
+          "role": "Sky god, lord of thunder and earthquakes, sometimes identified with Unkulunkulu"
+        },
+        {
+          "name": "Amadlozi/Amathongo",
+          "role": "Ancestral spirits who guide, protect, and intervene in daily life"
+        },
+        {
+          "name": "Mamlambo",
+          "role": "River goddess associated with water and storms"
+        },
+        {
+          "name": "Isangoma",
+          "role": "Diviner-healers called by ancestors (ukuthwasa initiation illness)"
+        },
+        {
+          "name": "Inyanga",
+          "role": "Herbalist healers using natural medicine"
+        }
+      ],
+      "keyConcepts": [
+        "amadlozi (ancestor spirits as primary spiritual focus)",
+        "ukuthwasa (ancestral calling to become diviner)",
+        "isangoma divination with bones",
+        "umoya (breath/spirit)",
+        "ubuntu (communal humanity)",
+        "izinyanga herbalist healing",
+        "ritual sacrifice to ancestors"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [
+        "christianity"
+      ],
+      "evidence": "Henry Callaway ethnography (1870); living practice among 12+ million Zulu people; archaeological record of Bantu settlement in KwaZulu-Natal"
+    },
+    {
+      "id": "maasai_religion",
+      "name": "Maasai Religion",
+      "originDate": -500,
+      "originDateLabel": "c. 500 BCE or earlier (Nilotic migration oral traditions)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "East African Rift Valley (Kenya, Tanzania)",
+      "region": "East Africa",
+      "theologicalType": [
+        "monotheism",
+        "animism",
+        "divination"
+      ],
+      "keyFigures": [
+        {
+          "name": "Enkai/Engai",
+          "role": "Supreme creator god, androgynous, manifests as Black (benevolent) and Red (wrathful)"
+        },
+        {
+          "name": "Laibon/Laiboni",
+          "role": "Prophet-diviners, high priests who intercede between humans and Enkai"
+        },
+        {
+          "name": "Naiteru-kop",
+          "role": "Mediator figure who received cattle from Enkai via the sacred wild fig tree"
+        },
+        {
+          "name": "Olapa",
+          "role": "Moon goddess, wife of Enkai"
+        },
+        {
+          "name": "Le-eyo",
+          "role": "Legendary ancestor, first Maasai, failed to properly receive the gift of immortality"
+        }
+      ],
+      "keyConcepts": [
+        "Enkai Narok (Black God, benevolent rain) and Enkai Nanyokie (Red God, wrathful)",
+        "cattle as divine gift from Enkai (lowered from sky)",
+        "sacred wild fig tree (connection between earth and sky)",
+        "eunoto (warrior initiation ceremony)",
+        "enkang (sacred homestead)",
+        "age-set system with spiritual dimensions",
+        "laibon prophecy and divination"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [
+        "christianity"
+      ],
+      "evidence": "Extensive ethnographic record from 19th century onward; living practice among 2+ million Maasai; oral traditions maintained by laiboni lineages"
+    },
+    {
+      "id": "igbo_religion",
+      "name": "Odinani (Igbo Traditional Religion)",
+      "originDate": -1000,
+      "originDateLabel": "c. 1000 BCE or earlier (Nri Kingdom origins, oral tradition)",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Igboland, southeastern Nigeria",
+      "region": "West Africa",
+      "theologicalType": [
+        "monotheism_with_intermediaries",
+        "ancestor_worship",
+        "animism",
+        "divination"
+      ],
+      "keyFigures": [
+        {
+          "name": "Chukwu/Chineke",
+          "role": "Supreme creator god (Chi-na-eke: God who creates), source of all things"
+        },
+        {
+          "name": "Ala/Ana",
+          "role": "Earth goddess, enforcer of moral law, mother of all crops, most prominent deity in daily worship"
+        },
+        {
+          "name": "Amadioha",
+          "role": "God of thunder and lightning, justice, popular among southern Igbo"
+        },
+        {
+          "name": "Ikenga",
+          "role": "Horned god of fortune, industry, and personal achievement"
+        },
+        {
+          "name": "Agwu",
+          "role": "God of divination, healing, and sometimes madness"
+        },
+        {
+          "name": "Ekwensu",
+          "role": "Trickster deity of bargains and trade, later demonized by Christian missionaries"
+        }
+      ],
+      "keyConcepts": [
+        "chi (personal spiritual guardian assigned at birth)",
+        "ala/ana (earth deity and moral enforcer)",
+        "alusi/arusi (lesser deities and spirits)",
+        "ofo (symbol of truth and justice)",
+        "omenala (cultural laws and customs)",
+        "dibia (priest-healer-diviner)",
+        "Nri kingship as spiritual authority"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [
+        "christianity"
+      ],
+      "influencedBy": [],
+      "influenced": [
+        "vodou",
+        "santeria",
+        "candomble"
+      ],
+      "evidence": "Archaeological evidence from Igbo-Ukwu (9th century CE); Nri Kingdom records; extensive ethnographic literature; partially syncretized with Catholicism in modern practice"
+    },
+    {
+      "id": "kongo_religion",
+      "name": "Kongo Religion (Bukongo)",
+      "originDate": -1000,
+      "originDateLabel": "c. 1000 BCE or earlier (Bantu migration traditions)",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Lower Congo River basin (modern DRC, Republic of Congo, Angola)",
+      "region": "Central Africa",
+      "theologicalType": [
+        "monotheism_with_intermediaries",
+        "ancestor_worship",
+        "animism"
+      ],
+      "keyFigures": [
+        {
+          "name": "Nzambi Mpungu/Nzambi a Mpungu",
+          "role": "Supreme creator god, sky father, omnipresent sovereign"
+        },
+        {
+          "name": "Nzambici",
+          "role": "Female counterpart of Nzambi Mpungu, earth mother principle"
+        },
+        {
+          "name": "Simbi",
+          "role": "Water spirits of rivers and streams, associated with healing and divination"
+        },
+        {
+          "name": "Nganga",
+          "role": "Priest-healer-diviner who mediates between living and dead, prepares minkisi"
+        },
+        {
+          "name": "Funza",
+          "role": "Spirit of twins and sacred knowledge"
+        }
+      ],
+      "keyConcepts": [
+        "Yowa/dikenga cosmogram (cross-in-circle, four stages of life)",
+        "nkisi/minkisi (power objects containing spiritual force)",
+        "kalunga (cosmic boundary between living and dead)",
+        "ku nseke (world of the living) and ku mpemba (world of the dead)",
+        "kindoki (witchcraft/spiritual power)",
+        "banganga (ritual specialists)",
+        "simbi water spirits"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [
+        "vodou",
+        "candomble"
+      ],
+      "syncreticConnections": [
+        "christianity"
+      ],
+      "influenced": [
+        "vodou",
+        "candomble",
+        "hoodoo"
+      ],
+      "evidence": "Portuguese colonial records from 1480s onward; nkisi power figures in museums worldwide; Bakongo cosmogram documented in Robert Farris Thompson's scholarship; living practice in Central Africa"
+    },
+    {
+      "id": "san_religion",
+      "name": "San/Bushman Religion",
+      "originDate": -30000,
+      "originDateLabel": "c. 30,000+ BCE (oldest continuous spiritual tradition, rock art evidence)",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Southern Africa (Kalahari Desert, Drakensberg Mountains)",
+      "region": "Southern Africa",
+      "theologicalType": [
+        "shamanism",
+        "animism",
+        "trance_healing"
+      ],
+      "keyFigures": [
+        {
+          "name": "/Kaggen",
+          "role": "Supreme trickster deity, manifests as praying mantis and many other forms"
+        },
+        {
+          "name": "!Xu/Cagn",
+          "role": "Creator god in some San groups, associated with the mantis"
+        },
+        {
+          "name": "/Gauwa",
+          "role": "Spirit of the dead, both helpful and harmful, associated with trickery"
+        },
+        {
+          "name": "N/um healers",
+          "role": "Trance dancers who activate spiritual healing energy"
+        },
+        {
+          "name": "Eland",
+          "role": "Sacred animal, most spiritually potent creature, central to trance dance"
+        }
+      ],
+      "keyConcepts": [
+        "trance dance/healing dance (primary ritual practice)",
+        "n/um (spiritual healing energy activated through dance)",
+        "!kia (trance state achieved by healers)",
+        "/Kaggen mantis trickster mythology",
+        "eland as most sacred and potent animal",
+        "rock art as spiritual record (therianthropes)",
+        "rain-making rituals"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Rock art dating 25,000+ years (Drakensberg, Tsodilo Hills); San among oldest continuous cultures on earth (~100,000 years genetic continuity); ethnographic studies by Wilhelm Bleek, Lucy Lloyd (1870s), Lorna Marshall, and Richard Lee"
+    },
+    {
+      "id": "kushite_religion",
+      "name": "Ancient Nubian/Kushite Religion",
+      "originDate": -2500,
+      "originDateLabel": "c. 2500 BCE (Kingdom of Kerma period)",
+      "endDate": 350,
+      "status": "extinct",
+      "geographicOrigin": "Nubia/Kush (modern Sudan, southern Egypt)",
+      "region": "North Africa",
+      "theologicalType": [
+        "polytheism",
+        "divine_kingship",
+        "syncretism"
+      ],
+      "keyFigures": [
+        {
+          "name": "Apedemak",
+          "role": "Lion-headed war god, protector of royalty, fertility deity, supreme Meroitic god"
+        },
+        {
+          "name": "Amun (Nubian form)",
+          "role": "Ram-headed god adopted from Egypt, patron of Napatan monarchy, associated with Jebel Barkal"
+        },
+        {
+          "name": "Amesemi",
+          "role": "Consort of Apedemak, protective goddess"
+        },
+        {
+          "name": "Dedwen",
+          "role": "Indigenous Nubian god of incense and wealth"
+        },
+        {
+          "name": "Mash/Mandulis",
+          "role": "Nubian sun god, worshipped at Kalabsha temple"
+        },
+        {
+          "name": "Arensnuphis",
+          "role": "Nubian companion deity, lion-headed, associated with Philae"
+        }
+      ],
+      "keyConcepts": [
+        "divine kingship (kandake queens and kings as earthly gods)",
+        "Apedemak lion cult (Meroitic national deity)",
+        "Amun worship at Jebel Barkal (pure/holy mountain)",
+        "Egyptian-Nubian religious syncretism",
+        "pyramid burial tradition (Meroe royal necropolis)",
+        "oracle consultation for royal succession",
+        "Meroitic temple architecture"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [
+        "egyptian_religion"
+      ],
+      "influencedBy": [
+        "egyptian_religion"
+      ],
+      "evidence": "Archaeological sites at Kerma, Napata, Meroe; Lion Temple at Musawwarat es-Sufra and Naqa; Meroitic script inscriptions; UNESCO World Heritage sites in Sudan"
+    },
+    {
+      "id": "waaqeffannaa",
+      "name": "Waaqeffannaa (Oromo Traditional Religion)",
+      "originDate": -1000,
+      "originDateLabel": "c. 1000 BCE or earlier (ancient Cushitic traditions)",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Oromia, Ethiopia/Horn of Africa",
+      "region": "East Africa",
+      "theologicalType": [
+        "monotheism",
+        "animism",
+        "nature_worship"
+      ],
+      "keyFigures": [
+        {
+          "name": "Waaqa Tokkicha",
+          "role": "Supreme being, omniscient and omnipotent sky god, the one God"
+        },
+        {
+          "name": "Qaalluu/Qaallitti",
+          "role": "High priests and ritual leaders who officiate Waaqeffannaa ceremonies"
+        },
+        {
+          "name": "Ayyaana",
+          "role": "Spiritual intermediaries between Waaqa and humans, guardian spirits"
+        },
+        {
+          "name": "Abbaa Muudaa",
+          "role": "Supreme religious authority, father of anointment, pilgrimage center"
+        }
+      ],
+      "keyConcepts": [
+        "Waaqa (supreme sky god, monotheistic)",
+        "ayyaana (guardian/intermediary spirits)",
+        "saffu (cosmic order, balance, and morality)",
+        "Irreechaa (thanksgiving festival at water/tree sites, biannual)",
+        "Gadaa system (democratic governance with spiritual dimensions)",
+        "seera (moral law given by Waaqa)",
+        "qaalluu ritual priesthood"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [
+        "christianity",
+        "islam"
+      ],
+      "evidence": "Living practice among ~8 million Oromo; Gadaa system recognized by UNESCO as intangible cultural heritage (2016); Irreechaa festival continues as major public event; academic studies by Lambert Bartels, Asmarom Legesse"
+    },
+    {
+      "id": "aboriginal_australian",
+      "name": "Aboriginal Australian Religion (The Dreaming)",
+      "originDate": -65000,
+      "originDateLabel": "c. 65,000 BCE (oldest continuous religious tradition, Madjedbebe site evidence)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Australian continent",
+      "region": "Australia",
+      "theologicalType": [
+        "animism",
+        "totemism",
+        "shamanism"
+      ],
+      "keyFigures": [
+        {
+          "name": "Rainbow Serpent",
+          "role": "Pan-Australian creator deity, shaped waterways and landscape, giver/destroyer of life"
+        },
+        {
+          "name": "Baiame",
+          "role": "Sky father and creator god (southeastern Australian peoples)"
+        },
+        {
+          "name": "Djanggawul",
+          "role": "Three creation siblings who traveled across the land creating sacred sites (Yolngu)"
+        },
+        {
+          "name": "Altjira",
+          "role": "Sky god of the Arrernte people, creator of the earth then withdrew"
+        },
+        {
+          "name": "Tiddalik",
+          "role": "Mythological frog who drank all the water, parable of greed"
+        },
+        {
+          "name": "Mimi spirits",
+          "role": "Thin rock-dwelling spirits who taught humans hunting and art"
+        }
+      ],
+      "keyConcepts": [
+        "Dreamtime/Tjukurpa (eternal creative epoch, past-present-future simultaneously)",
+        "songlines/dreaming tracks (routes of ancestral beings sung into existence)",
+        "totemism (kinship with animal/plant ancestors)",
+        "sacred sites and landscape as living scripture",
+        "corroboree (ceremonial gathering with dance, music, costume)",
+        "initiation ceremonies (increase rites, men's/women's business)",
+        "rock art as spiritual record (40,000+ year tradition)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Madjedbebe rock shelter (65,000 BP); Nawarla Gabarnmang rock art (28,000+ years); continuous oral traditions; UNESCO-listed Kakadu and Uluru; over 500 distinct language groups with shared Dreaming framework"
+    },
+    {
+      "id": "maori_religion",
+      "name": "Maori Religion (Nga Karakia a te Maori)",
+      "originDate": 1250,
+      "originDateLabel": "c. 1250 CE (Polynesian settlement of Aotearoa/New Zealand)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Aotearoa/New Zealand",
+      "region": "Polynesia",
+      "theologicalType": [
+        "polytheism",
+        "animism",
+        "ancestor_worship"
+      ],
+      "keyFigures": [
+        {
+          "name": "Io (disputed)",
+          "role": "Supreme being above all gods (debated whether pre-Christian or post-contact)"
+        },
+        {
+          "name": "Ranginui",
+          "role": "Sky father, locked in embrace with Papatuanuku until separated by children"
+        },
+        {
+          "name": "Papatuanuku",
+          "role": "Earth mother, source of all life, partner of Ranginui"
+        },
+        {
+          "name": "Tane Mahuta",
+          "role": "God of forests and birds, separated sky and earth, shaped first woman Hineahuone"
+        },
+        {
+          "name": "Tangaroa",
+          "role": "God of the sea and fish, important for seafaring culture"
+        },
+        {
+          "name": "Tu/Tumatauenga",
+          "role": "God of war and humanity"
+        },
+        {
+          "name": "Maui",
+          "role": "Demigod trickster who fished up the North Island and slowed the sun"
+        }
+      ],
+      "keyConcepts": [
+        "whakapapa (genealogy connecting all living things to gods)",
+        "mana (spiritual power and authority)",
+        "tapu (sacred restriction/taboo)",
+        "noa (ordinary/free from restriction)",
+        "marae (sacred meeting ground)",
+        "karakia (prayer/incantation)",
+        "separation of Ranginui and Papatuanuku (creation)"
+      ],
+      "parentTraditions": [
+        "polynesian_religion"
+      ],
+      "childTraditions": [],
+      "syncreticConnections": [
+        "christianity"
+      ],
+      "evidence": "Archaeological record of Polynesian settlement c. 1250-1300 CE; extensive oral traditions recorded by Elsdon Best, Te Rangi Hiroa (Peter Buck); living practice integrated into modern Maori culture; Treaty of Waitangi protections"
+    },
+    {
+      "id": "hawaiian_religion",
+      "name": "Hawaiian Religion (Kapu System)",
+      "originDate": 500,
+      "originDateLabel": "c. 500-1300 CE (Polynesian settlement of Hawaii)",
+      "endDate": null,
+      "status": "revived",
+      "geographicOrigin": "Hawaiian Islands",
+      "region": "Polynesia",
+      "theologicalType": [
+        "polytheism",
+        "animism",
+        "ancestor_worship"
+      ],
+      "keyFigures": [
+        {
+          "name": "Kane/Kanae",
+          "role": "God of creation, sky, sunlight, fresh water, highest of the four great gods"
+        },
+        {
+          "name": "Ku",
+          "role": "God of war, politics, male activities, agriculture, fishing"
+        },
+        {
+          "name": "Lono",
+          "role": "God of peace, fertility, agriculture, rainfall, music, celebrated during Makahiki"
+        },
+        {
+          "name": "Kanaloa",
+          "role": "God of the ocean, deep sea, long voyages, associated with squid/octopus"
+        },
+        {
+          "name": "Pele",
+          "role": "Goddess of volcanoes, fire, lightning, associated with Kilauea"
+        },
+        {
+          "name": "Hina",
+          "role": "Goddess of the moon, associated with feminine creative power"
+        }
+      ],
+      "keyConcepts": [
+        "kapu system (elaborate system of sacred taboos governing daily life)",
+        "mana (spiritual power, transferable and inheritable)",
+        "aumakua (family guardian spirits, often ancestors)",
+        "heiau (stone temple platforms for worship)",
+        "Makahiki festival (annual harvest festival honoring Lono)",
+        "hula as sacred dance and oral tradition",
+        "aloha spirit (love, compassion, spiritual greeting)"
+      ],
+      "parentTraditions": [
+        "polynesian_religion"
+      ],
+      "childTraditions": [],
+      "syncreticConnections": [
+        "christianity"
+      ],
+      "evidence": "Heiau temple sites across Hawaiian islands; Captain Cook's 1778 accounts; kapu system officially abolished 1819; modern Hawaiian cultural renaissance reviving traditional practices since 1970s"
+    },
+    {
+      "id": "melanesian_religion",
+      "name": "Melanesian Traditional Religion",
+      "originDate": -30000,
+      "originDateLabel": "c. 30,000+ BCE (earliest settlement of Melanesia)",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Melanesia (Papua New Guinea, Solomon Islands, Vanuatu, New Caledonia, Fiji)",
+      "region": "Melanesia",
+      "theologicalType": [
+        "animism",
+        "ancestor_worship",
+        "shamanism"
+      ],
+      "keyFigures": [
+        {
+          "name": "Ancestral spirits (various)",
+          "role": "Deceased ancestors who protect descendants, maintain order, ensure prosperity"
+        },
+        {
+          "name": "Masalai/Bush spirits",
+          "role": "Nature spirits inhabiting specific places, rivers, and forests"
+        },
+        {
+          "name": "Cargo cult prophets",
+          "role": "Charismatic leaders who predicted return of ancestors with cargo/wealth"
+        },
+        {
+          "name": "Sorcerers/Glasman",
+          "role": "Practitioners of magic who influence health, weather, war, and spiritual protection"
+        }
+      ],
+      "keyConcepts": [
+        "mana (supernatural power, can be inherited or gained through ritual)",
+        "ancestor worship (dead protect and guide the living)",
+        "sorcery and magic (influence health, weather, war outcomes)",
+        "big man system (leaders earn authority through spiritual and material generosity)",
+        "cargo cults (millenarian movements expecting ancestral return with goods)",
+        "initiation societies and secret knowledge",
+        "spirit houses (haus tambaran)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [
+        "christianity"
+      ],
+      "evidence": "Huon Peninsula archaeological evidence (40,000+ BP); John Frum cargo cult (Vanuatu, 1940s+); extensive ethnographic record by Bronislaw Malinowski, Margaret Mead; living practices across hundreds of distinct cultures"
+    },
+    {
+      "id": "polynesian_religion",
+      "name": "Polynesian Religion (pan-Pacific)",
+      "originDate": -1000,
+      "originDateLabel": "c. 1000 BCE (Lapita expansion into Polynesia)",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Central Pacific (Samoa, Tonga as homeland; spread throughout Polynesian triangle)",
+      "region": "Polynesia",
+      "theologicalType": [
+        "polytheism",
+        "animism",
+        "ancestor_worship"
+      ],
+      "keyFigures": [
+        {
+          "name": "Tagaloa/Tangaroa",
+          "role": "Supreme creator god in western Polynesia, god of the sea pan-Pacific"
+        },
+        {
+          "name": "Tane",
+          "role": "God of forests, birds, and light; separated earth and sky in many traditions"
+        },
+        {
+          "name": "Tu/Ku",
+          "role": "God of war and human endeavors"
+        },
+        {
+          "name": "Rongo/Lono",
+          "role": "God of cultivated food, peace, agriculture, and fertility"
+        },
+        {
+          "name": "Maui",
+          "role": "Pan-Polynesian demigod trickster who fished up islands, slowed the sun, stole fire"
+        },
+        {
+          "name": "Rangi and Papa",
+          "role": "Sky father and Earth mother, primordial parents in eastern Polynesian traditions"
+        }
+      ],
+      "keyConcepts": [
+        "mana (sacred spiritual power and authority)",
+        "tapu/taboo (sacred restriction, things set apart from ordinary use)",
+        "noa (state of being ordinary, freed from tapu)",
+        "cosmogonic chants (creation genealogies)",
+        "voyaging and navigation as sacred practice",
+        "marae/heiau (sacred temple platforms)",
+        "genealogy (whakapapa) as cosmic ordering principle"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [
+        "maori_religion",
+        "hawaiian_religion",
+        "rapa_nui_religion"
+      ],
+      "syncreticConnections": [
+        "christianity"
+      ],
+      "evidence": "Lapita pottery evidence (3200-2800 BP); radiocarbon dating of settlement sites across Polynesian triangle; comparative linguistics showing cognate god names; living cultural practices throughout Pacific Islands"
+    },
+    {
+      "id": "rapa_nui_religion",
+      "name": "Rapa Nui Religion (Easter Island)",
+      "originDate": 800,
+      "originDateLabel": "c. 800-1200 CE (Polynesian settlement of Rapa Nui)",
+      "endDate": 1868,
+      "status": "extinct",
+      "geographicOrigin": "Rapa Nui / Easter Island",
+      "region": "Polynesia",
+      "theologicalType": [
+        "polytheism",
+        "ancestor_worship",
+        "animism"
+      ],
+      "keyFigures": [
+        {
+          "name": "Makemake",
+          "role": "Chief god, creator deity, embodiment of fertilizing force of nature"
+        },
+        {
+          "name": "Hawa-tuu-take-take",
+          "role": "Chief of the eggs, male deity associated with the birdman cult"
+        },
+        {
+          "name": "Vie Hoa",
+          "role": "Wife of Hawa-tuu-take-take, female deity of the birdman cult"
+        },
+        {
+          "name": "Hotu Matu'a",
+          "role": "Legendary first king and ancestor, led settlers to Rapa Nui"
+        },
+        {
+          "name": "Tangata Manu",
+          "role": "Annual birdman champion, chosen through egg-retrieval competition at Orongo"
+        }
+      ],
+      "keyConcepts": [
+        "moai ancestor statues (embodiments of ancestral mana)",
+        "Makemake creator god (supreme deity after moai era)",
+        "tangata manu birdman cult (annual egg-retrieval competition for rulership)",
+        "mana (spiritual power concentrated in moai and chiefs)",
+        "tapu (sacred restrictions)",
+        "Orongo ceremonial village (center of birdman cult)",
+        "rongorongo script (undeciphered, possibly ritual/genealogical)"
+      ],
+      "parentTraditions": [
+        "polynesian_religion"
+      ],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Moai statues (887 documented); Orongo petroglyphs with birdman imagery; rongorongo tablets; archaeological evidence of two distinct religious phases (moai era then birdman cult); ended by Christian missionaries 1860s"
+    }
+  ],
+  "connections": [
+    {
+      "id": "conn_yoruba_to_igbo",
+      "from": "yoruba_religion",
+      "to": "igbo_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "trade",
+      "date": -500,
+      "evidence": "Shared West African religious substrate; both feature supreme god with spirit intermediaries, divination systems, and trickster figures; geographic proximity in Nigeria"
+    },
+    {
+      "id": "conn_kongo_to_vodou",
+      "from": "kongo_religion",
+      "to": "vodou",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "colonialism",
+      "date": 1600,
+      "evidence": "Enslaved Bakongo people brought Kongo religious concepts to Haiti; Bakongo cosmogram, nkisi concepts, and Simbi water spirits directly influenced Vodou lwa system"
+    },
+    {
+      "id": "conn_kongo_to_candomble",
+      "from": "kongo_religion",
+      "to": "candomble",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "colonialism",
+      "date": 1550,
+      "evidence": "Large Bantu-speaking populations enslaved in Brazil brought Kongo religious practices; Candomble Angola/Congo nation preserves Kongo elements alongside Yoruba"
+    },
+    {
+      "id": "conn_igbo_to_vodou",
+      "from": "igbo_religion",
+      "to": "vodou",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "colonialism",
+      "date": 1700,
+      "evidence": "Enslaved Igbo people in Haiti contributed elements to Vodou; Igbo religious concepts merged into broader African diaspora religious matrix"
+    },
+    {
+      "id": "conn_igbo_to_santeria",
+      "from": "igbo_religion",
+      "to": "santeria",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "colonialism",
+      "date": 1600,
+      "evidence": "Igbo religious elements contributed to Cuban syncretic traditions alongside dominant Yoruba framework"
+    },
+    {
+      "id": "conn_egyptian_to_kushite",
+      "from": "egyptian_religion",
+      "to": "kushite_religion",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "trade",
+      "date": -2000,
+      "evidence": "Nubian adoption of Amun worship, pyramid burial practices, and Egyptian temple architecture; Kushites ruled Egypt as 25th Dynasty (747-656 BCE); later Meroitic period developed indigenous Apedemak cult partially replacing Egyptian deities"
+    },
+    {
+      "id": "conn_kushite_to_egyptian",
+      "from": "kushite_religion",
+      "to": "egyptian_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "trade",
+      "date": -2000,
+      "evidence": "Egyptians worshipped Nubian deities Dedwen, Bes, Menhit, and Mandulis; bidirectional religious exchange along Nile corridor"
+    },
+    {
+      "id": "conn_polynesian_to_maori",
+      "from": "polynesian_religion",
+      "to": "maori_religion",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "migration",
+      "date": 1250,
+      "evidence": "Maori are Polynesian settlers who brought pan-Polynesian gods (Tangaroa, Tane, Tu, Rongo) and concepts (mana, tapu, marae) to Aotearoa, adapting them to new environment"
+    },
+    {
+      "id": "conn_polynesian_to_hawaiian",
+      "from": "polynesian_religion",
+      "to": "hawaiian_religion",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "migration",
+      "date": 500,
+      "evidence": "Hawaiian religion derives from Polynesian settlers (Marquesas, Tahiti); cognate gods Kane=Tane, Ku=Tu, Lono=Rongo, Kanaloa=Tangaroa; kapu system from Tahitian influence c. 1200 CE"
+    },
+    {
+      "id": "conn_polynesian_to_rapa_nui",
+      "from": "polynesian_religion",
+      "to": "rapa_nui_religion",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "migration",
+      "date": 800,
+      "evidence": "Rapa Nui settlers came from eastern Polynesia; Makemake shares traits with Polynesian creator gods; mana and tapu concepts preserved; moai represent Polynesian ancestor veneration taken to extreme form"
+    },
+    {
+      "id": "conn_melanesian_to_polynesian",
+      "from": "melanesian_religion",
+      "to": "polynesian_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "migration",
+      "date": -1500,
+      "evidence": "Lapita peoples passed through Melanesia en route to Polynesia; mana concept shared between Melanesian and Polynesian traditions; ancestral substrate influences"
+    },
+    {
+      "id": "conn_yoruba_to_dogon",
+      "from": "yoruba_religion",
+      "to": "dogon_religion",
+      "type": "influence",
+      "strength": "speculative",
+      "mechanism": "trade",
+      "date": -500,
+      "evidence": "West African religious substrate shared between Niger-Congo peoples; some scholars note parallels between Yoruba Olodumare and Dogon Amma as withdrawn supreme creators; trade along Niger River"
+    },
+    {
+      "id": "conn_zulu_to_kongo",
+      "from": "zulu_religion",
+      "to": "kongo_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "migration",
+      "date": -500,
+      "evidence": "Both derive from Bantu migration religious substrate; shared ancestor worship emphasis, supreme creator concept, and diviner-healer traditions common to Bantu-speaking peoples"
+    },
+    {
+      "id": "conn_san_to_zulu",
+      "from": "san_religion",
+      "to": "zulu_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "oral_tradition",
+      "date": -500,
+      "evidence": "San were the original inhabitants of Southern Africa before Bantu migrations; Zulu adopted some San spiritual elements including trance healing practices and certain rock art motifs; archaeological evidence of cultural contact"
+    },
+    {
+      "id": "conn_christianity_to_zulu",
+      "from": "christianity",
+      "to": "zulu_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "colonialism",
+      "date": 1835,
+      "evidence": "Zionist Christian churches blend Zulu ancestor veneration with Christianity; isangoma traditions persist alongside Christian practice; syncretic Shembe church (Nazareth Baptist Church)"
+    },
+    {
+      "id": "conn_islam_to_dogon",
+      "from": "islam",
+      "to": "dogon_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "trade",
+      "date": 1000,
+      "evidence": "Islam spread in Mali from 11th century; many Dogon have adopted Islamic practices while maintaining traditional ceremonies; syncretic coexistence in Bandiagara region"
+    },
+    {
+      "id": "conn_christianity_to_igbo",
+      "from": "christianity",
+      "to": "igbo_religion",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "colonialism",
+      "date": 1857,
+      "evidence": "Christian missionaries (CMS from 1857) heavily impacted Igbo religion; Odinani largely syncretized with Catholicism; traditional practices persist in rural areas; Chinua Achebe's Things Fall Apart documents this transition"
+    },
+    {
+      "id": "conn_christianity_to_hawaiian",
+      "from": "christianity",
+      "to": "hawaiian_religion",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "colonialism",
+      "date": 1820,
+      "evidence": "American Protestant missionaries arrived 1820; kapu system already abolished 1819; rapid conversion followed; Hawaiian cultural renaissance since 1970s has revived traditional practices"
+    }
+  ],
+  "figures": [
+    {
+      "id": "tangaroa",
+      "name": "Tangaroa/Tagaloa",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological, pan-Polynesian",
+      "traditions": [
+        "polynesian_religion",
+        "maori_religion",
+        "hawaiian_religion"
+      ],
+      "roles": {
+        "polynesian_religion": "Supreme creator god in western Polynesia (Samoa, Tonga); god of the sea throughout Pacific",
+        "maori_religion": "Tangaroa, god of the sea and fish, one of the children of Rangi and Papa",
+        "hawaiian_religion": "Kanaloa, god of the ocean and deep sea, associated with squid/octopus"
+      },
+      "aliases": [
+        "Tangaroa (Maori)",
+        "Tangaloa (Samoan/Tongan)",
+        "Kanaloa (Hawaiian)",
+        "Ta'aroa (Tahitian)",
+        "Tagaloa (pan-Polynesian)"
+      ],
+      "connections": [
+        {
+          "to": "tane_mahuta",
+          "type": "mythological_parallel",
+          "detail": "Brother deities, children of Rangi and Papa in eastern Polynesian traditions"
+        },
+        {
+          "to": "maui_demigod",
+          "type": "mythological_parallel",
+          "detail": "Maui often acts within the domain Tangaroa controls (sea, fishing)"
+        }
+      ]
+    },
+    {
+      "id": "tane_mahuta",
+      "name": "Tane/Kane",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological, pan-Polynesian",
+      "traditions": [
+        "polynesian_religion",
+        "maori_religion",
+        "hawaiian_religion"
+      ],
+      "roles": {
+        "polynesian_religion": "God of forests, birds, and light; separated sky and earth in many traditions",
+        "maori_religion": "Tane Mahuta, god of forests and birds, separated Ranginui and Papatuanuku, created first woman Hineahuone",
+        "hawaiian_religion": "Kane, highest of the four great gods, god of creation, sky, sunlight, and fresh water"
+      },
+      "aliases": [
+        "Tane Mahuta (Maori)",
+        "Kane (Hawaiian)",
+        "Tane (pan-Polynesian)"
+      ],
+      "connections": [
+        {
+          "to": "tangaroa",
+          "type": "mythological_parallel",
+          "detail": "Brother deities, children of sky and earth in Polynesian cosmogony"
+        },
+        {
+          "to": "rainbow_serpent",
+          "type": "mythological_parallel",
+          "detail": "Both are primordial creator beings who shaped the landscape and brought life into being"
+        }
+      ]
+    },
+    {
+      "id": "maui_demigod",
+      "name": "Maui",
+      "type": "hero",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological, pan-Polynesian trickster demigod",
+      "traditions": [
+        "polynesian_religion",
+        "maori_religion",
+        "hawaiian_religion"
+      ],
+      "roles": {
+        "polynesian_religion": "Pan-Polynesian demigod trickster who fished up islands, slowed the sun, and stole fire for humanity",
+        "maori_religion": "Maui-tikitiki-a-Taranga, demigod who fished up the North Island (Te Ika a Maui) and slowed the sun",
+        "hawaiian_religion": "Maui, demigod trickster who lassoed the sun at Haleakala to make days longer"
+      },
+      "aliases": [
+        "Maui (pan-Polynesian)",
+        "Maui-tikitiki-a-Taranga (Maori)",
+        "Maui (Hawaiian)"
+      ],
+      "connections": [
+        {
+          "to": "kaggen",
+          "type": "mythological_parallel",
+          "detail": "Both are trickster figures who use cunning to reshape the world for humanity's benefit"
+        },
+        {
+          "to": "anansi",
+          "type": "mythological_parallel",
+          "detail": "Cross-cultural parallel as culture hero tricksters who obtain gifts (fire, stories) for humanity"
+        }
+      ]
+    },
+    {
+      "id": "rainbow_serpent",
+      "name": "Rainbow Serpent",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological, pan-Australian (rock art evidence 6,000+ years)",
+      "traditions": [
+        "aboriginal_australian"
+      ],
+      "roles": {
+        "aboriginal_australian": "Pan-Australian creator deity who shaped waterways and landscape, associated with water, fertility, and both creation and destruction"
+      },
+      "aliases": [
+        "Ngalyod (Gunwinggu/Kunwinjku)",
+        "Borlung (Miali)",
+        "Dhakhan (Kabi Kabi)",
+        "Galeru (several groups)",
+        "Ungud (Kimberley)",
+        "Wollunqua (Warumungu)",
+        "Yurlungur (Yolngu)"
+      ],
+      "connections": [
+        {
+          "to": "simbi_spirit",
+          "type": "mythological_parallel",
+          "detail": "Both are serpentine water spirits associated with creation, rivers, and spiritual power"
+        },
+        {
+          "to": "nommo",
+          "type": "mythological_parallel",
+          "detail": "Both are primordial water-associated beings central to creation mythology"
+        }
+      ]
+    },
+    {
+      "id": "kaggen",
+      "name": "/Kaggen (Mantis Trickster)",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological, oldest documented trickster figure",
+      "traditions": [
+        "san_religion"
+      ],
+      "roles": {
+        "san_religion": "Supreme trickster deity who manifests as praying mantis and many other forms; can create, transform, and deceive; both wise and foolish"
+      },
+      "aliases": [
+        "/Kaggen (|Xam San)",
+        "Cagn (colonial-era spelling)",
+        "Mantis (English translation, but not literally a mantis)"
+      ],
+      "connections": [
+        {
+          "to": "maui_demigod",
+          "type": "mythological_parallel",
+          "detail": "Both are trickster figures who use cunning to shape the world"
+        },
+        {
+          "to": "eshu_elegba",
+          "type": "mythological_parallel",
+          "detail": "Cross-cultural parallel as divine trickster figures who mediate between realms"
+        }
+      ]
+    },
+    {
+      "id": "apedemak",
+      "name": "Apedemak",
+      "type": "deity",
+      "date": "-300",
+      "dateLabel": "c. 300 BCE (first attestations in Meroitic period)",
+      "traditions": [
+        "kushite_religion"
+      ],
+      "roles": {
+        "kushite_religion": "Lion-headed war god, protector of royalty, fertility deity, supreme national god of Meroitic Kush"
+      },
+      "aliases": [
+        "Apedemak (Meroitic)",
+        "The Lion God"
+      ],
+      "connections": [
+        {
+          "to": "amun_ra",
+          "type": "equivalent",
+          "detail": "Apedemak replaced or paralleled Amun in Meroitic state religion, sharing roles as creator, fertility, and royal patron deity"
+        },
+        {
+          "to": "sekhmet",
+          "type": "mythological_parallel",
+          "detail": "Both are lion-associated deities of war and power in Nile Valley civilizations"
+        }
+      ]
+    },
+    {
+      "id": "nommo",
+      "name": "Nommo",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological (Dogon creation)",
+      "traditions": [
+        "dogon_religion"
+      ],
+      "roles": {
+        "dogon_religion": "First living beings created by Amma, amphibious ancestral water spirits who taught humanity language, agriculture, and weaving"
+      },
+      "aliases": [
+        "Nommo (Dogon)",
+        "Masters of the Water",
+        "The Monitors",
+        "The Teachers"
+      ],
+      "connections": [
+        {
+          "to": "rainbow_serpent",
+          "type": "mythological_parallel",
+          "detail": "Both are primordial water-associated creator beings"
+        },
+        {
+          "to": "simbi_spirit",
+          "type": "mythological_parallel",
+          "detail": "Both are water spirits central to their respective African cosmologies"
+        }
+      ]
+    },
+    {
+      "id": "simbi_spirit",
+      "name": "Simbi (Kongo water spirits)",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Ancient / mythological (Kongo tradition)",
+      "traditions": [
+        "kongo_religion",
+        "vodou"
+      ],
+      "roles": {
+        "kongo_religion": "Water spirits of rivers and streams, associated with healing, divination, and hidden knowledge",
+        "vodou": "Simbi lwa, water spirits derived from Kongo Simbi, associated with magic and crossroads"
+      },
+      "aliases": [
+        "Simbi (Kongo)",
+        "Simbi (Vodou/Haitian)",
+        "Simbi Andezo",
+        "Simbi Makaya"
+      ],
+      "connections": [
+        {
+          "to": "nommo",
+          "type": "mythological_parallel",
+          "detail": "Both are water spirits central to their respective cosmologies"
+        },
+        {
+          "to": "papa_legba",
+          "type": "mythological_parallel",
+          "detail": "Both serve as spiritual intermediaries in diaspora traditions derived from different African sources"
+        }
+      ]
+    },
+    {
+      "id": "eshu_elegba",
+      "name": "Eshu/Elegba",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Ancient / mythological",
+      "traditions": [
+        "yoruba_religion",
+        "santeria",
+        "vodou"
+      ],
+      "roles": {
+        "yoruba_religion": "Orisha of crossroads, messenger between humans and orishas, divine trickster",
+        "santeria": "Elegua, opener of roads, gatekeeper, syncreted with Holy Child of Atocha or St. Anthony",
+        "vodou": "Papa Legba, gatekeeper between worlds, derived from Yoruba Eshu via Fon Legba"
+      },
+      "aliases": [
+        "Eshu (Yoruba)",
+        "Elegba/Elegbara (Yoruba)",
+        "Elegua (Santeria)",
+        "Papa Legba (Vodou)",
+        "Legba (Fon/Dahomey)"
+      ],
+      "connections": [
+        {
+          "to": "kaggen",
+          "type": "mythological_parallel",
+          "detail": "Both are divine trickster figures who mediate between realms and use cunning"
+        },
+        {
+          "to": "maui_demigod",
+          "type": "mythological_parallel",
+          "detail": "Cross-cultural trickster archetype who mediates between divine and human realms"
+        }
+      ]
+    },
+    {
+      "id": "unkulunkulu",
+      "name": "Unkulunkulu",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological (Zulu creation)",
+      "traditions": [
+        "zulu_religion"
+      ],
+      "roles": {
+        "zulu_religion": "Supreme creator who emerged from a bed of reeds and created all things: animals, cattle, water, mountains, sun, and moon"
+      },
+      "aliases": [
+        "Unkulunkulu (Zulu)",
+        "uMvelinqangi (Zulu, sometimes distinct sky god)"
+      ],
+      "connections": [
+        {
+          "to": "nzambi_mpungu",
+          "type": "mythological_parallel",
+          "detail": "Both are Bantu supreme creator gods; Bantu linguistic and cultural substrate connects them"
+        },
+        {
+          "to": "chukwu",
+          "type": "mythological_parallel",
+          "detail": "Both are African supreme creator gods who withdraw after creation, leaving intermediary spirits"
+        }
+      ]
+    },
+    {
+      "id": "nzambi_mpungu",
+      "name": "Nzambi Mpungu",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological (Kongo creation)",
+      "traditions": [
+        "kongo_religion"
+      ],
+      "roles": {
+        "kongo_religion": "Supreme creator god, sky father, omnipresent sovereign master who gave life to all things"
+      },
+      "aliases": [
+        "Nzambi Mpungu (Kongo)",
+        "Nzambi a Mpungu",
+        "Nzambi (shortened form)"
+      ],
+      "connections": [
+        {
+          "to": "unkulunkulu",
+          "type": "mythological_parallel",
+          "detail": "Fellow Bantu supreme creator deity; shared linguistic root and theological concept"
+        },
+        {
+          "to": "chukwu",
+          "type": "mythological_parallel",
+          "detail": "Both are African supreme creators with similar remote/transcendent qualities"
+        }
+      ]
+    },
+    {
+      "id": "chukwu",
+      "name": "Chukwu/Chineke",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological (Igbo creation)",
+      "traditions": [
+        "igbo_religion"
+      ],
+      "roles": {
+        "igbo_religion": "Supreme creator god (Chi-na-eke: God who creates), source of all things, head of the Igbo pantheon"
+      },
+      "aliases": [
+        "Chukwu (Igbo)",
+        "Chineke (Igbo, 'God who creates')",
+        "Chi Ukwu ('Great Chi')"
+      ],
+      "connections": [
+        {
+          "to": "olodumare",
+          "type": "mythological_parallel",
+          "detail": "Both are West African supreme creators who are remote and work through intermediary spirits (alusi/orishas)"
+        },
+        {
+          "to": "nzambi_mpungu",
+          "type": "mythological_parallel",
+          "detail": "Both are African supreme creator gods with similar transcendent withdrawal patterns"
+        },
+        {
+          "to": "unkulunkulu",
+          "type": "mythological_parallel",
+          "detail": "Both are African supreme creators, though Chukwu is more actively worshipped"
+        }
+      ]
+    },
+    {
+      "id": "ala_igbo",
+      "name": "Ala/Ana (Igbo Earth Goddess)",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological",
+      "traditions": [
+        "igbo_religion"
+      ],
+      "roles": {
+        "igbo_religion": "Earth goddess, enforcer of moral law, mother of all crops, most prominent deity in daily Igbo worship"
+      },
+      "aliases": [
+        "Ala (Igbo)",
+        "Ana (Igbo variant)",
+        "Ani (Igbo variant)"
+      ],
+      "connections": [
+        {
+          "to": "asase_yaa",
+          "type": "cognate",
+          "detail": "Both are West African earth goddesses central to daily worship and agricultural life"
+        },
+        {
+          "to": "papatuanuku",
+          "type": "mythological_parallel",
+          "detail": "Cross-cultural parallel as earth mother deities foundational to their traditions"
+        }
+      ]
+    },
+    {
+      "id": "asase_yaa",
+      "name": "Asase Yaa",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological",
+      "traditions": [
+        "akan_religion"
+      ],
+      "roles": {
+        "akan_religion": "Earth goddess, mother of the dead, associated with truth, harvest, and barrenness"
+      },
+      "aliases": [
+        "Asase Yaa (Akan)",
+        "Aberewa (Old Woman)"
+      ],
+      "connections": [
+        {
+          "to": "ala_igbo",
+          "type": "cognate",
+          "detail": "Both are West African earth goddesses with parallel roles in agricultural and moral spheres"
+        }
+      ]
+    },
+    {
+      "id": "makemake",
+      "name": "Makemake",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "c. 1400-1600 CE (birdman cult era on Rapa Nui)",
+      "traditions": [
+        "rapa_nui_religion"
+      ],
+      "roles": {
+        "rapa_nui_religion": "Chief god of the birdman cult, creator deity, embodiment of fertilizing force of nature"
+      },
+      "aliases": [
+        "Make-make (Rapa Nui)"
+      ],
+      "connections": [
+        {
+          "to": "tangaroa",
+          "type": "mythological_parallel",
+          "detail": "Both are Polynesian-derived creator gods; Makemake evolved from the broader Polynesian pantheon in Rapa Nui isolation"
+        }
+      ]
+    },
+    {
+      "id": "pele_goddess",
+      "name": "Pele",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Mythological, Hawaiian tradition",
+      "traditions": [
+        "hawaiian_religion"
+      ],
+      "roles": {
+        "hawaiian_religion": "Goddess of volcanoes, fire, and lightning; resides in Kilauea crater; powerful and temperamental deity"
+      },
+      "aliases": [
+        "Pele (Hawaiian)",
+        "Pelehonuamea (full name)"
+      ],
+      "connections": [
+        {
+          "to": "tane_mahuta",
+          "type": "mythological_parallel",
+          "detail": "Pele is a departmental deity within the broader Hawaiian pantheon descended from Polynesian tradition"
+        }
+      ]
+    },
+    {
+      "id": "enkai",
+      "name": "Enkai/Engai",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological (Maasai tradition)",
+      "traditions": [
+        "maasai_religion"
+      ],
+      "roles": {
+        "maasai_religion": "Supreme creator god, androgynous, manifests as Enkai Narok (Black/benevolent) and Enkai Nanyokie (Red/wrathful); gave all cattle to the Maasai"
+      },
+      "aliases": [
+        "Enkai (Maasai)",
+        "Engai (Maasai)",
+        "Ngai (Maasai variant)"
+      ],
+      "connections": [
+        {
+          "to": "waaqa",
+          "type": "mythological_parallel",
+          "detail": "Both are East African monotheistic sky gods from pastoral peoples in the Horn/East Africa region"
+        }
+      ]
+    },
+    {
+      "id": "waaqa",
+      "name": "Waaqa",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological (Oromo tradition)",
+      "traditions": [
+        "waaqeffannaa"
+      ],
+      "roles": {
+        "waaqeffannaa": "Supreme being, omniscient and omnipotent sky god, the one God of the Oromo, associated with rain and cosmic order (saffu)"
+      },
+      "aliases": [
+        "Waaqa (Oromo)",
+        "Waaqa Tokkicha (the one God)",
+        "Waaq"
+      ],
+      "connections": [
+        {
+          "to": "enkai",
+          "type": "mythological_parallel",
+          "detail": "Both are East African monotheistic sky gods from Cushitic/Nilotic peoples"
+        }
+      ]
+    },
+    {
+      "id": "amma_dogon",
+      "name": "Amma",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological (Dogon creation)",
+      "traditions": [
+        "dogon_religion"
+      ],
+      "roles": {
+        "dogon_religion": "Supreme genderless creator god who created the universe from the cosmic egg; source of all creation through vibration and speech"
+      },
+      "aliases": [
+        "Amma (Dogon)",
+        "Ama (Dogon variant)"
+      ],
+      "connections": [
+        {
+          "to": "olodumare",
+          "type": "mythological_parallel",
+          "detail": "Both are West African supreme creator gods; Amma is genderless while Olodumare is also conceived as beyond gender"
+        },
+        {
+          "to": "chukwu",
+          "type": "mythological_parallel",
+          "detail": "Both are West African supreme creators who set creation in motion and then relate to the world through intermediaries"
+        }
+      ]
+    },
+    {
+      "id": "olodumare",
+      "name": "Olodumare/Olorun",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological",
+      "traditions": [
+        "yoruba_religion",
+        "santeria"
+      ],
+      "roles": {
+        "yoruba_religion": "Supreme creator god, source of all ashe (divine energy), delegates to orishas",
+        "santeria": "Supreme God, too remote for direct worship, works through orishas"
+      },
+      "aliases": [
+        "Olodumare (Yoruba)",
+        "Olorun (Yoruba, 'Owner of Heaven')",
+        "Olofi (Santeria)"
+      ],
+      "connections": [
+        {
+          "to": "amma_dogon",
+          "type": "mythological_parallel",
+          "detail": "Both are West African supreme creators beyond gender who work through intermediary spiritual beings"
+        },
+        {
+          "to": "chukwu",
+          "type": "mythological_parallel",
+          "detail": "Both are West African supreme creators who delegate to spirit intermediaries (orishas/alusi)"
+        },
+        {
+          "to": "nzambi_mpungu",
+          "type": "mythological_parallel",
+          "detail": "Both are African supreme creators with transcendent, withdrawn qualities"
+        }
+      ]
+    },
+    {
+      "id": "anansi",
+      "name": "Anansi",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Ancient / mythological",
+      "traditions": [
+        "akan_religion"
+      ],
+      "roles": {
+        "akan_religion": "Trickster spider figure, keeper of all stories, son of Nyame"
+      },
+      "aliases": [
+        "Anansi (Akan)",
+        "Ananse",
+        "Kwaku Ananse",
+        "Aunt Nancy (Caribbean diaspora)"
+      ],
+      "connections": [
+        {
+          "to": "kaggen",
+          "type": "mythological_parallel",
+          "detail": "Both are African trickster figures central to oral tradition and mythology"
+        },
+        {
+          "to": "eshu_elegba",
+          "type": "mythological_parallel",
+          "detail": "Both are African trickster figures, though Eshu has more explicitly spiritual mediator roles"
+        },
+        {
+          "to": "maui_demigod",
+          "type": "mythological_parallel",
+          "detail": "Cross-cultural trickster figures who obtain gifts or knowledge for humanity"
+        }
+      ]
+    },
+    {
+      "id": "papatuanuku",
+      "name": "Papatuanuku (Earth Mother)",
+      "type": "deity",
+      "date": "mythological",
+      "dateLabel": "Primordial / mythological",
+      "traditions": [
+        "maori_religion",
+        "polynesian_religion"
+      ],
+      "roles": {
+        "maori_religion": "Earth mother, source of all life, locked in embrace with sky father Ranginui until separated by their children",
+        "polynesian_religion": "Papa, earth mother in eastern Polynesian creation accounts, partner of Rangi/Wakea"
+      },
+      "aliases": [
+        "Papatuanuku (Maori)",
+        "Papa (pan-Polynesian)",
+        "Papahaumoku (Hawaiian)"
+      ],
+      "connections": [
+        {
+          "to": "ala_igbo",
+          "type": "mythological_parallel",
+          "detail": "Both are earth mother deities foundational to their traditions, associated with fertility and life"
+        },
+        {
+          "to": "asase_yaa",
+          "type": "mythological_parallel",
+          "detail": "Cross-cultural parallel as earth goddess figures"
+        }
+      ]
+    }
+  ]
+}

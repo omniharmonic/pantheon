@@ -1,0 +1,1109 @@
+{
+  "=== TRADITIONS ===": "Modern and contemporary religious movements",
+  "traditions": [
+    {
+      "id": "mormonism",
+      "name": "The Church of Jesus Christ of Latter-day Saints",
+      "originDate": 1830,
+      "originDateLabel": "Founded 1830 CE",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Fayette, New York, United States",
+      "region": "North America",
+      "theologicalType": ["restorationism", "monotheism", "prophetic_revelation"],
+      "keyFigures": [
+        { "name": "Joseph Smith Jr.", "role": "Founding prophet, translator of the Book of Mormon" },
+        { "name": "Brigham Young", "role": "Second president, led migration to Utah" },
+        { "name": "Oliver Cowdery", "role": "Scribe, witness to the Book of Mormon plates" },
+        { "name": "Sidney Rigdon", "role": "Early leader and theologian" }
+      ],
+      "keyConcepts": [
+        "Book of Mormon as restored scripture",
+        "Continuous prophetic revelation",
+        "Priesthood restoration (Aaronic and Melchizedek)",
+        "Plan of Salvation and celestial kingdoms",
+        "Temple ordinances and sealing",
+        "Word of Wisdom health code",
+        "Baptism for the dead"
+      ],
+      "parentTraditions": ["christianity"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Restorationist Christian movement founded by Joseph Smith, claiming restoration of original Christianity through new scripture and prophetic authority. Approximately 17 million members worldwide."
+    },
+    {
+      "id": "jehovahs_witnesses",
+      "name": "Jehovah's Witnesses",
+      "originDate": 1870,
+      "originDateLabel": "Bible Student movement from 1870s, incorporated as Watch Tower 1881",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Pittsburgh, Pennsylvania, United States",
+      "region": "North America",
+      "theologicalType": ["monotheism", "restorationism", "millenarianism"],
+      "keyFigures": [
+        { "name": "Charles Taze Russell", "role": "Founder of the Bible Student movement and Watch Tower Society" },
+        { "name": "Joseph Franklin Rutherford", "role": "Second president, adopted 'Jehovah's Witnesses' name in 1931" },
+        { "name": "Nathan Homer Knorr", "role": "Third president, expanded global missionary work" },
+        { "name": "Frederick William Franz", "role": "Fourth president, principal Bible scholar" }
+      ],
+      "keyConcepts": [
+        "Jehovah as God's exclusive personal name",
+        "Christ as God's first creation (non-Trinitarian Christology)",
+        "Kingdom of God as literal heavenly government",
+        "The 144,000 anointed class",
+        "Door-to-door evangelism and preaching work",
+        "Refusal of blood transfusions and military service",
+        "Armageddon and earthly paradise restoration"
+      ],
+      "parentTraditions": ["christianity"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Millenarian restorationist Christian denomination with distinct non-Trinitarian theology. Approximately 8.7 million active publishers worldwide, organized through the Watch Tower Bible and Tract Society."
+    },
+    {
+      "id": "ahmadiyya",
+      "name": "Ahmadiyya Islam",
+      "originDate": 1889,
+      "originDateLabel": "Founded 1889 CE",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Qadian, Punjab, British India",
+      "region": "South Asia",
+      "theologicalType": ["monotheism", "prophetic_revelation", "reform_movement"],
+      "keyFigures": [
+        { "name": "Mirza Ghulam Ahmad", "role": "Founder, claimed to be the promised Mahdi and Messiah" },
+        { "name": "Hakim Noor-ud-Din", "role": "First Khalifatul Masih (successor-caliph)" },
+        { "name": "Mirza Bashir-ud-Din Mahmud Ahmad", "role": "Second Khalifa, expanded international missions" },
+        { "name": "Mirza Masroor Ahmad", "role": "Fifth and current Khalifatul Masih (since 2003)" }
+      ],
+      "keyConcepts": [
+        "Continuation of prophethood subordinate to Muhammad",
+        "Khalifatul Masih caliphate system",
+        "Jesus survived crucifixion and died naturally in Kashmir",
+        "Jihad of the pen (intellectual struggle, not armed)",
+        "Love for All, Hatred for None (motto)",
+        "Chanda (obligatory financial contribution system)"
+      ],
+      "parentTraditions": ["islam"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Reformist Islamic movement claiming fulfillment of Islamic eschatological prophecies. Approximately 10-20 million adherents in over 200 countries. Considered non-Muslim by mainstream Islamic authorities due to claims regarding prophethood."
+    },
+    {
+      "id": "tenrikyo",
+      "name": "Tenrikyo",
+      "originDate": 1838,
+      "originDateLabel": "Revelation 1838, formally organized 1860s",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Yamato Province (Nara Prefecture), Japan",
+      "region": "East Asia",
+      "theologicalType": ["monotheism", "revealed_religion", "new_religious_movement"],
+      "keyFigures": [
+        { "name": "Nakayama Miki (Oyasama)", "role": "Foundress, Shrine of God the Parent" },
+        { "name": "Iburi Izo", "role": "First Honseki (intermediary of divine direction after Miki)" },
+        { "name": "Nakayama Shinnosuke", "role": "Miki's husband, early supporter of the movement" },
+        { "name": "Tenri-O-no-Mikoto", "role": "God the Parent, deity who revealed truth through Miki" }
+      ],
+      "keyConcepts": [
+        "The Joyous Life (Yoki-gurashi)",
+        "God the Parent (Tenri-O-no-Mikoto / Oyagamisama)",
+        "Hinokishin (voluntary joyful service)",
+        "Kashimono-karimono (the body as a thing lent by God)",
+        "Teodori and Kagura (sacred dances)",
+        "The Kanrodai (the Jiba as center of creation)",
+        "Eight dusts of the mind (greed, miserliness, hatred, etc.)"
+      ],
+      "parentTraditions": ["shinto"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Japanese new religion founded through divine revelation to Nakayama Miki. Originally classified under Sect Shinto but claims independent identity. Approximately 2 million followers, primarily in Japan. Headquarters in Tenri City, Nara Prefecture."
+    },
+    {
+      "id": "oomoto",
+      "name": "Oomoto",
+      "originDate": 1892,
+      "originDateLabel": "Founded 1892 CE",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Ayabe, Kyoto Prefecture, Japan",
+      "region": "East Asia",
+      "theologicalType": ["monotheism", "universalism", "new_religious_movement"],
+      "keyFigures": [
+        { "name": "Deguchi Nao", "role": "Foundress, received revelations from Ushitora no Konjin" },
+        { "name": "Deguchi Onisaburo", "role": "Co-founder, systematizer, spiritual leader and prolific author" },
+        { "name": "Deguchi Sumiko", "role": "Daughter of Nao, wife of Onisaburo, organizational leader" },
+        { "name": "Deguchi Hidemaru", "role": "Third Spiritual Leader (Sandai Kyoshu)" }
+      ],
+      "keyConcepts": [
+        "All religions share common origin",
+        "Universal love and brotherhood (Jinrui Aizenkai)",
+        "Ushitora no Konjin as supreme deity",
+        "Remodel the world (tatekae tatenaoshi)",
+        "Chinkon-kishin (spirit pacification and return to the divine)",
+        "Art as spiritual practice (Onisaburo's pottery and calligraphy)",
+        "Esperanto as tool for universal communication"
+      ],
+      "parentTraditions": ["shinto"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Shinto-derived new religion emphasizing universal religion ideals and world peace. Heavily suppressed by Japanese government in 1921 and 1935 incidents. Influenced numerous other Japanese new religions. Approximately 170,000 followers."
+    },
+    {
+      "id": "rastafari",
+      "name": "Rastafari",
+      "originDate": 1930,
+      "originDateLabel": "Emerged 1930s",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Jamaica",
+      "region": "Caribbean",
+      "theologicalType": ["monotheism", "afrocentric_spirituality", "millenarianism"],
+      "keyFigures": [
+        { "name": "Haile Selassie I", "role": "Revered as the returned Messiah (Jah Rastafari), Emperor of Ethiopia" },
+        { "name": "Marcus Garvey", "role": "Intellectual forerunner, Pan-Africanist prophet figure" },
+        { "name": "Leonard Howell", "role": "First preacher of Rastafari, founded Pinnacle commune" },
+        { "name": "Archibald Dunkley", "role": "Early preacher of Haile Selassie's divinity" },
+        { "name": "Joseph Hibbert", "role": "Early preacher, established one of the first Rasta groups" }
+      ],
+      "keyConcepts": [
+        "Haile Selassie as Jah (God incarnate) or chosen king",
+        "Babylon system (Western oppressive structures)",
+        "Zion (Africa, especially Ethiopia, as promised land)",
+        "Livity (righteous living)",
+        "Ital (natural, unprocessed diet)",
+        "Reasoning sessions and grounation ceremonies",
+        "Repatriation to Africa",
+        "Dreadlocks as Nazirite vow and covenant sign"
+      ],
+      "parentTraditions": ["christianity"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "influencedBy": ["judaism"],
+      "evidence": "Afrocentric spiritual movement emerging from Jamaican black empowerment traditions. Draws heavily on Ethiopian Orthodox Christian imagery and Old Testament themes. Approximately 700,000-1,000,000 adherents worldwide, spread through reggae music culture."
+    },
+    {
+      "id": "wicca",
+      "name": "Wicca",
+      "originDate": 1954,
+      "originDateLabel": "Publicly revealed 1954, developed from 1940s",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "England, United Kingdom",
+      "region": "Europe",
+      "theologicalType": ["neopagan", "duotheism", "nature_religion"],
+      "keyFigures": [
+        { "name": "Gerald Gardner", "role": "Founder of Gardnerian Wicca, public revelation of the craft" },
+        { "name": "Doreen Valiente", "role": "High Priestess, rewrote much of the liturgy and Charge of the Goddess" },
+        { "name": "Alex Sanders", "role": "Founder of Alexandrian Wicca" },
+        { "name": "Starhawk (Miriam Simos)", "role": "Author of The Spiral Dance, influential feminist Wiccan" }
+      ],
+      "keyConcepts": [
+        "The Horned God and Triple Goddess (duotheistic theology)",
+        "Wheel of the Year (eight sabbats: Samhain, Yule, Imbolc, Ostara, Beltane, Litha, Lughnasadh, Mabon)",
+        "The Wiccan Rede ('An it harm none, do what ye will')",
+        "Threefold Law (law of return)",
+        "Drawing Down the Moon (invocation ritual)",
+        "Book of Shadows (personal ritual text)",
+        "Magic circle casting and elemental quarters"
+      ],
+      "parentTraditions": ["celtic_religion"],
+      "childTraditions": [],
+      "syncreticConnections": ["norse_germanic", "greek_religion"],
+      "evidence": "Modern pagan witchcraft religion drawing on Western esoteric traditions, folk magic, and reimagined pre-Christian European practices. Founded by Gerald Gardner who published Witchcraft Today in 1954. Estimated 1-2 million practitioners worldwide."
+    },
+    {
+      "id": "scientology",
+      "name": "Scientology",
+      "originDate": 1954,
+      "originDateLabel": "Church founded 1954, Dianetics published 1950",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "United States",
+      "region": "North America",
+      "theologicalType": ["new_religious_movement", "gnostic_elements"],
+      "keyFigures": [
+        { "name": "L. Ron Hubbard", "role": "Founder, author of Dianetics and Scientology scripture" },
+        { "name": "David Miscavige", "role": "Current leader, Chairman of the Board of Religious Technology Center" },
+        { "name": "Mary Sue Hubbard", "role": "Co-developer of organizational structure, head of Guardian's Office" }
+      ],
+      "keyConcepts": [
+        "Thetan (immortal spiritual being, true self)",
+        "Engrams (stored traumatic memories blocking spiritual progress)",
+        "Auditing (counseling procedure using E-meter)",
+        "The Bridge to Total Freedom (graduated spiritual path)",
+        "Operating Thetan levels (OT I-VIII)",
+        "Reactive mind vs. analytical mind",
+        "Suppressive Persons and disconnection policy",
+        "Dianetics as foundational practice"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "New religious movement founded by science fiction author L. Ron Hubbard. Dianetics published 1950; Church of Scientology incorporated 1954. Controversial religious status debated globally. Claims approximately 10 million members, independent estimates far lower."
+    },
+    {
+      "id": "unification_church",
+      "name": "Unification Church",
+      "originDate": 1954,
+      "originDateLabel": "Founded 1954 as Holy Spirit Association for the Unification of World Christianity",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Seoul, South Korea",
+      "region": "East Asia",
+      "theologicalType": ["monotheism", "messianic", "new_religious_movement"],
+      "keyFigures": [
+        { "name": "Sun Myung Moon", "role": "Founder, regarded as True Parent and returning Messiah" },
+        { "name": "Hak Ja Han", "role": "Co-founder, True Mother, current spiritual leader" },
+        { "name": "Hyo Jin Moon", "role": "Eldest son, heir to leadership" },
+        { "name": "Hyung Jin Moon", "role": "Seventh son, self-proclaimed successor, leads Sanctuary Church splinter" }
+      ],
+      "keyConcepts": [
+        "True Parents (Moon and Han as sinless parents of humanity)",
+        "Divine Principle (core theological text)",
+        "Blessing ceremony (mass weddings for spiritual rebirth)",
+        "Indemnity (payment for sin through sacrifice)",
+        "Four Position Foundation (God-centered family ideal)",
+        "Fall of Man through illicit love (not fruit)",
+        "Unification of world Christianity and all religions"
+      ],
+      "parentTraditions": ["christianity"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Korean new religious movement founded by Sun Myung Moon in 1954, blending Christian messianism with East Asian philosophy. Known for mass wedding ceremonies. Estimated several hundred thousand active members, with extensive business and media holdings."
+    },
+    {
+      "id": "nation_of_islam",
+      "name": "Nation of Islam",
+      "originDate": 1930,
+      "originDateLabel": "Founded 1930 CE",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Detroit, Michigan, United States",
+      "region": "North America",
+      "theologicalType": ["monotheism", "black_nationalism", "new_religious_movement"],
+      "keyFigures": [
+        { "name": "Wallace Fard Muhammad", "role": "Mysterious founder, regarded as God incarnate by adherents" },
+        { "name": "Elijah Muhammad", "role": "Leader 1934-1975, established NOI theology and organizational structure" },
+        { "name": "Malcolm X", "role": "Prominent minister, later broke with NOI over orthodox Islam" },
+        { "name": "Louis Farrakhan", "role": "Current leader, revived NOI in 1978 after W.D. Muhammad's reforms" },
+        { "name": "Warith Deen Mohammed", "role": "Son of Elijah, reformed movement toward Sunni Islam in 1975" }
+      ],
+      "keyConcepts": [
+        "Wallace Fard Muhammad as Allah incarnate",
+        "Yakub narrative (origin of races through selective breeding)",
+        "Black self-determination and separatism",
+        "Supreme Wisdom teachings",
+        "The Mother Plane (eschatological spaceship)",
+        "Dietary laws and self-discipline",
+        "Economic self-sufficiency"
+      ],
+      "parentTraditions": ["islam"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "African American Islamic new religious movement with distinctive theology differing significantly from mainstream Islam. Founded by Wallace Fard Muhammad, systematized by Elijah Muhammad. Estimated 20,000-50,000 members. Considered heterodox by mainstream Islamic scholarship."
+    },
+    {
+      "id": "falun_gong",
+      "name": "Falun Gong (Falun Dafa)",
+      "originDate": 1992,
+      "originDateLabel": "Publicly introduced 1992 CE",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Changchun, Jilin Province, China",
+      "region": "East Asia",
+      "theologicalType": ["cultivation_practice", "syncretic", "new_religious_movement"],
+      "keyFigures": [
+        { "name": "Li Hongzhi", "role": "Founder and sole Master, author of Zhuan Falun" },
+        { "name": "Li Hongzhi (Master Li)", "role": "Considered living Buddha/Savior figure by practitioners" }
+      ],
+      "keyConcepts": [
+        "Truthfulness-Compassion-Forbearance (Zhen-Shan-Ren) as supreme principles",
+        "Five sets of qigong exercises",
+        "Cultivation of xinxing (moral character)",
+        "Elimination of karma through suffering and practice",
+        "Zhuan Falun as central scripture",
+        "Falun (law wheel) in the lower abdomen",
+        "Opposition to the Chinese Communist Party's persecution"
+      ],
+      "parentTraditions": ["buddhism", "taoism"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Spiritual practice combining qigong exercises with moral philosophy rooted in Buddhist and Taoist traditions. Introduced by Li Hongzhi in 1992, grew to an estimated 70 million practitioners in China by 1999, then severely persecuted by the Chinese government. Active worldwide diaspora community."
+    },
+    {
+      "id": "soka_gakkai",
+      "name": "Soka Gakkai",
+      "originDate": 1930,
+      "originDateLabel": "Founded 1930 as Soka Kyoiku Gakkai",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Tokyo, Japan",
+      "region": "East Asia",
+      "theologicalType": ["buddhist_reform", "new_religious_movement"],
+      "keyFigures": [
+        { "name": "Tsunesaburo Makiguchi", "role": "Founder and first president, educator and value-creation philosopher" },
+        { "name": "Josei Toda", "role": "Second president, rebuilt organization after WWII" },
+        { "name": "Daisaku Ikeda", "role": "Third president, international expansion leader, peace activist and author" },
+        { "name": "Nichiren", "role": "13th-century Buddhist monk whose teachings form doctrinal basis" }
+      ],
+      "keyConcepts": [
+        "Nam-myoho-renge-kyo (chanting the title of the Lotus Sutra)",
+        "Value creation (soka) through education and practice",
+        "Human revolution (personal inner transformation)",
+        "The Gohonzon (object of devotion, mandala inscribed by Nichiren)",
+        "Kosen-rufu (world peace through individual happiness)",
+        "Mentor-disciple relationship",
+        "Buddhism for daily life and social engagement"
+      ],
+      "parentTraditions": ["buddhism"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Lay Buddhist movement based on Nichiren Buddhism. Founded in 1930 by Makiguchi, dramatically expanded by Ikeda internationally. Separated from Nichiren Shoshu priesthood in 1991. Approximately 12 million members worldwide, with Soka Gakkai International (SGI) branches in 192 countries."
+    },
+    {
+      "id": "heathenry_asatru",
+      "name": "Heathenry / Asatru",
+      "originDate": 1972,
+      "originDateLabel": "Formally organized 1972, Icelandic recognition 1973",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Reykjavik, Iceland (modern revival)",
+      "region": "Europe",
+      "theologicalType": ["neopagan", "polytheism", "reconstructionism"],
+      "keyFigures": [
+        { "name": "Sveinbjorn Beinteinsson", "role": "First Allsherjargodi of Asatrúarfelagid, Icelandic farmer-poet" },
+        { "name": "Hilmar Orn Hilmarsson", "role": "Current Allsherjargodi (since 2003), oversaw temple construction" },
+        { "name": "Stephen McNallen", "role": "Founder of the Asatru Folk Assembly in the United States" },
+        { "name": "Else Christensen", "role": "Founder of the Odinic Rite, Danish-Canadian pioneer" }
+      ],
+      "keyConcepts": [
+        "Worship of the Aesir and Vanir (Norse gods)",
+        "Blot (ritual sacrifice/offering ceremony)",
+        "Sumbel (ritual toasting ceremony)",
+        "Kindred (local worship community structure)",
+        "The Nine Noble Virtues (ethical framework)",
+        "Wyrd and Orlog (fate and primal law)",
+        "Frith (peace and mutual obligation within community)",
+        "Seidr (Norse magical practice)"
+      ],
+      "parentTraditions": ["norse_germanic"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Modern revival of pre-Christian Norse and Germanic religious practices. Formally recognized in Iceland in 1973. Multiple organizations worldwide with varying approaches from folkish to universalist. First Asatru temple since Viking age opened in Reykjavik in 2024."
+    },
+    {
+      "id": "druidry",
+      "name": "Neo-Druidry",
+      "originDate": 1717,
+      "originDateLabel": "Revival tradition from 1717, OBOD founded 1964",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "England, United Kingdom (revival)",
+      "region": "Europe",
+      "theologicalType": ["neopagan", "nature_religion", "revivalism"],
+      "keyFigures": [
+        { "name": "John Toland", "role": "Founded earliest modern Druid order in 1717" },
+        { "name": "Iolo Morganwg (Edward Williams)", "role": "Created Gorsedd of Bards, invented many 'ancient' rituals" },
+        { "name": "Ross Nichols", "role": "Founded OBOD in 1964, introduced eightfold festival calendar" },
+        { "name": "Philip Carr-Gomm", "role": "Chosen Chief of OBOD 1988-2020, grew it into largest Druid order" }
+      ],
+      "keyConcepts": [
+        "Awen (divine inspiration flowing through three rays)",
+        "Wheel of the Year (eight seasonal celebrations)",
+        "Three grades: Bard, Ovate, and Druid",
+        "Grove practice (ritual gatherings in nature)",
+        "Reverence for the natural world and sacred landscape",
+        "The Otherworld and Annwn (spirit realms)",
+        "Eisteddfod tradition (bardic competition and ceremony)",
+        "Peace prayer and druid's prayer"
+      ],
+      "parentTraditions": ["celtic_religion"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Modern revival of Celtic druidic spirituality, blending historical research with Romantic-era invention and contemporary nature-centered practice. OBOD is the largest order with over 25,000 members worldwide. Recognized as a religion in the UK since 2010."
+    },
+    {
+      "id": "kemetism",
+      "name": "Kemetic Reconstructionism",
+      "originDate": 1973,
+      "originDateLabel": "Emerging from 1970s, Kemetic Orthodoxy founded 1988",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "United States",
+      "region": "North America",
+      "theologicalType": ["neopagan", "polytheism", "reconstructionism"],
+      "keyFigures": [
+        { "name": "Ra Un Nefer Amen", "role": "Founded Ausar Auset Society in 1973, Pan-African Kemetic approach" },
+        { "name": "Tamara Siuda", "role": "Founded Kemetic Orthodoxy (House of Netjer) in 1988, served as Nisut" },
+        { "name": "Kerry Wisner", "role": "Early Kemetic practitioner and community builder" }
+      ],
+      "keyConcepts": [
+        "Ma'at (cosmic truth, balance, justice, reciprocity, and order)",
+        "Netjeru (the gods: Ra, Isis, Osiris, Horus, Thoth, etc.)",
+        "Senut (daily personal shrine ritual)",
+        "Heka (ritual magic and spoken word power)",
+        "Akhu veneration (ancestor reverence)",
+        "Living in accordance with Ma'at as ethical framework",
+        "Nisut as spiritual intermediary (in Kemetic Orthodoxy)"
+      ],
+      "parentTraditions": ["egyptian_religion"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Modern reconstruction of ancient Egyptian religious practices. Multiple organizations include the Ausar Auset Society (1973, Pan-African approach) and Kemetic Orthodoxy (1988, temple-based). Small but growing international community, primarily online."
+    },
+    {
+      "id": "hellenismos",
+      "name": "Hellenismos (Hellenic Polytheism)",
+      "originDate": 1993,
+      "originDateLabel": "Organized revival from 1990s, YSEE formalized 1997",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Greece",
+      "region": "Europe",
+      "theologicalType": ["neopagan", "polytheism", "reconstructionism"],
+      "keyFigures": [
+        { "name": "Tryphon Olympios", "role": "Co-founder and leader of YSEE (Supreme Council of Ethnikoi Hellenes)" },
+        { "name": "Vlassis Rassias", "role": "Prominent author and spokesperson for Hellenic polytheist revival" },
+        { "name": "Emperor Julian (historical)", "role": "4th-century emperor who attempted to restore Hellenic religion, inspirational figure" }
+      ],
+      "keyConcepts": [
+        "Worship of the Dodekatheon (Twelve Olympian Gods)",
+        "Eusebeia (piety and reverence toward the gods)",
+        "Xenia (sacred hospitality)",
+        "Arete (virtue, excellence)",
+        "Ritual offerings (libations, incense, animal offerings in some groups)",
+        "Hellenic calendar festivals (Panathenaia, Dionysia, etc.)",
+        "Reconstruction based on ancient sources (Homer, Hesiod, Plato)"
+      ],
+      "parentTraditions": ["greek_religion"],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Modern revival of ancient Greek polytheistic religion. YSEE formally established in 1997 in Greece after organizing from 1993. Other groups include Dodekatheon and Labrys. Gained legal recognition in Greece in 2017. Several thousand active practitioners in Greece and internationally."
+    },
+    {
+      "id": "raelism",
+      "name": "Raelism",
+      "originDate": 1974,
+      "originDateLabel": "Founded 1974 CE",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Clermont-Ferrand, France",
+      "region": "Europe",
+      "theologicalType": ["atheistic", "ufo_religion", "new_religious_movement"],
+      "keyFigures": [
+        { "name": "Claude Vorilhon (Rael)", "role": "Founder, claims contact with the Elohim extraterrestrials" },
+        { "name": "Brigitte Boisselier", "role": "Head of Clonaid, Raelian cloning project" },
+        { "name": "Daniel Chabot", "role": "Raelian Guide of Guides, senior organizational leader" }
+      ],
+      "keyConcepts": [
+        "Elohim as extraterrestrial creators of humanity",
+        "Atheistic religion (no supernatural God, only advanced aliens)",
+        "Embassy for the Elohim (planned welcome center)",
+        "Sensual Meditation (self-awareness through the senses)",
+        "Cloning as path to eternal life",
+        "All religious prophets were Elohim-human hybrids",
+        "Scientific creationism without supernatural elements",
+        "Sexual liberation and gender equality"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "UFO-based new religious movement founded by French motorsports journalist Claude Vorilhon after claimed extraterrestrial contact in 1973. Published foundational text in 1974. Claims approximately 100,000 members in over 100 countries. Notable for Clonaid human cloning claims."
+    }
+  ],
+
+  "=== CONNECTIONS ===": "Relationships between traditions",
+  "connections": [
+    {
+      "id": "conn_christianity_to_mormonism",
+      "from": "christianity",
+      "to": "mormonism",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "revelation",
+      "date": 1830,
+      "evidence": "Joseph Smith claimed angelic revelation restoring original Christianity, incorporating Christian scripture alongside new texts"
+    },
+    {
+      "id": "conn_christianity_to_jw",
+      "from": "christianity",
+      "to": "jehovahs_witnesses",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "reform",
+      "date": 1870,
+      "evidence": "Bible Student movement emerged from Protestant Christianity with distinct non-Trinitarian interpretation"
+    },
+    {
+      "id": "conn_islam_to_ahmadiyya",
+      "from": "islam",
+      "to": "ahmadiyya",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "reform",
+      "date": 1889,
+      "evidence": "Mirza Ghulam Ahmad claimed to fulfill Islamic eschatological prophecies within Islamic framework"
+    },
+    {
+      "id": "conn_shinto_to_tenrikyo",
+      "from": "shinto",
+      "to": "tenrikyo",
+      "type": "parent_child",
+      "strength": "moderate",
+      "mechanism": "revelation",
+      "date": 1838,
+      "evidence": "Emerged from Japanese religious context, originally classified as Sect Shinto though claims independent divine origin"
+    },
+    {
+      "id": "conn_shinto_to_oomoto",
+      "from": "shinto",
+      "to": "oomoto",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "revelation",
+      "date": 1892,
+      "evidence": "Deguchi Nao's revelations from Ushitora no Konjin emerged from Shinto spiritual tradition"
+    },
+    {
+      "id": "conn_christianity_to_rastafari",
+      "from": "christianity",
+      "to": "rastafari",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "reform",
+      "date": 1930,
+      "evidence": "Rastafari draws heavily from Ethiopian Orthodox Christianity, Old Testament symbolism, and Afrocentric biblical interpretation"
+    },
+    {
+      "id": "conn_judaism_to_rastafari",
+      "from": "judaism",
+      "to": "rastafari",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "reform",
+      "date": 1930,
+      "evidence": "Rastafari theology incorporates strong Old Testament themes including the Nazirite vow, the Ark of the Covenant, Zion, and Israelite identity"
+    },
+    {
+      "id": "conn_celtic_to_wicca",
+      "from": "celtic_religion",
+      "to": "wicca",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "revival",
+      "date": 1954,
+      "evidence": "Gerald Gardner drew on Celtic seasonal calendar and mythology alongside Western esoteric traditions"
+    },
+    {
+      "id": "conn_norse_to_wicca",
+      "from": "norse_germanic",
+      "to": "wicca",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "revival",
+      "date": 1954,
+      "evidence": "Wiccan deity concepts and some ritual elements draw on Germanic pagan symbolism"
+    },
+    {
+      "id": "conn_christianity_to_unification",
+      "from": "christianity",
+      "to": "unification_church",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "revelation",
+      "date": 1954,
+      "evidence": "Sun Myung Moon claimed to complete Christ's unfinished mission, developing a new messianic theology rooted in Christianity"
+    },
+    {
+      "id": "conn_islam_to_noi",
+      "from": "islam",
+      "to": "nation_of_islam",
+      "type": "parent_child",
+      "strength": "moderate",
+      "mechanism": "revelation",
+      "date": 1930,
+      "evidence": "Nation of Islam uses Islamic terminology and claims Islamic identity but with heterodox theology significantly divergent from mainstream Islam"
+    },
+    {
+      "id": "conn_buddhism_to_falun_gong",
+      "from": "buddhism",
+      "to": "falun_gong",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "reform",
+      "date": 1992,
+      "evidence": "Falun Gong incorporates Buddhist concepts of karma, cultivation, and the Dharma wheel alongside Taoist qigong"
+    },
+    {
+      "id": "conn_taoism_to_falun_gong",
+      "from": "taoism",
+      "to": "falun_gong",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "reform",
+      "date": 1992,
+      "evidence": "Falun Gong qigong exercises and Taoist energy cultivation concepts are central to practice"
+    },
+    {
+      "id": "conn_buddhism_to_soka_gakkai",
+      "from": "buddhism",
+      "to": "soka_gakkai",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "reform",
+      "date": 1930,
+      "evidence": "Soka Gakkai is rooted in Nichiren Buddhism, specifically devotion to the Lotus Sutra"
+    },
+    {
+      "id": "conn_norse_to_heathenry",
+      "from": "norse_germanic",
+      "to": "heathenry_asatru",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "revival",
+      "date": 1972,
+      "evidence": "Direct reconstruction of pre-Christian Norse and Germanic religious practices based on Eddas, sagas, and archaeological evidence"
+    },
+    {
+      "id": "conn_celtic_to_druidry",
+      "from": "celtic_religion",
+      "to": "druidry",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "revival",
+      "date": 1717,
+      "evidence": "Neo-Druidry revives and reimagines Celtic druidic spiritual practices, though heavily filtered through 18th-century Romanticism"
+    },
+    {
+      "id": "conn_egyptian_to_kemetism",
+      "from": "egyptian_religion",
+      "to": "kemetism",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "revival",
+      "date": 1973,
+      "evidence": "Direct reconstruction of ancient Egyptian religious worship, ritual, and ethical framework based on Egyptological scholarship"
+    },
+    {
+      "id": "conn_greek_to_hellenismos",
+      "from": "greek_religion",
+      "to": "hellenismos",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "revival",
+      "date": 1993,
+      "evidence": "Systematic revival of ancient Hellenic polytheistic worship based on ancient literary and archaeological sources"
+    },
+    {
+      "id": "conn_oomoto_to_tenrikyo_influence",
+      "from": "tenrikyo",
+      "to": "oomoto",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "reform",
+      "date": 1892,
+      "evidence": "Tenrikyo as an earlier Japanese new religion helped establish patterns that influenced Oomoto's development"
+    }
+  ],
+
+  "=== FIGURES ===": "Key figures across modern traditions",
+  "figures": [
+    {
+      "id": "joseph_smith",
+      "name": "Joseph Smith Jr.",
+      "type": "prophet",
+      "date": "1805-1844",
+      "dateLabel": "1805-1844 CE",
+      "traditions": ["mormonism"],
+      "roles": {
+        "mormonism": "Founding prophet, seer, and revelator; translator of the Book of Mormon; first president of the Church"
+      },
+      "aliases": ["Brother Joseph", "The Prophet Joseph", "Joseph Smith"],
+      "connections": [
+        {
+          "to": "jesus",
+          "type": "spiritual_lineage",
+          "detail": "Claimed to restore Christ's original church through angelic visitation and priesthood restoration"
+        },
+        {
+          "to": "abraham",
+          "type": "prophetic_parallel",
+          "detail": "Claimed to translate the Book of Abraham from Egyptian papyri, linking to Abrahamic covenant"
+        }
+      ]
+    },
+    {
+      "id": "brigham_young",
+      "name": "Brigham Young",
+      "type": "prophet",
+      "date": "1801-1877",
+      "dateLabel": "1801-1877 CE",
+      "traditions": ["mormonism"],
+      "roles": {
+        "mormonism": "Second president and prophet; led the Great Migration to Utah; colonizer and territorial governor"
+      },
+      "aliases": ["The Lion of the Lord", "American Moses"],
+      "connections": [
+        {
+          "to": "joseph_smith",
+          "type": "spiritual_lineage",
+          "detail": "Succeeded Joseph Smith as leader of the largest LDS faction after Smith's assassination"
+        },
+        {
+          "to": "moses",
+          "type": "prophetic_parallel",
+          "detail": "Led his people through wilderness to a new promised land (Utah), earning 'American Moses' comparison"
+        }
+      ]
+    },
+    {
+      "id": "charles_taze_russell",
+      "name": "Charles Taze Russell",
+      "type": "prophet",
+      "date": "1852-1916",
+      "dateLabel": "1852-1916 CE",
+      "traditions": ["jehovahs_witnesses"],
+      "roles": {
+        "jehovahs_witnesses": "Founder of the Bible Student movement and first president of the Watch Tower Society"
+      },
+      "aliases": ["Pastor Russell"],
+      "connections": [
+        {
+          "to": "jesus",
+          "type": "spiritual_lineage",
+          "detail": "Taught that Christ's invisible return occurred in 1874, later revised to 1914 by successors"
+        }
+      ]
+    },
+    {
+      "id": "mirza_ghulam_ahmad",
+      "name": "Mirza Ghulam Ahmad",
+      "type": "prophet",
+      "date": "1835-1908",
+      "dateLabel": "1835-1908 CE",
+      "traditions": ["ahmadiyya"],
+      "roles": {
+        "ahmadiyya": "Founder, claimed to be the promised Mahdi, Messiah, and subordinate prophet within Islam"
+      },
+      "aliases": ["Hazrat Masih Maud", "Promised Messiah", "Imam Mahdi"],
+      "connections": [
+        {
+          "to": "muhammad",
+          "type": "spiritual_lineage",
+          "detail": "Claimed prophetic status subordinate to Muhammad, fulfilling Islamic eschatological promises"
+        },
+        {
+          "to": "jesus",
+          "type": "prophetic_parallel",
+          "detail": "Claimed to be the metaphorical second coming of Jesus; taught Jesus survived crucifixion and died in Kashmir"
+        }
+      ]
+    },
+    {
+      "id": "nakayama_miki",
+      "name": "Nakayama Miki",
+      "type": "prophet",
+      "date": "1798-1887",
+      "dateLabel": "1798-1887 CE",
+      "traditions": ["tenrikyo"],
+      "roles": {
+        "tenrikyo": "Foundress (Oyasama), became the Shrine of God the Parent (Tenri-O-no-Mikoto)"
+      },
+      "aliases": ["Oyasama", "Miki-sama"],
+      "connections": []
+    },
+    {
+      "id": "deguchi_nao",
+      "name": "Deguchi Nao",
+      "type": "prophet",
+      "date": "1836-1918",
+      "dateLabel": "1836-1918 CE",
+      "traditions": ["oomoto"],
+      "roles": {
+        "oomoto": "Foundress, received possession-revelations from Ushitora no Konjin; authored sacred texts in automatic writing"
+      },
+      "aliases": ["Nao-sama", "Kaiso (Foundress)"],
+      "connections": [
+        {
+          "to": "deguchi_onisaburo",
+          "type": "spiritual_lineage",
+          "detail": "Mother-in-law to Onisaburo, who married her daughter and systematized her revelations into organized religion"
+        }
+      ]
+    },
+    {
+      "id": "deguchi_onisaburo",
+      "name": "Deguchi Onisaburo",
+      "type": "prophet",
+      "date": "1871-1948",
+      "dateLabel": "1871-1948 CE",
+      "traditions": ["oomoto"],
+      "roles": {
+        "oomoto": "Co-founder and spiritual leader; systematized theology, expanded movement to over 2 million followers"
+      },
+      "aliases": ["Onisaburo-sama", "Ueda Kisaburo (birth name)", "Seinisaburo"],
+      "connections": [
+        {
+          "to": "deguchi_nao",
+          "type": "spiritual_lineage",
+          "detail": "Married Nao's daughter and transformed her small rural following into a massive religious movement"
+        }
+      ]
+    },
+    {
+      "id": "haile_selassie",
+      "name": "Haile Selassie I",
+      "type": "prophet",
+      "date": "1892-1975",
+      "dateLabel": "1892-1975 CE",
+      "traditions": ["rastafari"],
+      "roles": {
+        "rastafari": "Central divine/messianic figure, regarded as Jah (God) incarnate or chosen king; Emperor of Ethiopia 1930-1974"
+      },
+      "aliases": ["Jah Rastafari", "King of Kings", "Lord of Lords", "Conquering Lion of the Tribe of Judah", "Ras Tafari Makonnen"],
+      "connections": [
+        {
+          "to": "jesus",
+          "type": "prophetic_parallel",
+          "detail": "Regarded by Rastafari as the returned Christ, fulfilling biblical prophecy of the Lion of Judah"
+        },
+        {
+          "to": "solomon",
+          "type": "genealogical_ancestor",
+          "detail": "Ethiopian Solomonic dynasty claims descent from King Solomon and the Queen of Sheba"
+        }
+      ]
+    },
+    {
+      "id": "marcus_garvey",
+      "name": "Marcus Garvey",
+      "type": "prophet",
+      "date": "1887-1940",
+      "dateLabel": "1887-1940 CE",
+      "traditions": ["rastafari"],
+      "roles": {
+        "rastafari": "Prophetic forerunner, Pan-Africanist whose teachings inspired the Rastafari movement"
+      },
+      "aliases": ["The Black Moses"],
+      "connections": [
+        {
+          "to": "haile_selassie",
+          "type": "prophetic_parallel",
+          "detail": "Garvey's words about looking to Africa for a crowned king were interpreted as prophecy of Selassie's coronation"
+        }
+      ]
+    },
+    {
+      "id": "gerald_gardner",
+      "name": "Gerald Gardner",
+      "type": "sage",
+      "date": "1884-1964",
+      "dateLabel": "1884-1964 CE",
+      "traditions": ["wicca"],
+      "roles": {
+        "wicca": "Founder of Gardnerian Wicca, published Witchcraft Today (1954) revealing the modern craft to the public"
+      },
+      "aliases": ["The Father of Wicca", "Scire (craft name)"],
+      "connections": [
+        {
+          "to": "doreen_valiente",
+          "type": "spiritual_lineage",
+          "detail": "Initiated Valiente as High Priestess; she rewrote much of his ritual material into its lasting liturgical form"
+        }
+      ]
+    },
+    {
+      "id": "doreen_valiente",
+      "name": "Doreen Valiente",
+      "type": "sage",
+      "date": "1922-1999",
+      "dateLabel": "1922-1999 CE",
+      "traditions": ["wicca"],
+      "roles": {
+        "wicca": "High Priestess, poet, and principal liturgist; rewrote the Charge of the Goddess and many core Wiccan texts"
+      },
+      "aliases": ["The Mother of Wicca"],
+      "connections": [
+        {
+          "to": "gerald_gardner",
+          "type": "spiritual_lineage",
+          "detail": "Initiated by Gardner, then refined and elevated the literary quality of Wiccan ritual texts"
+        }
+      ]
+    },
+    {
+      "id": "sun_myung_moon",
+      "name": "Sun Myung Moon",
+      "type": "prophet",
+      "date": "1920-2012",
+      "dateLabel": "1920-2012 CE",
+      "traditions": ["unification_church"],
+      "roles": {
+        "unification_church": "Founder and True Father; regarded as the Lord of the Second Advent completing Jesus's unfinished mission"
+      },
+      "aliases": ["True Father", "Reverend Moon"],
+      "connections": [
+        {
+          "to": "jesus",
+          "type": "prophetic_parallel",
+          "detail": "Claimed divine mission to complete what Christ could not accomplish due to crucifixion — establishing the true family"
+        }
+      ]
+    },
+    {
+      "id": "elijah_muhammad",
+      "name": "Elijah Muhammad",
+      "type": "prophet",
+      "date": "1897-1975",
+      "dateLabel": "1897-1975 CE",
+      "traditions": ["nation_of_islam"],
+      "roles": {
+        "nation_of_islam": "Messenger of Allah (Wallace Fard Muhammad); leader 1934-1975, established NOI theology and institutions"
+      },
+      "aliases": ["The Honorable Elijah Muhammad", "Elijah Poole (birth name)"],
+      "connections": [
+        {
+          "to": "muhammad",
+          "type": "prophetic_parallel",
+          "detail": "Claimed messenger status comparable to Prophet Muhammad, conveying the teachings of Wallace Fard Muhammad"
+        },
+        {
+          "to": "malcolm_x",
+          "type": "spiritual_lineage",
+          "detail": "Mentored Malcolm X who became the most prominent NOI spokesman before their break"
+        }
+      ]
+    },
+    {
+      "id": "malcolm_x",
+      "name": "Malcolm X",
+      "type": "sage",
+      "date": "1925-1965",
+      "dateLabel": "1925-1965 CE",
+      "traditions": ["nation_of_islam", "islam"],
+      "roles": {
+        "nation_of_islam": "Minister and national spokesman; dramatically expanded membership through charismatic preaching",
+        "islam": "After Hajj pilgrimage, embraced orthodox Sunni Islam and rejected NOI racial theology"
+      },
+      "aliases": ["El-Hajj Malik El-Shabazz", "Malcolm Little (birth name)"],
+      "connections": [
+        {
+          "to": "elijah_muhammad",
+          "type": "spiritual_lineage",
+          "detail": "Mentored by Elijah Muhammad within NOI, later broke with him over theological and personal disagreements"
+        },
+        {
+          "to": "muhammad",
+          "type": "influenced",
+          "detail": "After Hajj, embraced Prophet Muhammad's universal message, rejected NOI racial theology"
+        }
+      ]
+    },
+    {
+      "id": "li_hongzhi",
+      "name": "Li Hongzhi",
+      "type": "sage",
+      "date": "1951-present",
+      "dateLabel": "Born 1951 CE (or 1952 per official records)",
+      "traditions": ["falun_gong"],
+      "roles": {
+        "falun_gong": "Founder and sole Master of Falun Dafa; author of Zhuan Falun and all Falun Gong teachings"
+      },
+      "aliases": ["Master Li", "Teacher Li"],
+      "connections": [
+        {
+          "to": "buddha",
+          "type": "prophetic_parallel",
+          "detail": "Some practitioners regard Li as a Buddha-level being; Falun Gong uses the Dharma wheel symbolism"
+        }
+      ]
+    },
+    {
+      "id": "daisaku_ikeda",
+      "name": "Daisaku Ikeda",
+      "type": "sage",
+      "date": "1928-2023",
+      "dateLabel": "1928-2023 CE",
+      "traditions": ["soka_gakkai"],
+      "roles": {
+        "soka_gakkai": "Third president, transformed SGI into a global Buddhist movement; prolific author, peace activist, and educator"
+      },
+      "aliases": ["Sensei", "President Ikeda"],
+      "connections": [
+        {
+          "to": "nichiren_figure",
+          "type": "spiritual_lineage",
+          "detail": "Soka Gakkai traces its doctrinal lineage to Nichiren through the Nichiren Shoshu priestly tradition"
+        },
+        {
+          "to": "buddha",
+          "type": "spiritual_lineage",
+          "detail": "Nichiren Buddhism traces its ultimate lineage to Shakyamuni Buddha via the Lotus Sutra"
+        }
+      ]
+    },
+    {
+      "id": "sveinbjorn_beinteinsson",
+      "name": "Sveinbjorn Beinteinsson",
+      "type": "sage",
+      "date": "1924-1993",
+      "dateLabel": "1924-1993 CE",
+      "traditions": ["heathenry_asatru"],
+      "roles": {
+        "heathenry_asatru": "First Allsherjargodi (high priest) of Asatrúarfelagid; farmer-poet who led successful effort for official recognition in Iceland"
+      },
+      "aliases": ["Allsherjargodi"],
+      "connections": []
+    },
+    {
+      "id": "ross_nichols",
+      "name": "Ross Nichols",
+      "type": "sage",
+      "date": "1902-1975",
+      "dateLabel": "1902-1975 CE",
+      "traditions": ["druidry"],
+      "roles": {
+        "druidry": "Founded OBOD in 1964, introduced the eightfold wheel of the year and three-grade initiatory system to modern Druidry"
+      },
+      "aliases": ["Nuinn (Druid name)"],
+      "connections": [
+        {
+          "to": "gerald_gardner",
+          "type": "influenced",
+          "detail": "Close friend of Gerald Gardner; both influenced each other's development of seasonal ritual calendars"
+        }
+      ]
+    },
+    {
+      "id": "claude_vorilhon",
+      "name": "Claude Vorilhon (Rael)",
+      "type": "prophet",
+      "date": "1946-present",
+      "dateLabel": "Born 1946 CE",
+      "traditions": ["raelism"],
+      "roles": {
+        "raelism": "Founder and spiritual leader; claims to be the 40th and final prophet sent by the Elohim extraterrestrials"
+      },
+      "aliases": ["Rael", "His Holiness Rael"],
+      "connections": [
+        {
+          "to": "jesus",
+          "type": "prophetic_parallel",
+          "detail": "Raelian theology considers Jesus one of 40 Elohim-sent prophets; Rael claims to be the last in this line"
+        },
+        {
+          "to": "muhammad",
+          "type": "prophetic_parallel",
+          "detail": "Raelian theology considers Muhammad one of the prophets sent by the Elohim"
+        },
+        {
+          "to": "buddha",
+          "type": "prophetic_parallel",
+          "detail": "Raelian theology considers the Buddha one of the prophets sent by the Elohim"
+        }
+      ]
+    }
+  ]
+}

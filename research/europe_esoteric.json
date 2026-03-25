@@ -1,0 +1,1300 @@
+{
+  "=== TRADITIONS ===": "European pre-Christian, Mystery religions, and Esoteric traditions",
+  "traditions": [
+    {
+      "id": "etruscan_religion",
+      "name": "Etruscan Religion",
+      "originDate": -900,
+      "originDateLabel": "c. 900 BCE (Villanovan-Etruscan transition)",
+      "endDate": -100,
+      "status": "extinct_absorbed",
+      "geographicOrigin": "Etruria (modern Tuscany, Umbria, Lazio — central Italy)",
+      "region": "Mediterranean",
+      "theologicalType": ["polytheism", "divination_centered", "fate_theology"],
+      "keyFigures": [
+        {"name": "Tinia", "role": "Supreme sky god, wielder of three thunderbolts; equivalent to Zeus/Jupiter"},
+        {"name": "Uni", "role": "Queen of the gods, goddess of marriage and childbirth; equivalent to Hera/Juno"},
+        {"name": "Menrva", "role": "Goddess of wisdom, arts, medicine, and warfare; equivalent to Athena/Minerva"},
+        {"name": "Turan", "role": "Goddess of love and fertility; equivalent to Aphrodite/Venus"},
+        {"name": "Fufluns", "role": "God of wine and vegetation; equivalent to Dionysus/Bacchus"},
+        {"name": "Turms", "role": "Psychopomp and messenger god; equivalent to Hermes/Mercury"},
+        {"name": "Tages", "role": "Prophet child who emerged from a plowed furrow; revealed the Etrusca Disciplina"},
+        {"name": "Vanth", "role": "Female demon of the underworld; guide of the dead, winged psychopomp"},
+        {"name": "Charun", "role": "Underworld demon; guardian of the passage to death, carries a hammer"}
+      ],
+      "keyConcepts": [
+        "Etrusca Disciplina (body of sacred ritual knowledge)",
+        "haruspicy (liver divination from sacrificial animals)",
+        "Piacenza Liver (bronze model dividing liver into 40 divine regions)",
+        "Libri Tagetici (prophetic books of Tages)",
+        "Libri Acherontici (books of the underworld and afterlife rituals)",
+        "fulgural divination (reading lightning as divine signs)",
+        "Capitoline Triad origin (Tinia-Uni-Menrva became Jupiter-Juno-Minerva)",
+        "elaborate tomb painting depicting afterlife journeys"
+      ],
+      "parentTraditions": [],
+      "childTraditions": ["roman_religion"],
+      "syncreticConnections": ["greek_religion", "roman_religion"],
+      "evidence": "Tomb frescoes at Tarquinia, Piacenza Liver bronze model, temple ruins at Pyrgi with bilingual Etruscan-Phoenician gold tablets, Livy and Cicero accounts of Etruscan divination practices"
+    },
+    {
+      "id": "thracian_religion",
+      "name": "Thracian Religion",
+      "originDate": -1500,
+      "originDateLabel": "c. 1500 BCE (Bronze Age Thrace)",
+      "endDate": 300,
+      "status": "extinct_absorbed",
+      "geographicOrigin": "Thrace (modern Bulgaria, northern Greece, European Turkey)",
+      "region": "Eastern Europe",
+      "theologicalType": ["polytheism", "shamanism", "mystery_cult"],
+      "keyFigures": [
+        {"name": "Sabazios", "role": "Supreme sky/horseman god; later syncretized with Dionysus and Jupiter Sabazius"},
+        {"name": "Bendis", "role": "Goddess of the moon and hunt; equivalent to Artemis, had official cult in Athens from 430 BCE"},
+        {"name": "Cotys", "role": "Goddess of fertility and wild nature; orgiastic rites involving Baptai priests"},
+        {"name": "Zalmoxis", "role": "Deified prophet-god of the Getae; taught immortality of the soul and afterlife reunion"},
+        {"name": "Orpheus", "role": "Legendary Thracian poet-shaman; founder of Orphic mysteries, descended to underworld"},
+        {"name": "The Thracian Horseman", "role": "Anonymous rider deity depicted on thousands of votive reliefs; divine hunter-hero"}
+      ],
+      "keyConcepts": [
+        "immortality of the soul (Zalmoxis doctrine)",
+        "ecstatic rites and ritual intoxication",
+        "Thracian Horseman cult (hero-rider reliefs found across Balkans)",
+        "vegetarianism and asceticism in Orphic path",
+        "dual spiritual paths: Orphic ascent vs. Sabazian descent",
+        "human sacrifice and messenger-sending to Zalmoxis (Herodotus 4.94)"
+      ],
+      "parentTraditions": ["proto_ie_religion"],
+      "childTraditions": ["orphic_religion"],
+      "syncreticConnections": ["greek_religion", "roman_religion"],
+      "evidence": "Herodotus Histories Book 4, thousands of Thracian Horseman reliefs, Thracian gold treasures (Panagyurishte, Rogozen), Seuthopolis temple complex, Derveni krater with Dionysiac scenes"
+    },
+    {
+      "id": "iberian_celtiberian_religion",
+      "name": "Iberian and Celtiberian Religion",
+      "originDate": -1000,
+      "originDateLabel": "c. 1000 BCE (Iron Age Iberia)",
+      "endDate": 100,
+      "status": "extinct_absorbed",
+      "geographicOrigin": "Iberian Peninsula (modern Spain and Portugal)",
+      "region": "Western Europe",
+      "theologicalType": ["polytheism", "nature_worship", "ancestor_veneration"],
+      "keyFigures": [
+        {"name": "Endovelicus", "role": "Supreme Lusitanian healing and oracular god; 94 known dedications, most venerated deity in western Iberia"},
+        {"name": "Ataecina", "role": "Underworld and regeneration goddess; Turobrigensis epithet, nearly 40 inscriptions, equated with Proserpina"},
+        {"name": "Bandua", "role": "Protector deity of communities and territories; multiple epithets across Lusitania and Gallaecia"},
+        {"name": "Nabia", "role": "Goddess of rivers and water; widespread cult in Gallaecia and northern Lusitania"},
+        {"name": "Lugus", "role": "Celtic astral god; worshipped at Penalba de Villastar sanctuary, equated with Mercury"},
+        {"name": "Cosus", "role": "War god of the Gallaeci and Lusitani; widespread epigraphic attestation"}
+      ],
+      "keyConcepts": [
+        "oracular healing sanctuaries (especially Endovelicus at Sao Miguel da Mota)",
+        "devotio iberica (ritual self-sacrifice of warriors bound to a leader)",
+        "triple goddess worship (Matres — fecundity triads)",
+        "horse goddess Epona (shared Celtic cult)",
+        "community-protecting federative deities with territorial epithets",
+        "animal sacrifice (pigs, boars, birds) and votive offerings"
+      ],
+      "parentTraditions": ["celtic_religion"],
+      "childTraditions": [],
+      "syncreticConnections": ["roman_religion", "celtic_religion"],
+      "evidence": "Hundreds of Latin-alphabet votive inscriptions, sanctuary of El Trampal (Alcuescar), Penalba de Villastar rock inscriptions, Lusitanian language inscriptions at Cabeço das Fraguas and Lamas de Moledo"
+    },
+    {
+      "id": "minoan_religion",
+      "name": "Minoan Religion",
+      "originDate": -3000,
+      "originDateLabel": "c. 3000 BCE (Early Minoan period)",
+      "endDate": -1100,
+      "status": "extinct_absorbed",
+      "geographicOrigin": "Crete and Aegean islands",
+      "region": "Mediterranean",
+      "theologicalType": ["polytheism", "goddess_centered", "nature_worship"],
+      "keyFigures": [
+        {"name": "Great Mother Goddess", "role": "Supreme fertility and earth goddess; mountain goddess worshipped at peak sanctuaries"},
+        {"name": "Snake Goddess", "role": "Household protectress, chthonic deity; faience figurines found at Knossos Temple Repositories (1903)"},
+        {"name": "Potnia Theron", "role": "Mistress of Animals; nature goddess depicted flanked by wild beasts"},
+        {"name": "Bull God", "role": "Sacred masculine divinity connected to bull-leaping ritual; consort of the goddess"},
+        {"name": "Dove Goddess", "role": "Aspect of the mother goddess associated with peace and the heavens"},
+        {"name": "Britomartis", "role": "Cretan mountain and hunting goddess; later absorbed into Artemis cult"}
+      ],
+      "keyConcepts": [
+        "palace-temple complexes as ritual centers (Knossos, Phaistos, Malia)",
+        "bull-leaping ritual (taurokathapsia) as central religious ceremony",
+        "snake cult and chthonic goddess worship",
+        "peak sanctuaries (over 300 identified across Crete)",
+        "sacred caves as cult sites",
+        "double axe (labrys) as primary sacred symbol",
+        "labyrinth mythology (possible origin of Minotaur legend)",
+        "tree and pillar worship"
+      ],
+      "parentTraditions": [],
+      "childTraditions": ["mycenaean_religion"],
+      "syncreticConnections": ["egyptian_religion"],
+      "evidence": "Knossos palace frescoes, faience snake goddess figurines, Phaistos Disc, Agia Triada sarcophagus depicting ritual scenes, peak sanctuary votive deposits, sacred cave finds at Psychro and Kamares"
+    },
+    {
+      "id": "mycenaean_religion",
+      "name": "Mycenaean Religion",
+      "originDate": -1600,
+      "originDateLabel": "c. 1600 BCE (Shaft Grave period)",
+      "endDate": -1100,
+      "status": "extinct_evolved",
+      "geographicOrigin": "Mainland Greece (Mycenae, Pylos, Tiryns, Thebes)",
+      "region": "Mediterranean",
+      "theologicalType": ["polytheism", "palace_cult", "proto_olympian"],
+      "keyFigures": [
+        {"name": "Di-wo (Zeus)", "role": "Sky father deity; attested in Linear B tablets at Knossos and Pylos"},
+        {"name": "Po-se-da-o (Poseidon)", "role": "Major deity, possibly supreme at Pylos; earth-shaker, horse god"},
+        {"name": "Di-wo-nu-so (Dionysus)", "role": "Attested in Linear B; interpreted as 'son of Zeus,' earliest known reference"},
+        {"name": "A-te-mi-to (Artemis)", "role": "Huntress goddess; earliest attested form in Mycenaean Greek at Pylos"},
+        {"name": "E-ma-a2 (Hermes)", "role": "Messenger deity; attested in Linear B tablets"},
+        {"name": "Potnia", "role": "The Lady/Mistress; generic title for major goddesses, possibly applied to multiple deities"},
+        {"name": "Wanax", "role": "The king as semi-divine religious authority overseeing palace cult and sacrifices"}
+      ],
+      "keyConcepts": [
+        "wanax (king) as central religious and political authority",
+        "Linear B tablet records of offerings and sacrifice schedules",
+        "proto-Olympian pantheon (Zeus, Poseidon, Dionysus, Artemis, Hermes attested)",
+        "palatial cult centers with organized priesthood hierarchy",
+        "priestess of Pakijane, hieroworgos (sacrificial priest), sphageus (sacrificer)",
+        "rigidly codified sacrifice calendar",
+        "continuity with later Classical Greek religion"
+      ],
+      "parentTraditions": ["minoan_religion", "proto_ie_religion"],
+      "childTraditions": ["greek_religion"],
+      "syncreticConnections": ["minoan_religion"],
+      "evidence": "Linear B tablets from Pylos, Knossos, Thebes; Cult Center at Mycenae; shrine complexes; shaft grave burial goods; fresco fragments depicting ritual processions"
+    },
+    {
+      "id": "basque_mythology",
+      "name": "Basque Mythology",
+      "originDate": -3000,
+      "originDateLabel": "c. 3000 BCE or earlier (pre-Indo-European survival)",
+      "endDate": null,
+      "status": "extinct_remnants",
+      "geographicOrigin": "Basque Country (Euskal Herria — modern Basque regions of Spain and France)",
+      "region": "Western Europe",
+      "theologicalType": ["polytheism", "chthonic_religion", "animism"],
+      "keyFigures": [
+        {"name": "Mari", "role": "Supreme earth goddess; personification of Mother Earth, dwells in caves and mountaintops, controls weather"},
+        {"name": "Sugaar", "role": "Storm god and serpent/dragon deity; consort of Mari, appears as fireball or serpent crossing the sky"},
+        {"name": "Akerbeltz", "role": "Black goat spirit; protector of animals, dual nature — benevolent guardian and president of akelarres (witch assemblies)"},
+        {"name": "Jentilak", "role": "Race of pre-Christian giants; immensely strong, built dolmens and cromlechs, fled with arrival of Christianity"},
+        {"name": "Basajaun", "role": "Lord of the Forest; wild man and protector of flocks, taught agriculture and ironworking to humans"},
+        {"name": "Gaueko", "role": "Lord of the Night; spirit of darkness who punishes those who violate nighttime prohibitions"}
+      ],
+      "keyConcepts": [
+        "pre-Indo-European religious survival (unique linguistic isolate)",
+        "chthonic religion (all beings dwell on earth or below, sky as empty corridor)",
+        "matriarchal religious structure centered on Mari",
+        "akelarre (witches' sabbath gatherings associated with Akerbeltz)",
+        "jentil legends explaining megalithic monuments",
+        "cave sanctuaries as primary sacred spaces",
+        "animistic landscape — every mountain, river, and cave has its spirit"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Oral folk traditions collected by Jose Miguel de Barandiaran and others, megalithic monuments (dolmens, cromlechs), cave sanctuaries, place-name evidence, Basque language itself as pre-IE survival"
+    },
+    {
+      "id": "finnish_sami_religion",
+      "name": "Finnish and Sami Religion",
+      "originDate": -1500,
+      "originDateLabel": "c. 1500 BCE (Finno-Ugric traditions)",
+      "endDate": 1700,
+      "status": "extinct_remnants",
+      "geographicOrigin": "Finland, Sami regions of northern Scandinavia and Kola Peninsula",
+      "region": "Northern Europe",
+      "theologicalType": ["polytheism", "shamanism", "animism"],
+      "keyFigures": [
+        {"name": "Ukko", "role": "Supreme sky and thunder god; wielder of hammer/axe, god of weather and crops, replaced earlier sky god Jumala"},
+        {"name": "Väinämöinen", "role": "Primordial shaman-hero; greatest singer and sage, born of Ilmatar, central figure of the Kalevala"},
+        {"name": "Ilmarinen", "role": "Eternal smith, former sky god; forged the Sampo (world-pillar/cosmic mill) and the dome of the sky"},
+        {"name": "Lemminkäinen", "role": "Reckless hero-shaman; dies and is reassembled by his mother, underworld journeyer"},
+        {"name": "Tapio", "role": "Forest god; ruler of the woodland realm Tapiola, master of game animals"},
+        {"name": "Ahti", "role": "Water god; ruler of seas, lakes, and fish"},
+        {"name": "Tuoni", "role": "God of the dead; ruler of Tuonela, the Finnish underworld"},
+        {"name": "Noaidi (Sami shaman)", "role": "Sami religious specialist; mediator between human world and saivo (spirit world) using drum and joik chanting"}
+      ],
+      "keyConcepts": [
+        "tietäjä (knower/seer) tradition of shamanic specialists",
+        "noaidi shamanism and Sami drum (runebomme) ecstatic trance journeys",
+        "joik chanting as sacred vocal tradition for contacting spirits",
+        "saivo (spirit/underworld realm accessed through trance)",
+        "Sampo as cosmic axis/world-pillar/mill of abundance",
+        "Kalevala as 19th-century compilation of pre-Christian oral tradition by Elias Lönnrot",
+        "haltija (nature spirits inhabiting every natural feature)",
+        "sieidi (Sami sacred stones and natural cult sites)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": ["norse_germanic", "baltic_religion"],
+      "evidence": "Kalevala rune poems collected by Lönnrot, Sami drums in museum collections, Mikael Agricola's 1551 list of Finnish deities, Christfrid Ganander's Mythologia Fennica (1789), archaeological sieidi sites across Sapmi"
+    },
+    {
+      "id": "scythian_religion",
+      "name": "Scythian Religion",
+      "originDate": -900,
+      "originDateLabel": "c. 900 BCE (Iron Age steppe cultures)",
+      "endDate": 200,
+      "status": "extinct_absorbed",
+      "geographicOrigin": "Pontic-Caspian Steppe (modern Ukraine, southern Russia, Kazakhstan)",
+      "region": "Central Eurasia",
+      "theologicalType": ["polytheism", "sky_worship", "ancestor_worship", "shamanism"],
+      "keyFigures": [
+        {"name": "Tabiti", "role": "Supreme goddess of primordial fire and the hearth; most venerated deity, equated with Hestia by Herodotus"},
+        {"name": "Papaeus", "role": "Sky father god; personification of Heaven, consort of Api, equated with Zeus by Herodotus"},
+        {"name": "Api", "role": "Earth mother goddess; consort of Papaeus, equated with Gaia, depicted as serpent-limbed"},
+        {"name": "Goetosyrus/Oitosyros", "role": "Sun god; equated with Apollo by Herodotus"},
+        {"name": "Argimpasa", "role": "Goddess of love and fertility; equated with Aphrodite Ourania, connected to Enarei (androgynous priests)"},
+        {"name": "Thagimasadas", "role": "God of the Royal Scythians; equated with Poseidon by Herodotus"},
+        {"name": "Ares (Scythian)", "role": "War god worshipped as an ancient iron sword planted in a mound of brushwood"}
+      ],
+      "keyConcepts": [
+        "fire worship and hearth cult (Tabiti as supreme)",
+        "three-rank divine hierarchy reported by Herodotus (4.59)",
+        "kurgan burial with horse sacrifice and elaborate grave goods",
+        "royal burial ritual: 40-day funerary procession, servant sacrifice, horse burial",
+        "Enarei — androgynous shaman-priests associated with Argimpasa",
+        "akinakes sword cult (iron sword as anionic representation of war god)",
+        "animal style art with religious/cosmological symbolism"
+      ],
+      "parentTraditions": ["proto_ie_religion"],
+      "childTraditions": [],
+      "syncreticConnections": ["greek_religion"],
+      "evidence": "Herodotus Histories Book 4 (primary source), Pazyryk frozen tomb finds with preserved textiles and tattoos, Tolstaya Mogila gold pectoral, thousands of kurgan excavations across the steppe, Scythian gold artwork in Hermitage Museum"
+    },
+    {
+      "id": "eleusinian_mysteries",
+      "name": "Eleusinian Mysteries",
+      "originDate": -1500,
+      "originDateLabel": "c. 1500 BCE (Mycenaean origins at Eleusis)",
+      "endDate": 392,
+      "status": "extinct",
+      "geographicOrigin": "Eleusis, near Athens, Greece",
+      "region": "Mediterranean",
+      "theologicalType": ["mystery_cult", "initiatory_religion", "soteriological"],
+      "keyFigures": [
+        {"name": "Demeter", "role": "Goddess of grain and agriculture; the mourning mother whose grief caused the seasons"},
+        {"name": "Persephone (Kore)", "role": "Queen of the underworld; daughter of Demeter, her annual return symbolizes rebirth"},
+        {"name": "Hades/Plouton", "role": "Lord of the underworld who abducted Persephone; giver of wealth from below"},
+        {"name": "Triptolemus", "role": "Culture hero taught agriculture by Demeter; sent to spread grain cultivation to humanity"},
+        {"name": "Iacchus", "role": "Deity of the ritual procession from Athens to Eleusis; torch-bearer, associated with Dionysus"},
+        {"name": "Hierophant", "role": "High priest of the Eumolpidae family who revealed sacred objects in the Telesterion"}
+      ],
+      "keyConcepts": [
+        "kykeon (sacred barley and pennyroyal drink — debated psychotropic properties)",
+        "three stages of initiation: descent (loss), search, ascent (reunion/rebirth)",
+        "Lesser Mysteries (Myesis — spring purification at Agrae)",
+        "Greater Mysteries (Epopteia — autumn initiation at Eleusis)",
+        "Telesterion (great hall of initiation where sacred objects were revealed)",
+        "hiera (sacred objects revealed only to initiates — contents never disclosed)",
+        "pannychis (all-night vigil commemorating Demeter's search)",
+        "promise of blessed afterlife for initiates — freedom from fear of death",
+        "strict secrecy enforced on pain of death"
+      ],
+      "parentTraditions": ["greek_religion"],
+      "childTraditions": [],
+      "syncreticConnections": ["orphic_religion", "isis_mysteries"],
+      "evidence": "Homeric Hymn to Demeter, Telesterion archaeological remains at Eleusis, Plutarch and Cicero testimonies, Eleusinian relief sculptures, Ninnion Tablet (votive offering showing initiation scenes)"
+    },
+    {
+      "id": "orphic_religion",
+      "name": "Orphic Religion",
+      "originDate": -600,
+      "originDateLabel": "c. 6th century BCE (earliest Orphic poetry)",
+      "endDate": 400,
+      "status": "extinct_absorbed",
+      "geographicOrigin": "Greece (Thracian origins attributed)",
+      "region": "Mediterranean",
+      "theologicalType": ["mystery_cult", "dualist_tendencies", "soteriological"],
+      "keyFigures": [
+        {"name": "Orpheus", "role": "Legendary Thracian founder; supreme poet-musician who descended to Hades to retrieve Eurydice"},
+        {"name": "Zagreus", "role": "First Dionysus; son of Zeus and Persephone, dismembered by Titans, his heart saved by Athena"},
+        {"name": "Dionysus (Orphic)", "role": "Reborn Zagreus; second incarnation from Zeus and Semele, liberator of the divine spark in humanity"},
+        {"name": "Phanes/Protogonos", "role": "Orphic primordial god; born from cosmic egg, hermaphroditic first being, source of all creation"},
+        {"name": "Persephone (Orphic)", "role": "Queen of the underworld; mother of Zagreus, judge of souls in the afterlife"}
+      ],
+      "keyConcepts": [
+        "metempsychosis (transmigration of souls through multiple lives)",
+        "Zagreus myth (Titans devour divine child — humanity born from Titan ash containing divine spark)",
+        "soma-sema (body as tomb/prison of the divine soul)",
+        "Orphic gold tablets (afterlife instructions: avoid Lethe, drink from Mnemosyne's pool)",
+        "Orphic theogony (cosmic egg, Phanes, alternative creation narrative)",
+        "ascetic lifestyle: vegetarianism, celibacy, purification rituals",
+        "wheel of rebirth (soul reincarnates 10 times before release)",
+        "Derveni Papyrus (oldest European manuscript, 5th c. BCE, contains Orphic theogony commentary)"
+      ],
+      "parentTraditions": ["thracian_religion", "greek_religion"],
+      "childTraditions": [],
+      "syncreticConnections": ["eleusinian_mysteries", "neoplatonism"],
+      "evidence": "Derveni Papyrus (c. 340 BCE), Orphic gold tablets found at Thurii, Pelinna, Hipponion, Petelia; Orphic Hymns collection; Plato's references in Phaedo, Republic, Cratylus; bone tablets from Olbia inscribed 'Life-Death-Life'"
+    },
+    {
+      "id": "mithraic_mysteries",
+      "name": "Mithraic Mysteries",
+      "originDate": 80,
+      "originDateLabel": "c. 80 CE (earliest archaeological evidence in Rome)",
+      "endDate": 400,
+      "status": "extinct",
+      "geographicOrigin": "Roman Empire (debated Persian/Anatolian origins)",
+      "region": "Mediterranean",
+      "theologicalType": ["mystery_cult", "cosmic_religion", "initiatory_grades"],
+      "keyFigures": [
+        {"name": "Mithras", "role": "Central deity; cosmic bull-slayer, rock-born (petra genetrix), savior god"},
+        {"name": "Sol (Helios)", "role": "Sun god; ally and banquet companion of Mithras, Sol Invictus connection"},
+        {"name": "Cautes", "role": "Torch-bearer with upraised torch; symbolizes dawn/spring/life"},
+        {"name": "Cautopates", "role": "Torch-bearer with lowered torch; symbolizes dusk/autumn/death"},
+        {"name": "Pater (Father)", "role": "Highest grade of initiate; leader of the mithraeum community, representative of Saturn"}
+      ],
+      "keyConcepts": [
+        "tauroctony (ritual bull-killing scene — central icon in every mithraeum)",
+        "seven grades of initiation: Corax (Raven), Nymphus (Bridegroom), Miles (Soldier), Leo (Lion), Perses (Persian), Heliodromus (Sun-Runner), Pater (Father)",
+        "mithraeum (cave-temple replicating cosmic cave, vaulted ceiling with stars)",
+        "communal ritual meal (bread and water/wine shared among initiates)",
+        "Sol Invictus Mithras identification (Mithras as unconquered sun)",
+        "exclusively male membership, especially popular among soldiers",
+        "astrological symbolism (zodiac, planetary associations with grades)",
+        "rock-birth of Mithras (petra genetrix)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": ["roman_religion", "zoroastrianism"],
+      "evidence": "Over 400 mithraea excavated across the Roman Empire, T. Flavius Hyginus inscription (80-100 CE), Santa Prisca mithraeum frescoes and inscriptions, Dura-Europos mithraeum, CIMRM (Corpus Inscriptionum et Monumentorum Religionis Mithriacae) catalog"
+    },
+    {
+      "id": "isis_mysteries",
+      "name": "Isis Mystery Cult",
+      "originDate": -300,
+      "originDateLabel": "c. 300 BCE (Ptolemaic formalization of Hellenized Isis cult)",
+      "endDate": 550,
+      "status": "extinct",
+      "geographicOrigin": "Ptolemaic Egypt, spreading across Greco-Roman Mediterranean",
+      "region": "Mediterranean",
+      "theologicalType": ["mystery_cult", "henotheism", "soteriological"],
+      "keyFigures": [
+        {"name": "Isis", "role": "Supreme goddess; universal mother, mistress of magic, protector of sailors (Isis Pelagia), healer"},
+        {"name": "Osiris", "role": "Dying-and-rising god; lord of the afterlife, resurrected husband of Isis"},
+        {"name": "Serapis", "role": "Syncretic Ptolemaic deity combining Osiris and Apis; male consort of Isis in Hellenized cult"},
+        {"name": "Horus/Harpocrates", "role": "Divine child of Isis and Osiris; depicted as child with finger to lips"},
+        {"name": "Anubis", "role": "Jackal-headed guide of the dead; psychopomp in the Isiac mysteries"},
+        {"name": "Lucius (Apuleius' character)", "role": "Protagonist of The Golden Ass; only narrative account of Isiac initiation (2nd c. CE)"}
+      ],
+      "keyConcepts": [
+        "Isis aretalogy (self-proclamations of Isis as supreme universal deity)",
+        "Isiac initiation (purifying baths, fasting, donning linen, visionary experience of death and rebirth)",
+        "Isis Pelagia (mistress of the sea, protector of sailors and navigation)",
+        "Navigium Isidis (March 5 festival opening the sailing season with ship procession)",
+        "Isis as myrionyme (goddess of ten thousand names — universal feminine deity)",
+        "Serapis cult as Ptolemaic state-sponsored syncretism",
+        "dream incubation (Isis appears in dreams to choose initiates)",
+        "daily temple liturgy (morning awakening of the goddess, evening closing)"
+      ],
+      "parentTraditions": ["egyptian_religion"],
+      "childTraditions": [],
+      "syncreticConnections": ["greek_religion", "roman_religion"],
+      "evidence": "Apuleius Metamorphoses Book 11, Iseum at Pompeii, Isis temple at Philae (last pagan temple closed 535 CE), hundreds of Isis statuettes across Roman Empire, Oxyrhynchus Isis hymn, Alexandrian Isis coins"
+    },
+    {
+      "id": "neoplatonism",
+      "name": "Neoplatonism (as Religious Practice)",
+      "originDate": 245,
+      "originDateLabel": "c. 245 CE (Plotinus begins teaching in Rome)",
+      "endDate": 529,
+      "status": "extinct_influential",
+      "geographicOrigin": "Roman Empire (Alexandria, Rome, Athens, Syria)",
+      "region": "Mediterranean",
+      "theologicalType": ["philosophical_theology", "hentheism", "theurgy"],
+      "keyFigures": [
+        {"name": "Plotinus", "role": "Founder; philosopher-mystic who taught henosis (union with the One) through intellectual contemplation (204-270 CE)"},
+        {"name": "Porphyry", "role": "Student of Plotinus; editor of Enneads, advocate of philosophical asceticism, critic of Christianity"},
+        {"name": "Iamblichus", "role": "Systematizer of theurgy; added ritual practice to philosophical contemplation, hierarchies of divine beings (c.245-325 CE)"},
+        {"name": "Proclus", "role": "Last great Athenian Neoplatonist; synthesized all previous Neoplatonism, influenced Islamic and Christian theology (412-485 CE)"},
+        {"name": "Emperor Julian (the Apostate)", "role": "Roman emperor who attempted to restore pagan Neoplatonic religion against Christianity (r. 361-363 CE)"},
+        {"name": "Hypatia", "role": "Alexandrian Neoplatonist philosopher and teacher; murdered by Christian mob in 415 CE"}
+      ],
+      "keyConcepts": [
+        "The One (To Hen) — transcendent first principle beyond all being and thought",
+        "henosis (mystical union with the One as ultimate goal)",
+        "emanation (reality flows from the One through Nous/Intellect, Soul, to Matter)",
+        "theurgy (divine ritual work to ascend through cosmic hierarchy back to the One)",
+        "divine hierarchy: the One > Nous (Intellect/Divine Mind) > Psyche (World Soul) > Matter",
+        "Chaldean Oracles as theurgic scripture (used by Iamblichus and later Neoplatonists)",
+        "return of the soul (epistrophe) through purification and contemplation",
+        "influence on Christian theology (Pseudo-Dionysius, Augustine, Cappadocian Fathers)"
+      ],
+      "parentTraditions": ["greek_religion"],
+      "childTraditions": [],
+      "syncreticConnections": ["hermeticism", "gnosticism", "christianity"],
+      "evidence": "Plotinus' Enneads (edited by Porphyry), Iamblichus' De Mysteriis, Proclus' Elements of Theology and Platonic Theology, Julian's Hymn to King Helios, closure of Athenian Academy by Justinian in 529 CE"
+    },
+    {
+      "id": "catharism",
+      "name": "Catharism",
+      "originDate": 1140,
+      "originDateLabel": "c. 1140 CE (first documented Cathar activity in Languedoc)",
+      "endDate": 1350,
+      "status": "extinct",
+      "geographicOrigin": "Southern France (Languedoc/Occitania) and Northern Italy (Lombardy)",
+      "region": "Western Europe",
+      "theologicalType": ["dualism", "gnosticism", "asceticism"],
+      "keyFigures": [
+        {"name": "Nicetas (Niquinta)", "role": "Bogomil bishop who presided over the Cathar Council of Saint-Felix (1167 CE), establishing Cathar dioceses"},
+        {"name": "Guilhabert de Castres", "role": "Cathar bishop of Toulouse; prominent leader during the Albigensian Crusade period"},
+        {"name": "Esclarmonde de Foix", "role": "Noblewoman who became a perfecta; defended Catharism, patron of Montsegur"},
+        {"name": "Guillaume Belibaste", "role": "Last known Cathar perfectus; executed in 1321 CE, marking near-extinction of the faith"}
+      ],
+      "keyConcepts": [
+        "radical dualism (good God of spirit vs. evil demiurge of matter — two opposing creators)",
+        "perfecti (the Perfect — spiritual elite who had received the consolamentum)",
+        "credentes (ordinary believers who had not yet received full baptism)",
+        "consolamentum (spiritual baptism by laying on of hands — only sacrament, could be deathbed rite)",
+        "rejection of the material world, physical body, and Old Testament God as evil",
+        "strict asceticism of perfecti: vegetarianism, celibacy, poverty, refusal of oaths",
+        "endura (ritual fasting unto death practiced by some devout followers)",
+        "Bogomil origins (theological lineage from Bulgarian dualist movement)"
+      ],
+      "parentTraditions": ["manichaeism", "christianity"],
+      "childTraditions": [],
+      "syncreticConnections": ["gnosticism", "manichaeism"],
+      "evidence": "Inquisition records (especially Bernard Gui and Jacques Fournier), surviving Cathar texts (Liber de Duobus Principiis, Rituel Cathare), archaeological remains at Montsegur, Council of Saint-Felix records (1167), Albigensian Crusade chronicles"
+    },
+    {
+      "id": "kabbalah",
+      "name": "Kabbalah",
+      "originDate": 1150,
+      "originDateLabel": "c. 1150 CE (Sefer ha-Bahir circulates in Provence)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Provence (southern France) and Catalonia (Spain), building on earlier Merkabah mysticism",
+      "region": "Western Europe",
+      "theologicalType": ["mysticism", "esotericism", "theosophical_monotheism"],
+      "keyFigures": [
+        {"name": "Isaac the Blind", "role": "Provençal mystic (c.1160-1235); earliest known Kabbalist, teacher of the Gerona circle"},
+        {"name": "Moses de Leon", "role": "Likely author/compiler of the Zohar (c.1286), attributed it to 2nd-century Rabbi Shimon bar Yochai"},
+        {"name": "Abraham Abulafia", "role": "Ecstatic Kabbalist (1240-1291); developed prophetic/meditative Kabbalah using letter permutations"},
+        {"name": "Isaac Luria (Ha-Ari)", "role": "Father of modern Kabbalah (1534-1572); developed doctrines of tzimtzum, shevirat ha-kelim, tikkun olam in Safed"},
+        {"name": "Moses Cordovero", "role": "Systematic Kabbalist (1522-1570); wrote Pardes Rimonim, systematized Kabbalistic thought before Luria"},
+        {"name": "Shimon bar Yochai", "role": "2nd-century Talmudic sage; traditional attributed author of the Zohar"}
+      ],
+      "keyConcepts": [
+        "Ein Sof (the Infinite — unknowable divine essence before creation)",
+        "sefirot (ten divine emanations/attributes through which Ein Sof interacts with creation)",
+        "Tree of Life (Etz Chaim — diagram mapping the ten sefirot and 22 connecting paths)",
+        "Zohar (foundational Kabbalistic text, Aramaic, compiled c. 1286)",
+        "tzimtzum (divine contraction/withdrawal to create space for the world — Lurianic doctrine)",
+        "shevirat ha-kelim (shattering of the vessels — cosmic catastrophe scattering divine sparks)",
+        "tikkun olam (repair of the world by gathering scattered divine sparks through righteous action)",
+        "gematria (numerological interpretation of Hebrew letters)"
+      ],
+      "parentTraditions": ["judaism"],
+      "childTraditions": [],
+      "syncreticConnections": ["hermeticism", "neoplatonism", "gnosticism"],
+      "evidence": "Sefer ha-Bahir (c.1150), Zohar manuscripts (c.1286), Sefer Yetzirah (early roots, c. 3rd-6th century), Isaac Luria's teachings recorded by Hayyim Vital, Lurianic prayer books, influence on Hasidic movement from 18th century onwards"
+    },
+    {
+      "id": "druze_faith",
+      "name": "Druze Faith",
+      "originDate": 1017,
+      "originDateLabel": "1017 CE (Hamza ibn Ali proclaims divine unity of al-Hakim)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Fatimid Cairo, Egypt; spread to Levantine mountains",
+      "region": "Levant",
+      "theologicalType": ["monotheism", "esotericism", "reincarnation"],
+      "keyFigures": [
+        {"name": "Al-Hakim bi-Amr Allah", "role": "Fatimid Caliph (985-1021 CE); believed by Druze to be the incarnation of God in human form"},
+        {"name": "Hamza ibn Ali", "role": "Founder and primary theologian; proclaimed al-Hakim's divinity, considered reincarnation of Christ and Universal Mind (al-Aql)"},
+        {"name": "Baha al-Din al-Muqtana", "role": "Second-ranking minister; authored many of the Epistles of Wisdom (Rasa'il al-Hikma)"},
+        {"name": "Jethro (Shu'ayb)", "role": "Most revered prophet in Druze tradition; his tomb near Tiberias is the holiest Druze pilgrimage site"},
+        {"name": "al-Muqtana Baha'uddin", "role": "Closed the faith to converts in 1043 CE; last of the founding luminaries"}
+      ],
+      "keyConcepts": [
+        "tawhid (divine unity — strict monotheism, al-Hakim as God incarnate)",
+        "taqammus (reincarnation — Druze souls reincarnate only into Druze bodies)",
+        "Rasa'il al-Hikma (Epistles of Wisdom — 111 sacred texts, only accessible to uqqal/initiated)",
+        "closed community (no conversion in or out since 1043 CE)",
+        "uqqal and juhhal (initiated knowledgeable class vs. uninitiated laypeople)",
+        "five cosmic principles (intelligence, soul, word, precedent, immanence — represented by five-colored star)",
+        "seven prophets (Adam, Noah, Abraham, Moses, Jesus, Muhammad, and Muhammad ibn Ismail)",
+        "return of al-Hakim at end times to judge the world"
+      ],
+      "parentTraditions": ["islam"],
+      "childTraditions": [],
+      "syncreticConnections": ["gnosticism", "neoplatonism"],
+      "evidence": "Rasa'il al-Hikma manuscripts (Epistles of Wisdom), Druze community archives in Lebanon, Syria, and Israel; approximately 1 million adherents today; Nabi Shu'ayb shrine near Tiberias"
+    },
+    {
+      "id": "yazidism",
+      "name": "Yazidism",
+      "originDate": 1150,
+      "originDateLabel": "c. 1150 CE (Sheikh Adi ibn Musafir reforms at Lalish)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Kurdistan (Lalish valley, northern Iraq)",
+      "region": "Levant",
+      "theologicalType": ["monotheism", "angel_veneration", "syncretic"],
+      "keyFigures": [
+        {"name": "Melek Taus", "role": "The Peacock Angel; chief of seven angels, emanation of God, lord of this world, leader of the archangels"},
+        {"name": "Sheikh Adi ibn Musafir", "role": "Historical founder/reformer (d. 1162 CE); believed to be incarnation of Melek Taus, tomb at Lalish is holiest shrine"},
+        {"name": "Sultan Ezid", "role": "Possibly pre-Islamic deity; name gives 'Yazidi,' interpreted as ancient divine figure"},
+        {"name": "Sheikh Hasan", "role": "13th-century reformer; reorganized Yazidi religious hierarchy and caste system"},
+        {"name": "The Seven Angels (Heft Sirr)", "role": "Seven divine emanations of God who govern the world, led by Melek Taus"}
+      ],
+      "keyConcepts": [
+        "Melek Taus (Peacock Angel — chief divine emanation, not a fallen angel; wrongly called devil-worship by outsiders)",
+        "seven angels (heft sirr/seven mysteries) emanated by God to govern creation",
+        "Lalish as holiest site and axis mundi (valley temple complex in northern Iraq)",
+        "Mishefa Resh (Black Book) and Kiteba Cilwe (Book of Revelation) — sacred texts",
+        "caste system (Sheikh, Pir, Murid — endogamous religious classes)",
+        "prohibition on eating lettuce, wearing blue, and other taboos",
+        "oral transmission of sacred knowledge through qewwals (sacred hymn singers)",
+        "annual autumn pilgrimage to Lalish",
+        "prohibition on conversion — must be born Yazidi"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": ["zoroastrianism", "islam", "christianity"],
+      "evidence": "Lalish temple complex (standing), Mishefa Resh and Kiteba Cilwe texts, qewwal oral tradition, approximately 500,000-1,000,000 adherents primarily in Iraq, community survived 2014 ISIS genocide"
+    },
+    {
+      "id": "mandaeism",
+      "name": "Mandaeism",
+      "originDate": -100,
+      "originDateLabel": "c. 1st century BCE - 1st century CE (debated origins in Jordan Valley or Mesopotamia)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Southern Mesopotamia (modern southern Iraq and southwestern Iran)",
+      "region": "Levant",
+      "theologicalType": ["gnosticism", "dualism", "monotheism"],
+      "keyFigures": [
+        {"name": "Hayyi Rabbi", "role": "The Great Life — supreme transcendent deity, source of the World of Light"},
+        {"name": "Manda d-Hayyi", "role": "Knowledge of Life — chief utra (light being), savior figure who descends to liberate souls"},
+        {"name": "Hibil Ziwa", "role": "Radiant Hibil — major utra who descends to the underworld, parallel to Abel"},
+        {"name": "Yahya Yuhana (John the Baptist)", "role": "Greatest and final prophet; Mandaeans consider themselves his original disciples"},
+        {"name": "Adam", "role": "First prophet and founder; created by the light beings, taught true knowledge"},
+        {"name": "Ptahil", "role": "Demiurge who created the material world; lesser being who deviated from the light"}
+      ],
+      "keyConcepts": [
+        "World of Light vs. World of Darkness (fundamental cosmic dualism)",
+        "masbuta (baptism in flowing 'living water' — performed repeatedly throughout life, not once)",
+        "Ginza Rabba (Great Treasure — primary scripture in Mandaic, divided into Right and Left Ginza)",
+        "mandi (temple/cult hut built near flowing water for rituals)",
+        "uthras (light beings/angels emanating from the Great Life)",
+        "masiqta (ritual for the ascent of the soul after death)",
+        "ritual purity laws and priestly hierarchy (tarmida, ganzibra, rish ama)",
+        "Mandaic language (Eastern Aramaic dialect used exclusively for scripture and liturgy)",
+        "rejection of Jesus, Moses, and Muhammad as false prophets",
+        "living Gnostic tradition — last surviving Gnostic religion"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": ["gnosticism", "judaism"],
+      "evidence": "Ginza Rabba manuscripts, Book of John (Draša d-Yahya), Mandaean lead amulets, living community of 60,000-100,000 (mostly Iraqi diaspora), mandi temples in southern Iraq, Mandaic liturgical scrolls"
+    }
+  ],
+
+  "=== CONNECTIONS ===": "Inter-tradition relationships",
+  "connections": [
+    {
+      "id": "conn_etruscan_roman",
+      "from": "etruscan_religion",
+      "to": "roman_religion",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "conquest",
+      "date": -600,
+      "evidence": "Capitoline Triad (Jupiter-Juno-Minerva) directly derived from Etruscan Tinia-Uni-Menrva; haruspicy adopted as official Roman divination; Etruscan kings ruled Rome 616-509 BCE"
+    },
+    {
+      "id": "conn_etruscan_greek",
+      "from": "greek_religion",
+      "to": "etruscan_religion",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "trade",
+      "date": -700,
+      "evidence": "Greek colonization of southern Italy caused massive Etruscan adoption of Greek mythological narratives while maintaining distinct Etruscan religious practices, especially divination"
+    },
+    {
+      "id": "conn_thracian_greek",
+      "from": "thracian_religion",
+      "to": "greek_religion",
+      "type": "cultural_exchange",
+      "strength": "strong",
+      "mechanism": "migration",
+      "date": -700,
+      "evidence": "Dionysus and Orpheus attributed Thracian origins by Greeks; Bendis given official Athenian cult c.430 BCE; Sabazios widely worshipped in Hellenistic world"
+    },
+    {
+      "id": "conn_thracian_orphic",
+      "from": "thracian_religion",
+      "to": "orphic_religion",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "theological",
+      "date": -600,
+      "evidence": "Orphism attributed to Thracian Orpheus; Thracian beliefs in soul immortality (Zalmoxis) paralleled Orphic metempsychosis doctrine"
+    },
+    {
+      "id": "conn_iberian_celtic",
+      "from": "celtic_religion",
+      "to": "iberian_celtiberian_religion",
+      "type": "shared_substrate",
+      "strength": "strong",
+      "mechanism": "migration",
+      "date": -600,
+      "evidence": "Shared Celtic deities (Lugus, Epona, Matres) with distinct Iberian indigenous layer (Endovelicus, Ataecina); Celtiberian language and inscriptions show Celtic linguistic stratum"
+    },
+    {
+      "id": "conn_iberian_roman",
+      "from": "iberian_celtiberian_religion",
+      "to": "roman_religion",
+      "type": "syncretic_fusion",
+      "strength": "moderate",
+      "mechanism": "conquest",
+      "date": -100,
+      "evidence": "Roman conquest led to interpretatio romana of Iberian deities; Ataecina equated with Proserpina; Endovelicus survived into Roman period with Latin votive inscriptions"
+    },
+    {
+      "id": "conn_minoan_mycenaean",
+      "from": "minoan_religion",
+      "to": "mycenaean_religion",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "conquest",
+      "date": -1450,
+      "evidence": "Mycenaean takeover of Knossos c.1450 BCE; Potnia title, snake goddess imagery, bull cult elements absorbed into Mycenaean religion; Mycenaean Linear B records at Knossos"
+    },
+    {
+      "id": "conn_mycenaean_greek",
+      "from": "mycenaean_religion",
+      "to": "greek_religion",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "theological",
+      "date": -1100,
+      "evidence": "Linear B attestations of Zeus, Poseidon, Dionysus, Artemis, Hermes directly continued into Classical Greek religion; Eleusis cult site shows Mycenaean continuity"
+    },
+    {
+      "id": "conn_pie_mycenaean",
+      "from": "proto_ie_religion",
+      "to": "mycenaean_religion",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "migration",
+      "date": -2000,
+      "evidence": "Indo-European sky god *Dyeus became Di-wo (Zeus) in Linear B; IE thunder god cognates; warrior aristocracy religion merged with pre-Greek Minoan substrate"
+    },
+    {
+      "id": "conn_finnish_norse",
+      "from": "finnish_sami_religion",
+      "to": "norse_germanic",
+      "type": "cultural_exchange",
+      "strength": "moderate",
+      "mechanism": "trade",
+      "date": -500,
+      "evidence": "Ukko parallels with Thor (thunder god with hammer/axe); shared vocabulary for religious concepts; Norse sagas mention Finnish sorcery (seidr connections); geographic proximity and trade contacts"
+    },
+    {
+      "id": "conn_finnish_baltic",
+      "from": "finnish_sami_religion",
+      "to": "baltic_religion",
+      "type": "cultural_exchange",
+      "strength": "moderate",
+      "mechanism": "trade",
+      "date": -500,
+      "evidence": "Ukko parallels with Lithuanian Perkunas; shared Finno-Baltic contact zone; borrowed religious terminology; similar thunder god mythology"
+    },
+    {
+      "id": "conn_scythian_pie",
+      "from": "proto_ie_religion",
+      "to": "scythian_religion",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "migration",
+      "date": -1000,
+      "evidence": "Papaeus as cognate of *Dyeus Ph2ter (Sky Father); IE fire cult reflected in Tabiti worship; Scythian language was Iranian branch of Indo-European; tripartite social structure reflected in divine hierarchy"
+    },
+    {
+      "id": "conn_scythian_greek",
+      "from": "scythian_religion",
+      "to": "greek_religion",
+      "type": "cultural_exchange",
+      "strength": "moderate",
+      "mechanism": "trade",
+      "date": -600,
+      "evidence": "Greek colonies on Black Sea coast; Herodotus' ethnographic account; syncretic Scytho-Greek art in kurgan burials; Greek equation of Scythian deities with Olympians"
+    },
+    {
+      "id": "conn_eleusinian_greek",
+      "from": "greek_religion",
+      "to": "eleusinian_mysteries",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "theological",
+      "date": -1500,
+      "evidence": "Eleusinian rites built on Demeter-Persephone myth from core Greek religion; Mycenaean-era origins at Eleusis site; Homeric Hymn to Demeter provides mythological foundation"
+    },
+    {
+      "id": "conn_eleusinian_orphic",
+      "from": "eleusinian_mysteries",
+      "to": "orphic_religion",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "theological",
+      "date": -500,
+      "evidence": "Shared soteriological concerns (blessed afterlife for initiates); Persephone central to both; Orphic gold tablets reference Eleusinian-type underworld geography; mutual influence on afterlife theology"
+    },
+    {
+      "id": "conn_orphic_neoplatonism",
+      "from": "orphic_religion",
+      "to": "neoplatonism",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "theological",
+      "date": 250,
+      "evidence": "Neoplatonists adopted Orphic cosmogony; Proclus extensively commentated on Orphic theogony; soma-sema doctrine influenced Plotinus' view of embodiment; Orphic Hymns used in Neoplatonic theurgy"
+    },
+    {
+      "id": "conn_mithras_roman",
+      "from": "mithraic_mysteries",
+      "to": "roman_religion",
+      "type": "syncretic_fusion",
+      "strength": "strong",
+      "mechanism": "trade",
+      "date": 100,
+      "evidence": "Mithraism functioned within Roman religious framework; Sol Invictus Mithras title; military spread through legions; planetary symbolism drawn from Roman astrology; communal meals paralleled Roman religious feasting"
+    },
+    {
+      "id": "conn_mithras_zoroastrian",
+      "from": "zoroastrianism",
+      "to": "mithraic_mysteries",
+      "type": "influence",
+      "strength": "speculative",
+      "mechanism": "trade",
+      "date": -100,
+      "evidence": "Name Mithras derives from Zoroastrian Mithra; Persian grade in initiation hierarchy; however Franz Cumont's direct Iranian origin theory is now disputed — Roman Mithraism may be largely independent creation using Iranian imagery"
+    },
+    {
+      "id": "conn_isis_egyptian",
+      "from": "egyptian_religion",
+      "to": "isis_mysteries",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "theological",
+      "date": -300,
+      "evidence": "Isis, Osiris, Horus, Anubis all derive from Egyptian religion; Ptolemaic rulers deliberately Hellenized Egyptian Isis cult; Serapis created as syncretic Osiris-Apis deity for Greek-Egyptian synthesis"
+    },
+    {
+      "id": "conn_isis_greek",
+      "from": "isis_mysteries",
+      "to": "greek_religion",
+      "type": "syncretic_fusion",
+      "strength": "strong",
+      "mechanism": "trade",
+      "date": -200,
+      "evidence": "Isis identified with Demeter, Aphrodite, Athena; Isis aretalogies claim she encompasses all goddesses; Hellenistic mystery format adopted for Isiac initiation; spread through Mediterranean trade routes"
+    },
+    {
+      "id": "conn_neoplatonism_christianity",
+      "from": "neoplatonism",
+      "to": "christianity",
+      "type": "influence",
+      "strength": "strong",
+      "mechanism": "theological",
+      "date": 350,
+      "evidence": "Augustine deeply influenced by Plotinus; Pseudo-Dionysius adopted Neoplatonic hierarchies; Cappadocian Fathers used Neoplatonic language; doctrine of divine simplicity and negative theology in Christian theology derive from Neoplatonic One"
+    },
+    {
+      "id": "conn_neoplatonism_hermeticism",
+      "from": "neoplatonism",
+      "to": "hermeticism",
+      "type": "syncretic_fusion",
+      "strength": "strong",
+      "mechanism": "theological",
+      "date": 250,
+      "evidence": "Shared emanationist cosmology; Hermetic texts circulated among same late antique intellectual circles; both practiced theurgy; Iamblichus discussed Hermes Trismegistus alongside Neoplatonic theology"
+    },
+    {
+      "id": "conn_catharism_manichaeism",
+      "from": "manichaeism",
+      "to": "catharism",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "theological",
+      "date": 1000,
+      "evidence": "Cathar dualism derives ultimately from Manichaean cosmological framework via Bogomil transmission; two-god theology, rejection of material world, ascetic elite class all parallel Manichaean structure"
+    },
+    {
+      "id": "conn_catharism_gnosticism",
+      "from": "gnosticism",
+      "to": "catharism",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "theological",
+      "date": 1100,
+      "evidence": "Gnostic demiurge concept paralleled Cathar evil creator; spiritual spark trapped in matter; knowledge/gnosis as path to liberation; medieval Cathars viewed as continuation of ancient Gnostic dualism"
+    },
+    {
+      "id": "conn_kabbalah_judaism",
+      "from": "judaism",
+      "to": "kabbalah",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "theological",
+      "date": 1150,
+      "evidence": "Kabbalah developed within rabbinic Judaism as esoteric interpretation of Torah; built on earlier Merkabah and Hekhalot mysticism (2nd-6th century); sefirot as map of divine attributes within monotheistic framework"
+    },
+    {
+      "id": "conn_kabbalah_neoplatonism",
+      "from": "neoplatonism",
+      "to": "kabbalah",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "theological",
+      "date": 1150,
+      "evidence": "Ein Sof parallels the Neoplatonic One; emanation of sefirot mirrors Neoplatonic procession; medieval Jewish philosophers in Islamic Spain accessed Neoplatonic texts; Keter (Crown) as first emanation parallels Nous"
+    },
+    {
+      "id": "conn_druze_islam",
+      "from": "islam",
+      "to": "druze_faith",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "theological",
+      "date": 1017,
+      "evidence": "Druze faith emerged from Fatimid Ismaili Shi'ism; al-Hakim was Fatimid caliph; seven prophets include Muhammad; however Druze separated from Islam altogether with doctrine of al-Hakim's divinity"
+    },
+    {
+      "id": "conn_druze_neoplatonism",
+      "from": "neoplatonism",
+      "to": "druze_faith",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "theological",
+      "date": 1017,
+      "evidence": "Five cosmic principles (intelligence, soul, word, precedent, immanence) parallel Neoplatonic emanation hierarchy; Ismaili philosophy through which Druze theology developed was deeply influenced by Neoplatonism"
+    },
+    {
+      "id": "conn_yazidi_zoroastrian",
+      "from": "zoroastrianism",
+      "to": "yazidism",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "theological",
+      "date": 500,
+      "evidence": "Seven divine emanations parallel Zoroastrian Amesha Spentas; Kurdish pre-Islamic religion had Zoroastrian elements; fire veneration; dualistic tendencies; annual New Year festival parallels Nowruz"
+    },
+    {
+      "id": "conn_yazidi_islam",
+      "from": "islam",
+      "to": "yazidism",
+      "type": "cultural_exchange",
+      "strength": "moderate",
+      "mechanism": "conquest",
+      "date": 1150,
+      "evidence": "Sheikh Adi was a Sufi mystic before founding/reforming Yazidism; Islamic vocabulary and concepts present; Yazidi caste names (Sheikh, Pir) derive from Islamic terminology; however Yazidism maintains pre-Islamic core"
+    },
+    {
+      "id": "conn_mandaeism_gnosticism",
+      "from": "gnosticism",
+      "to": "mandaeism",
+      "type": "shared_substrate",
+      "strength": "strong",
+      "mechanism": "theological",
+      "date": -50,
+      "evidence": "Mandaeism is the only surviving Gnostic religion; light-darkness dualism; demiurge (Ptahil) creates flawed material world; uthras as divine emanations; soul's ascent through cosmic spheres; rejection of material world"
+    },
+    {
+      "id": "conn_mandaeism_judaism",
+      "from": "judaism",
+      "to": "mandaeism",
+      "type": "shared_substrate",
+      "strength": "moderate",
+      "mechanism": "theological",
+      "date": -100,
+      "evidence": "Adam, Seth, Noah, Shem as prophets (shared Abrahamic figures); Jordan River baptism tradition; anti-Jewish polemic suggests close proximity and deliberate differentiation; possible origin among heterodox Jewish baptist sects"
+    },
+    {
+      "id": "conn_minoan_egyptian",
+      "from": "egyptian_religion",
+      "to": "minoan_religion",
+      "type": "cultural_exchange",
+      "strength": "moderate",
+      "mechanism": "trade",
+      "date": -2000,
+      "evidence": "Egyptian artifacts found at Knossos; shared goddess iconography; trade contacts between Crete and Egypt well attested; some scholars see parallels between Minoan Great Goddess and Isis/Hathor"
+    },
+    {
+      "id": "conn_eleusinian_isis",
+      "from": "eleusinian_mysteries",
+      "to": "isis_mysteries",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "theological",
+      "date": -200,
+      "evidence": "Isis identified with Demeter; both mysteries centered on dying/descending deity and rebirth; similar initiation structures; Isis cult adopted Greek mystery religion format as vehicle for Egyptian theology"
+    }
+  ],
+
+  "=== FIGURES ===": "Major figures across traditions",
+  "figures": [
+    {
+      "id": "tinia",
+      "name": "Tinia",
+      "type": "deity",
+      "date": "-900",
+      "dateLabel": "c. 900 BCE (Etruscan civilization)",
+      "traditions": ["etruscan_religion"],
+      "roles": {"etruscan_religion": "Supreme sky god, wielder of three thunderbolts, head of the Etruscan divine triad"},
+      "aliases": ["Tin", "Tina"],
+      "connections": [
+        {"to": "zeus", "type": "equivalent", "detail": "Greek equivalent as supreme sky god; Etruscan art frequently depicts Tinia in Zeus-like iconography"},
+        {"to": "jupiter", "type": "equivalent", "detail": "Roman Jupiter directly influenced by Etruscan Tinia through Capitoline Triad derivation (Tinia-Uni-Menrva became Jupiter-Juno-Minerva)"}
+      ]
+    },
+    {
+      "id": "menrva",
+      "name": "Menrva",
+      "type": "deity",
+      "date": "-900",
+      "dateLabel": "c. 900 BCE",
+      "traditions": ["etruscan_religion"],
+      "roles": {"etruscan_religion": "Goddess of wisdom, arts, medicine, and warfare; member of divine triad"},
+      "aliases": ["Mnerva", "Menarva"],
+      "connections": [
+        {"to": "athena", "type": "equivalent", "detail": "Greek equivalent as wisdom/war goddess; however Etruscan Menrva had greater role in healing"},
+        {"to": "minerva", "type": "evolved_from", "detail": "Roman Minerva derives directly from Etruscan Menrva, name and cult transmitted through Etruscan influence on Rome"}
+      ]
+    },
+    {
+      "id": "sabazios",
+      "name": "Sabazios",
+      "type": "deity",
+      "date": "-1000",
+      "dateLabel": "c. 1000 BCE (Bronze-Iron Age Thrace)",
+      "traditions": ["thracian_religion"],
+      "roles": {"thracian_religion": "Supreme sky/horseman god, ecstatic deity of vegetation and beer/wine"},
+      "aliases": ["Sabazius", "Jupiter Sabazius (Roman syncretism)"],
+      "connections": [
+        {"to": "dionysus", "type": "syncretized_with", "detail": "Identification of Sabazios with Dionysus occurs regularly in Hellenistic sources; both associated with ecstatic rites and vegetation"},
+        {"to": "zeus", "type": "syncretized_with", "detail": "In Roman period, worshipped as Jupiter Sabazius; Phrygian-Thracian sky god merged with Zeus/Jupiter"}
+      ]
+    },
+    {
+      "id": "zalmoxis",
+      "name": "Zalmoxis",
+      "type": "deity",
+      "date": "-500",
+      "dateLabel": "c. 500 BCE (reported by Herodotus)",
+      "traditions": ["thracian_religion"],
+      "roles": {"thracian_religion": "Deified prophet-god of the Getae; taught immortality of the soul and afterlife reunion with the divine"},
+      "aliases": ["Zamolxis", "Salmoxis"],
+      "connections": [
+        {"to": "pythagoras", "type": "mythological_parallel", "detail": "Herodotus reports tradition that Zalmoxis was a former slave of Pythagoras who learned philosophy in Greece; scholars debate whether this is Greek rationalization of a Thracian deity"},
+        {"to": "orpheus", "type": "mythological_parallel", "detail": "Both Thracian figures associated with soul immortality doctrines; Orpheus represents ascetic path while Zalmoxis represents divine promise of afterlife"}
+      ]
+    },
+    {
+      "id": "orpheus",
+      "name": "Orpheus",
+      "type": "hero",
+      "date": "-1200",
+      "dateLabel": "Mythological (attributed to pre-Trojan War era)",
+      "traditions": ["thracian_religion", "orphic_religion", "greek_religion"],
+      "roles": {
+        "thracian_religion": "Legendary Thracian poet-shaman who could charm all living things with music",
+        "orphic_religion": "Founder and revelator of Orphic mysteries, author of sacred hymns and cosmogony",
+        "greek_religion": "Mythical musician who descended to Hades to retrieve Eurydice"
+      },
+      "aliases": ["Orpheos"],
+      "connections": [
+        {"to": "dionysus", "type": "mythological_parallel", "detail": "Orpheus torn apart by Maenads (followers of Dionysus); Orphic religion centered on Dionysus-Zagreus myth; complex tension between Orphic asceticism and Dionysiac ecstasy"},
+        {"to": "zalmoxis", "type": "mythological_parallel", "detail": "Both Thracian figures who taught soul immortality; represent two spiritual paths — Orphic ascent vs. Zalmoxian promise"}
+      ]
+    },
+    {
+      "id": "endovelicus",
+      "name": "Endovelicus",
+      "type": "deity",
+      "date": "-500",
+      "dateLabel": "c. 500 BCE (Iron Age Lusitania)",
+      "traditions": ["iberian_celtiberian_religion"],
+      "roles": {"iberian_celtiberian_religion": "Supreme healing and oracular god of the Lusitanians; 94 known dedications, most important indigenous Iberian deity"},
+      "aliases": ["Endovellicus", "Endovelecus"],
+      "connections": [
+        {"to": "apollo", "type": "equivalent", "detail": "Both healing and oracular deities; Roman interpretatio sometimes equated Endovelicus with Apollo or Aesculapius"},
+        {"to": "asclepius", "type": "mythological_parallel", "detail": "Shared functions as healing deity with temple-based incubation and dream oracles"}
+      ]
+    },
+    {
+      "id": "ataecina",
+      "name": "Ataecina",
+      "type": "deity",
+      "date": "-500",
+      "dateLabel": "c. 500 BCE (Iron Age Iberia)",
+      "traditions": ["iberian_celtiberian_religion"],
+      "roles": {"iberian_celtiberian_religion": "Underworld and regeneration goddess; guide of the dead and guarantor of rebirth; nearly 40 inscriptions"},
+      "aliases": ["Ataegina", "Ataecina Turobrigensis"],
+      "connections": [
+        {"to": "persephone", "type": "equivalent", "detail": "Roman inscriptions equate Ataecina with Proserpina/Persephone; both underworld goddesses associated with death and regeneration"}
+      ]
+    },
+    {
+      "id": "snake_goddess_minoan",
+      "name": "Snake Goddess",
+      "type": "deity",
+      "date": "-1700",
+      "dateLabel": "c. 1700 BCE (Middle Minoan period — figurines from Knossos)",
+      "traditions": ["minoan_religion"],
+      "roles": {"minoan_religion": "Household protectress, chthonic deity, symbol of earth/fertility power; faience figurines from Temple Repositories"},
+      "aliases": ["Minoan Snake Goddess", "Lady of the Snakes"],
+      "connections": [
+        {"to": "athena", "type": "evolved_from", "detail": "Martin Nilsson proposed that Athena was originally the Minoan snake goddess; both associated with snakes, household protection, and wisdom"}
+      ]
+    },
+    {
+      "id": "mari_basque",
+      "name": "Mari",
+      "type": "deity",
+      "date": "-3000",
+      "dateLabel": "Pre-Indo-European (deep antiquity)",
+      "traditions": ["basque_mythology"],
+      "roles": {"basque_mythology": "Supreme earth goddess; personification of Mother Earth, controls weather, dwells in caves and mountaintops, manifests as fireball"},
+      "aliases": ["Anbotoko Mari", "Murumendiko Mari", "Maya"],
+      "connections": []
+    },
+    {
+      "id": "ukko",
+      "name": "Ukko",
+      "type": "deity",
+      "date": "-1000",
+      "dateLabel": "c. 1000 BCE (Finno-Ugric tradition)",
+      "traditions": ["finnish_sami_religion"],
+      "roles": {"finnish_sami_religion": "Supreme sky and thunder god; wielder of hammer/axe, god of weather and crops"},
+      "aliases": ["Äijä (Grandfather)", "Ylijumala (Supreme God)"],
+      "connections": [
+        {"to": "thor", "type": "mythological_parallel", "detail": "Both thunder gods with hammer/axe weapons; possible Norse-Finnish cultural exchange, though Ukko derives from Finno-Ugric rather than IE tradition"},
+        {"to": "perkunas", "type": "mythological_parallel", "detail": "Both thunder gods in geographically adjacent cultures; Ukko's axe and storm associations parallel Baltic Perkunas"}
+      ]
+    },
+    {
+      "id": "vainamoinen",
+      "name": "Väinämöinen",
+      "type": "hero",
+      "date": "-1000",
+      "dateLabel": "Mythological (deep antiquity)",
+      "traditions": ["finnish_sami_religion"],
+      "roles": {"finnish_sami_religion": "Primordial shaman-hero and greatest singer; born of Ilmatar (air goddess), central figure of the Kalevala"},
+      "aliases": ["Väinö"],
+      "connections": [
+        {"to": "orpheus", "type": "mythological_parallel", "detail": "Both supreme musicians whose singing has cosmic power; both associated with shamanic traditions; both journey to the underworld"}
+      ]
+    },
+    {
+      "id": "tabiti",
+      "name": "Tabiti",
+      "type": "deity",
+      "date": "-800",
+      "dateLabel": "c. 800 BCE (Iron Age Scythia)",
+      "traditions": ["scythian_religion"],
+      "roles": {"scythian_religion": "Supreme goddess of primordial fire and the hearth; most venerated Scythian deity, source of all creation"},
+      "aliases": ["*Tapatī (reconstructed Scythian)"],
+      "connections": [
+        {"to": "hestia", "type": "equivalent", "detail": "Herodotus explicitly equated Tabiti with Hestia; both hearth/fire goddesses holding supreme position despite not being storm/sky deities"}
+      ]
+    },
+    {
+      "id": "demeter_eleusinian",
+      "name": "Demeter (Eleusinian)",
+      "type": "deity",
+      "date": "-1500",
+      "dateLabel": "c. 1500 BCE (Mycenaean origins)",
+      "traditions": ["eleusinian_mysteries", "greek_religion"],
+      "roles": {
+        "eleusinian_mysteries": "Central deity; the mourning mother whose search for Persephone is the mythological foundation of the Mysteries",
+        "greek_religion": "Goddess of grain, harvest, and the seasons"
+      },
+      "aliases": ["Da-ma-te (possible Linear B form)", "Deo"],
+      "connections": [
+        {"to": "isis", "type": "syncretized_with", "detail": "Isis identified with Demeter in Hellenistic period; both mourning mother goddesses who search for lost loved one; both associated with mysteries offering blessed afterlife"},
+        {"to": "persephone", "type": "mythological_parallel", "detail": "Mother-daughter pair at core of Eleusinian Mysteries; their reunion symbolizes death-rebirth cycle"}
+      ]
+    },
+    {
+      "id": "zagreus",
+      "name": "Zagreus",
+      "type": "deity",
+      "date": "-600",
+      "dateLabel": "c. 6th century BCE (Orphic theology)",
+      "traditions": ["orphic_religion"],
+      "roles": {"orphic_religion": "First Dionysus; divine child of Zeus and Persephone, dismembered and devoured by Titans, whose remnant divine spark lives in all humans"},
+      "aliases": ["Dionysus Zagreus", "the First-born Dionysus"],
+      "connections": [
+        {"to": "dionysus", "type": "evolved_from", "detail": "Zagreus is the Orphic 'previous incarnation' of Dionysus; Zeus reconstituted Zagreus' heart into the second Dionysus born of Semele"},
+        {"to": "osiris", "type": "mythological_parallel", "detail": "Both dismembered gods whose death and reconstitution is central to their cult's soteriology; Plutarch explicitly compared Dionysus-Zagreus to Osiris"}
+      ]
+    },
+    {
+      "id": "mithras",
+      "name": "Mithras",
+      "type": "deity",
+      "date": "80",
+      "dateLabel": "c. 80 CE (earliest Roman evidence)",
+      "traditions": ["mithraic_mysteries"],
+      "roles": {"mithraic_mysteries": "Central savior deity; cosmic bull-slayer, rock-born, sun companion, granter of salvation through initiation"},
+      "aliases": ["Deus Sol Invictus Mithras", "Mithras Tauroctonos"],
+      "connections": [
+        {"to": "mithra", "type": "cognate", "detail": "Name derives from Zoroastrian/Indo-Iranian Mithra, deity of contracts and cosmic order; however Roman Mithras mythology is largely distinct from Iranian Mithra"},
+        {"to": "sol_invictus", "type": "syncretized_with", "detail": "Mithras identified with Sol Invictus (Unconquered Sun) from 2nd century CE; shared solar iconography; Mithras and Sol depicted feasting together"}
+      ]
+    },
+    {
+      "id": "isis_hellenistic",
+      "name": "Isis (Hellenistic)",
+      "type": "deity",
+      "date": "-300",
+      "dateLabel": "c. 300 BCE (Ptolemaic period)",
+      "traditions": ["isis_mysteries", "egyptian_religion"],
+      "roles": {
+        "isis_mysteries": "Universal mother goddess; myrionyme (ten thousand names), mistress of sea and magic, savior of souls",
+        "egyptian_religion": "Great goddess of magic, motherhood, and cosmic order"
+      },
+      "aliases": ["Isis Pelagia", "Isis Myrionymos", "Isis-Fortuna", "Isis-Demeter"],
+      "connections": [
+        {"to": "demeter_eleusinian", "type": "syncretized_with", "detail": "Isis extensively identified with Demeter; both mourning mother figures; Isis aretalogies claim identity with Demeter"},
+        {"to": "aphrodite", "type": "syncretized_with", "detail": "Isis identified with Aphrodite in her aspect as goddess of love and beauty"},
+        {"to": "athena", "type": "syncretized_with", "detail": "Isis aretalogies claim she gave laws and writing — functions of Athena/Minerva"}
+      ]
+    },
+    {
+      "id": "plotinus",
+      "name": "Plotinus",
+      "type": "sage",
+      "date": "204",
+      "dateLabel": "204-270 CE",
+      "traditions": ["neoplatonism"],
+      "roles": {"neoplatonism": "Founder of Neoplatonism; philosopher-mystic who taught henosis (union with the One) through intellectual contemplation"},
+      "aliases": [],
+      "connections": [
+        {"to": "plato", "type": "evolved_from", "detail": "Plotinus claimed to be interpreting Plato's philosophy, especially the Republic, Parmenides, and Timaeus; transformed Platonism into mystical system"},
+        {"to": "augustine", "type": "influence", "detail": "Augustine of Hippo deeply influenced by Plotinus' Enneads; Neoplatonic metaphysics became foundation of much Christian theology"}
+      ]
+    },
+    {
+      "id": "iamblichus",
+      "name": "Iamblichus",
+      "type": "sage",
+      "date": "245",
+      "dateLabel": "c. 245-325 CE",
+      "traditions": ["neoplatonism"],
+      "roles": {"neoplatonism": "Systematizer of theurgy; shifted Neoplatonism from pure contemplation to ritual practice; added elaborate hierarchies of divine beings"},
+      "aliases": ["Iamblichus of Chalcis"],
+      "connections": [
+        {"to": "plotinus", "type": "evolved_from", "detail": "Built on Plotinus' metaphysics but fundamentally changed the method — embodied soul needs theurgy (ritual), not just contemplation, to achieve union"},
+        {"to": "hermes_trismegistus", "type": "influence", "detail": "Iamblichus' De Mysteriis discusses Egyptian priestly wisdom attributed to Hermes Trismegistus alongside Neoplatonic theology"}
+      ]
+    },
+    {
+      "id": "isaac_luria",
+      "name": "Isaac Luria (Ha-Ari)",
+      "type": "sage",
+      "date": "1534",
+      "dateLabel": "1534-1572 CE",
+      "traditions": ["kabbalah"],
+      "roles": {"kabbalah": "Father of modern Kabbalah; developed revolutionary doctrines of tzimtzum, shevirat ha-kelim, and tikkun olam in Safed"},
+      "aliases": ["Ha-Ari (The Lion)", "Arizal"],
+      "connections": [
+        {"to": "moses_de_leon", "type": "evolved_from", "detail": "Luria built on Zoharic Kabbalah but radically transformed it with new cosmogonic mythology of divine contraction, vessel-shattering, and cosmic repair"}
+      ]
+    },
+    {
+      "id": "moses_de_leon",
+      "name": "Moses de Leon",
+      "type": "sage",
+      "date": "1240",
+      "dateLabel": "c. 1240-1305 CE",
+      "traditions": ["kabbalah"],
+      "roles": {"kabbalah": "Likely author/compiler of the Zohar, foundational text of Kabbalah; attributed it to 2nd-century Rabbi Shimon bar Yochai"},
+      "aliases": ["Moshe de Leon"],
+      "connections": []
+    },
+    {
+      "id": "al_hakim",
+      "name": "Al-Hakim bi-Amr Allah",
+      "type": "deity",
+      "date": "985",
+      "dateLabel": "985-1021 CE",
+      "traditions": ["druze_faith"],
+      "roles": {"druze_faith": "Fatimid Caliph believed by Druze to be the incarnation of God in human form; will return at end times"},
+      "aliases": ["al-Hakim", "The One"],
+      "connections": []
+    },
+    {
+      "id": "hamza_ibn_ali",
+      "name": "Hamza ibn Ali",
+      "type": "sage",
+      "date": "985",
+      "dateLabel": "c. 985-1021 CE",
+      "traditions": ["druze_faith"],
+      "roles": {"druze_faith": "Founder and primary theologian; proclaimed al-Hakim's divinity in 1017 CE, considered reincarnation of Christ and the Universal Mind (al-Aql)"},
+      "aliases": [],
+      "connections": []
+    },
+    {
+      "id": "melek_taus",
+      "name": "Melek Taus",
+      "type": "deity",
+      "date": "-1000",
+      "dateLabel": "Pre-Islamic (deep antiquity, reformed c. 1150 CE)",
+      "traditions": ["yazidism"],
+      "roles": {"yazidism": "The Peacock Angel; chief of seven divine emanations, leader of archangels, lord of this world, emanation of God himself"},
+      "aliases": ["Tawusi Melek", "The Peacock Angel"],
+      "connections": [
+        {"to": "azazel", "type": "mythological_parallel", "detail": "Outsiders wrongly identified Melek Taus with the Islamic Iblis/Satan due to his refusal to bow to Adam; Yazidis emphatically reject this equation — Melek Taus is not fallen but the greatest angel"}
+      ]
+    },
+    {
+      "id": "sheikh_adi",
+      "name": "Sheikh Adi ibn Musafir",
+      "type": "sage",
+      "date": "1073",
+      "dateLabel": "c. 1073-1162 CE",
+      "traditions": ["yazidism"],
+      "roles": {"yazidism": "Historical founder/reformer of Yazidism; believed to be incarnation of Melek Taus; tomb at Lalish is holiest Yazidi shrine"},
+      "aliases": ["Sheikh Adi"],
+      "connections": []
+    },
+    {
+      "id": "yahya_yuhana",
+      "name": "Yahya Yuhana (John the Baptist)",
+      "type": "sage",
+      "date": "-5",
+      "dateLabel": "c. 5 BCE - 30 CE",
+      "traditions": ["mandaeism", "christianity"],
+      "roles": {
+        "mandaeism": "Greatest and final prophet; Mandaeans consider themselves his original Nasoraean disciples from the Jordan Valley",
+        "christianity": "Prophet and baptizer who prepared the way for Jesus Christ"
+      },
+      "aliases": ["Yahya", "Yuhana Masbana (John the Baptizer)"],
+      "connections": [
+        {"to": "jesus", "type": "mythological_parallel", "detail": "In Christianity, John baptized Jesus and was his precursor; in Mandaeism, John is the supreme prophet while Jesus is considered a false messiah — complete reversal of roles"}
+      ]
+    },
+    {
+      "id": "manda_d_hayyi",
+      "name": "Manda d-Hayyi",
+      "type": "deity",
+      "date": "-100",
+      "dateLabel": "Mythological (primordial)",
+      "traditions": ["mandaeism"],
+      "roles": {"mandaeism": "Knowledge of Life — chief utra (light being), savior figure who descends to the material world to liberate trapped souls and guide them to the World of Light"},
+      "aliases": ["Manda d-Hiia"],
+      "connections": [
+        {"to": "jesus", "type": "mythological_parallel", "detail": "Both descending savior figures; some scholars have compared Manda d-Hayyi to the Gnostic Christ, though Mandaeans reject any identification with Jesus"}
+      ]
+    }
+  ]
+}

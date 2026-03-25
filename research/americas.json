@@ -1,0 +1,777 @@
+{
+  "=== TRADITIONS ===": "Below is the traditions array",
+  "traditions": [
+    {
+      "id": "navajo_religion",
+      "name": "Navajo (Dine) Religion",
+      "originDate": 1400,
+      "originDateLabel": "c. 1400 CE (Athabaskan arrival in Southwest; earlier roots in subarctic traditions dating to c. 1000 CE migration)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Dinetah region, present-day northwestern New Mexico and northeastern Arizona, USA",
+      "region": "North America",
+      "theologicalType": ["animism", "polytheism", "shamanism"],
+      "keyFigures": [
+        {"name": "Changing Woman (Asdzaa Nadleehe)", "role": "Principal deity; associated with fertility, seasons, and the earth; central figure of the Blessingway ceremony"},
+        {"name": "First Man (Altse Hastiin)", "role": "Primordial being who existed in the First World; helped plan the emergence into the present world"},
+        {"name": "First Woman (Altse Asdzaan)", "role": "Primordial being; co-creator with First Man; associated with witchcraft and death"},
+        {"name": "Monster Slayer (Naayee Neizghani)", "role": "Hero Twin; son of Changing Woman and the Sun; slayer of monsters after the Emergence"},
+        {"name": "Born for Water (Tobajishchini)", "role": "Hero Twin; brother of Monster Slayer; associated with water and rain"},
+        {"name": "Talking God (Haashcheeelti)", "role": "Foremost of the Diyin Dinee (Holy People); grandfather figure; leader of ceremonies"},
+        {"name": "Spider Woman (Naaashjeii Asdzaan)", "role": "Wise counselor to the Hero Twins; teacher of weaving"}
+      ],
+      "keyConcepts": [
+        "Hozho (beauty, balance, harmony — the central concept of Navajo philosophy)",
+        "Diyin Dinee (Holy People — supernatural beings who interact with humans)",
+        "Emergence myth (ascent through four underworlds to the present Fifth World)",
+        "Blessingway (Hozhoonji — foundational ceremony for maintaining harmony)",
+        "Enemyway (ceremony for protection against foreign ghosts)",
+        "Nightway (nine-night healing ceremony with Yeibichai dancers)",
+        "Sandpainting (sacred dry paintings used in healing ceremonies, destroyed after use)",
+        "Four Sacred Mountains (boundaries of Dinetah)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Dendrochronology dates early Navajo hogans to late 15th/early 16th century. Athabaskan migration from subarctic Canada occurred c. 1000 CE, reaching the Southwest by c. 1400-1525 CE. Navajo ceremonialism shows both retained Athabaskan elements and Puebloan influences from post-1680 contact."
+    },
+    {
+      "id": "lakota_religion",
+      "name": "Lakota (Sioux) Religion",
+      "originDate": 800,
+      "originDateLabel": "c. 800 CE (Woodland period Siouan culture); Plains adaptation 17th-18th century",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Originally Minnesota/Wisconsin woodlands; later Great Plains, present-day Dakotas, USA",
+      "region": "North America",
+      "theologicalType": ["animism", "polytheism", "shamanism", "pantheism"],
+      "keyFigures": [
+        {"name": "Wakan Tanka", "role": "The Great Mystery/Great Spirit — the supreme sacred power pervading all things; not a single deity but a totality of 16 sacred beings"},
+        {"name": "White Buffalo Calf Woman (Ptesan Wi)", "role": "Sacred woman who brought the chanunpa (sacred pipe) and seven sacred rites to the Lakota people"},
+        {"name": "Inyan", "role": "Primordial stone being; first of the Superior Wakan; created the earth from his own substance"},
+        {"name": "Wi (Sun)", "role": "Chief of the Superior Wakan beings; source of light and warmth"},
+        {"name": "Skan (Sky/Motion)", "role": "Spirit of motion, energy, and the sky; judge of all things"},
+        {"name": "Iktomi", "role": "Trickster spider figure; culture hero and deceiver in Lakota oral tradition"},
+        {"name": "Tate (Wind)", "role": "Father of the Four Winds and the Four Directions"}
+      ],
+      "keyConcepts": [
+        "Wakan Tanka (Great Mystery — the totality of the sacred)",
+        "Seven Sacred Rites (brought by White Buffalo Calf Woman)",
+        "Wiwanyag Wachipi (Sun Dance — annual communal ceremony of sacrifice and renewal)",
+        "Hanbleciya (Vision Quest — solitary fasting for spiritual vision)",
+        "Inipi (Sweat Lodge — purification ceremony)",
+        "Chanunpa (Sacred Pipe — central ritual object connecting earth and sky)",
+        "Mitakuye Oyasin (All My Relations — interconnectedness of all beings)",
+        "Four Directions and Sacred Hoop (medicine wheel cosmology)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Archaeological association with Blackduck-Kathio-Clam River Continuum c. 800 CE. Siouan speakers may have originated in lower Mississippi/Ohio Valley region and participated in Mound Builder civilization (9th-12th c. CE). Seven Sacred Rites tradition attributed to White Buffalo Calf Woman 'nineteen generations ago' per oral tradition."
+    },
+    {
+      "id": "hopi_religion",
+      "name": "Hopi Religion",
+      "originDate": 500,
+      "originDateLabel": "c. 500 CE (continuous Hopi occupation documented archaeologically); kachina tradition from c. 1100-1300 CE",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Black Mesa, northeastern Arizona, USA (Hopitutskwa — Hopi ancestral lands)",
+      "region": "North America",
+      "theologicalType": ["animism", "polytheism", "shamanism"],
+      "keyFigures": [
+        {"name": "Maasawu (Masau'u)", "role": "God of earth, death, fire, and the underworld; guardian of the Fourth World who granted the Hopi stewardship of the land"},
+        {"name": "Tawa", "role": "Sun god and creator deity; supreme spiritual force who directed the creation of life"},
+        {"name": "Spider Grandmother (Kokyangwuti)", "role": "Creator figure who helped bring humanity through the emergence; advisor and guide"},
+        {"name": "Sotuknang", "role": "Nephew/servant of Tawa; executed the creation of the physical world"},
+        {"name": "Eototo", "role": "Chief of all kachinas; spiritual leader who oversees the kachina ceremonies"},
+        {"name": "Kokopelli", "role": "Flute-playing fertility figure; trickster and traveling musician associated with agriculture"}
+      ],
+      "keyConcepts": [
+        "Kachinas (Katsinam — spirit beings who serve as intermediaries between humans and the divine)",
+        "Emergence myth (ascent through three underworlds to the Fourth World)",
+        "Hopi Prophecy tradition (tablets and prophecies regarding the fate of the world)",
+        "Kiva ceremonies (underground ceremonial chambers for sacred rituals)",
+        "Bean Dance (Powamuya) and Niman ceremony (kachina seasonal cycle)",
+        "Clan migration narratives (each clan's unique journey to Hopitutskwa)",
+        "Stewardship of the land (covenant with Maasawu)",
+        "Balance between the spiritual and physical worlds"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Archaeological evidence documents continuous Hopi occupation since c. 500 CE. Old Oraibi settled before 1100 CE, one of the oldest continuously inhabited villages in North America. Kachina cult documented archaeologically from c. 1270 CE, with pottery at Homolovi showing kachina imagery from 1300s-1400s CE. Possible Mesoamerican influence on kachina tradition debated by scholars."
+    },
+    {
+      "id": "inuit_religion",
+      "name": "Inuit Religion",
+      "originDate": -2500,
+      "originDateLabel": "c. 2500 BCE (Arctic Small Tool tradition); Thule culture expansion c. 1000 CE",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Arctic regions: Alaska, northern Canada, Greenland, Chukotka (Russia)",
+      "region": "Arctic/Subarctic",
+      "theologicalType": ["animism", "shamanism"],
+      "keyFigures": [
+        {"name": "Sedna (Nuliajuk/Nerrivik)", "role": "Sea goddess and mistress of marine animals; controls access to seals, walrus, and whales; lives in the undersea realm Adlivun"},
+        {"name": "Sila (Silap Inua)", "role": "Spirit of air, weather, and the atmosphere; cosmic force associated with wisdom and the breath of life"},
+        {"name": "Anguta", "role": "Father of Sedna in some traditions; ferryman of the dead to the underworld"},
+        {"name": "Nanook (Nanuq)", "role": "Spirit master of polar bears; governs the hunt and the relationship between hunters and bears"},
+        {"name": "Tekkeitsertok", "role": "Master of caribou; deity who controls the caribou herds"},
+        {"name": "Malina (Sun Woman)", "role": "Solar deity; sister of Anningan (Moon Man) in the celestial chase myth"}
+      ],
+      "keyConcepts": [
+        "Angakkuq (shaman — mediator between humans and spirit world, healer, diviner)",
+        "Tuurngait (helping spirits or familiars acquired by angakkuq during training)",
+        "Inua (indwelling spirit or soul present in all living and natural things)",
+        "Taboo system (complex rules governing hunting, food preparation, and social behavior to maintain cosmic balance)",
+        "Soul journey (angakkuq's spirit flight to Sedna's undersea realm or the sky world)",
+        "Adlivun (underworld realm of the dead beneath the sea)",
+        "Drum dance and throat singing (ritual performance and spiritual expression)",
+        "Animal ceremonialism (rituals of respect for hunted animals to ensure their return)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Arctic Small Tool tradition (c. 2500 BCE) represents earliest Arctic cultures ancestral to Inuit. Thule culture (c. 1000 CE) spread from Alaska across Arctic Canada to Greenland, carrying shamanic traditions. Archaeological evidence of ritual practices includes miniature carvings, amulets, and drum parts from Dorset and Thule sites. Sedna myth documented across Inuit groups from Alaska to Greenland with remarkable consistency."
+    },
+    {
+      "id": "mapuche_religion",
+      "name": "Mapuche Religion",
+      "originDate": -500,
+      "originDateLabel": "c. 500 BCE (earliest archaeological evidence of Mapuche culture in Chile)",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Central-southern Chile and western Argentina (Araucania and Patagonia)",
+      "region": "South America",
+      "theologicalType": ["animism", "polytheism", "shamanism", "dualism"],
+      "keyFigures": [
+        {"name": "Ngenechen (Ngunechen)", "role": "Supreme creator deity; embodied in four aspects: old man, old woman, young man, young woman"},
+        {"name": "Pillan", "role": "Powerful spirit associated with volcanoes, thunder, and natural forces; ancestor spirits of great chiefs"},
+        {"name": "Wangulen", "role": "Star spirits; ancestral spirits who became stars"},
+        {"name": "Kai Kai Filu", "role": "Serpent of the sea who causes floods; antagonist in the foundational Tren Tren myth"},
+        {"name": "Tren Tren Filu", "role": "Serpent of the earth/hills who saves humanity from the flood by raising the mountains"},
+        {"name": "Machi", "role": "Shaman-healer (predominantly female); mediator between human and spirit worlds, performs healing and divination through trance"}
+      ],
+      "keyConcepts": [
+        "Ngillatun (communal prayer ceremony with offerings and animal sacrifice to Ngenechen)",
+        "Machi (shaman institution — healers, diviners, and spiritual leaders, often women)",
+        "Kultrung (sacred drum used by Machi; cosmological map painted on drumhead)",
+        "Rewe (sacred stepped altar/totem used in Machi ceremonies)",
+        "Wenu Mapu (upper/celestial world in the layered cosmology)",
+        "Mapu (earth/middle world where humans live)",
+        "Tren Tren and Kai Kai (foundational flood myth of the two serpents)",
+        "Dualism of good and evil forces (Ngenechen vs. Wekufe/evil spirits)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Archaeological evidence of Mapuche culture from c. 500 BCE. Descendants of Pitren (100-1100 CE) and El Vergel (1100-1450 CE) cultures. Genetic studies show Mapuche lived in relative isolation for ~4,000 years. Language is a linguistic isolate. Ngillatun ceremony documented by early Spanish chroniclers in 16th century."
+    },
+    {
+      "id": "guarani_religion",
+      "name": "Guarani Religion",
+      "originDate": -500,
+      "originDateLabel": "c. 500 BCE (Tupi-Guarani cultural complex); written documentation from 16th century CE Jesuit contact",
+      "endDate": null,
+      "status": "active_minority",
+      "geographicOrigin": "Tropical forests of Paraguay, southern Brazil, northeastern Argentina, and Bolivia",
+      "region": "South America",
+      "theologicalType": ["animism", "polytheism", "shamanism"],
+      "keyFigures": [
+        {"name": "Namandu (Nande Ru)", "role": "Supreme creator deity who generated light and the cosmos from primordial darkness; 'Our Father'"},
+        {"name": "Tupa", "role": "Spirit of thunder and lightning; elevated to supreme deity status during Jesuit missionization; originally subordinate to Namandu"},
+        {"name": "Arasy", "role": "Moon goddess; feminine counterpart paired with Nanderuvucu in the creation"},
+        {"name": "Rupave", "role": "First man created by Tupa from clay mixed with natural elements"},
+        {"name": "Sypave", "role": "First woman; 'Mother of the People'; created alongside Rupave"},
+        {"name": "Jasy Jatere", "role": "Spirit of the siesta; one of the seven legendary monsters born of Tau and Kerana"}
+      ],
+      "keyConcepts": [
+        "Yvy Marane'y (Land Without Evil — utopian paradise free of death and suffering; goal of prophetic migrations)",
+        "Nee (sacred word/soul — the divine word that animates human beings)",
+        "Prophetic migration (messianic movements seeking the Land Without Evil, documented from 16th century onward)",
+        "Opy (ceremonial house — center of religious and community life)",
+        "Karai (prophet-shamans who lead spiritual movements and migrations)",
+        "Cyclical destruction and renewal of the world",
+        "Seven Legendary Monsters (children of Tau and Kerana)",
+        "Sacred songs and dances (ritual communication with the divine)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": ["umbanda"],
+      "syncreticConnections": ["umbanda"],
+      "evidence": "Tupi-Guarani cultural complex dates to at least 500 BCE based on linguistic reconstruction and ceramic evidence. Jesuit missionaries documented Guarani religion extensively from 1609 onward. Scholar Alfred Metraux demonstrated that Tupa was elevated from minor thunder spirit to supreme deity by missionaries. Prophetic migrations seeking Land Without Evil documented by multiple colonial sources."
+    },
+    {
+      "id": "olmec_religion",
+      "name": "Olmec Religion",
+      "originDate": -1500,
+      "originDateLabel": "c. 1500 BCE (San Lorenzo phase); major center La Venta c. 900-400 BCE",
+      "endDate": -400,
+      "status": "extinct",
+      "geographicOrigin": "Gulf Coast lowlands of southeastern Veracruz and western Tabasco, Mexico",
+      "region": "Mesoamerica",
+      "theologicalType": ["polytheism", "shamanism", "animism"],
+      "keyFigures": [
+        {"name": "Were-Jaguar (Olmec Supernatural)", "role": "Human-jaguar hybrid figure with infant features; possibly the supreme deity or rain god; depicted with snarling mouth and cleft head"},
+        {"name": "Maize God (God II)", "role": "Deity with maize cobs sprouting from cleft head; ancestor of later Mesoamerican maize deities; agricultural fertility"},
+        {"name": "Feathered Serpent (Proto-Quetzalcoatl)", "role": "Earliest representations of the feathered serpent motif that became Quetzalcoatl in later traditions"},
+        {"name": "Rain Spirit / God IV", "role": "Rain and agricultural deity with goggle eyes; precursor to later Tlaloc/Chaac traditions"},
+        {"name": "Dragon/Earth Monster", "role": "Crocodilian earth deity; associated with the earth's surface and agricultural fertility"}
+      ],
+      "keyConcepts": [
+        "Were-jaguar transformation (shamanic human-animal hybrid imagery)",
+        "Colossal stone heads (monumental portraits of rulers with possible divine status)",
+        "Jade and greenstone as sacred material (extensive jade carving for ritual use)",
+        "Mesoamerican ballgame (earliest evidence of ritual ballcourts)",
+        "Axis mundi (world tree/cosmic axis connecting underworld, earth, and sky)",
+        "Shamanic transformation (rulers as shamans mediating between worlds)",
+        "Bloodletting and sacrifice (ritual practices inherited by later cultures)",
+        "Long Count calendar origins (earliest Mesoamerican calendrical traditions)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": ["maya_religion", "aztec_religion"],
+      "syncreticConnections": [],
+      "evidence": "San Lorenzo (c. 1500-900 BCE) and La Venta (c. 900-400 BCE) provide extensive archaeological evidence including colossal heads, jade figurines, votive offerings, and monumental architecture. Tate (2012) challenges were-jaguar interpretation, arguing for embryo-corn kernel iconography. Considered the 'mother culture' of Mesoamerica, though this label is debated. Olmec religious iconography clearly ancestral to Maya and Aztec traditions."
+    },
+    {
+      "id": "mississippian_religion",
+      "name": "Mississippian Religion",
+      "originDate": 800,
+      "originDateLabel": "c. 800 CE (emergence of Mississippian culture); Cahokia peak c. 1050-1200 CE",
+      "endDate": 1650,
+      "status": "extinct",
+      "geographicOrigin": "Mississippi River Valley; center at Cahokia (present-day Collinsville, Illinois, USA)",
+      "region": "North America",
+      "theologicalType": ["polytheism", "animism", "shamanism"],
+      "keyFigures": [
+        {"name": "Morning Star (Birdman/Red Horn)", "role": "Culture hero associated with the falcon warrior; represented on the Birger Figurine and Rogan plates; associated with warfare, renewal, and the pre-dawn star"},
+        {"name": "Earth Mother / Old Woman Who Never Dies", "role": "Fertility and agricultural deity associated with corn, earth, and renewal"},
+        {"name": "Beneath World Serpent", "role": "Underwater/underworld serpent figure; associated with water, chaos, and the underworld"},
+        {"name": "Thunderbird", "role": "Powerful sky being; eternal antagonist of the Underwater Serpent; associated with storms and celestial warfare"},
+        {"name": "Corn Mother", "role": "Agricultural deity central to maize ceremonialism; source of the primary food staple"}
+      ],
+      "keyConcepts": [
+        "Southeastern Ceremonial Complex (SECC — shared iconographic system across Mississippian sites)",
+        "Mound building (monumental earthen platforms for temples and elite residences; Monks Mound at Cahokia is largest pre-Columbian structure north of Mexico)",
+        "Falcon warrior/Birdman cult (Morning Star ideology linking warfare, gaming, and cosmic renewal)",
+        "Chunkey (sacred stone disc game with cosmological significance)",
+        "Three-world cosmology (Upper World/sky, This World/earth, Under World/water)",
+        "Woodhenge (solar calendar made of timber posts at Cahokia)",
+        "Ritual human sacrifice (documented at Mound 72, Cahokia)",
+        "Maize ceremonialism (agriculture as sacred act)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Cahokia (c. 1050-1350 CE) was the largest pre-Columbian settlement north of Mexico with 10,000-20,000 inhabitants. Mound 72 excavations revealed mass burials with sacrificial victims. SECC artifacts (copper plates, shell gorgets, ceramic vessels) found from Oklahoma to Florida, dating 1200-1450 CE. Birdman tablet discovered at Cahokia. Decline by c. 1400 CE at Cahokia, but Mississippian culture persisted at other sites until European contact c. 1540-1650 CE."
+    },
+    {
+      "id": "pacific_nw_religion",
+      "name": "Pacific Northwest Coast Religion (Haida, Tlingit, Tsimshian)",
+      "originDate": -3000,
+      "originDateLabel": "c. 3000 BCE (earliest coastal village sites); mature ceremonial culture by c. 500 BCE",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Pacific Northwest Coast from southeastern Alaska to northern Washington; Haida Gwaii (Queen Charlotte Islands)",
+      "region": "North America",
+      "theologicalType": ["animism", "polytheism", "shamanism"],
+      "keyFigures": [
+        {"name": "Raven (Yeil/Ne-kilst-lass)", "role": "Supreme trickster-creator figure who stole the sun, moon, and stars and released them to light the world; simultaneously generous benefactor and selfish deceiver"},
+        {"name": "Thunderbird", "role": "Powerful sky being who creates thunder with wing beats and lightning from eyes; associated with storms and supernatural power"},
+        {"name": "Dzunukwa (Wild Woman of the Woods)", "role": "Giant forest-dwelling being; both fearsome child-stealer and source of great wealth; central figure in ceremonial masks"},
+        {"name": "Gunakadeit", "role": "Tlingit sea monster/wealth-bringer; associated with good fortune for those who sight it"},
+        {"name": "Bakwas (Wild Man)", "role": "Ghost figure of the drowned; lures people to the land of the dead"},
+        {"name": "Salmon People", "role": "Nation of beings who live in undersea villages and transform into salmon to feed humans, returning to life when bones are returned to the water"}
+      ],
+      "keyConcepts": [
+        "Potlatch (ceremonial feast validating social rank through gift-giving, feasting, and public witnessing of rights and privileges)",
+        "Totem poles (monumental carved cedar poles recording clan lineage, mythic narratives, and hereditary crests)",
+        "Clan and moiety system (Raven/Eagle dual division organizing all social and spiritual life)",
+        "Shamanic healing (shaman's soul retrieval and spirit communication using masks and rattles)",
+        "Transformation (fluid boundaries between human, animal, and spirit forms in mythology)",
+        "Formline art (distinctive visual language encoding spiritual narratives in carved and painted art)",
+        "First Salmon ceremony (ritual honoring the first salmon catch to ensure continued abundance)",
+        "Mortuary potlatch and memorial poles (honoring the dead and transferring clan prerogatives)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": [],
+      "evidence": "Coastal village sites dating to c. 3000 BCE. Totem pole carving tradition originated with Haida and spread to Tlingit and Tsimshian. Potlatch was banned by Canadian Indian Act (1884-1951) and US authorities; revived after legal restoration. Archaeological evidence of elaborate mortuary practices, trade networks, and social stratification from 500 BCE onward. Extensive ethnographic documentation by Franz Boas and others from 1880s."
+    },
+    {
+      "id": "taino_religion",
+      "name": "Taino Religion",
+      "originDate": -400,
+      "originDateLabel": "c. 400 BCE (Arawakan migration into Caribbean from Orinoco Valley); mature Taino culture by c. 1200 CE",
+      "endDate": 1550,
+      "status": "extinct",
+      "geographicOrigin": "Greater Antilles (Hispaniola, Cuba, Jamaica, Puerto Rico) and The Bahamas",
+      "region": "Caribbean",
+      "theologicalType": ["animism", "polytheism", "shamanism"],
+      "keyFigures": [
+        {"name": "Yucahu Bagua Marocoti", "role": "Supreme zemi; spirit of cassava (yuca) and the sea; 'White Yuca, great and powerful as the sea and mountains'; associated with male fertility and agriculture"},
+        {"name": "Atabey (Attabeira)", "role": "Mother of Yucahu; zemi of the moon, fresh waters, and female fertility; supreme feminine deity"},
+        {"name": "Guabancex", "role": "Zemi of hurricanes and destruction; depicted with swirling arms representing wind and rain"},
+        {"name": "Juracán", "role": "Spirit of storms; servant of Guabancex; origin of the English word 'hurricane'"},
+        {"name": "Bayamanaco", "role": "Fire deity; old man figure who controlled fire and the secrets of making cassava bread"},
+        {"name": "Deminán Caracaracol", "role": "Culture hero; one of four twins who stole fire and cassava from Bayamanaco; trickster figure"}
+      ],
+      "keyConcepts": [
+        "Zemi (spirits/ancestors — both the supernatural beings and their physical representations in carved stone, wood, bone, and shell)",
+        "Cohoba ceremony (ritual inhalation of hallucinogenic snuff to communicate with zemis; preceded by fasting and purification)",
+        "Batey (ritual ballgame with cosmological significance played on rectangular courts)",
+        "Behique/Bohike (priest-healers who administered religious rites and communicated with zemis)",
+        "Cacique (chief with both political and religious authority; intermediary between people and zemis)",
+        "Areito (ceremonial dances and songs preserving oral history and honoring zemis)",
+        "Three-zone cosmology (sky world, earth/sea, and cave of origin — Cacibajagua)",
+        "Cave of origin myth (humanity emerged from caves of Cacibajagua on Hispaniola)"
+      ],
+      "parentTraditions": [],
+      "childTraditions": [],
+      "syncreticConnections": ["vodou"],
+      "evidence": "Arawakan-speaking Saladoid peoples migrated into Caribbean from Orinoco Delta c. 400 BCE, reaching Hispaniola by c. 250 BCE. Mature Taino culture flourished c. 1200-1500 CE. Columbus encountered Taino in 1492. Extensive Spanish documentation (Ramon Pane's 1498 'Account of the Antiquities of the Indians' is the first European ethnography of the Americas). Zemi artifacts recovered from archaeological sites across the Greater Antilles. Population devastated by disease, enslavement, and violence; largely collapsed by 1550 CE."
+    },
+    {
+      "id": "umbanda",
+      "name": "Umbanda",
+      "originDate": 1908,
+      "originDateLabel": "1908 CE (traditional founding date); formally organized 1920s-1930s in Rio de Janeiro",
+      "endDate": null,
+      "status": "active",
+      "geographicOrigin": "Niteroi and Rio de Janeiro, Brazil",
+      "region": "South America",
+      "theologicalType": ["polytheism", "animism", "shamanism", "monotheism"],
+      "keyFigures": [
+        {"name": "Zelio Fernandino de Moraes", "role": "Founder of the first Umbanda center (1908/1920s); medium through whom Caboclo das Sete Encruzilhadas manifested"},
+        {"name": "Caboclo das Sete Encruzilhadas", "role": "Indigenous spirit guide who manifested through Zelio; 'Caboclo of the Seven Crossroads'; defended inclusion of African and indigenous spirits"},
+        {"name": "Oxala", "role": "Supreme orixa; syncreted with Jesus Christ; associated with creation, peace, and white"},
+        {"name": "Iemanja", "role": "Orixa of the sea and motherhood; syncreted with Our Lady; protector of fishermen and children"},
+        {"name": "Ogum", "role": "Orixa of war, iron, and justice; syncreted with Saint George; warrior protector"},
+        {"name": "Preto Velho", "role": "Spirit category: wise old African slave spirits who offer counsel, healing, and patience"},
+        {"name": "Caboclo", "role": "Spirit category: indigenous Brazilian spirits associated with forests, strength, and nature"}
+      ],
+      "keyConcepts": [
+        "Orixas (Yoruba-derived divine beings syncreted with Catholic saints)",
+        "Mediumship (incorporation — spirits manifest through trained mediums during ceremonies)",
+        "Spiritual evolution (Kardecist concept of moral and spiritual progress through reincarnation)",
+        "Lines and Phalanges (hierarchical organization of spirit entities)",
+        "Gira (ritual session involving drumming, singing pontos, and spirit incorporation)",
+        "Pontos cantados and pontos riscados (sacred songs and drawn symbols used to invoke spirits)",
+        "Charity and spiritual healing (core ethical principle — Umbanda emphasizes service to others)",
+        "Syncretism (deliberate fusion of Yoruba orixas, Catholic saints, Kardecist spiritism, and indigenous Tupi-Guarani spirit concepts)"
+      ],
+      "parentTraditions": ["candomble", "guarani_religion"],
+      "childTraditions": [],
+      "syncreticConnections": ["candomble", "santeria", "vodou"],
+      "evidence": "Traditional founding date of November 15, 1908 (Zelio de Moraes). First formal center established in Niteroi 1920s, moving to Rio de Janeiro 1938. First Umbanda Congress held in 1941 in Rio de Janeiro. Scholarship suggests multiple independent origins combining Spiritist and Afro-Brazilian practices in early 20th century. Estimated 400,000-1 million practitioners in Brazil today. UNESCO recognized Umbanda's cultural significance."
+    }
+  ],
+
+  "=== CONNECTIONS ===": "Below is the connections array",
+  "connections": [
+    {
+      "id": "conn_olmec_maya",
+      "from": "olmec_religion",
+      "to": "maya_religion",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "cultural_continuity",
+      "date": -400,
+      "evidence": "Olmec religious iconography (feathered serpent, maize god, rain deity, cosmic tree, ballgame) directly ancestral to Classic Maya religion. Shared Long Count calendar tradition. La Venta Olmec site overlaps geographically with early Maya zones."
+    },
+    {
+      "id": "conn_olmec_aztec",
+      "from": "olmec_religion",
+      "to": "aztec_religion",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "cultural_continuity",
+      "date": -400,
+      "evidence": "Olmec feathered serpent became Quetzalcoatl; Olmec rain deity became Tlaloc; Olmec maize god became Centeotl. Transmission through intermediary Mesoamerican cultures (Teotihuacan, Toltec). Shared cosmological framework of multiple world ages."
+    },
+    {
+      "id": "conn_maya_aztec",
+      "from": "maya_religion",
+      "to": "aztec_religion",
+      "type": "cultural_exchange",
+      "strength": "strong",
+      "mechanism": "trade",
+      "date": 1200,
+      "evidence": "Shared Mesoamerican religious complex: feathered serpent (Kukulkan/Quetzalcoatl), rain deities (Chaac/Tlaloc), ballgame, calendrical system, human sacrifice, multi-layered cosmology. Parallel rather than linear influence in late period."
+    },
+    {
+      "id": "conn_olmec_hopi_spec",
+      "from": "olmec_religion",
+      "to": "hopi_religion",
+      "type": "influence",
+      "strength": "speculative",
+      "mechanism": "trade",
+      "date": 500,
+      "evidence": "Some scholars propose Mesoamerican origins for Hopi kachina cult based on iconographic parallels. Macaw feathers and copper bells from Mesoamerica found at Pueblo sites. However, many ethnologists argue the kachina tradition arose organically in the Southwest. Debated."
+    },
+    {
+      "id": "conn_hopi_navajo",
+      "from": "hopi_religion",
+      "to": "navajo_religion",
+      "type": "cultural_exchange",
+      "strength": "strong",
+      "mechanism": "proximity_and_intermarriage",
+      "date": 1500,
+      "evidence": "Navajo adopted significant Puebloan religious elements after arrival in the Southwest (c. 1400-1500 CE). After the Pueblo Revolt of 1680, Pueblo refugees lived among Navajo, accelerating cultural exchange. Navajo sandpainting, kachina-like Yeibichai figures, and agricultural ceremonies show strong Puebloan influence."
+    },
+    {
+      "id": "conn_mississippian_lakota",
+      "from": "mississippian_religion",
+      "to": "lakota_religion",
+      "type": "shared_substrate",
+      "strength": "moderate",
+      "mechanism": "cultural_continuity",
+      "date": 1000,
+      "evidence": "Siouan speakers may have participated in Mound Builder civilization (9th-12th c. CE). Shared cosmological elements: three-world cosmology (sky, earth, water), Thunderbird vs. Underwater Serpent opposition, Morning Star significance, chunkey game. Lakota may carry vestigial Mississippian religious elements."
+    },
+    {
+      "id": "conn_taino_vodou",
+      "from": "taino_religion",
+      "to": "vodou",
+      "type": "shared_substrate",
+      "strength": "moderate",
+      "mechanism": "colonialism",
+      "date": 1600,
+      "evidence": "Haitian Vodou developed on Hispaniola where Taino religion had been practiced. Some scholars identify possible Taino substrate influences in Vodou, including zemi concepts paralleling lwa and shared Caribbean landscape spirits. However, primary Vodou sources are West African (Fon/Ewe/Yoruba) traditions."
+    },
+    {
+      "id": "conn_candomble_umbanda",
+      "from": "candomble",
+      "to": "umbanda",
+      "type": "parent_child",
+      "strength": "strong",
+      "mechanism": "syncretic_evolution",
+      "date": 1908,
+      "evidence": "Umbanda directly incorporates Candomble's orixa system (Oxala, Iemanja, Ogum, etc.) and much of its ritual vocabulary. However, Umbanda simplifies and universalizes Candomble elements, adding Kardecist spiritism and indigenous spirit categories (Caboclos, Pretos Velhos)."
+    },
+    {
+      "id": "conn_guarani_umbanda",
+      "from": "guarani_religion",
+      "to": "umbanda",
+      "type": "influence",
+      "strength": "moderate",
+      "mechanism": "cultural_substrate",
+      "date": 1908,
+      "evidence": "Umbanda's Caboclo spirit category draws on romanticized indigenous (particularly Tupi-Guarani) spiritual concepts. Forest spirits, indigenous nature reverence, and healing practices inform Umbanda's indigenous strand. Caboclo das Sete Encruzilhadas, the founding spirit, self-identified as indigenous."
+    },
+    {
+      "id": "conn_santeria_umbanda",
+      "from": "santeria",
+      "to": "umbanda",
+      "type": "cultural_exchange",
+      "strength": "moderate",
+      "mechanism": "shared_african_roots",
+      "date": 1920,
+      "evidence": "Both Santeria and Umbanda derive orixa/orisha systems from Yoruba tradition and practice Catholic syncretism. Shared Yoruba theological substrate though independently developed in Cuba vs. Brazil. Cross-pollination increased with modern media and travel."
+    },
+    {
+      "id": "conn_vodou_umbanda",
+      "from": "vodou",
+      "to": "umbanda",
+      "type": "cultural_exchange",
+      "strength": "moderate",
+      "mechanism": "shared_african_roots",
+      "date": 1920,
+      "evidence": "Both are African-diaspora syncretic religions with spirit possession/incorporation as central practice. Shared West African religious substrate (Fon/Ewe lwa parallel Yoruba orixas). Different colonial contexts (French Haiti vs. Portuguese Brazil) produced distinct but structurally parallel systems."
+    },
+    {
+      "id": "conn_lakota_inuit_distant",
+      "from": "lakota_religion",
+      "to": "inuit_religion",
+      "type": "shared_substrate",
+      "strength": "speculative",
+      "mechanism": "deep_ancestry",
+      "date": -5000,
+      "evidence": "Both traditions share broad shamanic and animistic frameworks common to many indigenous North American religions: vision quests, animal spirit relationships, cosmic dualism. These likely reflect deep shared ancestry rather than direct contact. Trickster figures (Iktomi/various Inuit tricksters) show structural parallels."
+    },
+    {
+      "id": "conn_inca_mapuche",
+      "from": "inca_religion",
+      "to": "mapuche_religion",
+      "type": "cultural_exchange",
+      "strength": "moderate",
+      "mechanism": "trade_and_conflict",
+      "date": 1400,
+      "evidence": "Inca Empire expanded to edge of Mapuche territory in the 15th century. Limited Inca influence on northern Mapuche groups. Mapuche successfully resisted Inca conquest, limiting religious exchange. Some scholars note solar/agricultural ceremonial parallels but direct borrowing is debated."
+    },
+    {
+      "id": "conn_mississippian_pnw_distant",
+      "from": "mississippian_religion",
+      "to": "pacific_nw_religion",
+      "type": "shared_substrate",
+      "strength": "speculative",
+      "mechanism": "deep_ancestry",
+      "date": -3000,
+      "evidence": "Both traditions share Thunderbird mythology, elaborate mortuary practices, and complex ranked societies. Likely reflects deep shared Native American cosmological substrate rather than direct contact. Both developed sophisticated art traditions encoding spiritual narratives."
+    }
+  ],
+
+  "=== FIGURES ===": "Below is the shared/cross-tradition figures array",
+  "figures": [
+    {
+      "id": "quetzalcoatl_feathered_serpent",
+      "name": "Feathered Serpent / Quetzalcoatl",
+      "type": "deity",
+      "date": "-1500",
+      "dateLabel": "c. 1500 BCE (Olmec origins) through 1521 CE (Spanish conquest)",
+      "traditions": ["olmec_religion", "maya_religion", "aztec_religion"],
+      "roles": {
+        "olmec_religion": "Proto-feathered serpent; earliest representations of the plumed serpent motif in Mesoamerican iconography",
+        "maya_religion": "Kukulkan/Q'uq'umatz — feathered serpent deity of wind, sky, and creation; patron of Chichen Itza",
+        "aztec_religion": "Quetzalcoatl — god of wind, learning, creation, and the morning star; culture hero and priest-king"
+      },
+      "aliases": ["Feathered Serpent (Olmec)", "Kukulkan (Maya)", "Q'uq'umatz (K'iche Maya)", "Quetzalcoatl (Aztec)", "Ehecatl (Aztec wind aspect)"],
+      "connections": [
+        {"to": "tlaloc_rain_god", "type": "mythological_parallel", "detail": "Both Quetzalcoatl and Tlaloc trace to Olmec prototypes and are pan-Mesoamerican deities found across cultures"}
+      ]
+    },
+    {
+      "id": "tlaloc_rain_god",
+      "name": "Mesoamerican Rain Deity",
+      "type": "deity",
+      "date": "-1500",
+      "dateLabel": "c. 1500 BCE (Olmec God IV) through 1521 CE",
+      "traditions": ["olmec_religion", "maya_religion", "aztec_religion"],
+      "roles": {
+        "olmec_religion": "God IV — rain spirit with goggle eyes; earliest Mesoamerican rain deity",
+        "maya_religion": "Chaac — rain god with long nose and axes who strikes clouds to produce rain and lightning",
+        "aztec_religion": "Tlaloc — rain god dwelling atop mountains; one of the two deities honored at the Templo Mayor in Tenochtitlan"
+      },
+      "aliases": ["God IV (Olmec)", "Chaac (Maya)", "Tlaloc (Aztec)", "Cocijo (Zapotec)"],
+      "connections": [
+        {"to": "quetzalcoatl_feathered_serpent", "type": "mythological_parallel", "detail": "Both derive from Olmec prototypes and share pan-Mesoamerican distribution; both honored at Aztec Templo Mayor"}
+      ]
+    },
+    {
+      "id": "maize_deity",
+      "name": "Mesoamerican Maize God",
+      "type": "deity",
+      "date": "-1500",
+      "dateLabel": "c. 1500 BCE (Olmec God II) onward",
+      "traditions": ["olmec_religion", "maya_religion", "aztec_religion"],
+      "roles": {
+        "olmec_religion": "God II — maize deity with corn sprouting from cleft head; central agricultural deity",
+        "maya_religion": "Hun Hunahpu / Yum Kaax — Maize God who dies, descends to Xibalba, and is reborn, mirroring the agricultural cycle",
+        "aztec_religion": "Centeotl/Chicomecoatl — maize deity pair governing the corn harvest and agricultural fertility"
+      },
+      "aliases": ["God II (Olmec)", "Hun Hunahpu (Maya)", "Yum Kaax (Maya)", "Centeotl (Aztec)", "Chicomecoatl (Aztec)"],
+      "connections": [
+        {"to": "quetzalcoatl_feathered_serpent", "type": "mythological_parallel", "detail": "In Aztec mythology, Quetzalcoatl brought maize to humanity; the maize god and feathered serpent are intertwined in Mesoamerican cosmology"},
+        {"to": "corn_mother_mississippian", "type": "mythological_parallel", "detail": "Both represent maize as a sacred, divine gift; structural parallel between Mesoamerican and Mississippian corn ceremonialism"}
+      ]
+    },
+    {
+      "id": "thunderbird_north_america",
+      "name": "Thunderbird",
+      "type": "deity",
+      "date": "-3000",
+      "dateLabel": "Deep antiquity; documented in Mississippian art c. 1000 CE and Pacific NW traditions",
+      "traditions": ["mississippian_religion", "pacific_nw_religion", "lakota_religion"],
+      "roles": {
+        "mississippian_religion": "Upper World power; creates thunder and lightning; eternal opponent of the Underwater Serpent; associated with the falcon warrior/Birdman figure",
+        "pacific_nw_religion": "Enormous supernatural bird that creates thunder with its wingbeats and lightning from its eyes; powerful sky being in Haida and Tlingit tradition",
+        "lakota_religion": "Wakinyan — Thunder Being(s); one of the most powerful Wakan; associated with storms, purification, and the sacred heyoka (contrary) tradition"
+      },
+      "aliases": ["Birdman/Falcon Warrior (Mississippian)", "Thunderbird (Pacific NW)", "Wakinyan (Lakota)"],
+      "connections": [
+        {"to": "morning_star_birdman", "type": "syncretized_with", "detail": "In Mississippian religion, the Thunderbird/falcon warrior and Morning Star (Birdman) iconography overlap significantly; the falcon is the primary avian form of the sky-world power"}
+      ]
+    },
+    {
+      "id": "morning_star_birdman",
+      "name": "Morning Star / Birdman",
+      "type": "deity",
+      "date": "1050",
+      "dateLabel": "c. 1050 CE (Cahokia peak period)",
+      "traditions": ["mississippian_religion"],
+      "roles": {
+        "mississippian_religion": "Central deity figure of the Mississippian falcon warrior cult; associated with the pre-dawn Venus, warfare, high-stakes gaming (chunkey), and dynastic succession; depicted on the Birdman tablet at Cahokia"
+      },
+      "aliases": ["Birdman (Cahokia)", "Red Horn (Siouan)", "He Who Wears Human Heads as Earrings"],
+      "connections": [
+        {"to": "thunderbird_north_america", "type": "syncretized_with", "detail": "Falcon/Birdman imagery shares attributes with broader Thunderbird tradition; both represent sky-world power in opposition to underworld forces"},
+        {"to": "quetzalcoatl_feathered_serpent", "type": "mythological_parallel", "detail": "Both are associated with the Morning Star (Venus) and represent sky/celestial power. Structural parallel between Mesoamerican and Mississippian Morning Star cults, though direct transmission is debated"}
+      ]
+    },
+    {
+      "id": "raven_trickster",
+      "name": "Raven",
+      "type": "deity",
+      "date": "-3000",
+      "dateLabel": "Deep antiquity; central to Pacific NW oral traditions",
+      "traditions": ["pacific_nw_religion"],
+      "roles": {
+        "pacific_nw_religion": "Supreme trickster-creator who stole the sun, moon, and stars from a chief who kept them hidden, releasing light into the world; simultaneously a greedy deceiver and humanity's greatest benefactor"
+      },
+      "aliases": ["Yeil (Tlingit)", "Ne-kilst-lass/Nang Kilsdlaas (Haida)", "Txamsm (Tsimshian)", "Raven", "Big Raven"],
+      "connections": [
+        {"to": "iktomi_trickster", "type": "mythological_parallel", "detail": "Both are trickster figures central to their respective traditions; both combine creative/beneficial acts with selfish/destructive behavior, serving as cultural mediators"},
+        {"to": "sedna_sea_goddess", "type": "mythological_parallel", "detail": "Raven as transformative creator and Sedna as ruler of sea animals both represent foundational relationships between humans and the natural world in indigenous North American cosmology"}
+      ]
+    },
+    {
+      "id": "iktomi_trickster",
+      "name": "Iktomi (Spider Trickster)",
+      "type": "deity",
+      "date": "800",
+      "dateLabel": "Siouan oral tradition; deep antiquity",
+      "traditions": ["lakota_religion"],
+      "roles": {
+        "lakota_religion": "Trickster spider figure; culture hero who brought language to humanity but also deceives and creates chaos; demonstrates the consequences of foolishness and arrogance"
+      },
+      "aliases": ["Iktomi (Lakota)", "Unktomi (Dakota)", "Spider Man"],
+      "connections": [
+        {"to": "raven_trickster", "type": "mythological_parallel", "detail": "Both are trickster figures in indigenous North American traditions; share structural role of boundary-crosser and teacher-through-folly"}
+      ]
+    },
+    {
+      "id": "sedna_sea_goddess",
+      "name": "Sedna",
+      "type": "deity",
+      "date": "-2500",
+      "dateLabel": "Deep antiquity; ancestral to Arctic traditions",
+      "traditions": ["inuit_religion"],
+      "roles": {
+        "inuit_religion": "Sea goddess and mistress of all marine animals; a young woman cast into the ocean whose severed fingers became seals, walruses, and whales; rules the undersea realm Adlivun; angry when taboos are broken, requiring angakkuq to travel to her realm and comb her tangled hair"
+      },
+      "aliases": ["Sedna", "Nuliajuk", "Nerrivik", "Arnapkapfaaluk", "Arnakuagsak", "Taluliyuk", "Taleelayuk"],
+      "connections": [
+        {"to": "atabey_taino", "type": "mythological_parallel", "detail": "Both are feminine water/sea deities who control marine resources and fertility; structural parallel between Arctic and Caribbean sea goddess traditions"},
+        {"to": "raven_trickster", "type": "mythological_parallel", "detail": "Both represent foundational human-nature relationships in indigenous cosmology; Sedna governs the sea as Raven governs the sky"}
+      ]
+    },
+    {
+      "id": "changing_woman_navajo",
+      "name": "Changing Woman (Asdzaa Nadleehe)",
+      "type": "deity",
+      "date": "1400",
+      "dateLabel": "Navajo tradition; post-migration to Southwest",
+      "traditions": ["navajo_religion"],
+      "roles": {
+        "navajo_religion": "Principal Holy Person; embodies the earth and its seasons; central figure of the Blessingway ceremony; mother of the Hero Twins (Monster Slayer and Born for Water); associated with fertility, renewal, and the Kinaalda puberty ceremony"
+      },
+      "aliases": ["Changing Woman", "Asdzaa Nadleehe", "White Shell Woman (sometimes identified as her twin or aspect)"],
+      "connections": [
+        {"to": "spider_grandmother_hopi", "type": "mythological_parallel", "detail": "Both are powerful female creator/nurturer figures in Southwestern indigenous traditions; Changing Woman and Spider Grandmother both guide humanity. Navajo Spider Woman (Na'ashjéii Asdzáá) parallels Hopi Spider Grandmother."},
+        {"to": "white_buffalo_calf_woman", "type": "mythological_parallel", "detail": "Both are sacred feminine figures who bring essential ceremonies to their respective peoples; Changing Woman brought Blessingway, White Buffalo Calf Woman brought the Sacred Pipe and Seven Rites"}
+      ]
+    },
+    {
+      "id": "white_buffalo_calf_woman",
+      "name": "White Buffalo Calf Woman (Ptesan Wi)",
+      "type": "deity",
+      "date": "1400",
+      "dateLabel": "Traditional dating: 'nineteen generations ago' per Lakota oral tradition",
+      "traditions": ["lakota_religion"],
+      "roles": {
+        "lakota_religion": "Sacred woman who appeared to two Lakota scouts and brought the chanunpa (sacred pipe) and the seven sacred rites; taught the people to pray and live in balance; transformed into a white buffalo calf upon departing"
+      },
+      "aliases": ["White Buffalo Calf Woman", "Ptesan Wi", "Ptehincala Ska Win"],
+      "connections": [
+        {"to": "changing_woman_navajo", "type": "mythological_parallel", "detail": "Both are sacred feminine figures who deliver foundational ceremonies and spiritual teachings to their peoples; both embody the ideal relationship between the divine feminine and human community"}
+      ]
+    },
+    {
+      "id": "spider_grandmother_hopi",
+      "name": "Spider Grandmother (Kokyangwuti)",
+      "type": "deity",
+      "date": "500",
+      "dateLabel": "Hopi oral tradition; deep antiquity",
+      "traditions": ["hopi_religion", "navajo_religion"],
+      "roles": {
+        "hopi_religion": "Spider Grandmother (Kokyangwuti) — creator figure who helped bring humanity through the Emergence from the underworlds; wise advisor and guide",
+        "navajo_religion": "Spider Woman (Na'ashjéii Asdzáá) — wise counselor who advised the Hero Twins on how to reach their father the Sun; taught the Navajo the art of weaving"
+      },
+      "aliases": ["Kokyangwuti (Hopi)", "Spider Grandmother (Hopi)", "Na'ashjéii Asdzáá (Navajo)", "Spider Woman (Navajo)"],
+      "connections": [
+        {"to": "changing_woman_navajo", "type": "mythological_parallel", "detail": "Both are powerful feminine spiritual figures in Southwestern traditions; Spider Woman serves as advisor while Changing Woman is the principal deity"},
+        {"to": "atabey_taino", "type": "mythological_parallel", "detail": "Both are feminine creator/nurturer figures associated with fertility and the origins of humanity in their respective traditions"}
+      ]
+    },
+    {
+      "id": "atabey_taino",
+      "name": "Atabey",
+      "type": "deity",
+      "date": "-400",
+      "dateLabel": "Taino tradition; c. 400 BCE onward",
+      "traditions": ["taino_religion"],
+      "roles": {
+        "taino_religion": "Supreme feminine deity; mother of Yucahu; zemi of the moon, fresh waters, and fertility; first goddess of the Taino pantheon"
+      },
+      "aliases": ["Atabey", "Attabeira", "Atabex", "Guimazoa", "Iella"],
+      "connections": [
+        {"to": "sedna_sea_goddess", "type": "mythological_parallel", "detail": "Both are feminine water deities controlling marine/aquatic resources; represent the sacred feminine in their respective cosmologies"},
+        {"to": "spider_grandmother_hopi", "type": "mythological_parallel", "detail": "Both are supreme feminine creator/mother figures in indigenous American traditions"}
+      ]
+    },
+    {
+      "id": "corn_mother_mississippian",
+      "name": "Corn Mother",
+      "type": "deity",
+      "date": "800",
+      "dateLabel": "Mississippian period c. 800 CE; likely much older agricultural tradition",
+      "traditions": ["mississippian_religion", "hopi_religion"],
+      "roles": {
+        "mississippian_religion": "Earth Mother/Corn Mother — agricultural deity central to maize ceremonialism; associated with fertility, the earth, and sustenance",
+        "hopi_religion": "Corn Mother — corn ears accompany Hopi from birth; each clan has a Corn Mother; maize is the physical and spiritual center of Hopi life"
+      },
+      "aliases": ["Corn Mother", "Earth Mother", "Old Woman Who Never Dies (Mandan/related Siouan)"],
+      "connections": [
+        {"to": "maize_deity", "type": "mythological_parallel", "detail": "North American Corn Mother traditions parallel Mesoamerican Maize God, reflecting the continent-wide sacred status of corn/maize as a divine gift. Both represent maize as a living, sacred being rather than mere crop."},
+        {"to": "changing_woman_navajo", "type": "mythological_parallel", "detail": "Both are earth/fertility figures associated with agricultural abundance and the renewal of life; Changing Woman's association with corn pollen connects her to the broader Corn Mother complex"}
+      ]
+    },
+    {
+      "id": "tupa_guarani",
+      "name": "Tupa",
+      "type": "deity",
+      "date": "-500",
+      "dateLabel": "Pre-contact Tupi-Guarani tradition; elevated by Jesuits 17th c. CE",
+      "traditions": ["guarani_religion", "umbanda"],
+      "roles": {
+        "guarani_religion": "Originally a spirit of thunder and lightning; elevated to supreme creator deity status by Jesuit missionaries (17th c.); created humanity from clay. In uncontacted Guarani groups, subordinate to Namandu",
+        "umbanda": "Referenced as part of indigenous spiritual heritage; Tupi-Guarani thunder/sky spirit contributing to Umbanda's indigenous spiritual strand"
+      },
+      "aliases": ["Tupa", "Tupan", "Tupã"],
+      "connections": [
+        {"to": "ngenechen_mapuche", "type": "mythological_parallel", "detail": "Both are supreme deities of South American indigenous traditions; both affected by Christian colonial reinterpretation. Guarani Tupa and Mapuche Ngenechen were both equated with the Christian God by missionaries."}
+      ]
+    },
+    {
+      "id": "ngenechen_mapuche",
+      "name": "Ngenechen",
+      "type": "deity",
+      "date": "-500",
+      "dateLabel": "Mapuche tradition; deep antiquity",
+      "traditions": ["mapuche_religion"],
+      "roles": {
+        "mapuche_religion": "Supreme creator deity embodied in four aspects (old man, old woman, young man, young woman); governs the cosmos and receives prayers during the Ngillatun ceremony"
+      },
+      "aliases": ["Ngenechen", "Ngunechen", "Ngenechén", "Chau Dios (syncretized name)"],
+      "connections": [
+        {"to": "tupa_guarani", "type": "mythological_parallel", "detail": "Both are supreme deities of major South American indigenous traditions; both were equated with the Christian God during colonial missionization; both preside over agricultural and communal ceremonies"},
+        {"to": "wakan_tanka_lakota", "type": "mythological_parallel", "detail": "Both represent the supreme sacred reality in their traditions; Ngenechen's four aspects and Wakan Tanka's sixteen aspects both express the divine as a complex unity rather than a single personage"}
+      ]
+    },
+    {
+      "id": "wakan_tanka_lakota",
+      "name": "Wakan Tanka",
+      "type": "deity",
+      "date": "800",
+      "dateLabel": "Siouan tradition; deep antiquity",
+      "traditions": ["lakota_religion"],
+      "roles": {
+        "lakota_religion": "The Great Mystery — the supreme sacred totality comprising sixteen Wakan beings organized in four groups of four; not a single god but the interconnected whole of the sacred; the life-giving force sustaining all being"
+      },
+      "aliases": ["Wakan Tanka", "Wakhan Thanka", "Great Spirit", "Great Mystery"],
+      "connections": [
+        {"to": "ngenechen_mapuche", "type": "mythological_parallel", "detail": "Both express the supreme divine as a complex unity of multiple aspects rather than a single personage; Wakan Tanka's 16 aspects and Ngenechen's 4 aspects both represent multifaceted divinity"}
+      ]
+    }
+  ]
+}
