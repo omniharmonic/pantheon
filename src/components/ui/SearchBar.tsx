@@ -18,7 +18,7 @@ export default function SearchBar() {
         placeholder="Search traditions, figures…"
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
-        className="w-44 sm:w-64 md:w-72 panel-glass-lighter rounded-2xl pl-10 pr-10 py-2.5 text-[13px] text-white/80 placeholder-white/25 focus:outline-none focus:border-white/15 focus:ring-1 focus:ring-white/[0.08] transition-all"
+        className="w-44 sm:w-64 md:w-72 panel-glass-lighter rounded-2xl pl-11 pr-10 py-2.5 text-[13px] text-white/80 placeholder-white/25 focus:outline-none focus:border-white/15 focus:ring-1 focus:ring-white/[0.08] transition-all"
       />
       {searchQuery && (
         <button

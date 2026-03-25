@@ -26,7 +26,7 @@ export default function FilterControls() {
   const filteredTypes = theologyTypes.filter((t) => majorTypes.includes(t));
 
   return (
-    <div className="fixed inset-x-3 top-[88px] sm:inset-x-auto sm:left-4 sm:top-20 sm:w-72 panel-glass rounded-xl p-4 sm:p-5 z-40 max-h-[60vh] overflow-y-auto">
+    <div className="fixed inset-x-3 top-[130px] sm:inset-x-auto sm:left-6 sm:top-[140px] sm:w-72 panel-glass rounded-2xl p-4 sm:p-5 z-40 max-h-[55vh] overflow-y-auto animate-slide-up">
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-sm font-semibold text-white/50 uppercase tracking-wider">
           Filters

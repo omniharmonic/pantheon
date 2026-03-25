@@ -62,7 +62,7 @@ export default function Home() {
               <h1 className="text-lg sm:text-xl font-extralight text-white/70 tracking-[0.2em] uppercase leading-none">
                 Pantheon
               </h1>
-              <p className="text-[10px] sm:text-[11px] text-white/20 tracking-[0.08em] mt-1 font-light">
+              <p className="text-[10px] sm:text-[11px] text-white/40 tracking-[0.08em] mt-1 font-light">
                 Religious History Explorer
               </p>
             </div>
