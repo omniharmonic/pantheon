@@ -10,19 +10,62 @@
       "timelineEras": "Major historical periods for temporal positioning"
     }
   },
-
   "timelineEras": [
-    { "id": "era_prehistoric", "label": "Prehistoric / Pre-literate", "startYear": -50000, "endYear": -3500 },
-    { "id": "era_bronze_age", "label": "Bronze Age", "startYear": -3500, "endYear": -1200 },
-    { "id": "era_iron_age", "label": "Iron Age", "startYear": -1200, "endYear": -500 },
-    { "id": "era_axial_age", "label": "Axial Age (Jaspers)", "startYear": -800, "endYear": -200 },
-    { "id": "era_classical", "label": "Classical Antiquity", "startYear": -500, "endYear": 500 },
-    { "id": "era_late_antiquity", "label": "Late Antiquity", "startYear": 200, "endYear": 700 },
-    { "id": "era_medieval", "label": "Medieval Period", "startYear": 500, "endYear": 1500 },
-    { "id": "era_early_modern", "label": "Early Modern", "startYear": 1500, "endYear": 1800 },
-    { "id": "era_modern", "label": "Modern Period", "startYear": 1800, "endYear": 2025 }
+    {
+      "id": "era_prehistoric",
+      "label": "Prehistoric / Pre-literate",
+      "startYear": -50000,
+      "endYear": -3500
+    },
+    {
+      "id": "era_bronze_age",
+      "label": "Bronze Age",
+      "startYear": -3500,
+      "endYear": -1200
+    },
+    {
+      "id": "era_iron_age",
+      "label": "Iron Age",
+      "startYear": -1200,
+      "endYear": -500
+    },
+    {
+      "id": "era_axial_age",
+      "label": "Axial Age (Jaspers)",
+      "startYear": -800,
+      "endYear": -200
+    },
+    {
+      "id": "era_classical",
+      "label": "Classical Antiquity",
+      "startYear": -500,
+      "endYear": 500
+    },
+    {
+      "id": "era_late_antiquity",
+      "label": "Late Antiquity",
+      "startYear": 200,
+      "endYear": 700
+    },
+    {
+      "id": "era_medieval",
+      "label": "Medieval Period",
+      "startYear": 500,
+      "endYear": 1500
+    },
+    {
+      "id": "era_early_modern",
+      "label": "Early Modern",
+      "startYear": 1500,
+      "endYear": 1800
+    },
+    {
+      "id": "era_modern",
+      "label": "Modern Period",
+      "startYear": 1800,
+      "endYear": 2025
+    }
   ],
-
   "traditions": [
     {
       "id": "proto_ie_religion",
@@ -33,22 +76,69 @@
       "status": "extinct_absorbed",
       "geographicOrigin": "Pontic-Caspian Steppe (modern Ukraine/southern Russia)",
       "region": "Central Eurasia",
-      "theologicalType": ["polytheism", "sky_worship", "ancestor_worship"],
-      "keyFigures": [
-        { "name": "*Dyeus Ph2ter", "role": "Sky Father, head deity", "cognates": "Zeus, Jupiter, Dyaus Pita, Tyr/Tiwaz, Dievas" },
-        { "name": "*Perkwunos", "role": "Thunder/storm god, oak god", "cognates": "Perkunas, Perun, Thor/Donar, Parjanya" },
-        { "name": "*Seh2ul", "role": "Sun deity (often feminine)", "cognates": "Helios/Sol, Surya, Saule, Sol (Norse)" },
-        { "name": "*Mehno", "role": "Moon deity", "cognates": "Mani (Norse), Meness (Baltic), Mene (Greek)" },
-        { "name": "*Hewsos", "role": "Dawn goddess", "cognates": "Eos, Aurora, Ushas, Ostara" },
-        { "name": "*Welnos", "role": "Cattle/underworld god", "cognates": "Veles, Velnias, possibly Ullr" },
-        { "name": "Divine Twins", "role": "Horse-associated twin gods", "cognates": "Ashvins, Dioscuri, Alcis, Dieva deli" }
+      "theologicalType": [
+        "polytheism",
+        "sky_worship",
+        "ancestor_worship"
       ],
-      "keyConcepts": ["cosmic order (*h2rtos)", "sacred sacrifice", "tripartite ideology (Dumezil)", "cattle as sacred wealth", "dragon-slaying myth"],
+      "keyFigures": [
+        {
+          "name": "*Dyeus Ph2ter",
+          "role": "Sky Father, head deity",
+          "cognates": "Zeus, Jupiter, Dyaus Pita, Tyr/Tiwaz, Dievas"
+        },
+        {
+          "name": "*Perkwunos",
+          "role": "Thunder/storm god, oak god",
+          "cognates": "Perkunas, Perun, Thor/Donar, Parjanya"
+        },
+        {
+          "name": "*Seh2ul",
+          "role": "Sun deity (often feminine)",
+          "cognates": "Helios/Sol, Surya, Saule, Sol (Norse)"
+        },
+        {
+          "name": "*Mehno",
+          "role": "Moon deity",
+          "cognates": "Mani (Norse), Meness (Baltic), Mene (Greek)"
+        },
+        {
+          "name": "*Hewsos",
+          "role": "Dawn goddess",
+          "cognates": "Eos, Aurora, Ushas, Ostara"
+        },
+        {
+          "name": "*Welnos",
+          "role": "Cattle/underworld god",
+          "cognates": "Veles, Velnias, possibly Ullr"
+        },
+        {
+          "name": "Divine Twins",
+          "role": "Horse-associated twin gods",
+          "cognates": "Ashvins, Dioscuri, Alcis, Dieva deli"
+        }
+      ],
+      "keyConcepts": [
+        "cosmic order (*h2rtos)",
+        "sacred sacrifice",
+        "tripartite ideology (Dumezil)",
+        "cattle as sacred wealth",
+        "dragon-slaying myth"
+      ],
       "parentTraditions": [],
-      "childTraditions": ["vedic_religion", "greek_religion", "roman_religion", "norse_germanic", "celtic_religion", "slavic_religion", "baltic_religion", "hittite_religion", "proto_iranian_religion"],
+      "childTraditions": [
+        "vedic_religion",
+        "greek_religion",
+        "roman_religion",
+        "norse_germanic",
+        "celtic_religion",
+        "slavic_religion",
+        "baltic_religion",
+        "hittite_religion",
+        "proto_iranian_religion"
+      ],
       "evidence": "Reconstructed through comparative linguistics and mythology; archaeological evidence from Khvalynsk and Yamnaya cultures"
     },
-
     {
       "id": "sumerian_religion",
       "name": "Sumerian Religion",
@@ -58,25 +148,75 @@
       "status": "extinct_absorbed",
       "geographicOrigin": "Southern Mesopotamia (modern Iraq)",
       "region": "Mesopotamia",
-      "theologicalType": ["polytheism", "cosmic_state_theology"],
-      "keyFigures": [
-        { "name": "An", "role": "Sky god, father of the gods", "akkadianEquiv": "Anu" },
-        { "name": "Enlil", "role": "God of wind, storms, earth; king of the gods", "akkadianEquiv": "Enlil" },
-        { "name": "Enki", "role": "God of water, knowledge, creation, magic", "akkadianEquiv": "Ea" },
-        { "name": "Inanna", "role": "Goddess of love, war, fertility, sex", "akkadianEquiv": "Ishtar" },
-        { "name": "Ninhursag", "role": "Mother goddess, earth goddess", "akkadianEquiv": "Nintu/Mami" },
-        { "name": "Utu", "role": "Sun god, god of justice and truth", "akkadianEquiv": "Shamash" },
-        { "name": "Nanna", "role": "Moon god", "akkadianEquiv": "Sin" },
-        { "name": "Ereshkigal", "role": "Queen of the underworld" },
-        { "name": "Dumuzi", "role": "Shepherd god, dying-and-rising deity", "akkadianEquiv": "Tammuz" }
+      "theologicalType": [
+        "polytheism",
+        "cosmic_state_theology"
       ],
-      "keyConcepts": ["divine council (assembly of gods)", "me (divine powers/decrees)", "temple-city patron gods", "dying-and-rising god motif", "underworld (Kur)", "seven gods who decree"],
+      "keyFigures": [
+        {
+          "name": "An",
+          "role": "Sky god, father of the gods",
+          "akkadianEquiv": "Anu"
+        },
+        {
+          "name": "Enlil",
+          "role": "God of wind, storms, earth; king of the gods",
+          "akkadianEquiv": "Enlil"
+        },
+        {
+          "name": "Enki",
+          "role": "God of water, knowledge, creation, magic",
+          "akkadianEquiv": "Ea"
+        },
+        {
+          "name": "Inanna",
+          "role": "Goddess of love, war, fertility, sex",
+          "akkadianEquiv": "Ishtar"
+        },
+        {
+          "name": "Ninhursag",
+          "role": "Mother goddess, earth goddess",
+          "akkadianEquiv": "Nintu/Mami"
+        },
+        {
+          "name": "Utu",
+          "role": "Sun god, god of justice and truth",
+          "akkadianEquiv": "Shamash"
+        },
+        {
+          "name": "Nanna",
+          "role": "Moon god",
+          "akkadianEquiv": "Sin"
+        },
+        {
+          "name": "Ereshkigal",
+          "role": "Queen of the underworld"
+        },
+        {
+          "name": "Dumuzi",
+          "role": "Shepherd god, dying-and-rising deity",
+          "akkadianEquiv": "Tammuz"
+        }
+      ],
+      "keyConcepts": [
+        "divine council (assembly of gods)",
+        "me (divine powers/decrees)",
+        "temple-city patron gods",
+        "dying-and-rising god motif",
+        "underworld (Kur)",
+        "seven gods who decree"
+      ],
       "parentTraditions": [],
-      "childTraditions": ["akkadian_religion", "babylonian_religion", "assyrian_religion"],
-      "syncreticConnections": ["canaanite_religion"],
+      "childTraditions": [
+        "akkadian_religion",
+        "babylonian_religion",
+        "assyrian_religion"
+      ],
+      "syncreticConnections": [
+        "canaanite_religion"
+      ],
       "evidence": "Cuneiform tablets, temple ruins at Eridu/Uruk/Nippur, cylinder seals"
     },
-
     {
       "id": "akkadian_religion",
       "name": "Akkadian Religion",
@@ -86,19 +226,45 @@
       "status": "extinct_absorbed",
       "geographicOrigin": "Northern and Southern Mesopotamia",
       "region": "Mesopotamia",
-      "theologicalType": ["polytheism", "imperial_cult"],
-      "keyFigures": [
-        { "name": "Anu", "role": "Sky god (from Sumerian An)" },
-        { "name": "Ea", "role": "God of water and wisdom (from Sumerian Enki)" },
-        { "name": "Ishtar", "role": "Goddess of love and war (from Sumerian Inanna)" },
-        { "name": "Shamash", "role": "Sun god, justice (from Sumerian Utu)" },
-        { "name": "Sin", "role": "Moon god (from Sumerian Nanna)" }
+      "theologicalType": [
+        "polytheism",
+        "imperial_cult"
       ],
-      "keyConcepts": ["Semitic-Sumerian religious syncretism", "feudal hierarchy of gods", "male deities become dominant"],
-      "parentTraditions": ["sumerian_religion"],
-      "childTraditions": ["babylonian_religion", "assyrian_religion"]
+      "keyFigures": [
+        {
+          "name": "Anu",
+          "role": "Sky god (from Sumerian An)"
+        },
+        {
+          "name": "Ea",
+          "role": "God of water and wisdom (from Sumerian Enki)"
+        },
+        {
+          "name": "Ishtar",
+          "role": "Goddess of love and war (from Sumerian Inanna)"
+        },
+        {
+          "name": "Shamash",
+          "role": "Sun god, justice (from Sumerian Utu)"
+        },
+        {
+          "name": "Sin",
+          "role": "Moon god (from Sumerian Nanna)"
+        }
+      ],
+      "keyConcepts": [
+        "Semitic-Sumerian religious syncretism",
+        "feudal hierarchy of gods",
+        "male deities become dominant"
+      ],
+      "parentTraditions": [
+        "sumerian_religion"
+      ],
+      "childTraditions": [
+        "babylonian_religion",
+        "assyrian_religion"
+      ]
     },
-
     {
       "id": "babylonian_religion",
       "name": "Babylonian Religion",
@@ -108,24 +274,66 @@
       "status": "extinct_absorbed",
       "geographicOrigin": "Babylon, Southern Mesopotamia",
       "region": "Mesopotamia",
-      "theologicalType": ["polytheism", "henotheism_tendencies", "astral_theology"],
-      "keyFigures": [
-        { "name": "Marduk", "role": "Supreme god, patron of Babylon, slayer of Tiamat" },
-        { "name": "Tiamat", "role": "Primordial goddess of salt sea, chaos dragon" },
-        { "name": "Nabu", "role": "God of writing and wisdom, son of Marduk" },
-        { "name": "Ishtar", "role": "Goddess of love, war, and fertility" },
-        { "name": "Shamash", "role": "Sun god, god of justice" },
-        { "name": "Sin", "role": "Moon god" },
-        { "name": "Ea/Enki", "role": "God of water, crafts, wisdom" }
+      "theologicalType": [
+        "polytheism",
+        "henotheism_tendencies",
+        "astral_theology"
       ],
-      "keyConcepts": ["Enuma Elish (creation epic)", "Marduk's supremacy", "astral theology", "Gilgamesh epic", "New Year Akitu festival", "personal religion"],
-      "parentTraditions": ["sumerian_religion", "akkadian_religion"],
+      "keyFigures": [
+        {
+          "name": "Marduk",
+          "role": "Supreme god, patron of Babylon, slayer of Tiamat"
+        },
+        {
+          "name": "Tiamat",
+          "role": "Primordial goddess of salt sea, chaos dragon"
+        },
+        {
+          "name": "Nabu",
+          "role": "God of writing and wisdom, son of Marduk"
+        },
+        {
+          "name": "Ishtar",
+          "role": "Goddess of love, war, and fertility"
+        },
+        {
+          "name": "Shamash",
+          "role": "Sun god, god of justice"
+        },
+        {
+          "name": "Sin",
+          "role": "Moon god"
+        },
+        {
+          "name": "Ea/Enki",
+          "role": "God of water, crafts, wisdom"
+        }
+      ],
+      "keyConcepts": [
+        "Enuma Elish (creation epic)",
+        "Marduk's supremacy",
+        "astral theology",
+        "Gilgamesh epic",
+        "New Year Akitu festival",
+        "personal religion"
+      ],
+      "parentTraditions": [
+        "sumerian_religion",
+        "akkadian_religion"
+      ],
       "childTraditions": [],
-      "syncreticConnections": ["assyrian_religion", "canaanite_religion"],
-      "influencedBy": ["sumerian_religion"],
-      "influenced": ["judaism_early", "zoroastrianism"]
+      "syncreticConnections": [
+        "assyrian_religion",
+        "canaanite_religion"
+      ],
+      "influencedBy": [
+        "sumerian_religion"
+      ],
+      "influenced": [
+        "judaism_early",
+        "zoroastrianism"
+      ]
     },
-
     {
       "id": "assyrian_religion",
       "name": "Assyrian Religion",
@@ -135,19 +343,43 @@
       "status": "extinct",
       "geographicOrigin": "Northern Mesopotamia (Assur, Nineveh)",
       "region": "Mesopotamia",
-      "theologicalType": ["polytheism", "national_god_theology"],
-      "keyFigures": [
-        { "name": "Ashur", "role": "Supreme national god, god of war" },
-        { "name": "Ishtar of Nineveh", "role": "War goddess" },
-        { "name": "Nabu", "role": "God of writing" },
-        { "name": "Shamash", "role": "Sun god, justice" },
-        { "name": "Sin", "role": "Moon god" }
+      "theologicalType": [
+        "polytheism",
+        "national_god_theology"
       ],
-      "keyConcepts": ["national god theology", "militaristic divine cult", "conquest as divine mandate"],
-      "parentTraditions": ["sumerian_religion", "akkadian_religion"],
+      "keyFigures": [
+        {
+          "name": "Ashur",
+          "role": "Supreme national god, god of war"
+        },
+        {
+          "name": "Ishtar of Nineveh",
+          "role": "War goddess"
+        },
+        {
+          "name": "Nabu",
+          "role": "God of writing"
+        },
+        {
+          "name": "Shamash",
+          "role": "Sun god, justice"
+        },
+        {
+          "name": "Sin",
+          "role": "Moon god"
+        }
+      ],
+      "keyConcepts": [
+        "national god theology",
+        "militaristic divine cult",
+        "conquest as divine mandate"
+      ],
+      "parentTraditions": [
+        "sumerian_religion",
+        "akkadian_religion"
+      ],
       "childTraditions": []
     },
-
     {
       "id": "canaanite_religion",
       "name": "Canaanite / Ugaritic Religion",
@@ -157,25 +389,67 @@
       "status": "extinct_absorbed",
       "geographicOrigin": "Levant (modern Syria, Lebanon, Israel/Palestine)",
       "region": "Levant",
-      "theologicalType": ["polytheism", "storm_god_theology"],
-      "keyFigures": [
-        { "name": "El", "role": "Father of the gods, creator deity, elderly wise ruler" },
-        { "name": "Asherah/Athirat", "role": "Mother of the gods, consort of El, fertility goddess" },
-        { "name": "Baal Hadad", "role": "Storm god, divine king, lord of rain, 'Rider of Clouds'" },
-        { "name": "Anat", "role": "Warrior goddess, sister/consort of Baal" },
-        { "name": "Astarte", "role": "Goddess of love and war (related to Ishtar)" },
-        { "name": "Mot", "role": "God of death and the underworld" },
-        { "name": "Yam", "role": "God of the sea and chaos" },
-        { "name": "Dagon", "role": "Grain/agriculture god" },
-        { "name": "Kothar-wa-Khasis", "role": "Craftsman god" }
+      "theologicalType": [
+        "polytheism",
+        "storm_god_theology"
       ],
-      "keyConcepts": ["divine council", "Baal Cycle (storm god vs. sea/death)", "El as supreme but passive god", "sacred sexuality", "dying-and-rising god (Baal)"],
+      "keyFigures": [
+        {
+          "name": "El",
+          "role": "Father of the gods, creator deity, elderly wise ruler"
+        },
+        {
+          "name": "Asherah/Athirat",
+          "role": "Mother of the gods, consort of El, fertility goddess"
+        },
+        {
+          "name": "Baal Hadad",
+          "role": "Storm god, divine king, lord of rain, 'Rider of Clouds'"
+        },
+        {
+          "name": "Anat",
+          "role": "Warrior goddess, sister/consort of Baal"
+        },
+        {
+          "name": "Astarte",
+          "role": "Goddess of love and war (related to Ishtar)"
+        },
+        {
+          "name": "Mot",
+          "role": "God of death and the underworld"
+        },
+        {
+          "name": "Yam",
+          "role": "God of the sea and chaos"
+        },
+        {
+          "name": "Dagon",
+          "role": "Grain/agriculture god"
+        },
+        {
+          "name": "Kothar-wa-Khasis",
+          "role": "Craftsman god"
+        }
+      ],
+      "keyConcepts": [
+        "divine council",
+        "Baal Cycle (storm god vs. sea/death)",
+        "El as supreme but passive god",
+        "sacred sexuality",
+        "dying-and-rising god (Baal)"
+      ],
       "parentTraditions": [],
-      "childTraditions": ["phoenician_religion", "judaism_early"],
-      "syncreticConnections": ["sumerian_religion", "babylonian_religion", "egyptian_religion"],
+      "childTraditions": [
+        "phoenician_religion",
+        "judaism_early"
+      ],
+      "syncreticConnections": [
+        "sumerian_religion",
+        "babylonian_religion",
+        "egyptian_religion"
+      ],
       "evidence": "Ugaritic texts (KTU), archaeological sites at Ugarit, Hebrew Bible references"
     },
-
     {
       "id": "phoenician_religion",
       "name": "Phoenician Religion",
@@ -185,21 +459,51 @@
       "status": "extinct",
       "geographicOrigin": "Coastal Levant (Tyre, Sidon, Byblos)",
       "region": "Levant / Mediterranean",
-      "theologicalType": ["polytheism"],
-      "keyFigures": [
-        { "name": "El", "role": "Supreme creator god" },
-        { "name": "Baal", "role": "Storm god, 'Lord'" },
-        { "name": "Melqart", "role": "City god of Tyre, identified with Heracles" },
-        { "name": "Astarte", "role": "Goddess of fertility and war" },
-        { "name": "Eshmun", "role": "God of healing (identified with Asclepius)" },
-        { "name": "Tanit", "role": "Chief goddess of Carthage" }
+      "theologicalType": [
+        "polytheism"
       ],
-      "keyConcepts": ["city patron gods", "tophets (sacrificial precincts)", "Mediterranean religious diffusion"],
-      "parentTraditions": ["canaanite_religion"],
-      "childTraditions": ["punic_religion"],
-      "syncreticConnections": ["greek_religion", "egyptian_religion"]
+      "keyFigures": [
+        {
+          "name": "El",
+          "role": "Supreme creator god"
+        },
+        {
+          "name": "Baal",
+          "role": "Storm god, 'Lord'"
+        },
+        {
+          "name": "Melqart",
+          "role": "City god of Tyre, identified with Heracles"
+        },
+        {
+          "name": "Astarte",
+          "role": "Goddess of fertility and war"
+        },
+        {
+          "name": "Eshmun",
+          "role": "God of healing (identified with Asclepius)"
+        },
+        {
+          "name": "Tanit",
+          "role": "Chief goddess of Carthage"
+        }
+      ],
+      "keyConcepts": [
+        "city patron gods",
+        "tophets (sacrificial precincts)",
+        "Mediterranean religious diffusion"
+      ],
+      "parentTraditions": [
+        "canaanite_religion"
+      ],
+      "childTraditions": [
+        "punic_religion"
+      ],
+      "syncreticConnections": [
+        "greek_religion",
+        "egyptian_religion"
+      ]
     },
-
     {
       "id": "egyptian_religion",
       "name": "Ancient Egyptian Religion",
@@ -209,33 +513,99 @@
       "status": "extinct",
       "geographicOrigin": "Nile Valley, Egypt",
       "region": "Northeast Africa",
-      "theologicalType": ["polytheism", "henotheism_tendencies", "divine_kingship"],
-      "keyFigures": [
-        { "name": "Ra/Re", "role": "Sun god, supreme deity in Old Kingdom" },
-        { "name": "Osiris", "role": "God of the dead, afterlife, resurrection, agriculture" },
-        { "name": "Isis", "role": "Goddess of magic, motherhood, wisdom; wife of Osiris" },
-        { "name": "Horus", "role": "Sky god, divine kingship, son of Osiris and Isis" },
-        { "name": "Set/Seth", "role": "God of chaos, storms, desert, war" },
-        { "name": "Amun", "role": "Hidden god, supreme state deity in New Kingdom (Amun-Ra)" },
-        { "name": "Ptah", "role": "Creator god of Memphis, craftsman deity" },
-        { "name": "Thoth", "role": "God of writing, wisdom, moon, magic" },
-        { "name": "Hathor", "role": "Goddess of love, beauty, music, motherhood" },
-        { "name": "Anubis", "role": "God of mummification and the dead" }
+      "theologicalType": [
+        "polytheism",
+        "henotheism_tendencies",
+        "divine_kingship"
       ],
-      "keyConcepts": ["maat (cosmic order/truth)", "divine kingship (pharaoh as Horus)", "afterlife judgment", "ka/ba (soul concepts)", "Ennead of Heliopolis", "Ogdoad of Hermopolis", "syncretism (Amun-Ra, Ptah-Sokar-Osiris)", "Atenism (brief monotheism under Akhenaten c. 1353-1336 BCE)"],
+      "keyFigures": [
+        {
+          "name": "Ra/Re",
+          "role": "Sun god, supreme deity in Old Kingdom"
+        },
+        {
+          "name": "Osiris",
+          "role": "God of the dead, afterlife, resurrection, agriculture"
+        },
+        {
+          "name": "Isis",
+          "role": "Goddess of magic, motherhood, wisdom; wife of Osiris"
+        },
+        {
+          "name": "Horus",
+          "role": "Sky god, divine kingship, son of Osiris and Isis"
+        },
+        {
+          "name": "Set/Seth",
+          "role": "God of chaos, storms, desert, war"
+        },
+        {
+          "name": "Amun",
+          "role": "Hidden god, supreme state deity in New Kingdom (Amun-Ra)"
+        },
+        {
+          "name": "Ptah",
+          "role": "Creator god of Memphis, craftsman deity"
+        },
+        {
+          "name": "Thoth",
+          "role": "God of writing, wisdom, moon, magic"
+        },
+        {
+          "name": "Hathor",
+          "role": "Goddess of love, beauty, music, motherhood"
+        },
+        {
+          "name": "Anubis",
+          "role": "God of mummification and the dead"
+        }
+      ],
+      "keyConcepts": [
+        "maat (cosmic order/truth)",
+        "divine kingship (pharaoh as Horus)",
+        "afterlife judgment",
+        "ka/ba (soul concepts)",
+        "Ennead of Heliopolis",
+        "Ogdoad of Hermopolis",
+        "syncretism (Amun-Ra, Ptah-Sokar-Osiris)",
+        "Atenism (brief monotheism under Akhenaten c. 1353-1336 BCE)"
+      ],
       "periods": [
-        { "era": "Old Kingdom (c. 2686-2181 BCE)", "focus": "Ra/solar theology, pyramid texts" },
-        { "era": "Middle Kingdom (c. 2055-1650 BCE)", "focus": "Osiris cult becomes prominent" },
-        { "era": "New Kingdom (c. 1550-1070 BCE)", "focus": "Amun-Ra supreme, Atenism interlude" },
-        { "era": "Late Period (c. 664-332 BCE)", "focus": "Animal cults, Isis cult grows" },
-        { "era": "Ptolemaic Period (305-30 BCE)", "focus": "Serapis cult (Greco-Egyptian syncretism)" }
+        {
+          "era": "Old Kingdom (c. 2686-2181 BCE)",
+          "focus": "Ra/solar theology, pyramid texts"
+        },
+        {
+          "era": "Middle Kingdom (c. 2055-1650 BCE)",
+          "focus": "Osiris cult becomes prominent"
+        },
+        {
+          "era": "New Kingdom (c. 1550-1070 BCE)",
+          "focus": "Amun-Ra supreme, Atenism interlude"
+        },
+        {
+          "era": "Late Period (c. 664-332 BCE)",
+          "focus": "Animal cults, Isis cult grows"
+        },
+        {
+          "era": "Ptolemaic Period (305-30 BCE)",
+          "focus": "Serapis cult (Greco-Egyptian syncretism)"
+        }
       ],
       "parentTraditions": [],
-      "childTraditions": ["hermeticism"],
-      "syncreticConnections": ["greek_religion", "roman_religion"],
-      "influenced": ["gnosticism", "hermeticism", "judaism_early"]
+      "childTraditions": [
+        "hermeticism"
+      ],
+      "syncreticConnections": [
+        "greek_religion",
+        "roman_religion"
+      ],
+      "influenced": [
+        "gnosticism",
+        "hermeticism",
+        "judaism_early"
+      ]
     },
-
     {
       "id": "vedic_religion",
       "name": "Vedic / Historical Vedic Religion",
@@ -245,25 +615,73 @@
       "status": "evolved_into_hinduism",
       "geographicOrigin": "Northwestern Indian subcontinent (Punjab/Indus region)",
       "region": "South Asia",
-      "theologicalType": ["polytheism", "henotheism", "ritualism"],
-      "keyFigures": [
-        { "name": "Indra", "role": "King of gods, storm/warrior god (most mentioned in Rigveda)" },
-        { "name": "Agni", "role": "Fire god, divine messenger, sacrificial fire" },
-        { "name": "Varuna", "role": "God of cosmic order (rta), waters, oaths" },
-        { "name": "Mitra", "role": "God of friendship, contracts, sunrise" },
-        { "name": "Surya", "role": "Sun god" },
-        { "name": "Dyaus Pita", "role": "Sky father (cognate of Zeus, Jupiter)" },
-        { "name": "Ushas", "role": "Dawn goddess (cognate of Eos, Aurora)" },
-        { "name": "Soma", "role": "God of the sacred drink, moon" },
-        { "name": "Rudra", "role": "Storm god, proto-Shiva" },
-        { "name": "Ashvins", "role": "Divine twin horsemen, healers" }
+      "theologicalType": [
+        "polytheism",
+        "henotheism",
+        "ritualism"
       ],
-      "keyConcepts": ["rta (cosmic order)", "yajna (fire sacrifice)", "soma ritual", "Rigveda hymns", "varna system", "transmigration (late Vedic)"],
-      "parentTraditions": ["proto_ie_religion"],
-      "childTraditions": ["hinduism", "jainism_context", "buddhism_context"],
-      "syncreticConnections": ["proto_iranian_religion"]
+      "keyFigures": [
+        {
+          "name": "Indra",
+          "role": "King of gods, storm/warrior god (most mentioned in Rigveda)"
+        },
+        {
+          "name": "Agni",
+          "role": "Fire god, divine messenger, sacrificial fire"
+        },
+        {
+          "name": "Varuna",
+          "role": "God of cosmic order (rta), waters, oaths"
+        },
+        {
+          "name": "Mitra",
+          "role": "God of friendship, contracts, sunrise"
+        },
+        {
+          "name": "Surya",
+          "role": "Sun god"
+        },
+        {
+          "name": "Dyaus Pita",
+          "role": "Sky father (cognate of Zeus, Jupiter)"
+        },
+        {
+          "name": "Ushas",
+          "role": "Dawn goddess (cognate of Eos, Aurora)"
+        },
+        {
+          "name": "Soma",
+          "role": "God of the sacred drink, moon"
+        },
+        {
+          "name": "Rudra",
+          "role": "Storm god, proto-Shiva"
+        },
+        {
+          "name": "Ashvins",
+          "role": "Divine twin horsemen, healers"
+        }
+      ],
+      "keyConcepts": [
+        "rta (cosmic order)",
+        "yajna (fire sacrifice)",
+        "soma ritual",
+        "Rigveda hymns",
+        "varna system",
+        "transmigration (late Vedic)"
+      ],
+      "parentTraditions": [
+        "proto_ie_religion"
+      ],
+      "childTraditions": [
+        "hinduism",
+        "jainism_context",
+        "buddhism_context"
+      ],
+      "syncreticConnections": [
+        "proto_iranian_religion"
+      ]
     },
-
     {
       "id": "hinduism",
       "name": "Hinduism",
@@ -273,30 +691,96 @@
       "status": "active",
       "geographicOrigin": "Indian subcontinent",
       "region": "South Asia",
-      "theologicalType": ["polytheism", "henotheism", "monism", "pantheism", "panentheism"],
+      "theologicalType": [
+        "polytheism",
+        "henotheism",
+        "monism",
+        "pantheism",
+        "panentheism"
+      ],
       "keyFigures": [
-        { "name": "Brahma", "role": "Creator god (Trimurti)" },
-        { "name": "Vishnu", "role": "Preserver god (Trimurti); avatars include Rama, Krishna" },
-        { "name": "Shiva", "role": "Destroyer/transformer god (Trimurti); evolved from Vedic Rudra" },
-        { "name": "Devi/Shakti", "role": "Great Goddess; forms include Durga, Kali, Parvati, Lakshmi, Saraswati" },
-        { "name": "Ganesha", "role": "Elephant-headed god of beginnings, remover of obstacles" },
-        { "name": "Hanuman", "role": "Monkey god, devotee of Rama" },
-        { "name": "Krishna", "role": "Avatar of Vishnu, supreme being in Vaishnavism" },
-        { "name": "Rama", "role": "Avatar of Vishnu, ideal king" }
+        {
+          "name": "Brahma",
+          "role": "Creator god (Trimurti)"
+        },
+        {
+          "name": "Vishnu",
+          "role": "Preserver god (Trimurti); avatars include Rama, Krishna"
+        },
+        {
+          "name": "Shiva",
+          "role": "Destroyer/transformer god (Trimurti); evolved from Vedic Rudra"
+        },
+        {
+          "name": "Devi/Shakti",
+          "role": "Great Goddess; forms include Durga, Kali, Parvati, Lakshmi, Saraswati"
+        },
+        {
+          "name": "Ganesha",
+          "role": "Elephant-headed god of beginnings, remover of obstacles"
+        },
+        {
+          "name": "Hanuman",
+          "role": "Monkey god, devotee of Rama"
+        },
+        {
+          "name": "Krishna",
+          "role": "Avatar of Vishnu, supreme being in Vaishnavism"
+        },
+        {
+          "name": "Rama",
+          "role": "Avatar of Vishnu, ideal king"
+        }
       ],
-      "keyConcepts": ["Brahman (ultimate reality)", "atman (soul/self)", "dharma", "karma", "samsara (cycle of rebirth)", "moksha (liberation)", "Trimurti", "bhakti (devotion)", "yoga", "caste/varna system", "Upanishads", "Bhagavad Gita"],
+      "keyConcepts": [
+        "Brahman (ultimate reality)",
+        "atman (soul/self)",
+        "dharma",
+        "karma",
+        "samsara (cycle of rebirth)",
+        "moksha (liberation)",
+        "Trimurti",
+        "bhakti (devotion)",
+        "yoga",
+        "caste/varna system",
+        "Upanishads",
+        "Bhagavad Gita"
+      ],
       "majorSects": [
-        { "name": "Vaishnavism", "focus": "Vishnu/Krishna/Rama worship" },
-        { "name": "Shaivism", "focus": "Shiva worship" },
-        { "name": "Shaktism", "focus": "Devi/Goddess worship" },
-        { "name": "Smartism", "focus": "Advaita Vedanta, worship of five deities" }
+        {
+          "name": "Vaishnavism",
+          "focus": "Vishnu/Krishna/Rama worship"
+        },
+        {
+          "name": "Shaivism",
+          "focus": "Shiva worship"
+        },
+        {
+          "name": "Shaktism",
+          "focus": "Devi/Goddess worship"
+        },
+        {
+          "name": "Smartism",
+          "focus": "Advaita Vedanta, worship of five deities"
+        }
       ],
-      "parentTraditions": ["vedic_religion"],
-      "childTraditions": ["sikhism"],
-      "influenced": ["buddhism", "jainism", "southeast_asian_hinduism", "balinese_hinduism"],
-      "syncreticConnections": ["buddhism", "jainism"]
+      "parentTraditions": [
+        "vedic_religion"
+      ],
+      "childTraditions": [
+        "sikhism"
+      ],
+      "influenced": [
+        "buddhism",
+        "jainism",
+        "southeast_asian_hinduism",
+        "balinese_hinduism"
+      ],
+      "syncreticConnections": [
+        "buddhism",
+        "jainism"
+      ]
     },
-
     {
       "id": "buddhism",
       "name": "Buddhism",
@@ -306,44 +790,114 @@
       "status": "active",
       "geographicOrigin": "Northeastern India (Bodh Gaya, modern Bihar)",
       "region": "South Asia (spread to all of Asia)",
-      "theologicalType": ["nontheism", "philosophical_religion", "some_devotional_theism_in_mahayana"],
-      "keyFigures": [
-        { "name": "Siddhartha Gautama (The Buddha)", "role": "Founder, the Awakened One" },
-        { "name": "Avalokiteshvara", "role": "Bodhisattva of compassion (Guanyin in China, Kannon in Japan)" },
-        { "name": "Manjushri", "role": "Bodhisattva of wisdom" },
-        { "name": "Maitreya", "role": "Future Buddha" },
-        { "name": "Amitabha", "role": "Buddha of infinite light (Pure Land traditions)" },
-        { "name": "Padmasambhava", "role": "Brought Buddhism to Tibet (8th century)" },
-        { "name": "Tara", "role": "Female bodhisattva, popular in Tibetan Buddhism" }
+      "theologicalType": [
+        "nontheism",
+        "philosophical_religion",
+        "some_devotional_theism_in_mahayana"
       ],
-      "keyConcepts": ["Four Noble Truths", "Noble Eightfold Path", "nirvana", "anatta (no-self)", "dependent origination", "Middle Way", "sunyata (emptiness, Mahayana)", "bodhisattva ideal (Mahayana)", "Buddha-nature", "tantra (Vajrayana)"],
+      "keyFigures": [
+        {
+          "name": "Siddhartha Gautama (The Buddha)",
+          "role": "Founder, the Awakened One"
+        },
+        {
+          "name": "Avalokiteshvara",
+          "role": "Bodhisattva of compassion (Guanyin in China, Kannon in Japan)"
+        },
+        {
+          "name": "Manjushri",
+          "role": "Bodhisattva of wisdom"
+        },
+        {
+          "name": "Maitreya",
+          "role": "Future Buddha"
+        },
+        {
+          "name": "Amitabha",
+          "role": "Buddha of infinite light (Pure Land traditions)"
+        },
+        {
+          "name": "Padmasambhava",
+          "role": "Brought Buddhism to Tibet (8th century)"
+        },
+        {
+          "name": "Tara",
+          "role": "Female bodhisattva, popular in Tibetan Buddhism"
+        }
+      ],
+      "keyConcepts": [
+        "Four Noble Truths",
+        "Noble Eightfold Path",
+        "nirvana",
+        "anatta (no-self)",
+        "dependent origination",
+        "Middle Way",
+        "sunyata (emptiness, Mahayana)",
+        "bodhisattva ideal (Mahayana)",
+        "Buddha-nature",
+        "tantra (Vajrayana)"
+      ],
       "majorBranches": [
         {
           "name": "Theravada",
           "originDate": -250,
-          "regions": ["Sri Lanka", "Myanmar", "Thailand", "Cambodia", "Laos"],
+          "regions": [
+            "Sri Lanka",
+            "Myanmar",
+            "Thailand",
+            "Cambodia",
+            "Laos"
+          ],
           "description": "School of the Elders; emphasis on Pali Canon, arhat ideal, monasticism"
         },
         {
           "name": "Mahayana",
           "originDate": 100,
-          "regions": ["China", "Japan", "Korea", "Vietnam", "Taiwan"],
+          "regions": [
+            "China",
+            "Japan",
+            "Korea",
+            "Vietnam",
+            "Taiwan"
+          ],
           "description": "Great Vehicle; bodhisattva ideal, sunyata, new sutras",
-          "subSchools": ["Chan/Zen", "Pure Land", "Tiantai", "Huayan", "Nichiren"]
+          "subSchools": [
+            "Chan/Zen",
+            "Pure Land",
+            "Tiantai",
+            "Huayan",
+            "Nichiren"
+          ]
         },
         {
           "name": "Vajrayana",
           "originDate": 500,
-          "regions": ["Tibet", "Mongolia", "Bhutan", "Nepal", "parts of Russia"],
+          "regions": [
+            "Tibet",
+            "Mongolia",
+            "Bhutan",
+            "Nepal",
+            "parts of Russia"
+          ],
           "description": "Diamond Vehicle; tantric practices, deity yoga, mandalas, mantras"
         }
       ],
-      "parentTraditions": ["vedic_religion"],
+      "parentTraditions": [
+        "vedic_religion"
+      ],
       "childTraditions": [],
-      "syncreticConnections": ["chinese_folk_religion", "taoism", "shinto", "bon_religion", "hinduism"],
-      "influenced": ["manichaeism", "greco_buddhism"]
+      "syncreticConnections": [
+        "chinese_folk_religion",
+        "taoism",
+        "shinto",
+        "bon_religion",
+        "hinduism"
+      ],
+      "influenced": [
+        "manichaeism",
+        "greco_buddhism"
+      ]
     },
-
     {
       "id": "jainism",
       "name": "Jainism",
@@ -353,22 +907,53 @@
       "status": "active",
       "geographicOrigin": "Eastern India (Bihar)",
       "region": "South Asia",
-      "theologicalType": ["nontheism", "transtheism", "philosophical_religion"],
+      "theologicalType": [
+        "nontheism",
+        "transtheism",
+        "philosophical_religion"
+      ],
       "keyFigures": [
-        { "name": "Mahavira", "role": "24th and last Tirthankara, historical founder" },
-        { "name": "Rishabhadeva", "role": "First Tirthankara (traditional)" },
-        { "name": "Parshvanatha", "role": "23rd Tirthankara (historical, c. 872-772 BCE)" }
+        {
+          "name": "Mahavira",
+          "role": "24th and last Tirthankara, historical founder"
+        },
+        {
+          "name": "Rishabhadeva",
+          "role": "First Tirthankara (traditional)"
+        },
+        {
+          "name": "Parshvanatha",
+          "role": "23rd Tirthankara (historical, c. 872-772 BCE)"
+        }
       ],
-      "keyConcepts": ["ahimsa (non-violence)", "anekantavada (non-absolutism)", "asceticism", "karma as material substance", "moksha through self-purification", "jiva (soul)", "ajiva (non-soul)"],
+      "keyConcepts": [
+        "ahimsa (non-violence)",
+        "anekantavada (non-absolutism)",
+        "asceticism",
+        "karma as material substance",
+        "moksha through self-purification",
+        "jiva (soul)",
+        "ajiva (non-soul)"
+      ],
       "majorSects": [
-        { "name": "Digambara", "description": "Sky-clad (nude) monks" },
-        { "name": "Shvetambara", "description": "White-clad monks" }
+        {
+          "name": "Digambara",
+          "description": "Sky-clad (nude) monks"
+        },
+        {
+          "name": "Shvetambara",
+          "description": "White-clad monks"
+        }
       ],
-      "parentTraditions": ["vedic_religion"],
+      "parentTraditions": [
+        "vedic_religion"
+      ],
       "childTraditions": [],
-      "syncreticConnections": ["hinduism", "buddhism"]
+      "syncreticConnections": [
+        "hinduism",
+        "buddhism"
+      ]
     },
-
     {
       "id": "sikhism",
       "name": "Sikhism",
@@ -378,18 +963,42 @@
       "status": "active",
       "geographicOrigin": "Punjab, South Asia",
       "region": "South Asia",
-      "theologicalType": ["monotheism", "panentheism"],
-      "keyFigures": [
-        { "name": "Guru Nanak", "role": "Founder, first Guru (1469-1539)" },
-        { "name": "Guru Gobind Singh", "role": "Tenth and last human Guru (1666-1708)" },
-        { "name": "Guru Granth Sahib", "role": "Eternal Guru (holy scripture)" }
+      "theologicalType": [
+        "monotheism",
+        "panentheism"
       ],
-      "keyConcepts": ["Ik Onkar (one God)", "rejection of caste", "rejection of idolatry", "seva (selfless service)", "langar (communal kitchen)", "Khalsa", "equality"],
-      "parentTraditions": ["hinduism"],
-      "influencedBy": ["hinduism", "islam_sufism"],
+      "keyFigures": [
+        {
+          "name": "Guru Nanak",
+          "role": "Founder, first Guru (1469-1539)"
+        },
+        {
+          "name": "Guru Gobind Singh",
+          "role": "Tenth and last human Guru (1666-1708)"
+        },
+        {
+          "name": "Guru Granth Sahib",
+          "role": "Eternal Guru (holy scripture)"
+        }
+      ],
+      "keyConcepts": [
+        "Ik Onkar (one God)",
+        "rejection of caste",
+        "rejection of idolatry",
+        "seva (selfless service)",
+        "langar (communal kitchen)",
+        "Khalsa",
+        "equality"
+      ],
+      "parentTraditions": [
+        "hinduism"
+      ],
+      "influencedBy": [
+        "hinduism",
+        "islam_sufism"
+      ],
       "childTraditions": []
     },
-
     {
       "id": "zoroastrianism",
       "name": "Zoroastrianism",
@@ -399,22 +1008,63 @@
       "status": "active_minority",
       "geographicOrigin": "Eastern Iran / Central Asia",
       "region": "Iran / Central Asia",
-      "theologicalType": ["monotheism", "dualism", "ethical_religion"],
-      "keyFigures": [
-        { "name": "Ahura Mazda", "role": "Supreme creator god, lord of wisdom" },
-        { "name": "Angra Mainyu/Ahriman", "role": "Destructive spirit, embodiment of evil" },
-        { "name": "Zarathustra/Zoroaster", "role": "Prophet, founder" },
-        { "name": "Amesha Spentas", "role": "Seven divine beings / archangels" },
-        { "name": "Mithra", "role": "God of covenants, light, justice (also in Vedic tradition)" },
-        { "name": "Anahita", "role": "Goddess of water, fertility" }
+      "theologicalType": [
+        "monotheism",
+        "dualism",
+        "ethical_religion"
       ],
-      "keyConcepts": ["cosmic dualism (good vs evil)", "free will / moral choice", "eschatology (final judgment, resurrection)", "heaven and hell", "angels and demons", "messianic savior (Saoshyant)", "fire as sacred symbol", "asha (truth/righteousness)"],
-      "parentTraditions": ["proto_ie_religion"],
+      "keyFigures": [
+        {
+          "name": "Ahura Mazda",
+          "role": "Supreme creator god, lord of wisdom"
+        },
+        {
+          "name": "Angra Mainyu/Ahriman",
+          "role": "Destructive spirit, embodiment of evil"
+        },
+        {
+          "name": "Zarathustra/Zoroaster",
+          "role": "Prophet, founder"
+        },
+        {
+          "name": "Amesha Spentas",
+          "role": "Seven divine beings / archangels"
+        },
+        {
+          "name": "Mithra",
+          "role": "God of covenants, light, justice (also in Vedic tradition)"
+        },
+        {
+          "name": "Anahita",
+          "role": "Goddess of water, fertility"
+        }
+      ],
+      "keyConcepts": [
+        "cosmic dualism (good vs evil)",
+        "free will / moral choice",
+        "eschatology (final judgment, resurrection)",
+        "heaven and hell",
+        "angels and demons",
+        "messianic savior (Saoshyant)",
+        "fire as sacred symbol",
+        "asha (truth/righteousness)"
+      ],
+      "parentTraditions": [
+        "proto_ie_religion"
+      ],
       "childTraditions": [],
-      "influenced": ["judaism_second_temple", "christianity", "islam", "manichaeism", "bahai"],
-      "syncreticConnections": ["manichaeism", "zurvanism"]
+      "influenced": [
+        "judaism_second_temple",
+        "christianity",
+        "islam",
+        "manichaeism",
+        "bahai"
+      ],
+      "syncreticConnections": [
+        "manichaeism",
+        "zurvanism"
+      ]
     },
-
     {
       "id": "greek_religion",
       "name": "Ancient Greek Religion",
@@ -424,29 +1074,86 @@
       "status": "extinct",
       "geographicOrigin": "Greece, Aegean region",
       "region": "Mediterranean / Europe",
-      "theologicalType": ["polytheism"],
-      "keyFigures": [
-        { "name": "Zeus", "role": "King of gods, sky/thunder god (from PIE *Dyeus)" },
-        { "name": "Hera", "role": "Queen of gods, marriage, family" },
-        { "name": "Athena", "role": "Goddess of wisdom, strategy, craft" },
-        { "name": "Apollo", "role": "God of sun, music, prophecy, healing" },
-        { "name": "Artemis", "role": "Goddess of hunt, wilderness, moon" },
-        { "name": "Poseidon", "role": "God of sea, earthquakes, horses" },
-        { "name": "Aphrodite", "role": "Goddess of love and beauty (Near Eastern connections)" },
-        { "name": "Ares", "role": "God of war" },
-        { "name": "Hermes", "role": "Messenger god, commerce, thieves, travelers" },
-        { "name": "Hades", "role": "God of the underworld" },
-        { "name": "Dionysus", "role": "God of wine, ecstasy, theater" },
-        { "name": "Demeter", "role": "Goddess of harvest, agriculture" }
+      "theologicalType": [
+        "polytheism"
       ],
-      "keyConcepts": ["Olympian pantheon", "mystery religions (Eleusinian, Orphic, Dionysian)", "oracle at Delphi", "hubris and nemesis", "hero cults", "philosophical theology (Plato, Aristotle)"],
-      "parentTraditions": ["proto_ie_religion"],
-      "childTraditions": ["roman_religion"],
-      "syncreticConnections": ["egyptian_religion", "canaanite_religion", "roman_religion"],
-      "influenced": ["gnosticism", "hermeticism", "neoplatonism", "christianity"],
+      "keyFigures": [
+        {
+          "name": "Zeus",
+          "role": "King of gods, sky/thunder god (from PIE *Dyeus)"
+        },
+        {
+          "name": "Hera",
+          "role": "Queen of gods, marriage, family"
+        },
+        {
+          "name": "Athena",
+          "role": "Goddess of wisdom, strategy, craft"
+        },
+        {
+          "name": "Apollo",
+          "role": "God of sun, music, prophecy, healing"
+        },
+        {
+          "name": "Artemis",
+          "role": "Goddess of hunt, wilderness, moon"
+        },
+        {
+          "name": "Poseidon",
+          "role": "God of sea, earthquakes, horses"
+        },
+        {
+          "name": "Aphrodite",
+          "role": "Goddess of love and beauty (Near Eastern connections)"
+        },
+        {
+          "name": "Ares",
+          "role": "God of war"
+        },
+        {
+          "name": "Hermes",
+          "role": "Messenger god, commerce, thieves, travelers"
+        },
+        {
+          "name": "Hades",
+          "role": "God of the underworld"
+        },
+        {
+          "name": "Dionysus",
+          "role": "God of wine, ecstasy, theater"
+        },
+        {
+          "name": "Demeter",
+          "role": "Goddess of harvest, agriculture"
+        }
+      ],
+      "keyConcepts": [
+        "Olympian pantheon",
+        "mystery religions (Eleusinian, Orphic, Dionysian)",
+        "oracle at Delphi",
+        "hubris and nemesis",
+        "hero cults",
+        "philosophical theology (Plato, Aristotle)"
+      ],
+      "parentTraditions": [
+        "proto_ie_religion"
+      ],
+      "childTraditions": [
+        "roman_religion"
+      ],
+      "syncreticConnections": [
+        "egyptian_religion",
+        "canaanite_religion",
+        "roman_religion"
+      ],
+      "influenced": [
+        "gnosticism",
+        "hermeticism",
+        "neoplatonism",
+        "christianity"
+      ],
       "nearEasternInfluences": "Aphrodite from Astarte/Ishtar, Dionysus has Near Eastern connections, Adonis from Canaanite Adon"
     },
-
     {
       "id": "roman_religion",
       "name": "Roman Religion",
@@ -456,27 +1163,83 @@
       "status": "extinct",
       "geographicOrigin": "Central Italy (Rome)",
       "region": "Mediterranean / Europe",
-      "theologicalType": ["polytheism", "state_religion", "syncretism"],
-      "keyFigures": [
-        { "name": "Jupiter", "role": "King of gods, sky/thunder (from PIE *Dyeus via Greek Zeus)" },
-        { "name": "Juno", "role": "Queen of gods, marriage (Greek Hera)" },
-        { "name": "Mars", "role": "God of war, agriculture (Greek Ares but more central)" },
-        { "name": "Minerva", "role": "Goddess of wisdom, craft (Greek Athena)" },
-        { "name": "Venus", "role": "Goddess of love (Greek Aphrodite)" },
-        { "name": "Mercury", "role": "Messenger, commerce (Greek Hermes)" },
-        { "name": "Neptune", "role": "Sea god (Greek Poseidon)" },
-        { "name": "Diana", "role": "Goddess of hunt (Greek Artemis)" },
-        { "name": "Janus", "role": "Two-faced god of doorways, beginnings (uniquely Roman)" },
-        { "name": "Vesta", "role": "Goddess of hearth (Greek Hestia)" }
+      "theologicalType": [
+        "polytheism",
+        "state_religion",
+        "syncretism"
       ],
-      "keyConcepts": ["interpretatio romana", "state religion (ius divinum)", "emperor worship", "Capitoline Triad (Jupiter, Juno, Minerva)", "mystery cults (Mithras, Isis, Cybele)", "augury and haruspicy", "religious syncretism across empire"],
-      "parentTraditions": ["proto_ie_religion", "greek_religion"],
+      "keyFigures": [
+        {
+          "name": "Jupiter",
+          "role": "King of gods, sky/thunder (from PIE *Dyeus via Greek Zeus)"
+        },
+        {
+          "name": "Juno",
+          "role": "Queen of gods, marriage (Greek Hera)"
+        },
+        {
+          "name": "Mars",
+          "role": "God of war, agriculture (Greek Ares but more central)"
+        },
+        {
+          "name": "Minerva",
+          "role": "Goddess of wisdom, craft (Greek Athena)"
+        },
+        {
+          "name": "Venus",
+          "role": "Goddess of love (Greek Aphrodite)"
+        },
+        {
+          "name": "Mercury",
+          "role": "Messenger, commerce (Greek Hermes)"
+        },
+        {
+          "name": "Neptune",
+          "role": "Sea god (Greek Poseidon)"
+        },
+        {
+          "name": "Diana",
+          "role": "Goddess of hunt (Greek Artemis)"
+        },
+        {
+          "name": "Janus",
+          "role": "Two-faced god of doorways, beginnings (uniquely Roman)"
+        },
+        {
+          "name": "Vesta",
+          "role": "Goddess of hearth (Greek Hestia)"
+        }
+      ],
+      "keyConcepts": [
+        "interpretatio romana",
+        "state religion (ius divinum)",
+        "emperor worship",
+        "Capitoline Triad (Jupiter, Juno, Minerva)",
+        "mystery cults (Mithras, Isis, Cybele)",
+        "augury and haruspicy",
+        "religious syncretism across empire"
+      ],
+      "parentTraditions": [
+        "proto_ie_religion",
+        "greek_religion"
+      ],
       "childTraditions": [],
-      "syncreticConnections": ["greek_religion", "egyptian_religion", "celtic_religion", "germanic_religion"],
-      "influenced": ["christianity"],
-      "importedCults": ["Isis cult (Egypt)", "Mithraism (Persia via Greece)", "Cybele cult (Phrygia)", "Sol Invictus (Syria)"]
+      "syncreticConnections": [
+        "greek_religion",
+        "egyptian_religion",
+        "celtic_religion",
+        "germanic_religion"
+      ],
+      "influenced": [
+        "christianity"
+      ],
+      "importedCults": [
+        "Isis cult (Egypt)",
+        "Mithraism (Persia via Greece)",
+        "Cybele cult (Phrygia)",
+        "Sol Invictus (Syria)"
+      ]
     },
-
     {
       "id": "norse_germanic",
       "name": "Norse / Germanic Religion",
@@ -486,24 +1249,71 @@
       "status": "extinct_revived",
       "geographicOrigin": "Scandinavia and Northern Europe",
       "region": "Northern Europe",
-      "theologicalType": ["polytheism", "animism"],
-      "keyFigures": [
-        { "name": "Odin/Wodan", "role": "Allfather, god of wisdom, war, death, magic, poetry, runes" },
-        { "name": "Thor/Donar", "role": "Thunder god, protector of humanity (from PIE *Perkwunos)" },
-        { "name": "Freyja", "role": "Goddess of love, fertility, war, magic (seidr)" },
-        { "name": "Freyr", "role": "God of fertility, prosperity, sacral kingship" },
-        { "name": "Tyr/Tiwaz", "role": "God of law, justice (from PIE *Dyeus)" },
-        { "name": "Loki", "role": "Trickster god, shape-shifter" },
-        { "name": "Baldur", "role": "God of light, beauty, rebirth" },
-        { "name": "Hel", "role": "Ruler of the dead" },
-        { "name": "Frigg", "role": "Queen of Asgard, goddess of marriage, prophecy" }
+      "theologicalType": [
+        "polytheism",
+        "animism"
       ],
-      "keyConcepts": ["Nine Worlds cosmology", "Yggdrasil (World Tree)", "Ragnarok (end times/renewal)", "Valhalla", "runes", "wyrd/fate", "blot (sacrifice)", "Aesir vs Vanir (two divine families)", "Eddas and sagas"],
-      "parentTraditions": ["proto_ie_religion"],
-      "childTraditions": ["asatru_modern"],
-      "syncreticConnections": ["celtic_religion", "slavic_religion", "roman_religion"]
+      "keyFigures": [
+        {
+          "name": "Odin/Wodan",
+          "role": "Allfather, god of wisdom, war, death, magic, poetry, runes"
+        },
+        {
+          "name": "Thor/Donar",
+          "role": "Thunder god, protector of humanity (from PIE *Perkwunos)"
+        },
+        {
+          "name": "Freyja",
+          "role": "Goddess of love, fertility, war, magic (seidr)"
+        },
+        {
+          "name": "Freyr",
+          "role": "God of fertility, prosperity, sacral kingship"
+        },
+        {
+          "name": "Tyr/Tiwaz",
+          "role": "God of law, justice (from PIE *Dyeus)"
+        },
+        {
+          "name": "Loki",
+          "role": "Trickster god, shape-shifter"
+        },
+        {
+          "name": "Baldur",
+          "role": "God of light, beauty, rebirth"
+        },
+        {
+          "name": "Hel",
+          "role": "Ruler of the dead"
+        },
+        {
+          "name": "Frigg",
+          "role": "Queen of Asgard, goddess of marriage, prophecy"
+        }
+      ],
+      "keyConcepts": [
+        "Nine Worlds cosmology",
+        "Yggdrasil (World Tree)",
+        "Ragnarok (end times/renewal)",
+        "Valhalla",
+        "runes",
+        "wyrd/fate",
+        "blot (sacrifice)",
+        "Aesir vs Vanir (two divine families)",
+        "Eddas and sagas"
+      ],
+      "parentTraditions": [
+        "proto_ie_religion"
+      ],
+      "childTraditions": [
+        "asatru_modern"
+      ],
+      "syncreticConnections": [
+        "celtic_religion",
+        "slavic_religion",
+        "roman_religion"
+      ]
     },
-
     {
       "id": "celtic_religion",
       "name": "Celtic Religion",
@@ -513,24 +1323,71 @@
       "status": "extinct_revived",
       "geographicOrigin": "Central Europe, spread to Gaul, Britain, Ireland, Iberia",
       "region": "Western/Central Europe",
-      "theologicalType": ["polytheism", "animism", "druidic_priesthood"],
-      "keyFigures": [
-        { "name": "Lugh/Lugus", "role": "Many-skilled god, light, crafts, kingship (pan-Celtic)" },
-        { "name": "The Dagda", "role": "Father god, abundance, wisdom, life and death (Irish)" },
-        { "name": "Brigid", "role": "Triple goddess of poetry, healing, smithing (Irish)" },
-        { "name": "Cernunnos", "role": "Horned god of nature, animals, fertility (Gaulish)" },
-        { "name": "The Morrigan", "role": "Triple war/fate goddess (Irish)" },
-        { "name": "Danu/Don", "role": "Mother goddess of the Tuatha De Danann (Irish/Welsh)" },
-        { "name": "Epona", "role": "Horse goddess (Gaulish, adopted by Romans)" },
-        { "name": "Taranis", "role": "Thunder god (Gaulish, cognate with Thor)" },
-        { "name": "Manawyddan/Manannan", "role": "Sea god (Welsh/Irish)" }
+      "theologicalType": [
+        "polytheism",
+        "animism",
+        "druidic_priesthood"
       ],
-      "keyConcepts": ["Otherworld", "sacred groves", "head cult", "triple goddesses", "Druid priesthood", "transmigration of souls", "seasonal festivals (Samhain, Beltane, Imbolc, Lughnasadh)", "river/spring veneration"],
-      "parentTraditions": ["proto_ie_religion"],
-      "childTraditions": ["celtic_christianity", "modern_druidry"],
-      "syncreticConnections": ["roman_religion", "norse_germanic"]
+      "keyFigures": [
+        {
+          "name": "Lugh/Lugus",
+          "role": "Many-skilled god, light, crafts, kingship (pan-Celtic)"
+        },
+        {
+          "name": "The Dagda",
+          "role": "Father god, abundance, wisdom, life and death (Irish)"
+        },
+        {
+          "name": "Brigid",
+          "role": "Triple goddess of poetry, healing, smithing (Irish)"
+        },
+        {
+          "name": "Cernunnos",
+          "role": "Horned god of nature, animals, fertility (Gaulish)"
+        },
+        {
+          "name": "The Morrigan",
+          "role": "Triple war/fate goddess (Irish)"
+        },
+        {
+          "name": "Danu/Don",
+          "role": "Mother goddess of the Tuatha De Danann (Irish/Welsh)"
+        },
+        {
+          "name": "Epona",
+          "role": "Horse goddess (Gaulish, adopted by Romans)"
+        },
+        {
+          "name": "Taranis",
+          "role": "Thunder god (Gaulish, cognate with Thor)"
+        },
+        {
+          "name": "Manawyddan/Manannan",
+          "role": "Sea god (Welsh/Irish)"
+        }
+      ],
+      "keyConcepts": [
+        "Otherworld",
+        "sacred groves",
+        "head cult",
+        "triple goddesses",
+        "Druid priesthood",
+        "transmigration of souls",
+        "seasonal festivals (Samhain, Beltane, Imbolc, Lughnasadh)",
+        "river/spring veneration"
+      ],
+      "parentTraditions": [
+        "proto_ie_religion"
+      ],
+      "childTraditions": [
+        "celtic_christianity",
+        "modern_druidry"
+      ],
+      "syncreticConnections": [
+        "roman_religion",
+        "norse_germanic"
+      ]
     },
-
     {
       "id": "slavic_religion",
       "name": "Slavic Religion",
@@ -540,23 +1397,63 @@
       "status": "extinct_revived",
       "geographicOrigin": "Eastern Europe",
       "region": "Eastern Europe",
-      "theologicalType": ["polytheism", "animism"],
-      "keyFigures": [
-        { "name": "Perun", "role": "Thunder god, supreme deity (from PIE *Perkwunos)" },
-        { "name": "Veles", "role": "God of underworld, cattle, magic, commerce (cosmic opposite of Perun)" },
-        { "name": "Svarog", "role": "Sky/fire god, celestial smith" },
-        { "name": "Dazhbog", "role": "Sun god, son of Svarog" },
-        { "name": "Morana/Marzanna", "role": "Goddess of winter, death, rebirth" },
-        { "name": "Rod", "role": "Primordial creator god, fate, ancestry" },
-        { "name": "Lada", "role": "Goddess of love, beauty, spring (debated)" },
-        { "name": "Stribog", "role": "God of winds" }
+      "theologicalType": [
+        "polytheism",
+        "animism"
       ],
-      "keyConcepts": ["Perun vs Veles cosmic battle (thunder god vs serpent)", "World Tree", "ancestor worship", "domovoi (house spirits)", "seasonal rites", "sacred groves"],
-      "parentTraditions": ["proto_ie_religion"],
-      "childTraditions": ["slavic_neopaganism"],
-      "syncreticConnections": ["norse_germanic", "baltic_religion"]
+      "keyFigures": [
+        {
+          "name": "Perun",
+          "role": "Thunder god, supreme deity (from PIE *Perkwunos)"
+        },
+        {
+          "name": "Veles",
+          "role": "God of underworld, cattle, magic, commerce (cosmic opposite of Perun)"
+        },
+        {
+          "name": "Svarog",
+          "role": "Sky/fire god, celestial smith"
+        },
+        {
+          "name": "Dazhbog",
+          "role": "Sun god, son of Svarog"
+        },
+        {
+          "name": "Morana/Marzanna",
+          "role": "Goddess of winter, death, rebirth"
+        },
+        {
+          "name": "Rod",
+          "role": "Primordial creator god, fate, ancestry"
+        },
+        {
+          "name": "Lada",
+          "role": "Goddess of love, beauty, spring (debated)"
+        },
+        {
+          "name": "Stribog",
+          "role": "God of winds"
+        }
+      ],
+      "keyConcepts": [
+        "Perun vs Veles cosmic battle (thunder god vs serpent)",
+        "World Tree",
+        "ancestor worship",
+        "domovoi (house spirits)",
+        "seasonal rites",
+        "sacred groves"
+      ],
+      "parentTraditions": [
+        "proto_ie_religion"
+      ],
+      "childTraditions": [
+        "slavic_neopaganism"
+      ],
+      "syncreticConnections": [
+        "norse_germanic",
+        "baltic_religion"
+      ]
     },
-
     {
       "id": "baltic_religion",
       "name": "Baltic Religion",
@@ -566,23 +1463,59 @@
       "status": "extinct_revived",
       "geographicOrigin": "Eastern Baltic coast (modern Lithuania, Latvia)",
       "region": "Northeastern Europe",
-      "theologicalType": ["polytheism", "animism"],
-      "keyFigures": [
-        { "name": "Dievas/Dievs", "role": "Supreme sky god (from PIE *Dyeus), creator" },
-        { "name": "Perkūnas/Pērkons", "role": "Thunder god (from PIE *Perkwunos)" },
-        { "name": "Saulė/Saule", "role": "Sun goddess (from PIE *Seh2ul)" },
-        { "name": "Mēness/Mēnesis", "role": "Moon god (from PIE *Mehno)" },
-        { "name": "Laima", "role": "Goddess of fate, luck, childbirth" },
-        { "name": "Velnias/Velns", "role": "God of dead, underworld, cattle (cognate of Slavic Veles)" },
-        { "name": "Žemyna/Zemes māte", "role": "Earth mother goddess" }
+      "theologicalType": [
+        "polytheism",
+        "animism"
       ],
-      "keyConcepts": ["dainos (mythological songs)", "sacred groves", "fate goddesses", "World Tree", "fire worship", "remarkably conservative Indo-European traits"],
-      "parentTraditions": ["proto_ie_religion"],
-      "childTraditions": ["romuva_modern"],
-      "syncreticConnections": ["slavic_religion"],
+      "keyFigures": [
+        {
+          "name": "Dievas/Dievs",
+          "role": "Supreme sky god (from PIE *Dyeus), creator"
+        },
+        {
+          "name": "Perkūnas/Pērkons",
+          "role": "Thunder god (from PIE *Perkwunos)"
+        },
+        {
+          "name": "Saulė/Saule",
+          "role": "Sun goddess (from PIE *Seh2ul)"
+        },
+        {
+          "name": "Mēness/Mēnesis",
+          "role": "Moon god (from PIE *Mehno)"
+        },
+        {
+          "name": "Laima",
+          "role": "Goddess of fate, luck, childbirth"
+        },
+        {
+          "name": "Velnias/Velns",
+          "role": "God of dead, underworld, cattle (cognate of Slavic Veles)"
+        },
+        {
+          "name": "Žemyna/Zemes māte",
+          "role": "Earth mother goddess"
+        }
+      ],
+      "keyConcepts": [
+        "dainos (mythological songs)",
+        "sacred groves",
+        "fate goddesses",
+        "World Tree",
+        "fire worship",
+        "remarkably conservative Indo-European traits"
+      ],
+      "parentTraditions": [
+        "proto_ie_religion"
+      ],
+      "childTraditions": [
+        "romuva_modern"
+      ],
+      "syncreticConnections": [
+        "slavic_religion"
+      ],
       "note": "Baltic languages and mythology are among the most conservative of Indo-European daughter traditions, making them invaluable for PIE reconstruction"
     },
-
     {
       "id": "judaism_early",
       "name": "Early Israelite / Yahwistic Religion",
@@ -592,20 +1525,53 @@
       "status": "evolved",
       "geographicOrigin": "Canaan (modern Israel/Palestine)",
       "region": "Levant",
-      "theologicalType": ["monolatry", "henotheism", "evolving_toward_monotheism"],
-      "keyFigures": [
-        { "name": "Yahweh", "role": "National god, storm/warrior god, eventually sole deity" },
-        { "name": "El", "role": "Canaanite supreme god, merged with Yahweh" },
-        { "name": "Asherah", "role": "Goddess, possibly consort of Yahweh (eventually suppressed)" },
-        { "name": "Moses", "role": "Traditional lawgiver and prophet" },
-        { "name": "Elijah", "role": "Prophet who championed exclusive Yahweh worship (9th c. BCE)" }
+      "theologicalType": [
+        "monolatry",
+        "henotheism",
+        "evolving_toward_monotheism"
       ],
-      "keyConcepts": ["covenant theology", "Yahweh-El merger", "monolatry progressing to monotheism", "suppression of Baal and Asherah worship", "Temple cult in Jerusalem", "Deuteronomic reform"],
-      "parentTraditions": ["canaanite_religion"],
-      "childTraditions": ["judaism"],
-      "influencedBy": ["canaanite_religion", "egyptian_religion", "babylonian_religion"]
+      "keyFigures": [
+        {
+          "name": "Yahweh",
+          "role": "National god, storm/warrior god, eventually sole deity"
+        },
+        {
+          "name": "El",
+          "role": "Canaanite supreme god, merged with Yahweh"
+        },
+        {
+          "name": "Asherah",
+          "role": "Goddess, possibly consort of Yahweh (eventually suppressed)"
+        },
+        {
+          "name": "Moses",
+          "role": "Traditional lawgiver and prophet"
+        },
+        {
+          "name": "Elijah",
+          "role": "Prophet who championed exclusive Yahweh worship (9th c. BCE)"
+        }
+      ],
+      "keyConcepts": [
+        "covenant theology",
+        "Yahweh-El merger",
+        "monolatry progressing to monotheism",
+        "suppression of Baal and Asherah worship",
+        "Temple cult in Jerusalem",
+        "Deuteronomic reform"
+      ],
+      "parentTraditions": [
+        "canaanite_religion"
+      ],
+      "childTraditions": [
+        "judaism"
+      ],
+      "influencedBy": [
+        "canaanite_religion",
+        "egyptian_religion",
+        "babylonian_religion"
+      ]
     },
-
     {
       "id": "judaism",
       "name": "Judaism (Second Temple and Rabbinic)",
@@ -615,28 +1581,83 @@
       "status": "active",
       "geographicOrigin": "Judea/Babylon (exile period)",
       "region": "Levant / Global",
-      "theologicalType": ["monotheism", "ethical_monotheism", "covenantal_theology"],
+      "theologicalType": [
+        "monotheism",
+        "ethical_monotheism",
+        "covenantal_theology"
+      ],
       "keyFigures": [
-        { "name": "YHWH (God)", "role": "Sole deity, creator, lawgiver" },
-        { "name": "Abraham", "role": "Patriarch, covenant with God" },
-        { "name": "Moses", "role": "Lawgiver, received Torah at Sinai" },
-        { "name": "David", "role": "King, established Jerusalem" },
-        { "name": "The Prophets (Isaiah, Jeremiah, Ezekiel)", "role": "Ethical/social reformers" }
+        {
+          "name": "YHWH (God)",
+          "role": "Sole deity, creator, lawgiver"
+        },
+        {
+          "name": "Abraham",
+          "role": "Patriarch, covenant with God"
+        },
+        {
+          "name": "Moses",
+          "role": "Lawgiver, received Torah at Sinai"
+        },
+        {
+          "name": "David",
+          "role": "King, established Jerusalem"
+        },
+        {
+          "name": "The Prophets (Isaiah, Jeremiah, Ezekiel)",
+          "role": "Ethical/social reformers"
+        }
       ],
-      "keyConcepts": ["Torah (divine law)", "covenant", "ethical monotheism", "messianic hope", "Talmud", "synagogue worship", "diaspora identity", "afterlife concepts influenced by Zoroastrianism"],
+      "keyConcepts": [
+        "Torah (divine law)",
+        "covenant",
+        "ethical monotheism",
+        "messianic hope",
+        "Talmud",
+        "synagogue worship",
+        "diaspora identity",
+        "afterlife concepts influenced by Zoroastrianism"
+      ],
       "majorBranches": [
-        { "name": "Orthodox Judaism", "description": "Strict adherence to halakha" },
-        { "name": "Conservative Judaism", "description": "Moderate modernization" },
-        { "name": "Reform Judaism", "description": "Liberal adaptation" },
-        { "name": "Hasidic Judaism", "description": "Mystical/devotional (18th c.)" },
-        { "name": "Karaite Judaism", "description": "Scripture-only, rejects Talmud" }
+        {
+          "name": "Orthodox Judaism",
+          "description": "Strict adherence to halakha"
+        },
+        {
+          "name": "Conservative Judaism",
+          "description": "Moderate modernization"
+        },
+        {
+          "name": "Reform Judaism",
+          "description": "Liberal adaptation"
+        },
+        {
+          "name": "Hasidic Judaism",
+          "description": "Mystical/devotional (18th c.)"
+        },
+        {
+          "name": "Karaite Judaism",
+          "description": "Scripture-only, rejects Talmud"
+        }
       ],
-      "parentTraditions": ["judaism_early"],
-      "childTraditions": ["christianity", "islam"],
-      "influencedBy": ["zoroastrianism", "babylonian_religion"],
-      "influenced": ["christianity", "islam", "bahai", "gnosticism"]
+      "parentTraditions": [
+        "judaism_early"
+      ],
+      "childTraditions": [
+        "christianity",
+        "islam"
+      ],
+      "influencedBy": [
+        "zoroastrianism",
+        "babylonian_religion"
+      ],
+      "influenced": [
+        "christianity",
+        "islam",
+        "bahai",
+        "gnosticism"
+      ]
     },
-
     {
       "id": "christianity",
       "name": "Christianity",
@@ -646,28 +1667,90 @@
       "status": "active",
       "geographicOrigin": "Roman Judea (Jerusalem, Galilee)",
       "region": "Levant / Global",
-      "theologicalType": ["monotheism", "trinitarian_monotheism"],
+      "theologicalType": [
+        "monotheism",
+        "trinitarian_monotheism"
+      ],
       "keyFigures": [
-        { "name": "Jesus Christ", "role": "Central figure, Son of God, Messiah" },
-        { "name": "Paul the Apostle", "role": "Key evangelist, theologian of gentile mission" },
-        { "name": "Mary", "role": "Mother of Jesus, venerated in Catholic/Orthodox traditions" },
-        { "name": "Peter", "role": "Apostle, first pope (Catholic tradition)" }
+        {
+          "name": "Jesus Christ",
+          "role": "Central figure, Son of God, Messiah"
+        },
+        {
+          "name": "Paul the Apostle",
+          "role": "Key evangelist, theologian of gentile mission"
+        },
+        {
+          "name": "Mary",
+          "role": "Mother of Jesus, venerated in Catholic/Orthodox traditions"
+        },
+        {
+          "name": "Peter",
+          "role": "Apostle, first pope (Catholic tradition)"
+        }
       ],
-      "keyConcepts": ["Trinity (Father, Son, Holy Spirit)", "incarnation", "crucifixion and resurrection", "salvation by grace/faith", "original sin", "sacraments", "eschatology (Second Coming)", "Bible (Old and New Testaments)"],
+      "keyConcepts": [
+        "Trinity (Father, Son, Holy Spirit)",
+        "incarnation",
+        "crucifixion and resurrection",
+        "salvation by grace/faith",
+        "original sin",
+        "sacraments",
+        "eschatology (Second Coming)",
+        "Bible (Old and New Testaments)"
+      ],
       "majorBranches": [
-        { "name": "Oriental Orthodoxy", "date": 451, "description": "Split at Council of Chalcedon (Coptic, Armenian, Ethiopian, Syriac)" },
-        { "name": "Eastern Orthodoxy", "date": 1054, "description": "East-West Schism; Greek, Russian, etc." },
-        { "name": "Roman Catholicism", "date": 1054, "description": "Papacy, Latin tradition" },
-        { "name": "Protestantism", "date": 1517, "description": "Reformation; Lutheran, Calvinist, Anglican, Baptist, Methodist, Pentecostal, etc." },
-        { "name": "Church of the East (Nestorian)", "date": 431, "description": "Split at Council of Ephesus" }
+        {
+          "name": "Oriental Orthodoxy",
+          "date": 451,
+          "description": "Split at Council of Chalcedon (Coptic, Armenian, Ethiopian, Syriac)"
+        },
+        {
+          "name": "Eastern Orthodoxy",
+          "date": 1054,
+          "description": "East-West Schism; Greek, Russian, etc."
+        },
+        {
+          "name": "Roman Catholicism",
+          "date": 1054,
+          "description": "Papacy, Latin tradition"
+        },
+        {
+          "name": "Protestantism",
+          "date": 1517,
+          "description": "Reformation; Lutheran, Calvinist, Anglican, Baptist, Methodist, Pentecostal, etc."
+        },
+        {
+          "name": "Church of the East (Nestorian)",
+          "date": 431,
+          "description": "Split at Council of Ephesus"
+        }
       ],
-      "parentTraditions": ["judaism"],
-      "childTraditions": ["islam"],
-      "influencedBy": ["judaism", "greek_religion", "roman_religion", "zoroastrianism", "neoplatonism"],
-      "influenced": ["islam", "bahai", "manichaeism", "gnosticism"],
-      "syncreticConnections": ["roman_religion", "celtic_religion", "norse_germanic"]
+      "parentTraditions": [
+        "judaism"
+      ],
+      "childTraditions": [
+        "islam"
+      ],
+      "influencedBy": [
+        "judaism",
+        "greek_religion",
+        "roman_religion",
+        "zoroastrianism",
+        "neoplatonism"
+      ],
+      "influenced": [
+        "islam",
+        "bahai",
+        "manichaeism",
+        "gnosticism"
+      ],
+      "syncreticConnections": [
+        "roman_religion",
+        "celtic_religion",
+        "norse_germanic"
+      ]
     },
-
     {
       "id": "islam",
       "name": "Islam",
@@ -677,28 +1760,84 @@
       "status": "active",
       "geographicOrigin": "Mecca, Arabian Peninsula",
       "region": "Arabia / Global",
-      "theologicalType": ["strict_monotheism", "prophetic_religion"],
+      "theologicalType": [
+        "strict_monotheism",
+        "prophetic_religion"
+      ],
       "keyFigures": [
-        { "name": "Allah (God)", "role": "Sole deity, same God as Judaism/Christianity" },
-        { "name": "Muhammad", "role": "Final prophet, Seal of the Prophets" },
-        { "name": "Ibrahim (Abraham)", "role": "Patriarch, builder of Kaaba" },
-        { "name": "Isa (Jesus)", "role": "Prophet and messiah (but not divine)" },
-        { "name": "Musa (Moses)", "role": "Prophet, received Torah" }
+        {
+          "name": "Allah (God)",
+          "role": "Sole deity, same God as Judaism/Christianity"
+        },
+        {
+          "name": "Muhammad",
+          "role": "Final prophet, Seal of the Prophets"
+        },
+        {
+          "name": "Ibrahim (Abraham)",
+          "role": "Patriarch, builder of Kaaba"
+        },
+        {
+          "name": "Isa (Jesus)",
+          "role": "Prophet and messiah (but not divine)"
+        },
+        {
+          "name": "Musa (Moses)",
+          "role": "Prophet, received Torah"
+        }
       ],
-      "keyConcepts": ["tawhid (oneness of God)", "Quran (divine revelation)", "Five Pillars", "sharia (divine law)", "prophetic tradition (hadith)", "Day of Judgment", "jihad (struggle)", "ummah (community)"],
+      "keyConcepts": [
+        "tawhid (oneness of God)",
+        "Quran (divine revelation)",
+        "Five Pillars",
+        "sharia (divine law)",
+        "prophetic tradition (hadith)",
+        "Day of Judgment",
+        "jihad (struggle)",
+        "ummah (community)"
+      ],
       "majorBranches": [
-        { "name": "Sunni Islam", "percent": "85-90%", "description": "Community consensus, four legal schools" },
-        { "name": "Shia Islam", "percent": "10-15%", "description": "Ali's line of succession, Imamate" },
-        { "name": "Sufism", "description": "Mystical/esoteric tradition within both Sunni and Shia" },
-        { "name": "Ibadi Islam", "description": "Neither Sunni nor Shia; dominant in Oman" },
-        { "name": "Ahmadiyya", "description": "19th century messianic movement" }
+        {
+          "name": "Sunni Islam",
+          "percent": "85-90%",
+          "description": "Community consensus, four legal schools"
+        },
+        {
+          "name": "Shia Islam",
+          "percent": "10-15%",
+          "description": "Ali's line of succession, Imamate"
+        },
+        {
+          "name": "Sufism",
+          "description": "Mystical/esoteric tradition within both Sunni and Shia"
+        },
+        {
+          "name": "Ibadi Islam",
+          "description": "Neither Sunni nor Shia; dominant in Oman"
+        },
+        {
+          "name": "Ahmadiyya",
+          "description": "19th century messianic movement"
+        }
       ],
-      "parentTraditions": ["judaism", "christianity"],
-      "childTraditions": ["bahai"],
-      "influencedBy": ["judaism", "christianity", "zoroastrianism", "pre_islamic_arabian"],
-      "influenced": ["sikhism", "bahai"]
+      "parentTraditions": [
+        "judaism",
+        "christianity"
+      ],
+      "childTraditions": [
+        "bahai"
+      ],
+      "influencedBy": [
+        "judaism",
+        "christianity",
+        "zoroastrianism",
+        "pre_islamic_arabian"
+      ],
+      "influenced": [
+        "sikhism",
+        "bahai"
+      ]
     },
-
     {
       "id": "chinese_folk_religion",
       "name": "Chinese Folk Religion / Shenism",
@@ -708,23 +1847,64 @@
       "status": "active",
       "geographicOrigin": "China",
       "region": "East Asia",
-      "theologicalType": ["polytheism", "animism", "ancestor_worship", "shamanism"],
-      "keyFigures": [
-        { "name": "Shangdi/Tian", "role": "Supreme deity / Heaven" },
-        { "name": "Mazu", "role": "Goddess of the sea" },
-        { "name": "Guandi", "role": "God of war, righteousness, loyalty" },
-        { "name": "Caishen", "role": "God of wealth" },
-        { "name": "Tudi Gong", "role": "Earth god / local land deity" },
-        { "name": "Jade Emperor", "role": "Ruler of heaven (later Taoist)" },
-        { "name": "Dragon Kings", "role": "Water/weather deities" }
+      "theologicalType": [
+        "polytheism",
+        "animism",
+        "ancestor_worship",
+        "shamanism"
       ],
-      "keyConcepts": ["ancestor veneration", "yin-yang cosmology", "five elements (wu xing)", "qi (vital energy)", "feng shui", "divination", "shamanic medium traditions", "Mandate of Heaven"],
+      "keyFigures": [
+        {
+          "name": "Shangdi/Tian",
+          "role": "Supreme deity / Heaven"
+        },
+        {
+          "name": "Mazu",
+          "role": "Goddess of the sea"
+        },
+        {
+          "name": "Guandi",
+          "role": "God of war, righteousness, loyalty"
+        },
+        {
+          "name": "Caishen",
+          "role": "God of wealth"
+        },
+        {
+          "name": "Tudi Gong",
+          "role": "Earth god / local land deity"
+        },
+        {
+          "name": "Jade Emperor",
+          "role": "Ruler of heaven (later Taoist)"
+        },
+        {
+          "name": "Dragon Kings",
+          "role": "Water/weather deities"
+        }
+      ],
+      "keyConcepts": [
+        "ancestor veneration",
+        "yin-yang cosmology",
+        "five elements (wu xing)",
+        "qi (vital energy)",
+        "feng shui",
+        "divination",
+        "shamanic medium traditions",
+        "Mandate of Heaven"
+      ],
       "parentTraditions": [],
-      "childTraditions": ["taoism", "confucianism"],
-      "syncreticConnections": ["taoism", "confucianism", "buddhism"],
+      "childTraditions": [
+        "taoism",
+        "confucianism"
+      ],
+      "syncreticConnections": [
+        "taoism",
+        "confucianism",
+        "buddhism"
+      ],
       "note": "Chinese religion is highly syncretic; most practitioners blend folk, Taoist, Buddhist, and Confucian elements"
     },
-
     {
       "id": "taoism",
       "name": "Taoism / Daoism",
@@ -734,22 +1914,63 @@
       "status": "active",
       "geographicOrigin": "China",
       "region": "East Asia",
-      "theologicalType": ["pantheism", "polytheism", "philosophical_naturalism"],
-      "keyFigures": [
-        { "name": "Laozi/Lao Tzu", "role": "Traditional founder, author of Tao Te Ching" },
-        { "name": "Zhuangzi", "role": "Philosopher, author of Zhuangzi" },
-        { "name": "Zhang Daoling", "role": "Founder of Celestial Masters (religious Taoism, 142 CE)" },
-        { "name": "Three Pure Ones", "role": "Highest Taoist deities" },
-        { "name": "Jade Emperor", "role": "Ruler of heaven" },
-        { "name": "Eight Immortals", "role": "Legendary figures of Taoist folklore" }
+      "theologicalType": [
+        "pantheism",
+        "polytheism",
+        "philosophical_naturalism"
       ],
-      "keyConcepts": ["Tao (the Way)", "wu wei (non-action)", "yin-yang", "qi", "de (virtue/power)", "immortality cultivation", "internal alchemy", "Tao Te Ching", "naturalness (ziran)"],
-      "parentTraditions": ["chinese_folk_religion"],
+      "keyFigures": [
+        {
+          "name": "Laozi/Lao Tzu",
+          "role": "Traditional founder, author of Tao Te Ching"
+        },
+        {
+          "name": "Zhuangzi",
+          "role": "Philosopher, author of Zhuangzi"
+        },
+        {
+          "name": "Zhang Daoling",
+          "role": "Founder of Celestial Masters (religious Taoism, 142 CE)"
+        },
+        {
+          "name": "Three Pure Ones",
+          "role": "Highest Taoist deities"
+        },
+        {
+          "name": "Jade Emperor",
+          "role": "Ruler of heaven"
+        },
+        {
+          "name": "Eight Immortals",
+          "role": "Legendary figures of Taoist folklore"
+        }
+      ],
+      "keyConcepts": [
+        "Tao (the Way)",
+        "wu wei (non-action)",
+        "yin-yang",
+        "qi",
+        "de (virtue/power)",
+        "immortality cultivation",
+        "internal alchemy",
+        "Tao Te Ching",
+        "naturalness (ziran)"
+      ],
+      "parentTraditions": [
+        "chinese_folk_religion"
+      ],
       "childTraditions": [],
-      "syncreticConnections": ["buddhism", "confucianism", "chinese_folk_religion"],
-      "influenced": ["zen_buddhism", "korean_shamanism", "vietnamese_religion"]
+      "syncreticConnections": [
+        "buddhism",
+        "confucianism",
+        "chinese_folk_religion"
+      ],
+      "influenced": [
+        "zen_buddhism",
+        "korean_shamanism",
+        "vietnamese_religion"
+      ]
     },
-
     {
       "id": "confucianism",
       "name": "Confucianism",
@@ -759,20 +1980,54 @@
       "status": "active",
       "geographicOrigin": "Lu state, China (modern Shandong)",
       "region": "East Asia",
-      "theologicalType": ["ethical_philosophy", "ancestor_worship", "agnostic_toward_supernatural"],
-      "keyFigures": [
-        { "name": "Kongzi (Confucius)", "role": "Founder (551-479 BCE)" },
-        { "name": "Mengzi (Mencius)", "role": "Key philosopher, human goodness" },
-        { "name": "Xunzi", "role": "Key philosopher, human nature needs cultivation" },
-        { "name": "Zhu Xi", "role": "Neo-Confucian systematizer (12th c.)" }
+      "theologicalType": [
+        "ethical_philosophy",
+        "ancestor_worship",
+        "agnostic_toward_supernatural"
       ],
-      "keyConcepts": ["ren (benevolence/humaneness)", "li (ritual propriety)", "xiao (filial piety)", "junzi (gentleman/superior person)", "Mandate of Heaven", "Five Relationships", "rectification of names", "harmony"],
-      "parentTraditions": ["chinese_folk_religion"],
+      "keyFigures": [
+        {
+          "name": "Kongzi (Confucius)",
+          "role": "Founder (551-479 BCE)"
+        },
+        {
+          "name": "Mengzi (Mencius)",
+          "role": "Key philosopher, human goodness"
+        },
+        {
+          "name": "Xunzi",
+          "role": "Key philosopher, human nature needs cultivation"
+        },
+        {
+          "name": "Zhu Xi",
+          "role": "Neo-Confucian systematizer (12th c.)"
+        }
+      ],
+      "keyConcepts": [
+        "ren (benevolence/humaneness)",
+        "li (ritual propriety)",
+        "xiao (filial piety)",
+        "junzi (gentleman/superior person)",
+        "Mandate of Heaven",
+        "Five Relationships",
+        "rectification of names",
+        "harmony"
+      ],
+      "parentTraditions": [
+        "chinese_folk_religion"
+      ],
       "childTraditions": [],
-      "syncreticConnections": ["taoism", "buddhism", "chinese_folk_religion"],
-      "influenced": ["korean_confucianism", "japanese_culture", "vietnamese_culture"]
+      "syncreticConnections": [
+        "taoism",
+        "buddhism",
+        "chinese_folk_religion"
+      ],
+      "influenced": [
+        "korean_confucianism",
+        "japanese_culture",
+        "vietnamese_culture"
+      ]
     },
-
     {
       "id": "shinto",
       "name": "Shinto",
@@ -782,22 +2037,53 @@
       "status": "active",
       "geographicOrigin": "Japan",
       "region": "East Asia (Japan)",
-      "theologicalType": ["polytheism", "animism", "nature_worship"],
-      "keyFigures": [
-        { "name": "Amaterasu", "role": "Sun goddess, chief deity, ancestor of imperial line" },
-        { "name": "Susanoo", "role": "Storm god, Amaterasu's brother" },
-        { "name": "Tsukuyomi", "role": "Moon god" },
-        { "name": "Izanagi and Izanami", "role": "Creator pair who made the Japanese islands" },
-        { "name": "Inari", "role": "God/goddess of rice, foxes, fertility, industry" },
-        { "name": "Hachiman", "role": "God of war, divine protector (syncretic with Buddhism)" }
+      "theologicalType": [
+        "polytheism",
+        "animism",
+        "nature_worship"
       ],
-      "keyConcepts": ["kami (spirits/gods in all things)", "shrine worship", "ritual purity", "connection to nature", "musubi (creative force)", "Kojiki and Nihon Shoki (mythological texts)", "matsuri (festivals)"],
+      "keyFigures": [
+        {
+          "name": "Amaterasu",
+          "role": "Sun goddess, chief deity, ancestor of imperial line"
+        },
+        {
+          "name": "Susanoo",
+          "role": "Storm god, Amaterasu's brother"
+        },
+        {
+          "name": "Tsukuyomi",
+          "role": "Moon god"
+        },
+        {
+          "name": "Izanagi and Izanami",
+          "role": "Creator pair who made the Japanese islands"
+        },
+        {
+          "name": "Inari",
+          "role": "God/goddess of rice, foxes, fertility, industry"
+        },
+        {
+          "name": "Hachiman",
+          "role": "God of war, divine protector (syncretic with Buddhism)"
+        }
+      ],
+      "keyConcepts": [
+        "kami (spirits/gods in all things)",
+        "shrine worship",
+        "ritual purity",
+        "connection to nature",
+        "musubi (creative force)",
+        "Kojiki and Nihon Shoki (mythological texts)",
+        "matsuri (festivals)"
+      ],
       "parentTraditions": [],
       "childTraditions": [],
-      "syncreticConnections": ["buddhism"],
+      "syncreticConnections": [
+        "buddhism"
+      ],
       "note": "Shinto-Buddhist syncretism (shinbutsu-shūgō) dominated Japanese religion from 8th-19th century until forcible separation (shinbutsu bunri) in 1868"
     },
-
     {
       "id": "korean_shamanism",
       "name": "Korean Shamanism (Muism/Musok)",
@@ -807,19 +2093,45 @@
       "status": "active_minority",
       "geographicOrigin": "Korean Peninsula",
       "region": "East Asia (Korea)",
-      "theologicalType": ["animism", "shamanism", "polytheism"],
-      "keyFigures": [
-        { "name": "Haneullim/Hwanin", "role": "Supreme sky god" },
-        { "name": "Dangun", "role": "Mythical founder of Korea, grandson of Hwanin" },
-        { "name": "Mudang", "role": "Shamanic practitioners (usually female)" },
-        { "name": "Various Sanshin", "role": "Mountain gods" }
+      "theologicalType": [
+        "animism",
+        "shamanism",
+        "polytheism"
       ],
-      "keyConcepts": ["gut (shamanic ritual)", "spirit possession", "ancestral spirits", "nature spirits", "mountain worship", "communication with spirits through mudang"],
+      "keyFigures": [
+        {
+          "name": "Haneullim/Hwanin",
+          "role": "Supreme sky god"
+        },
+        {
+          "name": "Dangun",
+          "role": "Mythical founder of Korea, grandson of Hwanin"
+        },
+        {
+          "name": "Mudang",
+          "role": "Shamanic practitioners (usually female)"
+        },
+        {
+          "name": "Various Sanshin",
+          "role": "Mountain gods"
+        }
+      ],
+      "keyConcepts": [
+        "gut (shamanic ritual)",
+        "spirit possession",
+        "ancestral spirits",
+        "nature spirits",
+        "mountain worship",
+        "communication with spirits through mudang"
+      ],
       "parentTraditions": [],
       "childTraditions": [],
-      "syncreticConnections": ["buddhism", "taoism", "confucianism"]
+      "syncreticConnections": [
+        "buddhism",
+        "taoism",
+        "confucianism"
+      ]
     },
-
     {
       "id": "aztec_religion",
       "name": "Aztec Religion",
@@ -829,24 +2141,62 @@
       "status": "extinct",
       "geographicOrigin": "Central Mexico",
       "region": "Mesoamerica",
-      "theologicalType": ["polytheism", "human_sacrifice_cult"],
-      "keyFigures": [
-        { "name": "Huitzilopochtli", "role": "God of war, sun, patron of Tenochtitlan" },
-        { "name": "Quetzalcoatl", "role": "Feathered Serpent, wind, learning, creator (pan-Mesoamerican)" },
-        { "name": "Tlaloc", "role": "Rain god (pan-Mesoamerican)" },
-        { "name": "Tezcatlipoca", "role": "God of night, sorcery, conflict, change" },
-        { "name": "Tonatiuh", "role": "Sun god" },
-        { "name": "Coatlicue", "role": "Earth mother goddess" },
-        { "name": "Xipe Totec", "role": "God of agriculture, spring, renewal" },
-        { "name": "Mictlantecuhtli", "role": "God of death and the underworld" }
+      "theologicalType": [
+        "polytheism",
+        "human_sacrifice_cult"
       ],
-      "keyConcepts": ["Five Suns (world ages/creations)", "13 heavens and 9 underworlds", "human sacrifice to sustain the sun", "tonalpohualli (260-day ritual calendar)", "blood debt to the gods", "200+ deities"],
-      "parentTraditions": ["toltec_religion", "mesoamerican_common_tradition"],
+      "keyFigures": [
+        {
+          "name": "Huitzilopochtli",
+          "role": "God of war, sun, patron of Tenochtitlan"
+        },
+        {
+          "name": "Quetzalcoatl",
+          "role": "Feathered Serpent, wind, learning, creator (pan-Mesoamerican)"
+        },
+        {
+          "name": "Tlaloc",
+          "role": "Rain god (pan-Mesoamerican)"
+        },
+        {
+          "name": "Tezcatlipoca",
+          "role": "God of night, sorcery, conflict, change"
+        },
+        {
+          "name": "Tonatiuh",
+          "role": "Sun god"
+        },
+        {
+          "name": "Coatlicue",
+          "role": "Earth mother goddess"
+        },
+        {
+          "name": "Xipe Totec",
+          "role": "God of agriculture, spring, renewal"
+        },
+        {
+          "name": "Mictlantecuhtli",
+          "role": "God of death and the underworld"
+        }
+      ],
+      "keyConcepts": [
+        "Five Suns (world ages/creations)",
+        "13 heavens and 9 underworlds",
+        "human sacrifice to sustain the sun",
+        "tonalpohualli (260-day ritual calendar)",
+        "blood debt to the gods",
+        "200+ deities"
+      ],
+      "parentTraditions": [
+        "toltec_religion",
+        "mesoamerican_common_tradition"
+      ],
       "childTraditions": [],
-      "syncreticConnections": ["maya_religion"],
+      "syncreticConnections": [
+        "maya_religion"
+      ],
       "note": "Highly syncretic, absorbed deities and practices from conquered peoples"
     },
-
     {
       "id": "maya_religion",
       "name": "Maya Religion",
@@ -856,24 +2206,64 @@
       "status": "extinct_survived_in_folk",
       "geographicOrigin": "Yucatan, Guatemala, Belize, Honduras",
       "region": "Mesoamerica",
-      "theologicalType": ["polytheism", "cyclical_cosmology"],
-      "keyFigures": [
-        { "name": "Itzamna", "role": "Creator god, lord of heavens" },
-        { "name": "Kinich Ahau", "role": "Sun god" },
-        { "name": "Ix Chel", "role": "Moon goddess, medicine, weaving" },
-        { "name": "Chaac/Chac", "role": "Rain god(s)" },
-        { "name": "Kukulkan", "role": "Feathered Serpent (= Quetzalcoatl)" },
-        { "name": "Ah Puch", "role": "Death god, lord of 9th underworld" },
-        { "name": "Ah Mun", "role": "Corn/maize god" },
-        { "name": "Hero Twins (Hunahpu & Xbalanque)", "role": "Mythic heroes of Popol Vuh" }
+      "theologicalType": [
+        "polytheism",
+        "cyclical_cosmology"
       ],
-      "keyConcepts": ["Popol Vuh (creation narrative)", "13 heavens, 9 underworlds", "Long Count calendar", "World Tree (ceiba)", "bloodletting rituals", "ball game as cosmic ritual", "creation through sacrifice"],
-      "parentTraditions": ["olmec_religion"],
-      "childTraditions": ["aztec_religion"],
-      "syncreticConnections": ["aztec_religion"],
+      "keyFigures": [
+        {
+          "name": "Itzamna",
+          "role": "Creator god, lord of heavens"
+        },
+        {
+          "name": "Kinich Ahau",
+          "role": "Sun god"
+        },
+        {
+          "name": "Ix Chel",
+          "role": "Moon goddess, medicine, weaving"
+        },
+        {
+          "name": "Chaac/Chac",
+          "role": "Rain god(s)"
+        },
+        {
+          "name": "Kukulkan",
+          "role": "Feathered Serpent (= Quetzalcoatl)"
+        },
+        {
+          "name": "Ah Puch",
+          "role": "Death god, lord of 9th underworld"
+        },
+        {
+          "name": "Ah Mun",
+          "role": "Corn/maize god"
+        },
+        {
+          "name": "Hero Twins (Hunahpu & Xbalanque)",
+          "role": "Mythic heroes of Popol Vuh"
+        }
+      ],
+      "keyConcepts": [
+        "Popol Vuh (creation narrative)",
+        "13 heavens, 9 underworlds",
+        "Long Count calendar",
+        "World Tree (ceiba)",
+        "bloodletting rituals",
+        "ball game as cosmic ritual",
+        "creation through sacrifice"
+      ],
+      "parentTraditions": [
+        "olmec_religion"
+      ],
+      "childTraditions": [
+        "aztec_religion"
+      ],
+      "syncreticConnections": [
+        "aztec_religion"
+      ],
       "note": "Maya religious practices survived colonialism in syncretic form blended with Catholicism"
     },
-
     {
       "id": "inca_religion",
       "name": "Inca Religion",
@@ -883,21 +2273,51 @@
       "status": "extinct_survived_in_folk",
       "geographicOrigin": "Cusco, Andes (modern Peru)",
       "region": "South America (Andes)",
-      "theologicalType": ["polytheism", "solar_worship", "ancestor_worship"],
-      "keyFigures": [
-        { "name": "Inti", "role": "Sun god, supreme deity, ancestor of Inca rulers" },
-        { "name": "Viracocha", "role": "Creator god, Lord Instructor of the World" },
-        { "name": "Mama Quilla", "role": "Moon goddess" },
-        { "name": "Pachamama", "role": "Earth Mother goddess" },
-        { "name": "Apu Illapu", "role": "Rain and thunder god" },
-        { "name": "Supay", "role": "God of death/underworld" }
+      "theologicalType": [
+        "polytheism",
+        "solar_worship",
+        "ancestor_worship"
       ],
-      "keyConcepts": ["huacas (sacred places/objects)", "ceque system (sacred geography)", "ancestor mummy worship", "capacocha (child sacrifice)", "reciprocity with the divine", "three worlds (hanan pacha, kay pacha, uku pacha)"],
-      "parentTraditions": ["tiwanaku_religion"],
+      "keyFigures": [
+        {
+          "name": "Inti",
+          "role": "Sun god, supreme deity, ancestor of Inca rulers"
+        },
+        {
+          "name": "Viracocha",
+          "role": "Creator god, Lord Instructor of the World"
+        },
+        {
+          "name": "Mama Quilla",
+          "role": "Moon goddess"
+        },
+        {
+          "name": "Pachamama",
+          "role": "Earth Mother goddess"
+        },
+        {
+          "name": "Apu Illapu",
+          "role": "Rain and thunder god"
+        },
+        {
+          "name": "Supay",
+          "role": "God of death/underworld"
+        }
+      ],
+      "keyConcepts": [
+        "huacas (sacred places/objects)",
+        "ceque system (sacred geography)",
+        "ancestor mummy worship",
+        "capacocha (child sacrifice)",
+        "reciprocity with the divine",
+        "three worlds (hanan pacha, kay pacha, uku pacha)"
+      ],
+      "parentTraditions": [
+        "tiwanaku_religion"
+      ],
       "childTraditions": [],
       "note": "Absorbed local deities from conquered territories; syncretic survival with Catholicism in Andean folk religion"
     },
-
     {
       "id": "yoruba_religion",
       "name": "Yoruba Religion (Isese)",
@@ -907,23 +2327,65 @@
       "status": "active",
       "geographicOrigin": "Yorubaland (modern Nigeria, Benin, Togo)",
       "region": "West Africa",
-      "theologicalType": ["polytheism", "monotheism_with_intermediaries"],
-      "keyFigures": [
-        { "name": "Olodumare/Olorun", "role": "Supreme creator god" },
-        { "name": "Obatala", "role": "Creator of human bodies, purity" },
-        { "name": "Ogun", "role": "Orisha of iron, war, technology" },
-        { "name": "Shango/Sango", "role": "Orisha of thunder, lightning, justice" },
-        { "name": "Yemoja", "role": "Mother orisha, ocean, fertility" },
-        { "name": "Oshun", "role": "Orisha of rivers, love, fertility" },
-        { "name": "Eshu/Elegba", "role": "Trickster, messenger, crossroads" },
-        { "name": "Ifa/Orunmila", "role": "Orisha of divination, wisdom" }
+      "theologicalType": [
+        "polytheism",
+        "monotheism_with_intermediaries"
       ],
-      "keyConcepts": ["orishas (divine intermediaries, 401 traditionally)", "Ifa divination system", "ori (personal destiny/head)", "ase (divine power)", "ancestor veneration", "reincarnation within family lineage"],
+      "keyFigures": [
+        {
+          "name": "Olodumare/Olorun",
+          "role": "Supreme creator god"
+        },
+        {
+          "name": "Obatala",
+          "role": "Creator of human bodies, purity"
+        },
+        {
+          "name": "Ogun",
+          "role": "Orisha of iron, war, technology"
+        },
+        {
+          "name": "Shango/Sango",
+          "role": "Orisha of thunder, lightning, justice"
+        },
+        {
+          "name": "Yemoja",
+          "role": "Mother orisha, ocean, fertility"
+        },
+        {
+          "name": "Oshun",
+          "role": "Orisha of rivers, love, fertility"
+        },
+        {
+          "name": "Eshu/Elegba",
+          "role": "Trickster, messenger, crossroads"
+        },
+        {
+          "name": "Ifa/Orunmila",
+          "role": "Orisha of divination, wisdom"
+        }
+      ],
+      "keyConcepts": [
+        "orishas (divine intermediaries, 401 traditionally)",
+        "Ifa divination system",
+        "ori (personal destiny/head)",
+        "ase (divine power)",
+        "ancestor veneration",
+        "reincarnation within family lineage"
+      ],
       "parentTraditions": [],
-      "childTraditions": ["santeria", "candomble", "vodou", "trinidad_orisha", "umbanda"],
-      "syncreticConnections": ["christianity", "islam"]
+      "childTraditions": [
+        "santeria",
+        "candomble",
+        "vodou",
+        "trinidad_orisha",
+        "umbanda"
+      ],
+      "syncreticConnections": [
+        "christianity",
+        "islam"
+      ]
     },
-
     {
       "id": "akan_religion",
       "name": "Akan Religion",
@@ -933,19 +2395,45 @@
       "status": "active",
       "geographicOrigin": "Ghana, Ivory Coast",
       "region": "West Africa",
-      "theologicalType": ["polytheism", "supreme_being_with_spirits"],
-      "keyFigures": [
-        { "name": "Nyame", "role": "Supreme creator god" },
-        { "name": "Asase Yaa", "role": "Earth goddess" },
-        { "name": "Anansi", "role": "Trickster spider figure" },
-        { "name": "Abosom", "role": "Lesser deities/spirits" }
+      "theologicalType": [
+        "polytheism",
+        "supreme_being_with_spirits"
       ],
-      "keyConcepts": ["Nyame as supreme being", "abosom (spirit intermediaries)", "ancestor veneration", "day-name system", "sunsum (spirit)", "kra (soul)"],
+      "keyFigures": [
+        {
+          "name": "Nyame",
+          "role": "Supreme creator god"
+        },
+        {
+          "name": "Asase Yaa",
+          "role": "Earth goddess"
+        },
+        {
+          "name": "Anansi",
+          "role": "Trickster spider figure"
+        },
+        {
+          "name": "Abosom",
+          "role": "Lesser deities/spirits"
+        }
+      ],
+      "keyConcepts": [
+        "Nyame as supreme being",
+        "abosom (spirit intermediaries)",
+        "ancestor veneration",
+        "day-name system",
+        "sunsum (spirit)",
+        "kra (soul)"
+      ],
       "parentTraditions": [],
-      "childTraditions": ["comfa", "winti"],
-      "syncreticConnections": ["christianity"]
+      "childTraditions": [
+        "comfa",
+        "winti"
+      ],
+      "syncreticConnections": [
+        "christianity"
+      ]
     },
-
     {
       "id": "santeria",
       "name": "Santeria (Regla de Ocha)",
@@ -955,19 +2443,44 @@
       "status": "active",
       "geographicOrigin": "Cuba",
       "region": "Caribbean / Americas",
-      "theologicalType": ["polytheism", "syncretism"],
-      "keyFigures": [
-        { "name": "Orishas", "role": "Yoruba deities syncreted with Catholic saints" },
-        { "name": "Shango/Santa Barbara", "role": "Thunder orisha syncreted with St. Barbara" },
-        { "name": "Yemaya/Our Lady of Regla", "role": "Ocean mother syncreted with Virgin Mary" },
-        { "name": "Ogun/St. Peter", "role": "Iron/war orisha syncreted with St. Peter" }
+      "theologicalType": [
+        "polytheism",
+        "syncretism"
       ],
-      "keyConcepts": ["orisha-saint syncretism", "Ifa divination", "animal sacrifice", "spirit possession", "initiation system"],
-      "parentTraditions": ["yoruba_religion"],
-      "influencedBy": ["yoruba_religion", "christianity"],
+      "keyFigures": [
+        {
+          "name": "Orishas",
+          "role": "Yoruba deities syncreted with Catholic saints"
+        },
+        {
+          "name": "Shango/Santa Barbara",
+          "role": "Thunder orisha syncreted with St. Barbara"
+        },
+        {
+          "name": "Yemaya/Our Lady of Regla",
+          "role": "Ocean mother syncreted with Virgin Mary"
+        },
+        {
+          "name": "Ogun/St. Peter",
+          "role": "Iron/war orisha syncreted with St. Peter"
+        }
+      ],
+      "keyConcepts": [
+        "orisha-saint syncretism",
+        "Ifa divination",
+        "animal sacrifice",
+        "spirit possession",
+        "initiation system"
+      ],
+      "parentTraditions": [
+        "yoruba_religion"
+      ],
+      "influencedBy": [
+        "yoruba_religion",
+        "christianity"
+      ],
       "childTraditions": []
     },
-
     {
       "id": "candomble",
       "name": "Candomble",
@@ -977,12 +2490,23 @@
       "status": "active",
       "geographicOrigin": "Brazil (Bahia)",
       "region": "South America",
-      "theologicalType": ["polytheism", "syncretism"],
-      "parentTraditions": ["yoruba_religion"],
-      "influencedBy": ["yoruba_religion", "fon_religion", "bantu_religion", "christianity"],
-      "childTraditions": []
+      "theologicalType": [
+        "polytheism",
+        "syncretism"
+      ],
+      "parentTraditions": [
+        "yoruba_religion"
+      ],
+      "influencedBy": [
+        "yoruba_religion",
+        "fon_religion",
+        "bantu_religion",
+        "christianity"
+      ],
+      "childTraditions": [],
+      "keyFigures": [],
+      "keyConcepts": []
     },
-
     {
       "id": "vodou",
       "name": "Haitian Vodou",
@@ -992,19 +2516,46 @@
       "status": "active",
       "geographicOrigin": "Haiti / Saint-Domingue",
       "region": "Caribbean",
-      "theologicalType": ["polytheism", "spirit_worship", "syncretism"],
-      "keyFigures": [
-        { "name": "Bondye", "role": "Supreme creator (from French 'Bon Dieu')" },
-        { "name": "Lwa/Loa", "role": "Spirits/intermediaries" },
-        { "name": "Papa Legba", "role": "Gatekeeper spirit (from Yoruba Eshu)" },
-        { "name": "Baron Samedi", "role": "Lwa of death" },
-        { "name": "Erzulie Freda", "role": "Lwa of love" }
+      "theologicalType": [
+        "polytheism",
+        "spirit_worship",
+        "syncretism"
       ],
-      "parentTraditions": ["yoruba_religion"],
-      "influencedBy": ["yoruba_religion", "fon_dahomey_religion", "kongo_religion", "christianity", "taino_religion"],
-      "childTraditions": []
+      "keyFigures": [
+        {
+          "name": "Bondye",
+          "role": "Supreme creator (from French 'Bon Dieu')"
+        },
+        {
+          "name": "Lwa/Loa",
+          "role": "Spirits/intermediaries"
+        },
+        {
+          "name": "Papa Legba",
+          "role": "Gatekeeper spirit (from Yoruba Eshu)"
+        },
+        {
+          "name": "Baron Samedi",
+          "role": "Lwa of death"
+        },
+        {
+          "name": "Erzulie Freda",
+          "role": "Lwa of love"
+        }
+      ],
+      "parentTraditions": [
+        "yoruba_religion"
+      ],
+      "influencedBy": [
+        "yoruba_religion",
+        "fon_dahomey_religion",
+        "kongo_religion",
+        "christianity",
+        "taino_religion"
+      ],
+      "childTraditions": [],
+      "keyConcepts": []
     },
-
     {
       "id": "gnosticism",
       "name": "Gnosticism",
@@ -1014,21 +2565,62 @@
       "status": "extinct_revived",
       "geographicOrigin": "Eastern Mediterranean (Syria, Egypt, Palestine)",
       "region": "Mediterranean",
-      "theologicalType": ["dualism", "esoteric_knowledge", "anti_cosmic"],
-      "keyFigures": [
-        { "name": "Demiurge/Yaldabaoth", "role": "Ignorant creator of material world" },
-        { "name": "Sophia", "role": "Divine wisdom, whose fall caused material creation" },
-        { "name": "Pleroma", "role": "Fullness of divine realm / the aeons" },
-        { "name": "Valentinus", "role": "Founder of Valentinianism (c. 100-165 CE)" },
-        { "name": "Basilides", "role": "Gnostic teacher in Alexandria" }
+      "theologicalType": [
+        "dualism",
+        "esoteric_knowledge",
+        "anti_cosmic"
       ],
-      "majorSects": ["Sethianism", "Valentinianism", "Basilideanism", "Mandaeism", "Manichaeism (related)"],
-      "keyConcepts": ["gnosis (salvific knowledge)", "divine spark trapped in matter", "demiurge (false creator god)", "pleroma (divine fullness)", "archons (rulers of material world)", "dualism of spirit vs matter"],
+      "keyFigures": [
+        {
+          "name": "Demiurge/Yaldabaoth",
+          "role": "Ignorant creator of material world"
+        },
+        {
+          "name": "Sophia",
+          "role": "Divine wisdom, whose fall caused material creation"
+        },
+        {
+          "name": "Pleroma",
+          "role": "Fullness of divine realm / the aeons"
+        },
+        {
+          "name": "Valentinus",
+          "role": "Founder of Valentinianism (c. 100-165 CE)"
+        },
+        {
+          "name": "Basilides",
+          "role": "Gnostic teacher in Alexandria"
+        }
+      ],
+      "majorSects": [
+        "Sethianism",
+        "Valentinianism",
+        "Basilideanism",
+        "Mandaeism",
+        "Manichaeism (related)"
+      ],
+      "keyConcepts": [
+        "gnosis (salvific knowledge)",
+        "divine spark trapped in matter",
+        "demiurge (false creator god)",
+        "pleroma (divine fullness)",
+        "archons (rulers of material world)",
+        "dualism of spirit vs matter"
+      ],
       "parentTraditions": [],
-      "influencedBy": ["judaism", "christianity", "platonism", "zoroastrianism", "egyptian_religion"],
-      "influenced": ["manichaeism", "catharism", "mandaeism"]
+      "influencedBy": [
+        "judaism",
+        "christianity",
+        "platonism",
+        "zoroastrianism",
+        "egyptian_religion"
+      ],
+      "influenced": [
+        "manichaeism",
+        "catharism",
+        "mandaeism"
+      ]
     },
-
     {
       "id": "manichaeism",
       "name": "Manichaeism",
@@ -1038,19 +2630,44 @@
       "status": "extinct",
       "geographicOrigin": "Mesopotamia (Sassanid Empire)",
       "region": "From Mediterranean to China",
-      "theologicalType": ["dualism", "universalist_syncretism"],
-      "keyFigures": [
-        { "name": "Mani", "role": "Prophet-founder (216-274 CE), 'Seal of the Prophets'" },
-        { "name": "Father of Greatness", "role": "Supreme good deity" },
-        { "name": "Prince of Darkness", "role": "Evil principle" }
+      "theologicalType": [
+        "dualism",
+        "universalist_syncretism"
       ],
-      "keyConcepts": ["radical cosmic dualism (light vs darkness)", "particles of light trapped in matter", "vegetarianism", "claim to synthesize all prior religions", "Mani as final prophet after Zoroaster, Buddha, and Jesus"],
+      "keyFigures": [
+        {
+          "name": "Mani",
+          "role": "Prophet-founder (216-274 CE), 'Seal of the Prophets'"
+        },
+        {
+          "name": "Father of Greatness",
+          "role": "Supreme good deity"
+        },
+        {
+          "name": "Prince of Darkness",
+          "role": "Evil principle"
+        }
+      ],
+      "keyConcepts": [
+        "radical cosmic dualism (light vs darkness)",
+        "particles of light trapped in matter",
+        "vegetarianism",
+        "claim to synthesize all prior religions",
+        "Mani as final prophet after Zoroaster, Buddha, and Jesus"
+      ],
       "parentTraditions": [],
-      "influencedBy": ["zoroastrianism", "christianity", "buddhism", "gnosticism"],
-      "influenced": ["catharism", "bogomilism"],
+      "influencedBy": [
+        "zoroastrianism",
+        "christianity",
+        "buddhism",
+        "gnosticism"
+      ],
+      "influenced": [
+        "catharism",
+        "bogomilism"
+      ],
       "note": "At its peak, Manichaeism was one of the most widespread religions, stretching from Rome to China"
     },
-
     {
       "id": "hermeticism",
       "name": "Hermeticism",
@@ -1060,15 +2677,34 @@
       "status": "active_esoteric",
       "geographicOrigin": "Greco-Roman Egypt (Alexandria)",
       "region": "Mediterranean",
-      "theologicalType": ["monism", "esoteric_philosophy"],
-      "keyFigures": [
-        { "name": "Hermes Trismegistus", "role": "Legendary founder (fusion of Hermes and Thoth)" }
+      "theologicalType": [
+        "monism",
+        "esoteric_philosophy"
       ],
-      "keyConcepts": ["as above so below", "mental transmutation", "divine mind (Nous)", "seven Hermetic principles"],
-      "influencedBy": ["greek_religion", "egyptian_religion", "platonism"],
-      "influenced": ["alchemy", "western_esotericism", "rosicrucianism", "freemasonry"]
+      "keyFigures": [
+        {
+          "name": "Hermes Trismegistus",
+          "role": "Legendary founder (fusion of Hermes and Thoth)"
+        }
+      ],
+      "keyConcepts": [
+        "as above so below",
+        "mental transmutation",
+        "divine mind (Nous)",
+        "seven Hermetic principles"
+      ],
+      "influencedBy": [
+        "greek_religion",
+        "egyptian_religion",
+        "platonism"
+      ],
+      "influenced": [
+        "alchemy",
+        "western_esotericism",
+        "rosicrucianism",
+        "freemasonry"
+      ]
     },
-
     {
       "id": "greco_buddhism",
       "name": "Greco-Buddhism",
@@ -1078,13 +2714,27 @@
       "status": "extinct",
       "geographicOrigin": "Gandhara (modern Afghanistan/Pakistan)",
       "region": "Central/South Asia",
-      "theologicalType": ["syncretism"],
-      "keyConcepts": ["first anthropomorphic Buddha images", "Greek artistic influence on Buddhist art", "Herakles as Vajrapani", "Gandhara art style", "Milinda Panha (Greek king debates Buddhist monk)"],
+      "theologicalType": [
+        "syncretism"
+      ],
+      "keyConcepts": [
+        "first anthropomorphic Buddha images",
+        "Greek artistic influence on Buddhist art",
+        "Herakles as Vajrapani",
+        "Gandhara art style",
+        "Milinda Panha (Greek king debates Buddhist monk)"
+      ],
       "parentTraditions": [],
-      "influencedBy": ["greek_religion", "buddhism"],
-      "influenced": ["mahayana_buddhism", "buddhist_art_traditions"]
+      "influencedBy": [
+        "greek_religion",
+        "buddhism"
+      ],
+      "influenced": [
+        "mahayana_buddhism",
+        "buddhist_art_traditions"
+      ],
+      "keyFigures": []
     },
-
     {
       "id": "bahai",
       "name": "Baha'i Faith",
@@ -1094,19 +2744,47 @@
       "status": "active",
       "geographicOrigin": "Persia (modern Iran)",
       "region": "Global",
-      "theologicalType": ["monotheism", "progressive_revelation"],
-      "keyFigures": [
-        { "name": "The Bab", "role": "Herald/forerunner (1819-1850)" },
-        { "name": "Baha'u'llah", "role": "Founder, prophet (1817-1892)" },
-        { "name": "Abdu'l-Baha", "role": "Eldest son, authorized interpreter" }
+      "theologicalType": [
+        "monotheism",
+        "progressive_revelation"
       ],
-      "keyConcepts": ["progressive revelation (all religions from one God)", "unity of God", "unity of religion", "unity of humanity", "elimination of prejudice", "equality of sexes", "harmony of science and religion"],
-      "parentTraditions": ["islam"],
-      "influencedBy": ["islam", "christianity", "judaism", "zoroastrianism", "hinduism", "buddhism"],
+      "keyFigures": [
+        {
+          "name": "The Bab",
+          "role": "Herald/forerunner (1819-1850)"
+        },
+        {
+          "name": "Baha'u'llah",
+          "role": "Founder, prophet (1817-1892)"
+        },
+        {
+          "name": "Abdu'l-Baha",
+          "role": "Eldest son, authorized interpreter"
+        }
+      ],
+      "keyConcepts": [
+        "progressive revelation (all religions from one God)",
+        "unity of God",
+        "unity of religion",
+        "unity of humanity",
+        "elimination of prejudice",
+        "equality of sexes",
+        "harmony of science and religion"
+      ],
+      "parentTraditions": [
+        "islam"
+      ],
+      "influencedBy": [
+        "islam",
+        "christianity",
+        "judaism",
+        "zoroastrianism",
+        "hinduism",
+        "buddhism"
+      ],
       "childTraditions": []
     }
   ],
-
   "connections": [
     {
       "id": "conn_pie_to_vedic",
@@ -1501,13 +3179,15 @@
       "evidence": "Neoplatonic concepts shaped Christian theology (Augustine, Pseudo-Dionysius)"
     }
   ],
-
   "syncreticNodes": [
     {
       "id": "sync_serapis",
       "name": "Serapis Cult",
       "date": -305,
-      "traditions": ["egyptian_religion", "greek_religion"],
+      "traditions": [
+        "egyptian_religion",
+        "greek_religion"
+      ],
       "description": "Ptolemaic fusion of Osiris+Apis with Zeus+Hades+Asclepius+Dionysus+Helios to unite Greek rulers and Egyptian subjects",
       "location": "Alexandria, Egypt"
     },
@@ -1515,7 +3195,10 @@
       "id": "sync_greco_buddhist_art",
       "name": "Gandhara Greco-Buddhist Art",
       "date": -200,
-      "traditions": ["greek_religion", "buddhism"],
+      "traditions": [
+        "greek_religion",
+        "buddhism"
+      ],
       "description": "First anthropomorphic representations of the Buddha using Greek artistic conventions; Herakles as Vajrapani",
       "location": "Gandhara (Afghanistan/Pakistan)"
     },
@@ -1523,14 +3206,23 @@
       "id": "sync_interpretatio_romana",
       "name": "Interpretatio Romana/Graeca",
       "date": -300,
-      "traditions": ["greek_religion", "roman_religion", "celtic_religion", "egyptian_religion", "germanic_religion"],
+      "traditions": [
+        "greek_religion",
+        "roman_religion",
+        "celtic_religion",
+        "egyptian_religion",
+        "germanic_religion"
+      ],
       "description": "Systematic identification of foreign gods with Roman/Greek equivalents across the empire"
     },
     {
       "id": "sync_mithras",
       "name": "Roman Mithraism",
       "date": 100,
-      "traditions": ["roman_religion", "zoroastrianism"],
+      "traditions": [
+        "roman_religion",
+        "zoroastrianism"
+      ],
       "description": "Roman mystery cult drawing on Iranian Mithra but substantially transformed",
       "location": "Roman Empire"
     },
@@ -1538,7 +3230,11 @@
       "id": "sync_isis_cult",
       "name": "Isis Mystery Cult",
       "date": -200,
-      "traditions": ["egyptian_religion", "greek_religion", "roman_religion"],
+      "traditions": [
+        "egyptian_religion",
+        "greek_religion",
+        "roman_religion"
+      ],
       "description": "Egyptian Isis adopted throughout Greco-Roman world as universal mother goddess",
       "location": "Mediterranean-wide"
     },
@@ -1546,7 +3242,10 @@
       "id": "sync_shinbutsu",
       "name": "Shinbutsu-shugo (Shinto-Buddhist Syncretism)",
       "date": 700,
-      "traditions": ["shinto", "buddhism"],
+      "traditions": [
+        "shinto",
+        "buddhism"
+      ],
       "description": "Kami identified as manifestations of Buddhist deities (honji suijaku theory)",
       "location": "Japan"
     },
@@ -1554,7 +3253,11 @@
       "id": "sync_three_teachings",
       "name": "Three Teachings Harmony (Sanjiao Heyi)",
       "date": 500,
-      "traditions": ["confucianism", "taoism", "buddhism"],
+      "traditions": [
+        "confucianism",
+        "taoism",
+        "buddhism"
+      ],
       "description": "Chinese philosophical tradition viewing Confucianism, Taoism, and Buddhism as complementary",
       "location": "China"
     },
@@ -1562,7 +3265,12 @@
       "id": "sync_african_diaspora",
       "name": "African Diaspora Syncretism",
       "date": 1550,
-      "traditions": ["yoruba_religion", "christianity", "fon_religion", "kongo_religion"],
+      "traditions": [
+        "yoruba_religion",
+        "christianity",
+        "fon_religion",
+        "kongo_religion"
+      ],
       "description": "Forced syncretism of West African religions with Catholic saints during slavery: orishas mapped to saints",
       "location": "Caribbean, Brazil"
     },
@@ -1570,7 +3278,10 @@
       "id": "sync_andean_catholic",
       "name": "Andean Catholic Syncretism",
       "date": 1532,
-      "traditions": ["inca_religion", "christianity"],
+      "traditions": [
+        "inca_religion",
+        "christianity"
+      ],
       "description": "Inca/Andean deities merged with Catholic saints; Pachamama with Virgin Mary, Inti with Christ",
       "location": "Andes (Peru, Bolivia)"
     },
@@ -1578,12 +3289,14 @@
       "id": "sync_maya_catholic",
       "name": "Maya-Catholic Syncretism",
       "date": 1524,
-      "traditions": ["maya_religion", "christianity"],
+      "traditions": [
+        "maya_religion",
+        "christianity"
+      ],
       "description": "Maya religious practices survived colonialism blended with Catholic forms",
       "location": "Yucatan, Guatemala"
     }
   ],
-
   "scholarlyFrameworks": [
     {
       "id": "framework_axial_age",
@@ -1591,7 +3304,15 @@
       "scholar": "Karl Jaspers",
       "year": 1949,
       "description": "Period c. 800-200 BCE when parallel breakthroughs in philosophical and religious thought occurred independently in Greece, Israel, India, China, and Persia. Shift from localized concerns toward transcendence, critical self-awareness, universal morality.",
-      "traditionsInvolved": ["greek_religion", "judaism", "buddhism", "jainism", "confucianism", "taoism", "zoroastrianism"],
+      "traditionsInvolved": [
+        "greek_religion",
+        "judaism",
+        "buddhism",
+        "jainism",
+        "confucianism",
+        "taoism",
+        "zoroastrianism"
+      ],
       "critiques": "Debated: some scholars question the common denominator and the exclusion of other regions; others (Robert Bellah) have expanded the concept",
       "useForVisualization": "Temporal clustering node showing simultaneous independent religious innovations"
     },
@@ -1610,7 +3331,14 @@
       "scholar": "Mircea Eliade",
       "year": 1957,
       "description": "Religion emerges from experiences of hierophany (manifestation of the Sacred). Sacred space and time give structure and orientation to the world. Myths provide models for cosmic order. Builds on Rudolf Otto's concept of the numinous.",
-      "keyConcepts": ["hierophany", "axis mundi", "sacred space", "sacred time", "eternal return", "homo religiosus"],
+      "keyConcepts": [
+        "hierophany",
+        "axis mundi",
+        "sacred space",
+        "sacred time",
+        "eternal return",
+        "homo religiosus"
+      ],
       "useForVisualization": "Conceptual framework for understanding what all these traditions share: responses to the sacred"
     },
     {
@@ -1627,7 +3355,13 @@
       "name": "Historical-Linguistic Approach to Mythology",
       "scholars": "Max Muller (19th c.), Calvert Watkins, J.P. Mallory, Michael Witzel",
       "description": "Uses linguistic cognates to reconstruct proto-mythological concepts. Cognate deity names (Zeus/Jupiter/Dyaus/Tyr/Dievas) prove common origin. Literary formulas and mythological motifs can be traced through comparative philology of Indo-European daughter languages.",
-      "keyConcepts": ["linguistic cognates", "comparative method", "proto-language reconstruction", "dragon-slaying formula", "dawn goddess myth"],
+      "keyConcepts": [
+        "linguistic cognates",
+        "comparative method",
+        "proto-language reconstruction",
+        "dragon-slaying formula",
+        "dawn goddess myth"
+      ],
       "useForVisualization": "Edge annotations showing linguistic evidence for connections between traditions"
     },
     {
@@ -1637,7 +3371,6 @@
       "useForVisualization": "Geographic anchor points and temporal markers grounded in physical evidence"
     }
   ],
-
   "theologicalTypeDefinitions": {
     "polytheism": "Belief in multiple gods",
     "henotheism": "Worship of one god without denying existence of others",
@@ -1652,7 +3385,6 @@
     "shamanism": "Spiritual practice involving altered states to communicate with spirit world",
     "ancestor_worship": "Veneration of deceased family members as spiritual entities"
   },
-
   "visualizationSuggestions": {
     "temporalAxis": "Use Y-axis or spiral for time (-5000 BCE to present)",
     "geographicClustering": "Group nodes by geographic region in 3D space",

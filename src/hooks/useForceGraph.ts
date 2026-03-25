@@ -49,18 +49,18 @@ export function useForceGraph(): { nodes: GraphNode[]; links: GraphLink[] } {
       // Search filter — also searches shared figures and shows their traditions
       if (query) {
         const nameMatch = node.tradition.name.toLowerCase().includes(query);
-        const deityMatch = node.tradition.keyFigures.some((f) =>
-          f.name.toLowerCase().includes(query)
+        const deityMatch = (node.tradition.keyFigures || []).some((f) =>
+          f.name?.toLowerCase().includes(query)
         );
-        const conceptMatch = node.tradition.keyConcepts.some((c) =>
-          c.toLowerCase().includes(query)
+        const conceptMatch = (node.tradition.keyConcepts || []).some((c) =>
+          c?.toLowerCase().includes(query)
         );
         // Check shared figures: if a figure name/alias matches, show all traditions it belongs to
         const sharedFigureMatch = getSharedFigures().some(
           (f) =>
-            (f.name.toLowerCase().includes(query) ||
-              f.aliases.some((a) => a.toLowerCase().includes(query))) &&
-            f.traditions.includes(node.tradition.id)
+            (f.name?.toLowerCase().includes(query) ||
+              (f.aliases || []).some((a) => a?.toLowerCase().includes(query))) &&
+            (f.traditions || []).includes(node.tradition.id)
         );
         if (!nameMatch && !deityMatch && !conceptMatch && !sharedFigureMatch) {
           visible = false;
