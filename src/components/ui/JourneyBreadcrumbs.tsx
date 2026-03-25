@@ -14,7 +14,6 @@ export default function JourneyBreadcrumbs() {
 
   if (journey.length === 0) return null;
 
-  // Current active node (the head)
   const currentName = selectedFigure?.name || selectedTradition?.name || null;
 
   const handleStepClick = (step: typeof journey[0], index: number) => {
@@ -35,34 +34,34 @@ export default function JourneyBreadcrumbs() {
   };
 
   return (
-    <div className="fixed bottom-20 left-1/2 -translate-x-1/2 z-40 pointer-events-auto">
-      <div className="flex items-center gap-1 bg-gray-950/80 backdrop-blur-xl border border-white/10 rounded-full px-3 py-1.5 max-w-[90vw] overflow-x-auto">
-        {/* Clear button */}
+    <div className="fixed bottom-16 sm:bottom-[4.5rem] left-3 right-3 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-auto z-40 pointer-events-auto">
+      <div className="flex items-center gap-1 panel-glass-lighter rounded-xl px-2 py-1.5 overflow-x-auto no-scrollbar">
+        {/* Clear */}
         <button
           onClick={clearJourney}
-          className="text-[10px] text-white/30 hover:text-white/60 px-1.5 py-0.5 rounded transition-colors shrink-0"
+          className="w-8 h-8 flex items-center justify-center rounded-lg text-white/25 hover:text-white/60 hover:bg-white/8 transition-all shrink-0"
           title="Clear journey"
         >
           ✕
         </button>
-        <span className="text-white/10 text-[10px]">│</span>
+        <span className="text-white/10 shrink-0">│</span>
 
-        {/* Journey steps */}
+        {/* Steps */}
         {journey.map((step, i) => (
           <span key={`${step.id}-${i}`} className="flex items-center shrink-0">
             <button
               onClick={() => handleStepClick(step, i)}
-              className="text-[11px] text-white/40 hover:text-white/80 px-1.5 py-0.5 rounded hover:bg-white/5 transition-all whitespace-nowrap"
+              className="text-sm text-white/40 hover:text-white/80 px-2 py-1.5 rounded-lg hover:bg-white/5 transition-all whitespace-nowrap"
             >
               {step.name}
             </button>
-            <span className="text-white/15 text-[10px] mx-0.5">→</span>
+            <span className="text-white/15 text-xs mx-0.5">→</span>
           </span>
         ))}
 
-        {/* Current location */}
+        {/* Current */}
         {currentName && (
-          <span className="text-[11px] text-amber-300/80 font-medium px-1.5 py-0.5 bg-amber-500/10 rounded-full whitespace-nowrap shrink-0">
+          <span className="text-sm text-amber-300/80 font-medium px-2.5 py-1 bg-amber-500/10 rounded-lg whitespace-nowrap shrink-0">
             {currentName}
           </span>
         )}

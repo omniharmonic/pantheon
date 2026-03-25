@@ -1,7 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 import InfoPanel from '@/components/ui/InfoPanel';
 import SearchBar from '@/components/ui/SearchBar';
 import FilterControls from '@/components/ui/FilterControls';
@@ -13,14 +13,13 @@ import JourneyBreadcrumbs from '@/components/ui/JourneyBreadcrumbs';
 import Onboarding from '@/components/ui/Onboarding';
 import { useStore } from '@/lib/store';
 
-// Dynamic import for Three.js scene (no SSR)
 const Scene = dynamic(() => import('@/components/Scene'), { ssr: false });
 
 function LoadingScreen() {
   return (
     <div className="fixed inset-0 bg-[#050510] flex items-center justify-center z-50">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-white/90 tracking-tight mb-2">
+      <div className="text-center px-8">
+        <h1 className="text-3xl sm:text-4xl font-bold text-white/90 tracking-tight mb-2">
           PANTHEON
         </h1>
         <p className="text-sm text-white/30 mb-6">
@@ -40,6 +39,7 @@ export default function Home() {
   const showFigureLayer = useStore((s) => s.showFigureLayer);
   const setShowFigureLayer = useStore((s) => s.setShowFigureLayer);
   const setShowOnboarding = useStore((s) => s.setShowOnboarding);
+  const [showLegend, setShowLegend] = useState(false);
 
   return (
     <main className="h-screen w-screen relative overflow-hidden">
@@ -48,50 +48,57 @@ export default function Home() {
         <Scene />
       </Suspense>
 
-      {/* Top bar */}
-      <div className="fixed top-0 left-0 right-0 z-40 pointer-events-none">
-        <div className="flex items-center justify-between p-4">
-          <div className="flex items-center gap-3 pointer-events-auto">
-            <div>
-              <h1 className="text-lg font-bold text-white/90 tracking-tight">
-                PANTHEON
-              </h1>
-              <p className="text-[10px] text-white/30 -mt-0.5">
-                3D Religious History Explorer
-              </p>
-            </div>
-            <div className="flex items-center gap-1.5">
+      {/* ─── TOP BAR ─── */}
+      <div className="fixed top-0 left-0 right-0 z-40 pointer-events-none safe-bottom">
+        <div className="flex items-start justify-between p-3 sm:p-4 gap-2">
+          {/* Left: Logo + toggles */}
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3 pointer-events-auto">
+            <h1 className="text-base sm:text-lg font-bold text-white/90 tracking-tight leading-none">
+              PANTHEON
+            </h1>
+            <div className="flex items-center gap-1.5 flex-wrap">
               <button
                 onClick={() => setShowFilters(!showFilters)}
-                className={`px-3 py-1.5 rounded-lg text-xs border transition-all ${
+                className={`px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium border transition-all ${
                   showFilters
                     ? 'bg-blue-500/20 border-blue-400/30 text-blue-300'
-                    : 'bg-white/5 border-white/10 text-white/50 hover:text-white/70'
+                    : 'panel-glass-lighter text-white/60 hover:text-white/90'
                 }`}
               >
                 Filters
               </button>
               <button
                 onClick={() => setShowFigureLayer(!showFigureLayer)}
-                className={`px-3 py-1.5 rounded-lg text-xs border transition-all ${
+                className={`px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium border transition-all ${
                   showFigureLayer
                     ? 'bg-amber-500/20 border-amber-400/30 text-amber-300'
-                    : 'bg-white/5 border-white/10 text-white/50 hover:text-white/70'
+                    : 'panel-glass-lighter text-white/60 hover:text-white/90'
                 }`}
               >
                 {showFigureLayer ? '✦ Figures' : '✧ Figures'}
               </button>
               <button
+                onClick={() => setShowLegend(!showLegend)}
+                className={`px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium border transition-all ${
+                  showLegend
+                    ? 'bg-white/10 border-white/20 text-white/80'
+                    : 'panel-glass-lighter text-white/60 hover:text-white/90'
+                }`}
+              >
+                Legend
+              </button>
+              <button
                 onClick={() => setShowOnboarding(true)}
-                className="px-2 py-1.5 rounded-lg text-xs border bg-white/5 border-white/10 text-white/30 hover:text-white/60 transition-all"
-                title="Keyboard shortcuts (or press ?)"
+                className="px-3 py-2 rounded-lg text-xs sm:text-sm font-medium panel-glass-lighter text-white/40 hover:text-white/70 transition-all"
+                title="Keyboard shortcuts (press ?)"
               >
                 ?
               </button>
             </div>
           </div>
 
-          <div className="flex items-center gap-3 pointer-events-auto">
+          {/* Right: Search + Camera presets */}
+          <div className="flex flex-col-reverse sm:flex-row items-end sm:items-center gap-2 sm:gap-3 pointer-events-auto">
             <CameraPresets />
             <SearchBar />
           </div>
@@ -101,28 +108,28 @@ export default function Home() {
       {/* Filter panel */}
       <FilterControls />
 
-      {/* Info panel (right side) */}
+      {/* Legend (toggled, appears below top bar) */}
+      {showLegend && <Legend onClose={() => setShowLegend(false)} />}
+
+      {/* Info panel (right side / bottom sheet mobile) */}
       <InfoPanel />
 
-      {/* Figure detail panel (overlays info panel when a figure is selected) */}
+      {/* Figure detail panel */}
       <FigureDetail />
 
-      {/* Journey breadcrumbs (bottom center, above timeline) */}
+      {/* Journey breadcrumbs */}
       <JourneyBreadcrumbs />
 
-      {/* Timeline slider (bottom center) */}
+      {/* Timeline slider */}
       <TimeSlider />
-
-      {/* Legend (bottom right) */}
-      <Legend />
 
       {/* Onboarding overlay */}
       <Onboarding />
 
-      {/* WASD hint — shows briefly at bottom left */}
-      <div className="fixed bottom-4 left-4 z-30 pointer-events-none">
-        <p className="text-[10px] text-white/15">
-          WASD to move · Q/E up/down · Scroll to zoom · ? for help
+      {/* WASD hint — desktop only */}
+      <div className="hidden sm:block fixed bottom-3 left-3 z-30 pointer-events-none">
+        <p className="text-[11px] text-white/15 font-mono">
+          WASD move · QE up/down · ? help
         </p>
       </div>
     </main>

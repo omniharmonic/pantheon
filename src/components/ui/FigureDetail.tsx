@@ -1,18 +1,18 @@
 'use client';
 
 import { useStore } from '@/lib/store';
-import { getFigureById, getFigureConnections, getTraditionById } from '@/lib/data';
+import { getFigureConnections, getTraditionById } from '@/lib/data';
 import type { SharedFigure } from '@/lib/types';
 
 const TYPE_COLORS: Record<string, string> = {
-  deity: 'bg-amber-500/20 text-amber-300',
-  prophet: 'bg-blue-500/20 text-blue-300',
-  patriarch: 'bg-emerald-500/20 text-emerald-300',
-  sage: 'bg-teal-500/20 text-teal-300',
-  hero: 'bg-red-500/20 text-red-300',
-  angel: 'bg-sky-500/20 text-sky-300',
-  demon: 'bg-purple-500/20 text-purple-300',
-  saint: 'bg-yellow-500/20 text-yellow-300',
+  deity: 'bg-amber-500/15 text-amber-300',
+  prophet: 'bg-blue-500/15 text-blue-300',
+  patriarch: 'bg-emerald-500/15 text-emerald-300',
+  sage: 'bg-teal-500/15 text-teal-300',
+  hero: 'bg-red-500/15 text-red-300',
+  angel: 'bg-sky-500/15 text-sky-300',
+  demon: 'bg-purple-500/15 text-purple-300',
+  saint: 'bg-yellow-500/15 text-yellow-300',
 };
 
 const CONNECTION_TYPE_LABELS: Record<string, { label: string; color: string }> = {
@@ -33,7 +33,7 @@ const CONNECTION_TYPE_LABELS: Record<string, { label: string; color: string }> =
   sibling: { label: 'Sibling', color: 'text-yellow-300' },
   adversary: { label: 'Adversary', color: 'text-red-300' },
   mythological_parallel: { label: 'Myth parallel', color: 'text-purple-300' },
-  artistic_identification: { label: 'Art identification', color: 'text-amber-300' },
+  artistic_identification: { label: 'Art ID', color: 'text-amber-300' },
   cultural_adaptation: { label: 'Adapted as', color: 'text-teal-300' },
 };
 
@@ -52,9 +52,7 @@ export default function FigureDetail() {
   const typeStyle = TYPE_COLORS[f.type] || 'bg-white/10 text-white/50';
 
   const navigateToFigure = (target: SharedFigure) => {
-    // Push current figure to journey before navigating
     pushJourney({ type: 'figure', id: f.id, name: f.name });
-    // Auto-enable figure layer if not on
     if (!showFigureLayer) setShowFigureLayer(true);
     setSelectedFigure(target);
   };
@@ -69,24 +67,29 @@ export default function FigureDetail() {
   };
 
   return (
-    <div className="fixed right-0 top-0 h-full w-[420px] max-w-[90vw] bg-gray-950/95 backdrop-blur-xl border-l border-white/10 overflow-y-auto z-[110]">
+    <div className="fixed inset-x-0 bottom-0 h-[75vh] sm:inset-x-auto sm:right-0 sm:top-0 sm:bottom-0 sm:h-full sm:w-[420px] sm:max-w-[90vw] panel-glass rounded-t-2xl sm:rounded-none overflow-y-auto z-[110]">
+      {/* Drag handle (mobile) */}
+      <div className="sm:hidden flex justify-center pt-2 pb-1">
+        <div className="w-10 h-1 rounded-full bg-white/20" />
+      </div>
+
       {/* Header */}
-      <div className="sticky top-0 bg-gray-950/95 backdrop-blur-sm border-b border-white/10 p-5">
+      <div className="sticky top-0 bg-[rgba(5,5,16,0.95)] backdrop-blur-md border-b border-white/8 px-5 py-4 sm:p-5">
         <div className="flex items-start justify-between">
           <div>
-            <div className="flex items-center gap-2 mb-1">
-              <span className={`text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider font-medium ${typeStyle}`}>
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className={`text-xs px-2.5 py-1 rounded-full uppercase tracking-wider font-medium ${typeStyle}`}>
                 {f.type}
               </span>
               {f.dateLabel && (
-                <span className="text-[10px] text-white/30">{f.dateLabel}</span>
+                <span className="text-xs text-white/30">{f.dateLabel}</span>
               )}
             </div>
-            <h2 className="text-xl font-bold text-white">{f.name}</h2>
+            <h2 className="text-xl sm:text-2xl font-bold text-white leading-tight">{f.name}</h2>
           </div>
           <button
             onClick={() => setSelectedFigure(null)}
-            className="text-white/40 hover:text-white text-xl p-1"
+            className="w-9 h-9 flex items-center justify-center rounded-xl text-white/40 hover:text-white hover:bg-white/10 transition-all text-xl"
           >
             ×
           </button>
@@ -94,9 +97,9 @@ export default function FigureDetail() {
 
         {/* Aliases */}
         {f.aliases.length > 0 && (
-          <div className="flex flex-wrap gap-1 mt-2">
+          <div className="flex flex-wrap gap-1.5 mt-2.5">
             {f.aliases.map((alias, i) => (
-              <span key={i} className="text-[11px] bg-white/5 text-white/50 px-2 py-0.5 rounded">
+              <span key={i} className="text-xs bg-white/5 text-white/50 px-2.5 py-1 rounded-lg">
                 {alias}
               </span>
             ))}
@@ -107,7 +110,7 @@ export default function FigureDetail() {
       <div className="p-5 space-y-5">
         {/* Traditions & Roles */}
         <section>
-          <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2">
+          <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2.5">
             Appears in {f.traditions.length} Traditions
           </h3>
           <div className="space-y-2">
@@ -118,18 +121,18 @@ export default function FigureDetail() {
                 <button
                   key={tid}
                   onClick={() => navigateToTradition(tid)}
-                  className="w-full text-left bg-white/5 hover:bg-white/[0.08] border border-white/10 rounded-lg p-3 transition-colors group"
+                  className="w-full text-left bg-white/[0.04] hover:bg-white/[0.07] border border-white/[0.06] hover:border-white/[0.12] rounded-xl p-3.5 transition-all group"
                 >
                   <div className="flex items-center justify-between">
                     <span className="text-sm font-medium text-white group-hover:text-blue-300 transition-colors">
                       {tradition?.name || tid}
                     </span>
-                    <span className="text-[10px] text-white/20 group-hover:text-white/40">
+                    <span className="text-xs text-white/20 group-hover:text-white/50 transition-colors">
                       view →
                     </span>
                   </div>
                   {role && (
-                    <p className="text-xs text-white/50 mt-1">{role}</p>
+                    <p className="text-sm text-white/45 mt-1 leading-relaxed">{role}</p>
                   )}
                 </button>
               );
@@ -137,16 +140,16 @@ export default function FigureDetail() {
           </div>
         </section>
 
-        {/* Connected Figures — now with "fly to" navigation */}
+        {/* Connected Figures */}
         {figureConnections.length > 0 && (
           <section>
-            <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2">
+            <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-1.5">
               Connected Figures ({figureConnections.length})
             </h3>
-            <p className="text-[10px] text-white/25 mb-3">
-              Click to navigate — camera will fly to each figure
+            <p className="text-xs text-white/20 mb-3">
+              Click to fly the camera to that figure
             </p>
-            <div className="space-y-1.5">
+            <div className="space-y-2">
               {figureConnections.map(({ figure: target, connection: conn }) => {
                 const connInfo = CONNECTION_TYPE_LABELS[conn.type] || {
                   label: conn.type.replace(/_/g, ' '),
@@ -156,26 +159,26 @@ export default function FigureDetail() {
                   <button
                     key={`${target.id}-${conn.type}`}
                     onClick={() => navigateToFigure(target)}
-                    className="w-full text-left px-3 py-2.5 rounded-lg bg-white/[0.03] hover:bg-white/[0.07] border border-white/[0.06] hover:border-white/[0.12] transition-all group"
+                    className="w-full text-left px-3.5 py-3 rounded-xl bg-white/[0.03] hover:bg-white/[0.07] border border-white/[0.06] hover:border-white/[0.12] transition-all group"
                   >
-                    <div className="flex items-center gap-2">
-                      <span className={`text-[10px] font-medium uppercase tracking-wider ${connInfo.color}`}>
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className={`text-[11px] font-medium uppercase tracking-wider ${connInfo.color}`}>
                         {connInfo.label}
                       </span>
-                      <span className="text-white/15">·</span>
-                      <span className={`text-[10px] px-1.5 py-0.5 rounded ${TYPE_COLORS[target.type] || 'bg-white/5 text-white/40'}`}>
+                      <span className="text-white/10">·</span>
+                      <span className={`text-[11px] px-2 py-0.5 rounded-lg ${TYPE_COLORS[target.type] || 'bg-white/5 text-white/40'}`}>
                         {target.type}
                       </span>
                     </div>
-                    <div className="flex items-center justify-between mt-1">
+                    <div className="flex items-center justify-between">
                       <span className="text-sm text-white group-hover:text-blue-300 transition-colors font-medium">
                         {target.name}
                       </span>
-                      <span className="text-xs text-white/20 group-hover:text-amber-300/60 transition-colors">
+                      <span className="text-xs text-white/15 group-hover:text-amber-300/60 transition-colors">
                         fly to →
                       </span>
                     </div>
-                    <p className="text-[11px] text-white/40 mt-0.5 leading-relaxed">
+                    <p className="text-xs text-white/35 mt-1 leading-relaxed">
                       {conn.detail}
                     </p>
                   </button>
@@ -184,6 +187,9 @@ export default function FigureDetail() {
             </div>
           </section>
         )}
+
+        {/* Bottom spacer for mobile safe area */}
+        <div className="h-8 sm:h-0" />
       </div>
     </div>
   );
