@@ -11,6 +11,7 @@ import CameraPresets from '@/components/ui/CameraPresets';
 import FigureDetail from '@/components/ui/FigureDetail';
 import JourneyBreadcrumbs from '@/components/ui/JourneyBreadcrumbs';
 import Onboarding from '@/components/ui/Onboarding';
+import ErrorBoundary from '@/components/ErrorBoundary';
 import { useStore } from '@/lib/store';
 
 const Scene = dynamic(() => import('@/components/Scene'), { ssr: false });
@@ -44,9 +45,11 @@ export default function Home() {
   return (
     <main className="h-screen w-screen relative overflow-hidden">
       {/* 3D Canvas */}
-      <Suspense fallback={<LoadingScreen />}>
-        <Scene />
-      </Suspense>
+      <ErrorBoundary>
+        <Suspense fallback={<LoadingScreen />}>
+          <Scene />
+        </Suspense>
+      </ErrorBoundary>
 
       {/* ─── TOP BAR ─── */}
       <div className="fixed top-0 left-0 right-0 z-40 pointer-events-none safe-bottom">

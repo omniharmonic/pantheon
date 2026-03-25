@@ -72,7 +72,7 @@ export function getFiguresForTradition(traditionId: string): SharedFigure[] {
 
 export function getFigureConnections(figureId: string): { figure: SharedFigure; connection: SharedFigure['connections'][0] }[] {
   const figure = getFigureById(figureId);
-  if (!figure) return [];
+  if (!figure || !Array.isArray(figure.connections)) return [];
   return figure.connections
     .map((conn) => {
       const target = getFigureById(conn.to);

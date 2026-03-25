@@ -275,7 +275,7 @@ export default function FigureGraph({
     cIds.add(activeFigureId);
 
     const fig = getFigureById(activeFigureId);
-    if (fig) {
+    if (fig && Array.isArray(fig.connections)) {
       fig.connections.forEach((conn) => {
         if (posMap.has(conn.to)) {
           cIds.add(conn.to);
@@ -287,7 +287,7 @@ export default function FigureGraph({
 
     // Also check reverse connections (figures that connect TO this one)
     figurePositions.forEach((p) => {
-      p.figure.connections.forEach((conn) => {
+      (p.figure.connections || []).forEach((conn) => {
         if (conn.to === activeFigureId) {
           cIds.add(p.figure.id);
           eIds.add(`${p.figure.id}-${activeFigureId}`);
@@ -307,7 +307,7 @@ export default function FigureGraph({
     const seen = new Set<string>();
 
     figurePositions.forEach((fromPos) => {
-      fromPos.figure.connections.forEach((conn) => {
+      (fromPos.figure.connections || []).forEach((conn) => {
         const toPos = posMap.get(conn.to);
         if (!toPos) return;
         const edgeKey = [fromPos.figure.id, conn.to].sort().join('-');

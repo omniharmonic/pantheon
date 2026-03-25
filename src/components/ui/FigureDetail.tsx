@@ -48,6 +48,10 @@ export default function FigureDetail() {
   if (!selectedFigure) return null;
 
   const f = selectedFigure;
+
+  // Defensive: bail if the figure object is malformed (race condition from rapid clicking)
+  if (!f.id || !f.name || !Array.isArray(f.traditions) || !Array.isArray(f.aliases)) return null;
+
   const figureConnections = getFigureConnections(f.id);
   const typeStyle = TYPE_COLORS[f.type] || 'bg-white/10 text-white/50';
 
@@ -96,7 +100,7 @@ export default function FigureDetail() {
         </div>
 
         {/* Aliases */}
-        {f.aliases.length > 0 && (
+        {f.aliases && f.aliases.length > 0 && (
           <div className="flex flex-wrap gap-1.5 mt-2.5">
             {f.aliases.map((alias, i) => (
               <span key={i} className="text-xs bg-white/5 text-white/50 px-2.5 py-1 rounded-lg">
@@ -111,10 +115,10 @@ export default function FigureDetail() {
         {/* Traditions & Roles */}
         <section>
           <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2.5">
-            Appears in {f.traditions.length} Traditions
+            Appears in {(f.traditions || []).length} Traditions
           </h3>
           <div className="space-y-2">
-            {f.traditions.map((tid) => {
+            {(f.traditions || []).map((tid) => {
               const tradition = getTraditionById(tid);
               const role = f.roles[tid];
               return (

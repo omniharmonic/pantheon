@@ -111,12 +111,18 @@ export const useStore = create<AppState>((set) => ({
   setShowOnboarding: (show) => set({ showOnboarding: show }),
 
   selectedFigure: null,
-  setSelectedFigure: (f) =>
+  setSelectedFigure: (f) => {
+    // Validate figure object to prevent crashes from stale closures
+    if (f && (!f.id || !f.name || !Array.isArray(f.traditions))) {
+      console.warn('setSelectedFigure: invalid figure object, ignoring', f);
+      return;
+    }
     set({
       selectedFigure: f,
       selectedTradition: null,
       showInfoPanel: false,
-    }),
+    });
+  },
 
   showFigureLayer: false,
   setShowFigureLayer: (show) => set({ showFigureLayer: show }),
